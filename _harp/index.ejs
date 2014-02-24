@@ -1,0 +1,11 @@
+<h1>MedellinJS</h1>
+<h3>Articulos</h3>
+
+<% for(var slug in public.posts._data.posts) {  %>
+  <h2>
+    <a href="/posts/<%= slug %>"><%= public.posts._data.posts[slug].title %></a>
+  </h2>
+  <article>
+    <%- partial("posts/" + slug) %>
+  </article>
+<% } %>

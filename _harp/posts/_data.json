@@ -1,0 +1,17 @@
+{
+  "posts": {
+    "hello-medellin": {
+      "title": "console.log(\"Hello Medellín\");",
+      "author": "julianduque",
+      "date": "2014-02-25"
+    }
+  },
+  "authors": {
+    "julianduque": {
+      "name": "Julián Duque",
+      "twitter": "julian_duque",
+      "github": "julianduque",
+      "avatar": "https://secure.gravatar.com/avatar/c2d1139b787a469e13229070d6be918c.png"
+    }
+  }
+}
