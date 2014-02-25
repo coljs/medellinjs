@@ -1,0 +1,19 @@
+<% var by = public.posts._data.authors[author] %>
+<section id="post">
+  <div class="fullwidth-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="kill-top-margin"><strong><%= title %></strong></h2>
+          <div class="post-info color-primary-dark">
+            <i class="fa fa-clock-o"></i> <%= date %>
+          <i class="im-user"></i> <a href="https://github.com/<%= by.github %>" target="_new"><%= by.name %></a>
+          </div>
+          <p>
+            <%- yield %>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

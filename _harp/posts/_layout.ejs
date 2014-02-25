@@ -28,9 +28,13 @@
 
 <body>
 
-  <%- partial("_header") %>
-  <%- yield %>
-  <%- partial("_footer") %>
+  <%- partial("../_header") %>
+  <% var post = public.posts._data.posts[current.source] %>
+  <% post.yield = partial(current.source) %>
+
+  <%- partial('_decorator', post) %>
+
+  <%- partial("../_footer") %>
 
   <script src="<%= url %>/js/jquery-1.11.0.min.js" type="text/javascript"></script>
   <script src="<%= url %>/js/bootstrap.min.js" type="text/javascript"></script>

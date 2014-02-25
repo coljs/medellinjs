@@ -1,0 +1,6 @@
+{
+  "globals": {
+    "url": "http://localhost:9000",
+    "title": "MedellinJS"
+  }
+}

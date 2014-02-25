@@ -1,11 +1,55 @@
-<h1>MedellinJS</h1>
-<h3>Articulos</h3>
-
-<% for(var slug in public.posts._data.posts) {  %>
-  <h2>
-    <a href="/posts/<%= slug %>"><%= public.posts._data.posts[slug].title %></a>
-  </h2>
-  <article>
-    <%- partial("posts/" + slug) %>
-  </article>
+<% function excerpt(content) { %>
+  <% return content.split('<!-- more -->')[0]; %>
 <% } %>
+
+<% function slice(object, items) { %>
+  <% var count = 0; %>
+  <% var sliced = {}; %>
+  <% for (var o in object) { %>
+    <% sliced[o] = object[o]; %>
+    <% if (count == items) { %>
+      <% break; %>
+    <% } %>
+    <% count++ %>
+  <% } %>
+  <% return sliced; %>
+<% } %>
+
+<section id="blog">
+  <div class="fullwidth-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="weight-300" style="margin-bottom: 40px;">
+            &Uacute;ltimos <strong>art&iacute;culos</strong>
+          </h1>
+        </div>
+      </div>
+      <% var posts = slice(public.posts._data.posts, 3); %>
+      <% for(var slug in posts) {  %>
+        <% var post = posts[slug]; %>
+        <% var author = public.posts._data.authors[post.author]; %>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="blog-wrapper">
+              <h3>
+                <a href="<%= url %>/posts/<%= slug %>"><%= post.title %></a>
+              </h3>
+              <div>
+                <%- excerpt(partial("posts/" + slug)) %>
+              </div>
+              <div class="blog-info">
+                <i class="fa fa-clock-o"></i> <%= post.date %>
+                <i class="im-user"></i>
+                <a href="https://github.com/<%= author.github %>" target="_blank">
+                  <%= author.name %>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      <% } %>
+    </div>
+  </div>
+
+</section>
