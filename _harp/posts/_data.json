@@ -1,7 +1,7 @@
 {
   "posts": {
-    "hello-medellin": {
-      "title": "console.log(\"Hello Medellín\");",
+    "hola-medellin": {
+      "title": "Hola Medellín!",
       "author": "julianduque",
       "date": "Febrero 26, 2014"
     }
@@ -9,9 +9,27 @@
   "authors": {
     "julianduque": {
       "name": "Julián Duque",
+      "bio": "Developer by Passion & Mantis Breeder. Engineer at Nodejitsu",
       "twitter": "julian_duque",
       "github": "julianduque",
-      "avatar": "https://secure.gravatar.com/avatar/c2d1139b787a469e13229070d6be918c.png"
+      "avatar": "https://secure.gravatar.com/avatar/c2d1139b787a469e13229070d6be918c.png",
+      "website": "https://about.met/julianduque"
+    },
+    "edsadr": {
+      "name": "Adrian Estrada",
+      "bio": "",
+      "twitter": "zenedsadr",
+      "github": "edsadr",
+      "avatar": "",
+      "website": ""
+    },
+    "codemaxter": {
+      "name": "Alvaro Agamez",
+      "bio": "",
+      "twitter": "CodeMaxter",
+      "github": "codemaxter",
+      "avatar": "",
+      "website": ""
     }
   }
 }

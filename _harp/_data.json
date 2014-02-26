@@ -1,0 +1,22 @@
+{
+  "events": [
+    {
+      "id": "167134402",
+      "title": "Yeoman - Mapas en la web con D3.js y TopoJson ",
+      "description": "<p><b>¡¡ MedellinJS regresa a Ruta N !!</b></p> <p>En enero estuvimos en receso (los extrañamos un montón) pero en Febrero volvemos con toda!!</p> <p>Los esperamos en nuestra primer reunión oficial del año. Seguiremos fortaleciendo la comunidad y esperamos su participación. Pueden empezar a proponer sus charlas en el siguiente enlace:</p> <p><a href=\"http://bit.ly/medjs\"><a href=\"http://bit.ly/medjs\" class=\"linkified\">http://bit.ly/medjs</a></a></p> <p><b>Agenda</b></p> <p><b>1. Bienvenida por parte del Equipo de <a href=\"http://twitter.com/MedellinJS\">MedellínJS</a><br/></b></p> <p><b>2. Yeoman (<a href=\"https://twitter.com/zenedsadr\">@zenedsadr</a>) </b></p> <p><i>Adrían Estrada es un desarrollador con 8 años de experiencia en diferentes lenguajes de programación, docente con 4 años de experiencia.</i></p> <p><br/><b>3. Refrigerio y Networking<br/></b></p> <p><b>4. Mapas en la web con D3.js y TopoJson (<a href=\"https://twitter.com/leocongote\">@leocongote</a>)</b></p> <p><br/>Aprendamos a crear y manipular Mapas interactivos en la WEB con D3.js como una manera de ilustrar información georeferenciada.</p> <p><i>Leonardo Congote Roldán Ingeniero Electrónico de la UPB, desarrollador front-End y diseñador de Data Visualization en Analytic Board una marca de Ingenio Sólido. Actualmente explorando y profundizando intensamente en el mundo de Data Visualization.</i></p>",
+      "link": "http://www.meetup.com/MedellinJS/events/167134402/",
+      "attending": 99,
+      "date": "miércoles, 26 de febrero de 2014 18:30",
+      "venue": {
+        "name": "Ruta N (Auditorio)",
+        "address": "Calle 67 #52-20, Piso 0"
+      },
+      "status": "upcoming"
+    }
+  ],
+  "team": [
+    "julianduque",
+    "edsadr",
+    "codemaxter"
+  ]
+}
