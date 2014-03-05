@@ -47,5 +47,3 @@ request(url, function (err, res, body) {
 
   fs.writeFileSync(metaFile, JSON.stringify(meta, null, 2));
 });
-
-

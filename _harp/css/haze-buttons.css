@@ -145,11 +145,11 @@ background-color:#119bd2;
 /* SECONDARY BUTTON COLOR SETTINGS */
 /* ================================ */
 .btn-secondary {
-background-color:#FF4D50;
+background-color:#F8DC32;
 }
 
 .btn-secondary:hover,.btn-secondary:focus,.btn-secondary:active,.btn-secondary.active,.open .dropdown-toggle.btn-secondary {
-background-color:#FF4D50;
+background-color:#F8DC32;
 }
 /* ================================ */
 /* PRIMARY DARK BUTTON COLOR SETTINGS */
@@ -212,16 +212,16 @@ background-color:#119bd2;
 }
 
 .btn-secondary.btn-outline,a.btn-secondary.btn-outline:link,a.btn-secondary.btn-outline:visited {
-border:2px solid #FF4D50;
+border:2px solid #F8DC32;
 background-color:rgba(255,255,255,0);
-color:#FF4D50;
+color:#F8DC32;
 font-weight:600;
 }
 
 .btn-secondary.btn-outline:hover,.btn-secondary.btn-outline:active,.btn-secondary.btn-outline:focus,a.btn-secondary.btn-outline:hover,a.btn-secondary.btn-outline:active,a.btn-secondary.btn-outline:focus {
-border:2px solid #FF4D50;
+border:2px solid #F8DC32;
 color:#FFF;
-background-color:#FF4D50;
+background-color:#F8DC32;
 }
 
 .btn-primary-dark.btn-outline,a.btn-primary-dark.btn-outline:link,a.btn-primary-dark.btn-outline:visited {

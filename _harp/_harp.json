@@ -1,6 +1,6 @@
 {
   "globals": {
-    "url": "http://colombiajs.github.io/medellinjs",
+    "url": "http://localhost:9000",
     "title": "MedellinJS"
   }
 }

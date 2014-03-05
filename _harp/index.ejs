@@ -25,6 +25,15 @@
           <h1 class="color-white weight-300">Pr&oacute;ximos <strong class="color-primary">eventos</strong></h1>
         </div>
       </div>
+      <% if (events.length == 0) { %>
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="color-white">
+              No hay eventos programados, para m&aacute;s informaci&oacute;n visita <a href="https://meetup.com/MedellinJS" class="color-secondary">Meetup.com/MedellinJS</a>
+            </h3>
+          </div>
+        </div>
+      <% } %>
       <% for(var i = 0; i < events.length; i++) { %>
         <% var event = events[i] %>
         <div class="row">
@@ -77,7 +86,7 @@
       <div class="row">
         <div class="col-md-12">
           <h1 class="weight-300" style="margin-bottom: 40px;">
-            &Uacute;ltimos <strong>art&iacute;culos</strong>
+            &Uacute;ltimos <strong class="color-primary">art&iacute;culos</strong>
           </h1>
         </div>
       </div>
