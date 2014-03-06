@@ -4,5 +4,8 @@
     "julianduque",
     "edsadr",
     "codemaxter"
-  ]
+  ],
+  "feed": {
+    "layout": false
+  }
 }

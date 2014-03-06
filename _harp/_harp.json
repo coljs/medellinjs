@@ -1,6 +1,7 @@
 {
   "globals": {
     "url": "http://medellinjs.org",
-    "title": "MedellinJS"
+    "title": "MedellinJS",
+    "description": "JavaScript User Group"
   }
 }
