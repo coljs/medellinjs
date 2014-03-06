@@ -4,7 +4,13 @@ de Co-Working que abre sus puertas en la ciudad y que de ahora en adelante será
 lugar mas de encuentro para la comunidad MedellínJS.
 
 <!-- more -->
+<hr />
+
 ![NodeSchool](http://nodeschool.io/images/nodeschool.png)
+
+[NodeSchool](http://nodeschool.io) es una iniciativa para aprender Node.js y JavaScript
+resolviendo problemas reales de programación, cada uno de los talleres está compuesto 
+por diferentes niveles que van enseñando los fundamentos de esa tecnología.
 
 El primer taller que trabajamos fue `learnyounode` en donde se enseñan los conceptos
 básicos de Node.js, si quieres experimentar con este taller lo puedes instalar a través de npm
