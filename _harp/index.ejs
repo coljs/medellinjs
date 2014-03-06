@@ -90,31 +90,31 @@
           </h1>
         </div>
       </div>
-      <% var posts = slice(public.posts._data.posts, 3); %>
-      <% for(var slug in posts) {  %>
-        <% var post = posts[slug]; %>
-        <% var author = public.posts._data.authors[post.author]; %>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="blog-wrapper">
-              <h3>
-                <a href="<%= url %>/posts/<%= slug %>"><%= post.title %></a>
-              </h3>
-              <div>
-                <%- excerpt(partial("posts/" + slug)) %>
-              </div>
-              <div class="blog-info">
-                <i class="fa fa-clock-o"></i> <%= post.date %>
-                <i class="im-user"></i>
-                <a href="https://github.com/<%= author.github %>" target="_blank">
-                  <%= author.name %>
-                </a>
+      <div class="row">
+        <% var posts = slice(public.posts._data.posts, 3); %>
+        <% for(var slug in posts) {  %>
+          <% var post = posts[slug]; %>
+          <% var author = public.posts._data.authors[post.author]; %>
+            <div class="col-md-4">
+              <div class="blog-wrapper">
+                <h3>
+                  <a href="<%= url %>/posts/<%= slug %>"><%= post.title %></a>
+                </h3>
+                <div>
+                  <%- excerpt(partial("posts/" + slug)) %>
+                </div>
+                <div class="blog-info">
+                  <i class="fa fa-clock-o"></i> <%= post.date %>
+                  <i class="im-user"></i>
+                  <a href="https://github.com/<%= author.github %>" target="_blank">
+                    <%= author.name %>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
+        <% } %>
         </div>
-      <% } %>
-      <% if (Object.keys(public.posts._data.posts) > 3) { %>
+        <% if (Object.keys(public.posts._data.posts) > 3) { %>
         <div class="row">
           <div class="col-md-12">
             <a class="btn btn-primary btn-3d pull-right" href="<%= url %>/posts">

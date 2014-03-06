@@ -8,6 +8,29 @@
     
         <item>
         <title></title>
+        <description><![CDATA[<p>El pasado 22 de Febrero se realizó el <a href="http://www.meetup.com/MedellinJS/events/167090612/">Primer NodeSchool en Medellín</a>,
+25 personas asistieron desde las 10 de la mañana a <a href="http://en.atomhouse.co/">AtomHouse Medellín</a> un espacio
+de Co-Working que abre sus puertas en la ciudad y que de ahora en adelante será un
+lugar mas de encuentro para la comunidad MedellínJS.</p>
+<p><!-- more -->
+<img src="http://nodeschool.io/images/nodeschool.png" alt="NodeSchool"></p>
+<p>El primer taller que trabajamos fue <code>learnyounode</code> en donde se enseñan los conceptos
+básicos de Node.js, si quieres experimentar con este taller lo puedes instalar a través de npm
+asi:</p>
+<pre><code class="language-lang-sh">$ npm install learnyounode -g</code></pre>
+<p>luego de ejecutar el comando <code>learnyounode</code> deberán realizar cada uno de los retos
+propuestos:</p>
+<p><img src="http://medellinjs.org/img/learnyounode.png" alt="Learn You Node"></p>
+<p>Si tienen alguna duda resolviendo los talleres pueden utilizar la sección de comentarios
+o asistir al siguiente taller que se realizará a finales de este mes, estén muy pendientes!</p>
+]]></description>
+        <pubDate>Thu Mar 06 2014 01:32:37 GMT-0500 (COT)</pubDate>
+        <link>http://medellinjs.org/posts/primer-nodeschool</link>
+        <guid isPermaLink="true">http://medellinjs.org/posts/primer-nodeschool</guid>
+      </item>
+    
+        <item>
+        <title></title>
         <description><![CDATA[<p>El 7 de Noviembre del 2012 empezó MedellínJS, Desde nuestra <a href="http://www.meetup.com/MedellinJS/events/86130022/">primer reunión</a> 
 venimos trabajando en el fortalecimiento del ecosistema tecnológico de la ciudad.</p>
 <p>Hoy nuestro grupo cuenta con más de 750 miembros registrados y una asistencia promedio 
@@ -31,7 +54,7 @@ una guía de como contribuir a este blog.</p>
 <p>Los invitamos a utilizar este espacio para compartir sus experiencias en JavaScript, 
 ¡hasta una próxima oportunidad!</p>
 ]]></description>
-        <pubDate>Thu Mar 06 2014 01:14:45 GMT-0500 (COT)</pubDate>
+        <pubDate>Thu Mar 06 2014 01:32:37 GMT-0500 (COT)</pubDate>
         <link>http://medellinjs.org/posts/hola-medellin</link>
         <guid isPermaLink="true">http://medellinjs.org/posts/hola-medellin</guid>
       </item>

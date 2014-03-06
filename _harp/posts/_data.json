@@ -3,6 +3,11 @@
     "layout": "../_layout"
   },
   "posts": {
+    "primer-nodeschool": {
+      "title": "Primer NodeSchool Medellín",
+      "author": "julianduque",
+      "date": "Marzo 6, 2014"
+    },
     "hola-medellin": {
       "title": "Hola Medellín!",
       "author": "julianduque",
