@@ -5,11 +5,12 @@
     <link><%- url %></link>
     <description><%- description %></description>
     <atom:link href="<%- url %>/feed.xml" rel="self" type="application/rss+xml" />
-    <% for(post in public.posts._data.posts) { %>
+    <% for(slug in public.posts._data.posts) { %>
+        <% var post = public.posts._data.posts[slug] %>
         <item>
         <title><%- post.title %></title>
         <description><![CDATA[<%- partial("posts/" + post) %>]]></description>
-        <pubDate><%- Date(post.date) %></pubDate>
+        <pubDate><%- post.date %></pubDate>
         <link><%- url %>/posts/<%- post %></link>
         <guid isPermaLink="true"><%- url %>/posts/<%- post %></guid>
       </item>
