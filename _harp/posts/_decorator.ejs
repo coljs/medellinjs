@@ -7,12 +7,15 @@
           <h2 class="kill-top-margin"><strong><%= title %></strong></h2>
           <div class="post-info color-primary-dark">
             <i class="fa fa-clock-o"></i> <%= date %>
-          <i class="im-user"></i> <a href="https://github.com/<%= by.github %>" target="_new"><%= by.name %></a>
+            <i class="im-user"></i> <a href="https://github.com/<%= by.github %>" target="_new"><%= by.name %></a>
           </div>
           <p>
             <%- yield %>
           </p>
         </div>
+      </div>
+      <div class="row">
+        <%- partial("_comments") %>
       </div>
     </div>
   </div>
