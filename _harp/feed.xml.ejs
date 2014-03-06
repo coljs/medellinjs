@@ -9,10 +9,10 @@
         <% var post = public.posts._data.posts[slug] %>
         <item>
         <title><%- post.title %></title>
-        <description><![CDATA[<%- partial("posts/" + post) %>]]></description>
+        <description><![CDATA[<%- partial("posts/" + slug) %>]]></description>
         <pubDate><%- post.date %></pubDate>
-        <link><%- url %>/posts/<%- post %></link>
-        <guid isPermaLink="true"><%- url %>/posts/<%- post %></guid>
+        <link><%- url %>/posts/<%- slug %></link>
+        <guid isPermaLink="true"><%- url %>/posts/<%- slug %></guid>
       </item>
     <% } %>
   </channel>
