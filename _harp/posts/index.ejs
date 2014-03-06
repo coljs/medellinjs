@@ -1,0 +1,45 @@
+<!-- Articulos -->
+<% function excerpt(content) { %>
+  <% return content.split('<!-- more -->')[0]; %>
+<% } %>
+
+<section id="articulos">
+  <div class="fullwidth-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="weight-300" style="margin-bottom: 40px;">
+            &Uacute;ltimos <strong class="color-primary">art&iacute;culos</strong>
+          </h1>
+        </div>
+      </div>
+      <% var posts = public.posts._data.posts; %>
+      <% for(var slug in posts) {  %>
+        <% var post = posts[slug]; %>
+        <% var author = public.posts._data.authors[post.author]; %>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="blog-wrapper">
+              <h3>
+                <a href="<%= url %>/posts/<%= slug %>"><%= post.title %></a>
+              </h3>
+              <div>
+                <%- excerpt(partial(slug)) %>
+              </div>
+              <div class="blog-info" style="margin-bottom: 15px">
+                <i class="fa fa-clock-o"></i> <%= post.date %>
+                <i class="im-user"></i>
+                <a href="https://github.com/<%= author.github %>" target="_blank">
+                  <%= author.name %>
+                </a>
+                <a class="btn btn-primary btn-3d pull-right" href="<%= url %>/posts/<%= slug %>">
+                  Leer m&aacute;s
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      <% } %>
+    </div>
+  </div>
+</section>

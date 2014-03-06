@@ -1,4 +1,7 @@
 {
+  "index": {
+    "layout": "../_layout"
+  },
   "posts": {
     "hola-medellin": {
       "title": "Hola Medellín!",
