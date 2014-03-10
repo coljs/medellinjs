@@ -1,0 +1,158 @@
+<!DOCTYPE html><!--[if lt IE 7 ]>
+<html class="ie ie6" lang="en">
+
+<![endif]--><!--[if IE 7 ]>
+<html class="ie ie7" lang="en">
+
+<![endif]--><!--[if IE 8 ]>
+<html class="ie ie8" lang="en">
+
+<![endif]--><!--[if (gte IE 9)|!(IE)]>
+<!-->
+<html lang="es_CO">
+
+<!--<![endif]-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+  <title>MedellinJS</title>
+  <link href="http://medellinjs.org/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="http://medellinjs.org/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="http://medellinjs.org/css/icomoon.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="http://medellinjs.org/css/haze-buttons.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="http://medellinjs.org/css/menu.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="http://medellinjs.org/css/prism.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="http://medellinjs.org/css/haze.css" media="screen" rel="stylesheet" type="text/css">
+  <link rel="alternate" type="application/rss+xml"  href="http://medellinjs.org/feed.xml" title="MedellinJS">
+</head>
+
+<body>
+
+  <div class="top-menu">
+  <a href="http://medellinjs.org">
+    <div class="logo">
+      MED.JS
+    </div>
+  </a>
+  <div id="navigation-button">
+    <i class="fa fa-bars fa-fw"></i>
+  </div>
+  <ul class="nav drop-down">
+    <li><a href="http://medellinjs.org/#eventos">Eventos</a></li>
+    <li><a href="http://medellinjs.org/posts">Art&iacute;culos</a></li>
+    <li><a href="http://medellinjs.org/acerca">Acerca</a></li>
+  </ul>
+</div>
+
+  
+  
+
+  
+<section id="post">
+  <div class="fullwidth-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="kill-top-margin"><strong>Yeoman - Flujos de trabajo modernos</strong></h2>
+          <div class="post-info color-primary-dark">
+            <i class="fa fa-clock-o"></i> Marzo 9, 2014
+            <i class="im-user"></i> <a href="https://github.com/edsadr" target="_new">Adrian Estrada</a>
+          </div>
+          <p>
+            <p><a href="http://yeoman.io/">Yeoman</a> es un conjunto de herramientas construidas sobre Node.js cuyo fin es el de implementar buenas prácticas de desarrollo y simplificar las tareas repetitivas que están involucradas en la realización de cualquier proyecto.
+<!-- more --></p>
+<p><img src="https://dl.dropboxusercontent.com/u/212845/charla_yeoman/yeomanClone.png" alt="Yeoman" title="Yeoman"></p>
+<p>Los tres componentes básicos de <a href="http://yeoman.io/">Yeoman</a> son:</p>
+<ul>
+<li>Generación de esqueletos más conocida como <em>scalfolding</em>  que se logra por medio de los paquetes generadores llamados <em>generators</em>, estos son paquetes que contienen la estructura básica de un proyecto, sus dependencias y tareas más comunes, esto me brinda un punto inicial de mi proyecto con toda la configuración requerida y listo para el iniciar el desarrollo.</li>
+<li>Administración de dependencias por medio de <a href="http://bower.io/">Bower</a>, el sistema de paquetes de JavaScript que me permite instalar, desinstalar y actualizar las dependencias de mi proyecto.</li>
+<li>Automatización de tareas por medio de <a href="http://gruntjs.com/">Grunt</a> o <a href="http://gulpjs.com/">Gulp</a>, dependiendo del que haya incluido mi generador, tareas como: compilar el proyecto, empaquetarlo, comprimirlo, probarlo... pueden ser automatizadas con alguna de estas dos herramientas</li>
+</ul>
+<h3>Instalando Yeoman</h3>
+<p>Para instalar <a href="http://yeoman.io/">Yeoman</a> debo tener instalado NodeJS y NPM, y basta con ejecutar</p>
+<p><code>sudo npm install -g yo</code></p>
+<p>Luego de ejecutar la instalación, tendremos el comando <strong><em>yo</em></strong> disponible, este comando al ser ejecutado nos presenta un menú con las tareas que puede ejecutar <a href="http://yeoman.io/">Yeoman</a>, tambien puedo ejecutar el comando pasando argumentos y ejecutar una tarea concreta. </p>
+<p>Inicialmente <a href="http://yeoman.io/">Yeoman</a> no incluye ningún generador, por lo que es necesario instalar los que necesitemos para nuestros proyectos. uno de los más usados es el generador de webapp, para instalarlo podemos seguir el asistente de instalación que presenta el comando <strong><em>yo</em></strong> o podemos recurrir a NPM, todos los generadores de <a href="http://yeoman.io/">Yeoman</a> son paquetes de NPM que tienen el prefijo <strong>generator-</strong>, en este caso la instalación sería así:</p>
+<p><code>sudo npm install -g generator-webapp</code></p>
+<p>Los generadores oficiales de <a href="http://yeoman.io/">Yeoman</a> se pueden observar <a href="http://yeoman.io/official-generators.html">aquí</a>, la comunidad ha hecho su parte y más opciones <a href="http://yeoman.io/community-generators.html">están disponibles</a></p>
+<h3>Creando un nuevo proyecto con Yeoman</h3>
+<p>Posterior a la instalación del generador, puedo crear el esqueleto de mi proyecto, basta con crear un directorio, ubicarme en el y correr el comando <strong><em>yo</em></strong>, en el menú interactivo ya tendré la opción de usar el generador en este caso el de <strong>webapp</strong>, también puedo usar el comando con el argumento de esta manera:</p>
+<p><code>yo webapp</code></p>
+<p>El generador suele incluir un proceso interactivo que me permite modificar opciones del esqueleto a ser creado, debo responder a sus preguntas hasta que inicie el proceso personalizado de acuerdo a mis preferencias.</p>
+<p>Cuando la ejecución termine, tendré toda la estructura inicial de mi proyecto creada: </p>
+<ul>
+<li>En el directorio <strong>app</strong> almacenaré todo el código de mi aplicativo</li>
+<li>Las dependencias instaladas en <em>_app/bower_components</em>  </li>
+<li>Las tareas incluidas listas para ser ejecutadas dentro del archivo <strong>Gruntfile.js</strong>.</li>
+</ul>
+<p>Una de las tareas más apreciadas incluidas en la mayoría de los generadores, es la del servidor embebido que me permite visualizar el proyecto mientras lo desarrollo, por lo general la orden es:</p>
+<p><code>grunt serve</code></p>
+<p>Como se puede observar, ya estoy listo para comenzar el desarrollo de mi proyecto y he ahorrado una considerable cantidad de tiempo en configuración y creación del proyecto inicial.</p>
+<p>Si deseas ampliar más la información, te recomiendo la presentación usada en la charla <a href="http://slid.es/edsadr/yeoman">http://slid.es/edsadr/yeoman</a> .</p>
+
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'medellinjs'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <div class="footer fullwidth-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1 class="color-white weight-300 kill-top-margin" style="margin-bottom: 40px; font-size: 50px">
+          S&oacute;mos <strong class="color-primary">Medell&iacute;nJS</strong>
+        </h1>
+      </div>
+    </div>
+    <div class="row">
+    </div>
+  </div>
+</div>
+<div class="footer-bottom">
+  <div class="row">
+    <div class="col-md-6">
+      <span class="pull-left" style="font-size: 11px">
+        &copy; Copyright 2012-2014 | Medell&iacute;n, Colombia, Sur Am&eacute;rica
+      </span>
+    </div>
+    <div class="col-md-6">
+      <span class="pull-right" style="font-size: 11px">
+        We are Passion Driven Community!
+      </span>
+    </div>
+  </div>
+</div>
+
+
+  <script src="http://medellinjs.org/js/jquery-1.11.0.min.js" type="text/javascript"></script>
+  <script src="http://medellinjs.org/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="http://medellinjs.org/js/smooth-scroll.js" type="text/javascript"></script>
+  <script src="http://medellinjs.org/js/prism.js" type="text/javascript"></script>
+  <script src="http://medellinjs.org/js/custom.js" type="text/javascript"></script>
+  <div class="scrollup">
+    <a href="#"><i class="fa fa-chevron-up"></i></a>\
+  </div>
+</body>
+
+</html>
