@@ -13,6 +13,12 @@
       "author": "julianduque",
       "date": "Marzo 5, 2014"
     }
+    ,
+    "yeoman": {
+      "title": "Yeoman - Flujos de trabajo modernos",
+      "author": "edsadr",
+      "date": "Marzo 9, 2014"
+    }
   },
   "authors": {
     "julianduque": {
@@ -24,7 +30,7 @@
       "website": "https://about.met/julianduque"
     },
     "edsadr": {
-      "name": "Adrian Estrada",
+      "name": "Adrián Estrada",
       "bio": "Kundalini yogi, avid reader, coder and part-time teacher. Senior developer at Wedlinkmedia",
       "twitter": "zenedsadr",
       "github": "edsadr",
