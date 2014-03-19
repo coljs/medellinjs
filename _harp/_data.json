@@ -1,5 +1,19 @@
 {
-  "events": [],
+  "events": [
+    {
+      "id": "172142082",
+      "title": "Programación Reactiva y Grunt vs Gulp",
+      "description": "<p><b>¡¡ MedellinJS avanza !!</b></p> <p>Los esperamos en nuestra segunda reunión del año. </p> <p><br/>Seguiremos fortaleciendo la comunidad y esperamos su participación. Pueden empezar a proponer sus charlas en el siguiente enlace:</p> <p><a href=\"http://bit.ly/medjs\"><a href=\"http://bit.ly/medjs\" class=\"linkified\">http://bit.ly/medjs</a></a></p> <p><b>Agenda</b></p> <p><b>1. Bienvenida por parte del Equipo de <a href=\"http://twitter.com/MedellinJS\">MedellínJS</a><br/></b></p> <p><b>2. Programación Reactiva (Equipo <a href=\"http://grandpa.im\">Grandpa</a>)</b></p> <p>Somos un equipo que ha trabajado con Meteor, quisieramos comentar en que va Meteor y sus nuevas funcionalidades, además de hacer un comparativo en los diferentes tipos de programación reactiva actuales como Derbyjs, Meteorjs, Togetherjs(Firefox), mojito(Yahoo) y hacer unos ejemplos de código básicos con algunas de ellas, terminaremos la charla con unos ejemplos de Meteor usando la librería de gráficas de nv3.org que actualmente utilizamos, sólo para mostrar datos pintados de forma interesante con Meteor <br/><b><br/></b></p> <p><b>3. Refrigerio y Networking</b></p> <p><br/><b>4. Grunt vs Gulp (<a href=\"http://twitter.com/Angel_Fire\">@Angel_Fire</a>)</b></p> <p><b>Una breve aproximación a esta mal llamada \"Build wars\".</b></p> <p>Una oportunidad para conocer un poco más sobre Grunt (Task Runner) y sobre Gulp (Streaming build system). Comparación, Diferencias, ejemplos.</p> <p><i>Andres es Ingeniero de sistemas e informática de la Universidad Nacional, con 2-3-4 años de experiencia como desarrollador web front-end. Amante del software libre (aunque use OS X) y las tecnologías web. Blogger hace 6 años en Geek The Planet.</i></p>",
+      "link": "http://www.meetup.com/MedellinJS/events/172142082/",
+      "attending": 6,
+      "date": "miércoles, 26 de marzo de 2014 18:30",
+      "venue": {
+        "name": "Ruta N (Auditorio)",
+        "address": "Calle 67 #52-20, Piso 0"
+      },
+      "status": "upcoming"
+    }
+  ],
   "team": [
     "julianduque",
     "edsadr",
