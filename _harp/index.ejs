@@ -92,11 +92,12 @@
         </div>
       </div>
       <div class="row">
+        <div class="col-md-9">          
         <% var posts = slice(public.posts._data.posts, 3); %>
         <% for(var slug in posts) {  %>
           <% var post = posts[slug]; %>
           <% var author = public.posts._data.authors[post.author]; %>
-            <div class="col-md-4">
+            <div class="col-md-6">
               <div class="blog-wrapper">
                 <h3>
                   <a href="<%= url %>/posts/<%= slug %>"><%= post.title %></a>
@@ -114,6 +115,11 @@
               </div>
             </div>
         <% } %>
+          </div>
+           <div class="col-md-3">
+          <a class="twitter-timeline"  href="https://twitter.com/MedellinJS"  data-widget-id="450657424572051457">Tweets by @MedellinJS</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
         </div>
         <% if (Object.keys(public.posts._data.posts) > 3) { %>
         <div class="row">
