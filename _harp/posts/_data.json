@@ -3,6 +3,11 @@
     "layout": "../_layout"
   },
   "posts": {
+    "nodebots-jsconf-uy": {
+      "title": "Taller NodeBots en JSConf Uruguay",
+      "author": "julianduque",
+      "date": "Marzo 31, 2014"
+    },
     "yeoman": {
       "title": "Yeoman - Flujos de trabajo modernos",
       "author": "edsadr",

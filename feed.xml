@@ -8,6 +8,26 @@
     
         
         <item>
+        <title>Taller NodeBots en JSConf Uruguay</title>
+        <description><![CDATA[<p>El pasado 14 y 15 de Marzo se realizó en la ciudad de Montevideo la primera edición de la <a href="http://jsconf.uy/">JSConf Uruguay</a>y tuve la oportunidad de asistir a este evento como Tallerista. <em>(esto gracias a que fuí aprobado en el proceso de selección de speakers)</em></p>
+<!-- more -->
+
+<p>El Taller realizado en este evento fue sobre <a href="http://nodebots.io">NodeBots</a> - Hardware Hacking con Node.js, en el cual aprendimos a programar un Arduino utilizando el framework <a href="https://github.com/rwaldron/johnny-five">Johnny-Five</a> y utilizando diferentes componentes electrónicos, desde un simple Led hasta un Joystick XY similares a los de PlayStation.</p>
+<p><img src="http://i.imgur.com/tbWZQMj.jpg" alt="Taller"></p>
+<p>Todo el contenido y código fuente de los ejercicios del taller se encuentra disponible en el siguiente repositorio:</p>
+<p><a href="https://github.com/julianduque/nodebots-workshop"><a href="https://github.com/julianduque/nodebots-workshop">https://github.com/julianduque/nodebots-workshop</a></a></p>
+<p>El Arduino Kit que utilizamos se puede conseguir por $55 en <a href="http://www.ebay.com/itm/UNO-R3-Starter-Kit-1602-LCD-Servo-Dot-Matrix-Breadboard-LED-Resistor-for-Arduino-/151183574145?ssPageName=ADME:L:OC:US:3160">eBay</a>:</p>
+<p><img src="http://i.imgur.com/rPGg7qw.jpg" alt="Kit"></p>
+<p>Este Kit es bastante completo y económico, para el taller solo utilizamos la mitad de los componentes pero sería bastante interesante realizar en futuros eventos talleres de mayor duración donde se puedan utilizar todos los componentes y porque no, trabajar en proyectos especificos integrando la parte electrónica con APIs o plataformas web.</p>
+<p>Estamos viendo la forma de conseguir unos cuantos kit para MedellínJS y continuar con los talleres de NodeBots, así que si te interesa la electrónica y programación te invitamos a que consigas un kit y lo lleves al próximo evento de NodeBots Medellín que esperamos sea muy pronto ;)</p>
+]]></description>
+        <pubDate>Marzo 31, 2014</pubDate>
+        <link>http://medellinjs.org/posts/nodebots-jsconf-uy</link>
+        <guid isPermaLink="true">http://medellinjs.org/posts/nodebots-jsconf-uy</guid>
+      </item>
+    
+        
+        <item>
         <title>Yeoman - Flujos de trabajo modernos</title>
         <description><![CDATA[<p><a href="http://yeoman.io/">Yeoman</a> es un conjunto de herramientas construidas sobre Node.js cuyo fin es el de implementar buenas prácticas de desarrollo y simplificar las tareas repetitivas que están involucradas en la realización de cualquier proyecto.
 <!-- more --></p>
