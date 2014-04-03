@@ -14,13 +14,19 @@
           </h1>
         </div>
       </div>
+      <% var animateclass= 'slide-in-from-right' %> 
       <% var posts = public.posts._data.posts; %>
       <% for(var slug in posts) {  %>
         <% var post = posts[slug]; %>
-        <% var author = public.posts._data.authors[post.author]; %>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="blog-wrapper">
+        <% var author = public.posts._data.authors[post.author]; %>        
+        <div class="row blog-wrapper cre-animate" data-animation="<%= animateclass %>" data-delay="0" data-easing="easeInOutBack" data-offset="80%" data-speed="1000">
+          <div class="col-md-2">
+             <a href="https://github.com/<%= author.github %>" target="_blank">
+                <img src="<%= author.avatar %>?s=200" alt="<%= author.name %>" class="img-circle" style="max-width:98%;" />
+             </a>
+          </div>    
+          <div class="col-md-10">
+            <div>
               <h3>
                 <a href="<%= url %>/posts/<%= slug %>"><%= post.title %></a>
               </h3>
