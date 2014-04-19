@@ -3,6 +3,11 @@
     "layout": "../_layout"
   },
   "posts": {
+    "introduccion-arduino-nodejs-1": {
+      "title": "Introducción a Arduino y Node.js - Parte 1",
+      "author": "julianduque",
+      "date": "Abril 19, 2014"
+    },
     "nodebots-jsconf-uy": {
       "title": "Taller NodeBots en JSConf Uruguay",
       "author": "julianduque",

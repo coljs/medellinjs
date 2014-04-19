@@ -1,0 +1,299 @@
+<!DOCTYPE html><!--[if lt IE 7 ]>
+<html class="ie ie6" lang="en">
+
+<![endif]--><!--[if IE 7 ]>
+<html class="ie ie7" lang="en">
+
+<![endif]--><!--[if IE 8 ]>
+<html class="ie ie8" lang="en">
+
+<![endif]--><!--[if (gte IE 9)|!(IE)]>
+<!-->
+<html lang="es_CO">
+
+<!--<![endif]-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+  <title>MedellinJS</title>
+  <link href="http://medellinjs.org/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="http://medellinjs.org/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="http://medellinjs.org/css/icomoon.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="http://medellinjs.org/css/haze-buttons.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="http://medellinjs.org/css/menu.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="http://medellinjs.org/css/prism.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="http://medellinjs.org/css/haze.css" media="screen" rel="stylesheet" type="text/css">
+  <link rel="alternate" type="application/rss+xml"  href="http://medellinjs.org/feed.xml" title="MedellinJS">
+</head>
+
+<body>
+
+  <div class="top-menu">
+  <a href="http://medellinjs.org">
+    <div class="logo">
+      MED.JS
+    </div>
+  </a>
+  <div id="navigation-button">
+    <i class="fa fa-bars fa-fw"></i>
+  </div>
+  <ul class="nav drop-down">
+    <li><a href="http://medellinjs.org/#eventos">Eventos</a></li>
+    <li><a href="http://medellinjs.org/posts">Art&iacute;culos</a></li>
+    <li><a href="http://medellinjs.org/acerca">Acerca</a></li>
+  </ul>
+</div>
+
+  
+  
+
+  
+<section id="post">
+  <div class="fullwidth-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="kill-top-margin"><strong>Introducción a Arduino y Node.js - Parte 1</strong></h2>
+          <div class="post-info color-primary-dark">
+            <i class="fa fa-clock-o"></i> Abril 19, 2014
+            <i class="im-user"></i> <a href="https://github.com/julianduque" target="_new">Julián Duque</a>
+          </div>
+          <p>
+            <p>En esta serie de artículos aprenderemos cómo programar un Arduino y cómo podemos integrarlo con Node.js.
+<!-- more --></p>
+<h2>Introducción</h2>
+<p>¡Estamos en el boom del Internet de las cosas! y uno de los principales actores de este boom es el <a href="http://arduino.cc/">Arduino</a>, una plataforma electrónica abierta (Open Hardware) para hacer prototipados de proyectos de una manera fácil e intuitiva, gracias a esto se ha vuelto bastante popular en los círculos de artistas, diseñadores, programadores y entusiastas permitiendoles realizar proyectos y ambientes interactivos con facilidad e incluso utilizar esta plataforma como herramienta de enseñanza para personas de todas las edades.</p>
+<p>Otro de los principales actores es <a href="http://nodejs.org/">Node.js</a> ya que es una de las plataformas perfectas para realizar aplicaciones en tiempo real, justo lo que se necesita en el Internet de las cosas.</p>
+<h2>¿Cómo programar un Arduino?</h2>
+<p>Para programar un <a href="http://arduino.cc/">Arduino</a> necesitamos descargar e instalar el <a href="http://arduino.cc/en/Main/Software">Arduino IDE</a>, esta herramienta nos permitira programar y subir nuestros archivos al dispositivo, el lenguaje de programación utilizado es compatible con <code>C/C++</code> (a simple vista no es estrictamente <code>C/C++</code> pero al momento de compilar el IDE se encarga de agregar los headers necesarios para que funcione en el dispositivo).</p>
+<p>Todo programa de Arduino necesita de 2 mètodos fundamentales <code>setup</code> y <code>loop</code>.</p>
+<pre><code class="language-c">void setup() {
+  // Aquì realizaremos todo el código de inicializaciòn y configuraciòn
+}
+
+void loop() {
+  // Como su nombre lo indica este método se ejecutará en un ciclo infinito
+  // Aquí se realizará toda la funcionalidad principal de nuestra aplicación
+}</code></pre>
+<p>Si quieres conocer más sobre el Lenguaje de Arduino y sus capacidades visita el <a href="http://arduino.cc/en/Reference/HomePage">Manual de Referencia</a>.</p>
+<p>Personalmente considero que la mejor forma de aprender es haciendo ¿cierto?, entonces realizaremos nuestro primer proyecto básico con Arduino y luego aprenderemos como integrar este proyecto con <a href="http://nodejs.org/">Node.js</a> y así tendríamos nuestra primer solución en tiempo real - <em>¡Internet de las cosas, allá vamos!</em>.</p>
+<h3>Sensor de Temperatura</h3>
+<p>Construiremos un sensor de temperatura para nuestro hogar con indicador lumínico.</p>
+<p><strong>Componentes necesarios</strong></p>
+<ul>
+<li>1 Arduino UNO/Leonardo (o compatible) con cable USB</li>
+<li>1 Shield Wifi o Ethernet con su respectivo cable (solo necesario para conectarlo a un servidor Node.js)</li>
+<li>1 Sensor de temperatura LM35</li>
+<li>1 LED Rojo</li>
+<li>1 LED Verde</li>
+<li>2 resistencias de 220 Ohms</li>
+<li>Breadboard</li>
+<li>Cables</li>
+</ul>
+<h4>Montaje</h4>
+<p><img src="http://i.imgur.com/q7AcLuh.png?1" alt="Montaje"></p>
+<p>Aquí tenemos un circuito bastante sencillo, los dos led están conectados a pines digitales del Arduino, en este caso el LED rojo está conectado al pin <code>7</code> y el LED verde está conectado al pin <code>8</code>. <em>Ojo, las resistencias son necesarias si no quemaremos los LED</em>.</p>
+<p>Y el sensor de temperatura lo conectamos a una entrada análoga del Arduino, en este caso al pin <code>A0</code>.</p>
+<p>Luego de realizar todas las conexione incluyendo la de <code>+5V</code> y <code>GND</code> conectamos nuestro Arduino al computador a través del puerto USB y abrimos el Arduino IDE.</p>
+<h4>Arduino IDE v1.5.2-BETA</h4>
+<p><img src="http://i.imgur.com/VleqjdB.png" alt=""></p>
+<p>En el IDE vamos a escribir el siguiente código:</p>
+<pre><code class="language-c">#define LED_RED 7 // Definimos el pin del LED rojo
+#define LED_GREEN 8 // Definimos el pin del LED verde
+#define TEMP_SENSOR 0 // Definimos el pin analogo del sensor
+
+int maxTemp = 22; // Este sera nuestro limite de temperatura
+
+void setup() {
+  Serial.begin(9600); // Iniciamos el puerto serial
+  pinMode(LED_RED, OUTPUT); // Definimos el pin del LED rojo como salida
+  pinMode(LED_GREEN, OUTPUT); // Definimos el pin del LED verde como salida
+}
+
+void loop() {
+  int voltage = analogRead(TEMP_SENSOR); // Leemos el valor actual del pin analogo, este valor
+                                         // puede estar entre 0 y 1023 y corresponde a un nivel de voltaje
+                                         // que nos entrega el sensor.
+
+  int temp = (5 * voltage * 100) / 1024; // Realizamos la conversion a grados celsius, esta formula se puede
+                                         // encontrar en la hoja de datos del componente.
+
+  //
+  // En el siguiente bloque vamos a verificar si la temperatura actual supera el maximo definido en maxTemp
+  // si es superado debemos encender el LED rojo y apagar el LED verde, de lo contrario dejamos el LED verde 
+  // encendido.
+  //
+  // HIGH enciende el puerto digital, corresponde a un 1 o +5V.
+  // LOW apaga el puerto digital, corresponde a un 0.
+  //
+  if (temp &gt; maxTemp) {
+    digitalWrite(LED_GREEN, LOW);
+    digitalWrite(LED_RED, HIGH);
+  } else {
+    digitalWrite(LED_GREEN, HIGH);
+    digitalWrite(LED_RED, LOW);
+  }
+
+  Serial.println(temp); // Imprimimos la temperatura actual en el puerto serial
+
+  delay(500); // Esperamos 500ms antes de empezar la siguiente lectura.
+}</code></pre>
+<p>Luego de escribir el código debemos subirlo al Arduino, para eso damos click al botón de <code>Upload</code> y garantizamos que el código ha sido subido con éxito.</p>
+<p><img src="http://i.imgur.com/Gp2kk8v.png" alt="Arduino IDE uploading"></p>
+<p>Si queremos ver lo que esta pasando en el puerto serial podemos abrir el monitor serial en <code>Tools &gt; Serial Monitor</code> o ejecutando <code>Ctrl + Shift + M</code>, allí veremos la lectura de temperatura del sensor.</p>
+<p><img src="http://i.imgur.com/gW2ecEE.gif" alt="Monitor Serial"></p>
+<p>Y listo, nuestro sensor de temperatura está funcionando a la perfección ¿Que fácil no?</p>
+<p><iframe class="vine-embed" src="https://vine.co/v/M1pBjKLzLqz/embed/simple" width="600" height="600" frameborder="0"></iframe><script async src="//platform.vine.co/static/scripts/embed.js" charset="utf-8"></script></p>
+<p>Ahora viene la grán pregunta...</p>
+<h2>¿Cómo integrar Arduino con Node.js?</h2>
+<p>En este primer artículo aprenderemos como integrar nuestro proyecto con Node.js através del puerto serial utilizando el módulo <a href="https://npmjs.org/serialport"><code>serialport</code></a>.</p>
+<p>Primero debemos instalar el módulo utilizando el gestor de paquetes de Node.js - <a href="https://npmjs.org">npm</a></p>
+<pre><code> $ npm install serialport</code></pre>
+<p>Luego creamos un archivo JavaScript con el siguiente código:</p>
+<h4>app.js</h4>
+<pre><code class="language-javascript">// Requerimos el módulo serialport
+var serialport = require(&quot;serialport&quot;);
+var SerialPort = serialport.SerialPort;
+
+// Instanciamos el objeto de conexión al puerto serial
+var sp = new SerialPort(&quot;/dev/ttyACM0&quot;, {
+  baudrate: 9600,
+  parser: serialport.parsers.readline(&quot;\n&quot;)
+});
+
+// Abrimos la conexión al puerto serial
+sp.open(function () {
+
+  // Cada que llegue un dato serial lo imprimiremos en la consola
+  // En este caso convertimos el dato en Entero y lo mostramos como
+  // temperatura en grados celsius.
+  sp.on(&quot;data&quot;, function (data) {
+    var temp = parseInt(data, 10) + &quot; ºC&quot;;
+    console.log(temp);
+  });
+
+});</code></pre>
+<p>Y luego ejecutamos nuestra aplicación con el siguiente comando:</p>
+<pre><code>$ node app.js</code></pre>
+<p><em>Si utilizas Linux es posible que tengas un problema de permisos para leer el puerto serial, para ejecutar la aplicación utiliza <code>sudo</code></em></p>
+<p><img src="http://i.imgur.com/RrjGugN.gif" alt="Output"></p>
+<hr>
+
+<p>En los próximos artículos de la serie explicaremos como conectar nuestro Arduino a un servidor <a href="http://nodejs.org/">Node.js</a> utilizando HTTP, WebSockets, Mensajes PubSub con MQTT y por último programaremos el Arduino directamente con <a href="http://nodejs.org/">Node.js</a> utilizando el framework <a href="https://github.com/rwaldron/johnny-five">Johnny-Five</a>.</p>
+<h4>Introducción a Arduino y Node.js - HTTP - Parte 2 (Próximamente)</h4>
+<h4>Introducción a Arduino y Node.js - WebSockets - Parte 3 (Próximamente)</h4>
+<h4>Introducción a Arduino y Node.js - MQTT - Parte 4 (Próximamente)</h4>
+<h4>Introducción a Arduino y Node.js - Johnny Five - Parte 5 (Próximamente)</h4>
+
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'medellinjs'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <div class="footer fullwidth-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1 class="color-white weight-300 kill-top-margin" style="margin-bottom: 40px; font-size: 50px">
+          S&oacute;mos <strong class="color-primary">Medell&iacute;nJS</strong>
+        </h1>
+        <h4 class="color-white">Hacemos parte de una gran familia, la Comunidad <span class="color-secondary">JavaScript</span> Colombiana</h4>        
+      </div>
+    </div>
+    <div class="row" style="margin-bottom: 10px">
+      <div class="col-md-5"></div>
+      <div class="col-md-2">
+        <img class="img-responsive img-rounded cre-animate" data-animation="slide-in-from-right" data-delay="0" data-easing="easeInOutBack" data-offset="80%" data-speed="1000" src="https://i.imgur.com/azFflhQ.jpg" />
+      </div>
+      <div class="col-md-5"></div>
+    </div>
+    <div class="row">
+     <div class="cre-animate" data-animation="slide-up-from-bottom" data-delay="200" data-easing="easeInOutBack" data-offset="80%" data-speed="1000">   
+       <div class="col-md-1">
+         <span style="font-size: 100px">{</span>
+       </div>
+       <div class="col-md-2">
+        <a href="http://www.bogotajs.com">
+          <img class="img-rounded img-responsive" src="http://imgur.com/0VE7Df0.png" />
+          <p class="text-center"><strong>Bogot&aacute;JS</strong></p>
+        </a>
+       </div>
+       <div class="col-md-2">
+        <a href="http://www.meetup.com/CaliJS/">
+          <img class="img-rounded img-responsive" src="https://i.imgur.com/sBZF10C.png" />
+          <p class="text-center"><strong>CaliJS</strong></p>
+        </a>
+       </div>
+       <div class="col-md-2">
+        <a href="http://www.meetup.com/VillavicencioJS/">
+          <img class="img-rounded img-responsive" src="https://i.imgur.com/6RKQMj1.png" />
+          <p class="text-center"><strong>VillavicencioJS</strong></p>
+        </a>
+       </div>
+              <div class="col-md-2">
+        <a href="https://twitter.com/QuibdoJs">
+          <img class="img-rounded img-responsive" src="http://i.imgur.com/MQwQ9Kt.png" />
+          <p class="text-center"><strong>Quibd&oacute;JS</strong></p>
+        </a>
+       </div>
+        <div class="col-md-2">
+         <a href="http://www.pereirajs.org">
+          <img class="img-rounded img-responsive" src="https://i.imgur.com/K74Qa1f.png" />
+          <p class="text-center"><strong>PereiraJS</strong></p>
+        </a>
+       </div>
+       <div class="col-md-1">
+         <span style="font-size: 100px">}</span>
+       </div>
+     </div>
+    </div>
+  </div>
+</div>
+<div class="footer-bottom">
+  <div class="row">
+    <div class="col-md-6">
+      <span class="pull-left" style="font-size: 11px">
+        &copy; Copyright 2012-2014 | Medell&iacute;n, Colombia, Sur Am&eacute;rica
+      </span>
+    </div>
+    <div class="col-md-6">
+      <span class="pull-right" style="font-size: 11px">
+        We are a Passion Driven Community!
+      </span>
+    </div>
+  </div>
+</div>
+
+  <script src="http://medellinjs.org/js/jquery-1.11.0.min.js" type="text/javascript"></script>
+  <script src="http://medellinjs.org/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="http://medellinjs.org/js/smooth-scroll.js" type="text/javascript"></script>
+  <script src="http://medellinjs.org/js/prism.js" type="text/javascript"></script>
+  <script src="http://medellinjs.org/js/jquery.cre-animate.min.js" type="text/javascript"></script>    
+  <script src="http://medellinjs.org/js/custom.js" type="text/javascript"></script>
+  <div class="scrollup">
+    <a href="#"><i class="fa fa-chevron-up"></i></a>\
+  </div>
+</body>
+
+</html>
