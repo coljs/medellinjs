@@ -47,11 +47,11 @@ Construiremos un sensor de temperatura para nuestro hogar con indicador lumínic
 
 ![Montaje](http://i.imgur.com/q7AcLuh.png?1)
 
-Aquí tenemos un circuito bastante sencillo, los dos led están conectados a pines digitales del Arduino, en este caso el LED rojo está conectado al pin `7` y el LED verde está conectado al pin `8`. *Ojo, las resistencias son necesarias si no quemaremos los LED*.
+Aquí tenemos un circuito bastante sencillo, los dos LED están conectados a pines digitales del Arduino, en este caso el LED rojo está conectado al pin `7` y el LED verde está conectado al pin `8`. *Ojo, las resistencias son necesarias si no quemaremos los LED*.
 
 Y el sensor de temperatura lo conectamos a una entrada análoga del Arduino, en este caso al pin `A0`.
 
-Luego de realizar todas las conexione incluyendo la de `+5V` y `GND` conectamos nuestro Arduino al computador a través del puerto USB y abrimos el Arduino IDE.
+Luego de realizar todas las conexiones incluyendo la de `+5V` y `GND` conectamos nuestro Arduino al computador a través del puerto USB y abrimos el Arduino IDE.
 
 #### Arduino IDE v1.5.2-BETA
 
