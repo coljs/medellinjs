@@ -35,7 +35,7 @@
           <div class="col-md-10">
             <div>
               <h3>
-                <a href="<%= url %>/posts/<%= slug %>"><%= post.title %></a>
+                <a href="/posts/<%= slug %>"><%= post.title %></a>
               </h3>
               <div>
                 <%- excerpt(partial(slug)) %>
@@ -46,7 +46,7 @@
                 <a href="https://github.com/<%= author.github %>" target="_blank">
                   <%= author.name %>
                 </a>
-                <a class="btn btn-primary btn-3d pull-right" href="<%= url %>/posts/<%= slug %>">
+                <a class="btn btn-primary btn-3d pull-right" href="/posts/<%= slug %>">
                   Leer m&aacute;s
                 </a>
               </div>
