@@ -3,6 +3,11 @@
     "layout": "../_layout"
   },
   "posts": {
+    "phonegap1": {
+      "title": "Introducción a Phonegap - Parte 1",
+      "author": "edsadr",
+      "date": "Junio 6, 2014"
+    },
     "introduccion-arduino-nodejs-1": {
       "title": "Introducción a Arduino y Node.js - Parte 1",
       "author": "julianduque",
