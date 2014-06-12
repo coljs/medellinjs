@@ -1,5 +1,19 @@
 {
-  "events": [],
+  "events": [
+    {
+      "id": "188614522",
+      "title": "Aplicaciones nativas via JavaScript con Titanium y frontend con YUI",
+      "description": "<p>Gracias de nuevo a todos los miembros de MedellinJS por seguirnos apoyando con su asistencia y ayudar a crecer a esta gran comunidad!</p> <p>Los invitamos a nuestra próxima reunión que se llevará a cabo en el <b>auditorio 1 del piso 0 de <a href=\"http://www.rutanmedellin.org/\">Ruta N</a> en la Calle 67 # 52 - 20</b>, desde las <b>6:30 PM del Miércoles 18 de Junio del 2014</b>. El evento finaliza a las 9:00 PM.</p> <p>La agenda del evento será la siguiente:</p> <p><b>1. Llegada de los asistentes</b></p> <p><b>2. Bienvenida</b> (Equipo <a href=\"http://twitter.com/medellinjs\">@MedellinJS</a>)</p> <p><b>3. Aplicaciones nativas via JavaScript con Titanium</b> (<a href=\"http://twitter.com/nebiros\">@nebiros</a><a href=\"http://twitter.com/CristianG540\">&lt;/a&gt;)</p> <p>Introducción a Appcelerator Titanium, un SDK quepermite crear aplicaciones móviles nativas para iOS, Android, Windows Phone, BlackBerry10, usando el lenguaje más popular para desarrollo web, JavaScript.</p> <p><br/><i>Juan Felipe Alvarez es un desarrollador con 9 años de experiencia en varios lenguajes como: JavaScript, Ruby, PHP, Java. Cuenta con amplia experiencia en  aplicaciones híbridas para dispositivos móviles en PhoneGap/Cordova y Titanium, así también en aplicaciones nativas para iOS y Android. Actualmente trabajando como Líder de Desarrollo en Multiplica Colombia S.A.S.</i></p> <p><b>4. Frontend con YUI</b> (&lt;a href=\"http://twitter.com/pipevegaaraujo\"&gt;@pipevegaaraujo</a>&lt;a href=\"http://twitter.com/thedull\"&gt;&lt;/a&gt;)</p> <p>Presentación del framework YUI, sus ventajas y desventajas en terminos de rendimiento, usabilidad, curva de aprendizaje, y comparación con otras librerias para frontend, además una pequeña demostración de como usarlo integrado con NodeJS para producir widgets dinámicamente desde el backend.</p> <p><br/><i>Felipe Vega Araujo es ingeniero de sistemas y computación con opción en computación gráfica de la Universidad de los Andes.  Tiene amplia experiencia y ha sido docente en cursos de HTML5, JS, CSS3, Action Script. En Medellín ha capacitado grupos en diferentes empresas, como Bancolombia, VideoBase, JungleBox, Eduardoño, entre otras.  Actualmente se desempeña en Livevox como Software Engineer / UI Developer.<br/></i></p>",
+      "link": "http://www.meetup.com/MedellinJS/events/188614522/",
+      "attending": 4,
+      "date": "miércoles, 18 de junio del 2014 18:30",
+      "venue": {
+        "name": "Ruta N (Auditorio)",
+        "address": "Calle 67 #52-20, Piso 0"
+      },
+      "status": "upcoming"
+    }
+  ],
   "team": [
     "julianduque",
     "edsadr",
