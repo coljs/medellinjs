@@ -3,6 +3,11 @@
     "layout": "../_layout"
   },
   "posts": {
+    "arduino-kit": {
+      "title": "Armando tu propio kit de Arduino",
+      "author": "edsadr",
+      "date": "Julio 12, 2014"
+    },
     "phonegap1": {
       "title": "Introducción a Phonegap - Parte 1",
       "author": "edsadr",
