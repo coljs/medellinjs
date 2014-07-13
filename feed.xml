@@ -9,11 +9,11 @@
         
         <item>
         <title>Armando tu propio kit de Arduino</title>
-        <description><![CDATA[<p>Esta es una guía de como armar tu propio kit de Arduino para jugar con <a href="https://github.com/rwaldron/johnny-five">Johnny-five</a> en el próximo <a href="https://ti.to/medellinjs/nodebotsday-2014-1">Nodebots day</a>.
+        <description><![CDATA[<p>Esta es una guía de como armar tu propio kit de Arduino para jugar con <a href="https://github.com/rwaldron/johnny-five">Johnny-five</a> en el próximo <a href="https://ti.to/medellinjs/NodeBotsDay-2014-1">NodeBots Day</a>.
 <!-- more --></p>
 <h2>Armando tu propio kit de Arduino sin comprar nada en el exterior</h2>
 <p>Esta guía esta destinada a todo aquel que se muere de ganas por experimentar con Arduino pero su gran problema es adquirir el kit para poder comenzar.</p>
-<p>Todos sabemos que JavaScript es sexy y también consideramos que programar hardware es cool... por lo tanto una iniciativa como <a href="http://nodebots.io/">Nodebots</a> es la bomba.</p>
+<p>Todos sabemos que JavaScript es sexy y también consideramos que programar hardware es cool... por lo tanto una iniciativa como <a href="http://NodeBots.io/">NodeBots</a> es la bomba.</p>
 <p>Luego de intentar muchas veces adquirir un kit, considerar diversas opciones, algunas costosas y muy completas, otras más económicas pero limitadas, me hice la pregunta de que tal sería armar un kit con un buen balance entre costo/posibilidades y que pudiera ser adquirido con un proveedor local.</p>
 <p>Así que, me di a la tarea de buscar por internet proveedores locales que distribuyeran Arduino y sus componentes. Sin mucha sorpresa di con uno en el centro comercial la Cascada (para quienes no están familiarizados, este centro comercial ubicado en el centro de Medellín está especializado en componentes electrónicos). El local en cuestion es <a href="http://www.didacticaselectronicas.com/">I+D Electrónica</a>, en su tienda en línea tiene una sección dedicada a Arduino.</p>
 <p>Uno de los kits que consulte y que parecia no estar tan mal fue el de Sunfounder, incluye muchos componentes pero no el Arduino, el cual se debe conseguir por aparte. Tambié incluye una guia de experimentos  que se puede conseguir en línea:</p>
@@ -156,7 +156,7 @@
 <li><a href="http://ardx.org/src/guide/2/ARDX-EG-ADAF-WEB.pdf">Experimentos de Adafruit</a> - Se pueden realizar la mayoría de estos con el kit propuesto</li>
 </ul>
 <p>Para los que no conocen, aquí hay un <a href="https://www.google.com/maps/dir/Parque+Berrio,+Esquina+Calle+49,+Carrera+50,+Medell%C3%ADn,+Antioquia,+Colombia/Centro+Comercial+la+Cascada,+Carrera+53+%23+50+51,+Medell%C3%ADn,+Antioquia,+Colombia/@6.2503943,-75.5696114,275m/data=!3m2!1e3!4b1!4m13!4m12!1m5!1m1!1s0x8e4428f8d37f5941:0xe1003a1be9d3b145!2m2!1d-75.568178!2d6.249999!1m5!1m1!1s0x8e4428fee216a24b:0x52f5043a82d8b0f7!2m2!1d-75.570381!2d6.251202">mapa de como llegar al centro comercial La Cascada</a> partiendo desde la estación del mMetro Parque de Berrio. El local es el número 205 y el teléfono es: 293 14 23.</p>
-<p>Animate a conseguir tu kit y te esperamos en nuestro próximo <a href="https://ti.to/medellinjs/nodebotsday-2014-1">Nodebots day</a>.</p>
+<p>Animate a conseguir tu kit y te esperamos en nuestro próximo <a href="https://ti.to/medellinjs/NodeBotsDay-2014-1">NodeBots Day</a>.</p>
 ]]></description>
         <pubDate>Julio 12, 2014</pubDate>
         <link>http://medellinjs.org/posts/arduino-kit</link>

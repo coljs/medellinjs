@@ -1,9 +1,9 @@
-Esta es una guía de como armar tu propio kit de Arduino para jugar con [Johnny-five](https://github.com/rwaldron/johnny-five) en el próximo [Nodebots day](https://ti.to/medellinjs/nodebotsday-2014-1).
+Esta es una guía de como armar tu propio kit de Arduino para jugar con [Johnny-five](https://github.com/rwaldron/johnny-five) en el próximo [NodeBots Day](https://ti.to/medellinjs/NodeBotsDay-2014-1).
 <!-- more -->
 ##Armando tu propio kit de Arduino sin comprar nada en el exterior
 Esta guía esta destinada a todo aquel que se muere de ganas por experimentar con Arduino pero su gran problema es adquirir el kit para poder comenzar.
 
-Todos sabemos que JavaScript es sexy y también consideramos que programar hardware es cool... por lo tanto una iniciativa como [Nodebots](http://nodebots.io/) es la bomba.
+Todos sabemos que JavaScript es sexy y también consideramos que programar hardware es cool... por lo tanto una iniciativa como [NodeBots](http://NodeBots.io/) es la bomba.
 
 Luego de intentar muchas veces adquirir un kit, considerar diversas opciones, algunas costosas y muy completas, otras más económicas pero limitadas, me hice la pregunta de que tal sería armar un kit con un buen balance entre costo/posibilidades y que pudiera ser adquirido con un proveedor local.
 
@@ -58,5 +58,5 @@ Adjunto algunas guias para realizar experimentos con el:
 
 Para los que no conocen, aquí hay un [mapa de como llegar al centro comercial La Cascada](https://www.google.com/maps/dir/Parque+Berrio,+Esquina+Calle+49,+Carrera+50,+Medell%C3%ADn,+Antioquia,+Colombia/Centro+Comercial+la+Cascada,+Carrera+53+%23+50+51,+Medell%C3%ADn,+Antioquia,+Colombia/@6.2503943,-75.5696114,275m/data=!3m2!1e3!4b1!4m13!4m12!1m5!1m1!1s0x8e4428f8d37f5941:0xe1003a1be9d3b145!2m2!1d-75.568178!2d6.249999!1m5!1m1!1s0x8e4428fee216a24b:0x52f5043a82d8b0f7!2m2!1d-75.570381!2d6.251202) partiendo desde la estación del mMetro Parque de Berrio. El local es el número 205 y el teléfono es: 293 14 23.
 
-Animate a conseguir tu kit y te esperamos en nuestro próximo [Nodebots day](https://ti.to/medellinjs/nodebotsday-2014-1).
+Animate a conseguir tu kit y te esperamos en nuestro próximo [NodeBots Day](https://ti.to/medellinjs/NodeBotsDay-2014-1).
 
