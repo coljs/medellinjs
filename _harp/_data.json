@@ -1,19 +1,6 @@
 {
   "events": [
     {
-      "id": "195317022",
-      "title": "Introducción a WebGL con Three.js para 3D y WebComponents con Polymer",
-      "description": "<p>Gracias de nuevo a todos los miembros de MedellinJS por seguirnos apoyando con su asistencia y ayudar a crecer a esta gran comunidad!</p> <p>Los invitamos a nuestra próxima reunión que se llevará a cabo en el <b>auditorio 1 del piso 0 de <a href=\"http://www.rutanmedellin.org/\">Ruta N</a> en la Calle 67 # 52 - 20</b>, desde las <b>6:30 PM del Miércoles 23 de Julio del 2014</b>. El evento finaliza a las 9:00 PM.</p> <p>La agenda del evento será la siguiente:</p> <p><b>1. Llegada de los asistentes</b></p> <p><b>2. Bienvenida</b> (Equipo <a href=\"http://twitter.com/medellinjs\">@MedellinJS</a>)</p> <p><b>3. Introducción a WebGL con Three.js para 3D</b> (<a href=\"http://twitter.com/ramirezalex_\">@ramirezalex_</a>)</p> <p>Una mirada a una de las librerías más populares para el 3D en el browser, Three.js es un motor de 3D basado en Javascript que nos permite, hacer modelado y animación 3D.</p> <p><br/><i>Alex Ramírez es desarrollador con 8 años de experiencia en diferentes tecnologías y miembro de la comunidad MedellinJS. Actualmente, hace .Net por que Johnson Controls, empresa donde trabaja, se lo pide y Javascript por diversión.</i></p> <p><br/><b>4. Networking<br/></b></p> <p><b>5. WebComponents con Polymer</b> (<a href=\"http://twitter.com/julian_duque\">@julian_duque</a>)</p> <p>Aprenderemos sobre la propuesta de WebComponentes y conoceremos una de las librerias mas populares: Polymer.</p> <p><i>Julián Duque es Desarrollador por Pasión, trabaja tiempo completo con Node.js y es uno de los organizadores de MedellinJS.</i></p>",
-      "link": "http://www.meetup.com/MedellinJS/events/195317022/",
-      "attending": 75,
-      "date": "miércoles, 23 de julio de 2014 18:30",
-      "venue": {
-        "name": "Ruta N (Auditorio)",
-        "address": "Calle 67 #52-20, Piso 0"
-      },
-      "status": "upcoming"
-    },
-    {
       "id": "194187352",
       "title": "NodeBots Day Medellín 2014",
       "description": "<p>¡Este año tendremos NodeBots Day en Medellín!</p> <p><b>Solo recibiremos registros a través del siguiente enlace, los registros realizados a través del sitio de Meetup.com no serán tenidos en cuenta.</b></p> <p>Toda la información del evento la encontrarán en:</p> <p><br/><a href=\"https://ti.to/medellinjs/nodebotsday-2014-1\" class=\"linkified\">https://ti.to/medellinjs/nodebotsday-2014-1</a></p> <p>¡Nos vemos el 26 de Julio!</p>",
@@ -23,6 +10,19 @@
       "venue": {
         "name": "AtomHouse Medellín",
         "address": "Calle 8 N 43A 49"
+      },
+      "status": "upcoming"
+    },
+    {
+      "id": "196432602",
+      "title": "NodeBots Day Medellín 2014 - Ruta N",
+      "description": "<p>Gracias a Ruta N hemos abierto otros 50 cupos para el NodeBots Day, este se celebrará el Domingo en las Instalaciones de Ruta N, con esto celebraremos todo el fin de semana haciendo Hardware Hacking y Aprendiendo montones!</p> <p><br/><b>Solo recibiremos registros a través del siguiente enlace, los registros realizados a través del sitio de Meetup.com no serán tenidos en cuenta.</b></p> <p>Toda la información del evento la encontrarán en:</p> <p><br/><a href=\"https://ti.to/medellinjs/nodebotsday-2014-2\"><a href=\"https://ti.to/medellinjs/nodebotsday-2014-2\" class=\"linkified\">https://ti.to/medellinjs/nodebotsday-2014-2</a></a></p> <p><br/>¡Nos vemos el 27 de Julio!</p>",
+      "link": "http://www.meetup.com/MedellinJS/events/196432602/",
+      "attending": 4,
+      "date": "domingo, 27 de julio de 2014 9:00",
+      "venue": {
+        "name": "Ruta N (Salas 3 y 4)",
+        "address": "Calle 67 #52-20, Piso 1"
       },
       "status": "upcoming"
     }
