@@ -1,19 +1,5 @@
 {
-  "events": [
-    {
-      "id": "196432602",
-      "title": "NodeBots Day Medellín 2014 - Ruta N",
-      "description": "<p>Gracias a Ruta N hemos abierto otros 50 cupos para el NodeBots Day, este se celebrará el Domingo en las Instalaciones de Ruta N, con esto celebraremos todo el fin de semana haciendo Hardware Hacking y Aprendiendo montones!</p> <p><br/><b>Solo recibiremos registros a través del siguiente enlace, los registros realizados a través del sitio de Meetup.com no serán tenidos en cuenta.</b></p> <p>Toda la información del evento la encontrarán en:</p> <p><br/><a href=\"https://ti.to/medellinjs/nodebotsday-2014-2\"><a href=\"https://ti.to/medellinjs/nodebotsday-2014-2\" class=\"linkified\">https://ti.to/medellinjs/nodebotsday-2014-2</a></a></p> <p><br/>¡Nos vemos el 27 de Julio!</p>",
-      "link": "http://www.meetup.com/MedellinJS/events/196432602/",
-      "attending": 4,
-      "date": "domingo, 27 de julio del 2014 9:00",
-      "venue": {
-        "name": "Ruta N (Salas 3 y 4)",
-        "address": "Calle 67 #52-20, Piso 1"
-      },
-      "status": "upcoming"
-    }
-  ],
+  "events": [],
   "team": [
     "julianduque",
     "edsadr",
