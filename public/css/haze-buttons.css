@@ -1,0 +1,354 @@
+/* ================================ */
+/* ========== BUTTON STYLES ========== */
+/* ================================ */
+.btn,a.btn,a.btn:link,a.btn:visited {
+font-family:'Open Sans', sans-serif;
+padding:10px 24px;
+border:none;
+outline:0;
+font-weight:700;
+border-radius:3px;
+font-size:14px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+margin-bottom:8px;
+margin-right:2px;
+margin-left:2px;
+-webkit-transition:all .15s ease-in-out;
+-moz-transition:all .15s ease-in-out;
+-o-transition:all .15s ease-in-out;
+transition:all .15s ease-in-out;
+color:#FFF;
+}
+
+.btn:hover,.btn:active,.btn:focus,a.btn:hover,a.btn:active,a.btn:focus {
+outline:0;
+color:#FFF;
+}
+
+.btn-lg {
+padding:12px 24px;
+font-size:18px;
+line-height:1.33;
+}
+
+.btn-sm {
+padding:8px 24px;
+font-size:13px;
+line-height:1.5;
+}
+
+.btn-xs {
+padding:5px 24px;
+font-size:12px;
+line-height:1.5;
+}
+/* ================================ */
+/* 3D BUTTONS -  DEFAULT */
+/* ================================ */
+.btn-3d,a.btn-3d,a.btn-3d:link,a.btn-3d:visited {
+-webkit-box-shadow:inset 0 -4px 0 0 rgba(0,0,0,0.2);
+-moz-box-shadow:inset 0 -4px 0 0 rgba(0,0,0,0.2);
+box-shadow:inset 0 -4px 0 0 rgba(0,0,0,0.2);
+position:relative;
+padding:10px 24px 12px;
+margin-top:0;
+}
+
+.btn-3d.is-active,.btn-3d:active,.btn-3d.is-disabled,.btn-3d[disabled],a.btn-3d.is-active,a.btn-3d:active,a.btn-3d.is-disabled,a.btn-3d[disabled] {
+-webkit-box-shadow:inset 0 -2px 0 0 rgba(0,0,0,0.2);
+-moz-box-shadow:inset 0 -2px 0 0 rgba(0,0,0,0.2);
+box-shadow:inset 0 -2px 0 0 rgba(0,0,0,0.2);
+padding:10px 24px;
+margin-top:2px;
+}
+/* ================================ */
+/* 3D BUTTONS -  EXTRA SMALL */
+/* ================================ */
+.btn-3d.btn-xs,a.btn-3d.btn-xs,a.btn-3d.btn-xs:link,a.btn-3d.btn-xs:visited {
+-webkit-box-shadow:inset 0 -4px 0 0 rgba(0,0,0,0.2);
+-moz-box-shadow:inset 0 -4px 0 0 rgba(0,0,0,0.2);
+box-shadow:inset 0 -4px 0 0 rgba(0,0,0,0.2);
+position:relative;
+padding:5px 24px 7px;
+margin-top:0;
+}
+
+.btn-3d.btn-xs.is-active,.btn-3d.btn-xs:active,.btn-3d.btn-xs.is-disabled,.btn-3d.btn-xs[disabled],a.btn-3d.btn-xs.is-active,a.btn-3d.btn-xs:active,a.btn-3d.btn-xs.is-disabled,a.btn-3d.btn-xs[disabled] {
+-webkit-box-shadow:inset 0 -2px 0 0 rgba(0,0,0,0.2);
+-moz-box-shadow:inset 0 -2px 0 0 rgba(0,0,0,0.2);
+box-shadow:inset 0 -2px 0 0 rgba(0,0,0,0.2);
+padding:5px 24px;
+margin-top:2px;
+}
+/* ================================ */
+/* 3D BUTTONS -  SMALL */
+/* ================================ */
+.btn-3d.btn-sm,a.btn-3d.btn-sm,a.btn-3d.btn-sm:link,a.btn-3d.btn-sm:visited {
+-webkit-box-shadow:inset 0 -4px 0 0 rgba(0,0,0,0.2);
+-moz-box-shadow:inset 0 -4px 0 0 rgba(0,0,0,0.2);
+box-shadow:inset 0 -4px 0 0 rgba(0,0,0,0.2);
+position:relative;
+padding:8px 24px 10px;
+margin-top:0;
+}
+
+.btn-3d.btn-sm.is-active,.btn-3d.btn-sm:active,.btn-3d.btn-sm.is-disabled,.btn-3d.btn-sm[disabled],a.btn-3d.btn-sm.is-active,a.btn-3d.btn-sm:active,a.btn-3d.btn-sm.is-disabled,a.btn-3d.btn-sm[disabled] {
+-webkit-box-shadow:inset 0 -2px 0 0 rgba(0,0,0,0.2);
+-moz-box-shadow:inset 0 -2px 0 0 rgba(0,0,0,0.2);
+box-shadow:inset 0 -2px 0 0 rgba(0,0,0,0.2);
+padding:8px 24px;
+margin-top:2px;
+}
+/* ================================ */
+/* 3D BUTTONS - LARGE */
+/* ================================ */
+.btn-3d.btn-lg,a.btn-3d.btn-lg,a.btn-3d.btn-lg:link,a.btn-3d.btn-lg:visited {
+-webkit-box-shadow:inset 0 -4px 0 0 rgba(0,0,0,0.2);
+-moz-box-shadow:inset 0 -4px 0 0 rgba(0,0,0,0.2);
+box-shadow:inset 0 -4px 0 0 rgba(0,0,0,0.2);
+position:relative;
+padding:12px 24px 14px;
+margin-top:0;
+}
+
+.btn-3d.btn-lg.is-active,.btn-3d.btn-lg:active,.btn-3d.btn-lg.is-disabled,.btn-3d.btn-lg[disabled],a.btn-3d.btn-lg.is-active,a.btn-3d.btn-lg:active,a.btn-3d.btn-lg.is-disabled,a.btn-3d.btn-lg[disabled] {
+-webkit-box-shadow:inset 0 -2px 0 0 rgba(0,0,0,0.2);
+-moz-box-shadow:inset 0 -2px 0 0 rgba(0,0,0,0.2);
+box-shadow:inset 0 -2px 0 0 rgba(0,0,0,0.2);
+padding:12px 24px;
+margin-top:2px;
+}
+/* ================================ */
+/* BUTTON COLORS */
+/* ================================ */
+.btn-default,a.btn-default:link,a.btn-default:visited {
+background-color:#454545;
+color:#FFF;
+}
+
+.btn-default:hover,.btn-default:focus,.btn-default:active,.btn-default.active,.open .dropdown-toggle.btn-default {
+background-color:#353535;
+color:#FFF;
+}
+/* ================================ */
+/* PRIMARY BUTTON COLOR SETTINGS */
+/* ================================ */
+.btn-primary {
+background-color:#119bd2;
+}
+
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.open .dropdown-toggle.btn-primary {
+background-color:#119bd2;
+}
+/* ================================ */
+/* SECONDARY BUTTON COLOR SETTINGS */
+/* ================================ */
+.btn-secondary {
+background-color:#F8DC32;
+}
+
+.btn-secondary:hover,.btn-secondary:focus,.btn-secondary:active,.btn-secondary.active,.open .dropdown-toggle.btn-secondary {
+background-color:#F8DC32;
+}
+/* ================================ */
+/* PRIMARY DARK BUTTON COLOR SETTINGS */
+/* ================================ */
+.btn-primary-dark {
+background-color:#2f3640;
+}
+
+.btn-primary-dark:hover,.btn-primary-dark:focus,.btn-primary-dark:active,.btn-primary-dark.active,.open .dropdown-toggle.btn-primary-dark {
+background-color:#2f3640;
+}
+/* ================================ */
+/* SECONDARY DARK BUTTON COLOR SETTINGS */
+/* ================================ */
+.btn-secondary-dark {
+background-color:#373d49;
+}
+
+.btn-secondary-dark:hover,.btn-secondary-dark:focus,.btn-secondary-dark:active,.btn-secondary-dark.active,.open .dropdown-toggle.btn-secondary-dark {
+background-color:#373d49;
+}
+/* ================================ */
+/* FOR BUTTON ICONS */
+/* ================================ */
+.btn i,a.btn i {
+margin-right:4px;
+margin-left:4px;
+}
+/* ================================ */
+/* MAKES BUTTONS ROUNDED */
+/* ================================ */
+.btn-round,a.btn-round,a.btn-round:link,a.btn-round:visited {
+border-radius:100px;
+}
+/* ================================ */
+/* FOR OUTLINED BUTTONS */
+/* ================================ */
+.btn-outline,a.btn-outline:link,a.btn-outline:visited {
+border:2px solid #FFF;
+background-color:rgba(255,255,255,0.3);
+color:#FFF;
+}
+
+.btn-outline:hover,.btn-outline:active,.btn-outline:focus {
+background-color:rgba(255,255,255,0);
+color:#FFF;
+}
+
+.btn-primary.btn-outline,a.btn-primary.btn-outline:link,a.btn-primary.btn-outline:visited {
+border:2px solid #119bd2;
+background-color:rgba(255,255,255,0);
+color:#119bd2;
+font-weight:600;
+}
+
+.btn-primary.btn-outline:hover,.btn-primary.btn-outline:active,.btn-primary.btn-outline:focus,a.btn-primary.btn-outline:hover,a.btn-primary.btn-outline:active,a.btn-primary.btn-outline:focus {
+border:2px solid #119bd2;
+color:#FFF;
+background-color:#119bd2;
+}
+
+.btn-secondary.btn-outline,a.btn-secondary.btn-outline:link,a.btn-secondary.btn-outline:visited {
+border:2px solid #F8DC32;
+background-color:rgba(255,255,255,0);
+color:#F8DC32;
+font-weight:600;
+}
+
+.btn-secondary.btn-outline:hover,.btn-secondary.btn-outline:active,.btn-secondary.btn-outline:focus,a.btn-secondary.btn-outline:hover,a.btn-secondary.btn-outline:active,a.btn-secondary.btn-outline:focus {
+border:2px solid #F8DC32;
+color:#FFF;
+background-color:#F8DC32;
+}
+
+.btn-primary-dark.btn-outline,a.btn-primary-dark.btn-outline:link,a.btn-primary-dark.btn-outline:visited {
+border:2px solid #2f3640;
+background-color:rgba(255,255,255,0);
+color:#2f3640;
+font-weight:600;
+}
+
+.btn-primary-dark.btn-outline:hover,.btn-primary-dark.btn-outline:active,.btn-primary-dark.btn-outline:focus,a.btn-primary-dark.btn-outline:hover,a.btn-primary-dark.btn-outline:active,a.btn-primary-dark.btn-outline:focus {
+border:2px solid #2f3640;
+color:#FFF;
+background-color:#2f3640;
+}
+
+.btn-secondary-dark.btn-outline,a.btn-secondary-dark.btn-outline:link,a.btn-secondary-dark.btn-outline:visited {
+border:2px solid #373d49;
+background-color:rgba(255,255,255,0);
+color:#373d49;
+font-weight:600;
+}
+
+.btn-secondary-dark.btn-outline:hover,.btn-secondary-dark.btn-outline:active,.btn-secondary-dark.btn-outline:focus,a.btn-secondary-dark.btn-outline:hover,a.btn-secondary-dark.btn-outline:active,a.btn-secondary-dark.btn-outline:focus {
+border:2px solid #373d49;
+color:#FFF;
+background-color:#373d49;
+}
+
+.btn-success.btn-outline,a.btn-success.btn-outline:link,a.btn-success.btn-outline:visited {
+border:2px solid #5cb85c;
+background-color:rgba(255,255,255,0);
+color:#5cb85c;
+font-weight:600;
+}
+
+.btn-success.btn-outline:hover,.btn-success.btn-outline:active,.btn-success.btn-outline:focus,a.btn-success.btn-outline:hover,a.btn-success.btn-outline:active,a.btn-success.btn-outline:focus {
+border:2px solid #5cb85c;
+color:#FFF;
+background-color:#5cb85c;
+}
+
+.btn-danger.btn-outline,a.btn-danger.btn-outline:link,a.btn-danger.btn-outline:visited {
+border:2px solid #d9534f;
+background-color:rgba(255,255,255,0);
+color:#d9534f;
+font-weight:600;
+}
+
+.btn-danger.btn-outline:hover,.btn-danger.btn-outline:active,.btn-danger.btn-outline:focus,a.btn-danger.btn-outline:hover,a.btn-danger.btn-outline:active,a.btn-danger.btn-outline:focus {
+border:2px solid #d9534f;
+color:#FFF;
+background-color:#d9534f;
+}
+
+.btn-default.btn-outline,a.btn-default.btn-outline:link,a.btn-default.btn-outline:visited {
+border:2px solid #656565;
+background-color:rgba(255,255,255,0);
+color:#656565;
+font-weight:600;
+}
+
+.btn-default.btn-outline:hover,.btn-default.btn-outline:active,.btn-default.btn-outline:focus,a.btn-default.btn-outline:hover,a.btn-default.btn-outline:active,a.btn-default.btn-outline:focus {
+border:2px solid #656565;
+color:#FFF;
+background-color:#656565;
+}
+
+.btn-warning.btn-outline,a.btn-warning.btn-outline:link,a.btn-warning.btn-outline:visited {
+border:2px solid #f0ad4e;
+background-color:rgba(255,255,255,0);
+color:#f0ad4e;
+font-weight:600;
+}
+
+.btn-warning.btn-outline:hover,.btn-warning.btn-outline:active,.btn-warning.btn-outline:focus,a.btn-warning.btn-outline:hover,a.btn-warning.btn-outline:active,a.btn-warning.btn-outline:focus {
+border:2px solid #f0ad4e;
+color:#FFF;
+background-color:#f0ad4e;
+}
+
+.btn-white.btn-outline,a.btn-white.btn-outline:link,a.btn-white.btn-outline:visited {
+border:2px solid #FFF;
+background-color:rgba(255,255,255,0);
+color:#FFF;
+font-weight:600;
+}
+
+.btn-white.btn-outline:hover,.btn-white.btn-outline:active,.btn-white.btn-outline:focus,a.btn-white.btn-outline:hover,a.btn-white.btn-outline:active,a.btn-white.btn-outline:focus {
+border:2px solid #FFF;
+color:#00a8c1;
+background-color:#FFF;
+}
+/* ================================ */
+/* FULLWIDTH BUTTON SETTINGS */
+/* ================================ */
+.btn-fullwidth,a.btn-fullwidth:link,a.btn-fullwidth:visited {
+width:100%;
+border-radius:0;
+margin:0;
+padding-top:50px;
+padding-bottom:50px;
+font-size:36px;
+line-height: 1;
+letter-spacing:-1px;
+}
+
+.btn-3d.btn-fullwidth,a.btn-3d.btn-fullwidth:link,a.btn-3d.btn-fullwidth:visited {
+-webkit-box-shadow:inset 0 -5px 0 0 rgba(0,0,0,0.2);
+-moz-box-shadow:inset 0 -5px 0 0 rgba(0,0,0,0.2);
+box-shadow:inset 0 -5px 0 0 rgba(0,0,0,0.2);
+position:relative;
+padding-top:0;
+padding-bottom:3px;
+}
+
+.btn-3d.btn-fullwidth.is-active,.btn-3d.btn-fullwidth:active,.btn-3d.btn-fullwidth.is-disabled,.btn-3d.btn-fullwidth[disabled] {
+-webkit-box-shadow:inset 0 -2px 0 0 rgba(0,0,0,0.2);
+-moz-box-shadow:inset 0 -2px 0 0 rgba(0,0,0,0.2);
+box-shadow:inset 0 -2px 0 0 rgba(0,0,0,0.2);
+margin-top:3px;
+padding-bottom:0;
+}
+
+.btn-fullwidth i,a.btn-fullwidth i,.btn-fullwidth:link i,a.btn-fullwidth:active i    {
+font-size:60px;
+position:absolute;
+top:0;
+margin-left:20px;
+margin-right:20px;
+}
