@@ -21,7 +21,8 @@ app.get('/events.json', function (req, res) {
 });
 
 // Update site
-app.get('/update', function (req, res) {
+app.post('/update', function (req, res) {
+  console.log(req.params);
   exec('git pull', function (err, stdout, stderr) {
     if (err) return;
 
