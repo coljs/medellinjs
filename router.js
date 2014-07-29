@@ -6,7 +6,6 @@ var express = require('express'),
 mount('/',       path.join(__dirname, 'public'));
 mount('/posts/', path.join(__dirname, 'public', 'posts'));
 
-
 //
 // Mount static files without `html` extension
 //
