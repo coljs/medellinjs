@@ -6,8 +6,10 @@ Site powered by [Harp](http://harpjs.com)
 
 1. Create a markdown file on `_harp/posts/`
 2. Add meta to `_harp/posts/_data.json`
-3. Compile the site by running `npm run build`
-4. Publish to github on `master` branch
+3. Run the livereload server with `npm run dev`
+4. Visit [http://localhost:9000](http://localhost:9000) to open a preview site
+5. When done, compile the site by running `npm run build`
+6. Publish it to github on `master` branch
 
 ## The MIT License (MIT)
 

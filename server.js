@@ -31,3 +31,4 @@ app.post('/update', function (req, res) {
 });
 
 app.listen(8080);
+console.log("MedellinJS started");
