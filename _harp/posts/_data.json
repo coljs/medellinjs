@@ -3,6 +3,11 @@
     "layout": "../_layout"
   },
   "posts": {
+    "introduccion-arduino-nodejs-2": {
+      "title": "Introducción a Arduino y Node.js - HTTP - Parte 2",
+      "author": "julianduque",
+      "date": "Agosto, 7, 2014"
+    },
     "arduino-kit": {
       "title": "Armando tu propio kit de Arduino",
       "author": "edsadr",
@@ -14,7 +19,7 @@
       "date": "Junio 6, 2014"
     },
     "introduccion-arduino-nodejs-1": {
-      "title": "Introducción a Arduino y Node.js - Parte 1",
+      "title": "Introducción a Arduino y Node.js - Serial - Parte 1",
       "author": "julianduque",
       "date": "Abril 19, 2014"
     },

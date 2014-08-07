@@ -168,7 +168,7 @@ $ node app.js
 
 En los próximos artículos de la serie explicaremos como conectar nuestro Arduino a un servidor [Node.js][nodejs] utilizando HTTP, WebSockets, Mensajes PubSub con MQTT y por último programaremos el Arduino directamente con [Node.js][nodejs] utilizando el framework [Johnny-Five][johnny-five].
 
-#### Introducción a Arduino y Node.js - HTTP - Parte 2 (Próximamente)
+#### [Introducción a Arduino y Node.js - HTTP - Parte 2](http://medellinjs.org/posts/introduccion-arduino-nodejs-2)
 #### Introducción a Arduino y Node.js - WebSockets - Parte 3 (Próximamente)
 #### Introducción a Arduino y Node.js - MQTT - Parte 4 (Próximamente)
 #### Introducción a Arduino y Node.js - Johnny Five - Parte 5 (Próximamente)
