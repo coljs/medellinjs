@@ -16,13 +16,17 @@ app.use(router);
 // Fetch Events
 app.get('/events.json', function (req, res) {
   events(function (err, data) {
+    if (err) {
+      return res.status(500).send(err.message);
+    }
+
     res.send(data);
   });
 });
 
 // Update site
 app.post('/update', function (req, res) {
-  exec('git pull', function (err, stdout, stderr) {
+  exec('git pull && grunt build', function (err, stdout, stderr) {
     if (err) return;
 
     console.log(stdout);
