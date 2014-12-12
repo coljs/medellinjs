@@ -1,9 +1,11 @@
- var qs      = require('querystring'),
-     path    = require('path'),
-     util    = require('util'),
-     request = require('request'),
-     moment  = require('moment'),
-     config  = require('./config.json');
+'use strict';
+
+var qs      = require('querystring'),
+    path    = require('path'),
+    util    = require('util'),
+    request = require('request'),
+    moment  = require('moment'),
+    config  = require('./config.json');
 
 module.exports = function (callback) {
   var url = 'https://api.meetup.com/2/events?';
@@ -17,16 +19,13 @@ module.exports = function (callback) {
   moment.lang("es");
   url += qs.stringify(params);
 
-  var events = [];
   request(url, function (err, res, body) {
     if (err) return callback(err);
 
     var meetupEvents = JSON.parse(body).results;
     var cols = 12 / meetupEvents.length;
-    for(var i = 0; i < meetupEvents.length; i++) {
-      var e = meetupEvents[i];
-
-      var event = {
+    var events = meetupEvents.map(function (e) {
+       var event = {
         id: e.id,
         cols: cols - 1,
         title: e.name,
@@ -41,9 +40,9 @@ module.exports = function (callback) {
         status: e.status
       };
 
-      events.push(event);
-    }
+      return event;
+    });
 
     callback(null, events);
   });
-}
+};
