@@ -1102,8 +1102,8 @@ cursor:pointer;
 }
 
 .social-icons i:hover {
-border-color:#F8DC32;
-color:#F8DC32;
+border-color:#119BD2;
+color:#119BD2;
 }
 
 /* ============================================================ */
@@ -1501,7 +1501,7 @@ transition:background-color .25s;
 }
 
 #sidebar a.tag:hover {
-background-color:#F8DC32;
+background-color:#119BD2;
 }
 
 /* =================================  */
@@ -1937,8 +1937,8 @@ cursor:pointer;
 }
 
 .footer i:hover {
-border-color:#F8DC32;
-color:#F8DC32;
+border-color:#119BD2;
+color:#119BD2;
 }
 
 .footer-bottom {
@@ -2032,7 +2032,7 @@ height:auto;
 blockquote {
 padding:15px 20px;
 margin:20px 0;
-border-left:4px solid #F8DC32;
+border-left:4px solid #119BD2;
 background-color:#F5F5F5;
 border-top-right-radius:3px;
 border-bottom-right-radius:3px;
@@ -2062,7 +2062,7 @@ outline:0;
 }
 
 a:active,a:hover {
-color:#F8DC32;
+color:#119BD2;
 -webkit-transition:color .25s;
 -moz-transition:color .25s;
 -o-transition:color .25s;
@@ -2140,11 +2140,11 @@ background-color:#119bd2!important;
 }
 
 .color-secondary {
-color:#F8DC32!important;
+color:#119BD2!important;
 }
 
 .bg-secondary {
-background-color:#F8DC32!important;
+background-color:#119BD2!important;
 }
 
 .color-primary-dark {
@@ -2378,7 +2378,7 @@ font-weight:700;
 }
 
 .blog-wrapper .read-more:hover {
-color:#F8DC32;
+color:#119BD2;
 }
 
 .blog-info {
@@ -2403,7 +2403,7 @@ margin-left:0;
 }
 
 .blog-info .likes {
-color:#F8DC32;
+color:#119BD2;
 float:right;
 }
 
@@ -2597,7 +2597,7 @@ margin-left:0;
 }
 
 .likes {
-color:#F8DC32;
+color:#119BD2;
 }
 
 .img-wrapper {
@@ -3066,8 +3066,8 @@ cursor:pointer;
 }
 
 .social-icons i:hover {
-border-color:#F8DC32;
-color:#F8DC32;
+border-color:#119BD2;
+color:#119BD2;
 }
 
 /* ============================================================ */
@@ -3925,4 +3925,21 @@ color:#119bd2;
 margin-top:7px;
 margin-bottom:7px;
 margin-right:15px;
+}
+
+.slide-container{
+	text-align: center;
+}
+
+.slide-container img{
+	max-width: 100%;
+}
+
+.slide-container h4{
+	display: block;
+	background: #fff;
+	border: 1px solid #ccc;
+	text-align: center;
+	min-height: 190px;
+	padding: 50px 5px 20px;
 }

@@ -7,5 +7,143 @@
   ],
   "feed": {
     "layout": false
-  }
+  },
+  "heroes":{
+		"julianduque": {
+	      "name": "Julián Duque",      
+	      "twitter": "julian_duque",
+	      "github": "julianduque",
+	      "avatar": "https://secure.gravatar.com/avatar/c2d1139b787a469e13229070d6be918c.png?size=200",
+	      "slides": [ 
+	      	{
+	      		"title": "Como no ser un patán",	      		
+	      		"url": "http://slides.com/julianduque/no-ser-un-patan",
+	      		"thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/6f0ecf/no-ser-un-patan.jpg"
+	      	},
+	      	{
+	      		"title": "Node.js beyond the web",	      		
+	      		"url": "http://slides.com/julianduque/nodejs-beyond-web",
+	      		"thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/b92ce5/nodejs-iot.jpg"
+	      	},
+	      	{
+	      		"title": "WebSockets the right way",	      		
+	      		"url": "http://slides.com/julianduque/websockets-the-right-way",
+	      		"thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/13ff89/websockets-the-right-way.jpg"
+	      	},
+	      	{
+	      		"title": "async javascript",	      		
+	      		"url": "http://slides.com/julianduque/async-javascript",
+	      		"thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/beeb52/async-javascript.jpg"
+	      	}
+	      ]
+	    },
+	    "edsadr": {
+	      "name": "Adrián Estrada",      
+	      "twitter": "edsadr",
+	      "github": "edsadr",
+	      "avatar": "https://secure.gravatar.com/userimage/28946174/8747a95cd541d80ffa63929a4856637d.jpg?size=200",
+	      "slides": [
+	      	{
+	      		"title": "phonegap y jquery mobile",	      		
+	      		"url": "http://slides.com/edsadr/phonegap-y-jquery-mobile",
+	      		"thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/f88ae4/phonegap-y-jquery-mobile.jpg"
+	      	},
+	      	{
+	      		"title": "aplicaciones en tiempo real con meteor",	      		
+	      		"url": "http://slides.com/edsadr/aplicaciones-en-tiempo-real-con-meteor",
+	      		"thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/83ecd5/aplicaciones-en-tiempo-real-con-meteor.jpg"
+	      	},
+	      	{
+	      		"title": "AngularJS y Ember.js - MVC framworks en el lado del cliente",	      		
+	      		"url": "http://slides.com/edsadr/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente",
+	      		"thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/2b1815/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente.jpg"
+	      	},
+	      	{
+	      		"title": "Yeoman - Flujos de trabajo modernos",	      		
+	      		"url": "http://slides.com/edsadr/yeoman",
+	      		"thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/fc1435/yeoman.jpg"
+	      	}
+	      ]
+	    },   
+	    "ramirezalex": {
+	      "name": "Alex Ramírez",      
+	      "twitter": "RamirezAlex_",
+	      "github": "RamirezAlex",
+	      "avatar": "https://secure.gravatar.com/avatar/e8279b670ce5a7f7b0bd938fc36f1af4.png?size=200",
+	      "slides": [      	
+	      	{
+	      		"title": "Introduction to WebGl with three.js for 3d graphics",	      		
+	      		"url": "http://slides.com/alexramirez/introduction-to-webgl-with-three-js-for-3d-graphics",
+	      		"thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/alexramirez/041317/introduction-to-webgl-with-three-js-for-3d-graphics.jpg"
+	      	},
+	      	{
+	      		"title": "Seven Databases in Node.js",	      		
+	      		"url": "http://slides.com/julianduque/seven-databases",
+	      		"thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/8aa0f8/seven-databases.jpg"
+	      	}
+	      ]      
+	    },
+	     "codemaxter": {
+	      "name": "Alvaro Agámez",      
+	      "twitter": "CodeMaxter",
+	      "github": "CodeMaxter",
+	      "avatar": "https://secure.gravatar.com/avatar/2bb905c4128af50f2fde8fe1dc37f931.png?size=200",
+	      "slides": [      	
+	      	{
+	      		"title": "AngularJS y Ember.js - MVC framworks en el lado del cliente",	      		
+	      		"url": "http://slides.com/edsadr/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente",
+	      		"thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/2b1815/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente.jpg"	      		
+	      	},
+	      	{
+	      		"title": "Make me Hapi",	      		
+	      		"url": "http://slides.com/alvaroagamez/make-me-hapi",
+	      		"thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/alvaroagamez/9b2b1d/make-me-hapi.jpg"
+	      	}
+	      ]
+	    },
+	    "angelfire": {
+	      "name": "Andrés Bedoya",      
+	      "twitter": "Angel_fire",
+	      "github": "angelfire",
+	      "avatar": "http://www.gravatar.com/avatar/a582b7dcbe7cca697bf0384ba09402f7.jpg?s=200",
+	      "slides": [      	
+	      	{
+	      		"title": "Javascript Design Patterns",	      		
+	      		"url": "https://slides.com/angelfire/javascriptdp",
+	      		"thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/angelfire/9d0236/javascriptdp.jpg"	      		
+	      	},
+	      	{
+	      		"title": "Grunt vs Gulp",	      		
+	      		"url": "https://slides.com/angelfire/grunt-vs-gulp",
+	      		"thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/angelfire/eb09cf/grunt-vs-gulp.jpg"	      		
+	      	}
+	      ]
+	    },
+	     "alexav": {
+	      "name": "Alexandra Vargas",      
+	      "twitter": "alexav",
+	      "github": "axelavargas",
+	      "avatar": "http://www.gravatar.com/avatar/e322c4c78b001b013477ef504c1507b3.jpg?s=200",
+	      "slides": [      	
+	      	{
+	      		"title": "Mis primeros pasos con JavaScript",	      		
+	      		"url": "http://slides.com/axelav/mis-primeros-pasos-con-javascript",
+	      		"thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/axelav/45f93d/deck.jpg"
+	      	}
+	      ]      
+	    },
+	    "asgarothbelem": {
+	      "name": "Alex Urbano",      
+	      "twitter": "asgarothbelem",
+	      "github": "Asgaroth",
+	      "avatar": "http://www.gravatar.com/avatar/3be17c5e8d2e77b74ed5643d7ff728aa.jpg?s=200",
+	      "slides": [      	
+	      	{
+	      		"title": "Grunt.js",	      		
+	      		"url": "http://slides.com/asgaroth/gruntjs",
+	      		"thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/asgaroth/82f9ae/gruntjs.jpg"
+	      	}
+	      ]      
+	    }
+	}
 }
