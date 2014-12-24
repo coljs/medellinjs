@@ -154,7 +154,20 @@
         {
           "title": "Introducción a Ractive.js",
           "url": "http://slides.com/johannpaulechavarriazapata/introduccion-a-ractive-js#/",
-          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/uploads/johannpaulechavarriazapata/images/359418/ractive.png"  
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/johannpaulechavarriazapata/3720a0/introduccion-a-ractive-js.jpg"  
+        }
+      ]
+    },
+    "academo": {
+      "name": "Esteban Beltran",
+      "twitter": "@academo",
+      "github": "academo",
+      "avatar": "http://www.gravatar.com/avatar/7e4e7591a5999d652b5f1f52b89bc4c7.jpg?s=200",
+      "slides": [
+        {
+          "title": "Mocha unit testing",
+          "url": "http://slides.com/estebanbeltran/mocha",
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/estebanbeltran/32c79a/mocha.jpg"  
         }
       ]
     }
