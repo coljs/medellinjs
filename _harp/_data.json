@@ -157,6 +157,19 @@
           "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/uploads/johannpaulechavarriazapata/images/359418/ractive.png"  
         }
       ]
-    }
+    },
+    "jdaison": {
+      "name": "John Agudelo",
+      "twitter": "@os_group",
+      "github": "jdaison",
+      "avatar": "https://s.gravatar.com/avatar/73c8e61bb92a5d625c2773ead47af4f0?s=200",
+      "slides": [
+        {
+          "title": "apps móviles en HTML5 con soporte offline",
+          "url": "http://slides.com/jdaison/html_offline#/",
+          "thumbnail": "http://i.imgur.com/fgVpwT0.png?1"  
+        }
+      ]
+    }    
   }
 }
