@@ -21,9 +21,9 @@
             <strong class="color-primary">Charlas impartidas por los heroes de la comunidad</strong>
           </h1>
           <p>
-            En este espacio encontraras una recopilación de nuestros speakers y sus respectivas charlas, animate tu también a participar y a figurar en esta sección, nuestra comunidad necesita más heroes, envianos tu propuesta llenando <a href="/charla">este formulario</a>
+            En este espacio encontraras una recopilación de nuestros speakers y sus respectivas charlas, anímate tu también a participar y a figurar en esta sección, nuestra comunidad necesita más heroes, envíanos tu propuesta llenando <a href="/charla">este formulario.</a>
           </p>
-          <p>&nbsp;</p>          
+          <p>&nbsp;</p>
         </div>
       </div> 
       <div class="row">
@@ -54,23 +54,23 @@
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9"> 
                     <div class="row">
-                      <% for(var slide in hero.slides) {  %>                        
+                      <% for(var slide in hero.slides) {  %>
                         <div class="slide col-xs-12 col-sm-12 col-md-6 col-lg-3 slide-container">                          
                           <% if(hero.slides[slide].thumbnail !== undefined && hero.slides[slide].thumbnail !==''){%>
                           <a href="<%= hero.slides[slide].url%>" target="_blank"><img src="<%= hero.slides[slide].thumbnail%>" alt="<%= hero.slides[slide].title%>" /></a>
                           <% }else{%>
                             <h4><a href="<%= hero.slides[slide].url%>" target="_blank"><%= hero.slides[slide].title%></a></h4>                          
                           <% } %>
-                        </div>                        
-                      <% } %>      
-                    </div>            
+                        </div>
+                      <% } %>
+                    </div>
                   </div>
-                </div>                
+                </div>
               </div>
             <% } %>
           </div>
         </div>
-      </div>     
+      </div>
     </div>
   </div>
 </section>
