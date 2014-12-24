@@ -1,0 +1,76 @@
+<section>
+  <div class="parallax" data-stellar-background-ratio="0.3" data-stellar-vertical-offset="0" style="background-image: url(img/banner-2.jpg); height: 300px">
+    <div class="img-overlay1"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="pull-right" style="margin-top: 90px; z-index: 20">
+         
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="speakers">
+  <div class="fullwidth-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="weight-300 " style="margin-bottom: 30px">
+            <strong class="color-primary">Charlas impartidas por los heroes de la comunidad</strong>
+          </h1>
+          <p>
+            En este espacio encontraras una recopilación de nuestros speakers y sus respectivas charlas, anímate tu también a participar y a figurar en esta sección, nuestra comunidad necesita más heroes, envíanos tu propuesta llenando <a href="/charla">este formulario.</a>
+          </p>
+          <p>&nbsp;</p>
+        </div>
+      </div> 
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="row">
+            <% var animateclass= 'slide-in-from-right'; %>
+            <% var k= 0; %> 
+            <% var heroes = public._data.heroes; %>
+            <% for(var slug in heroes) {  %>
+              <% var hero = heroes[slug]; %>
+              <% k++; %>              
+              <% if(animateclass=='slide-in-from-right'){
+                  animateclass='slide-in-from-left';
+              } 
+              else{
+                 animateclass="slide-in-from-right";
+              } 
+              %>
+               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 blog-wrapper cre-animate" data-animation="<%= animateclass %>" data-delay="0" data-easing="easeInOutBack" data-offset="80%" data-speed="1000">              
+                <h2><%= hero.name %></h2>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3" style="text-align:center;">
+                    <img src="<%= hero.avatar %>" alt="<%= hero.name %>" class="img-circle" style="max-width:90%;" />
+                     <div class="social-icons">
+                      <a target="_blank" href="https://github.com/<%= hero.github %>"><i class="im-github"></i></a>   
+                      <a target="_blank" href="https://twitter.com/<%= hero.twitter %>"><i class="im-twitter"></i></a>   
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9"> 
+                    <div class="row">
+                      <% for(var slide in hero.slides) {  %>
+                        <div class="slide col-xs-12 col-sm-12 col-md-6 col-lg-3 slide-container">                          
+                          <% if(hero.slides[slide].thumbnail !== undefined && hero.slides[slide].thumbnail !==''){%>
+                          <a href="<%= hero.slides[slide].url%>" target="_blank"><img src="<%= hero.slides[slide].thumbnail%>" alt="<%= hero.slides[slide].title%>" /></a>
+                          <% }else{%>
+                            <h4><a href="<%= hero.slides[slide].url%>" target="_blank"><%= hero.slides[slide].title%></a></h4>                          
+                          <% } %>
+                        </div>
+                      <% } %>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <% } %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
