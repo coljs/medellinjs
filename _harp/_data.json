@@ -183,6 +183,19 @@
           "thumbnail": "http://i.imgur.com/fgVpwT0.png?1"  
         }
       ]
+    },
+    "iosamuel": {
+      "name": "Samuel Burbano",      
+      "twitter": "@iosamuel",
+      "github": "iosamuel",
+      "avatar": "https://pbs.twimg.com/profile_images/464975953962082305/9IZmC0It.jpeg",
+      "slides": [       
+        {
+          "title": "Javascript en HTML5",           
+          "url": "http://slides.com/iosamuel/js-html5#/",
+          "thumbnail": "http://www.w3devcampus.com/wp-content/uploads/logoAndOther/logo_JavaScript.png"  
+        }
+      ]      
     }    
   }
 }
