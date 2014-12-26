@@ -54,12 +54,16 @@
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9"> 
                     <div class="row">
-                      <% for(var slide in hero.slides) {  %>
-                        <div class="slide col-xs-12 col-sm-12 col-md-6 col-lg-3 slide-container">                          
-                          <% if(hero.slides[slide].thumbnail !== undefined && hero.slides[slide].thumbnail !==''){%>
-                          <a href="<%= hero.slides[slide].url%>" target="_blank"><img src="<%= hero.slides[slide].thumbnail%>" alt="<%= hero.slides[slide].title%>" /></a>
-                          <% }else{%>
-                            <h4><a href="<%= hero.slides[slide].url%>" target="_blank"><%= hero.slides[slide].title%></a></h4>                          
+                      <% for (var slide in hero.slides) {  %>
+                        <div class="slide col-xs-12 col-sm-12 col-md-6 col-lg-3 slide-container">
+                          <% if (hero.slides[slide].thumbnail !== undefined && hero.slides[slide].thumbnail !==''){%>
+                            <a href="<%= hero.slides[slide].url %>" target="_blank">
+                              <img src="<%= hero.slides[slide].thumbnail %>" data-toggle="tooltip" data-placement="bottom" title="<%= hero.slides[slide].title %>" />
+                            </a>
+                          <% } else {%>
+                            <h4>
+                              <a href="<%= hero.slides[slide].url %>" target="_blank"><%= hero.slides[slide].title%></a>
+                            </h4>
                           <% } %>
                         </div>
                       <% } %>
