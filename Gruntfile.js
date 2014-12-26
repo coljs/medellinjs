@@ -11,7 +11,13 @@ module.exports = function (grunt) {
     },
     watch: {
       harp: {
-        files: ['_harp/**/*.md', '_harp/**/*.ejs', '_harp/**/*.json'],
+        files: [
+          '_harp/**/*.md',
+          '_harp/**/*.ejs',
+          '_harp/**/*.json',
+          '_harp/**/*.css',
+          '_harp/**/*.js'
+        ],
         tasks: ['harp'],
         options: {
           livereload: true
