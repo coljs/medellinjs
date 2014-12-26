@@ -31,7 +31,7 @@
           "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/13ff89/websockets-the-right-way.jpg"
         },
         {
-          "title": "async javascript",
+          "title": "Async JavaScript",
           "url": "http://slides.com/julianduque/async-javascript",
           "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/beeb52/async-javascript.jpg"
         }
@@ -44,12 +44,12 @@
       "avatar": "https://secure.gravatar.com/userimage/28946174/8747a95cd541d80ffa63929a4856637d.jpg?size=200",
       "slides": [
         {
-          "title": "phonegap y jquery mobile",
+          "title": "Phonegap y jQuery Mobile",
           "url": "http://slides.com/edsadr/phonegap-y-jquery-mobile",
           "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/f88ae4/phonegap-y-jquery-mobile.jpg"
         },
         {
-          "title": "aplicaciones en tiempo real con meteor",
+          "title": "Aplicaciones en tiempo real con meteor",
           "url": "http://slides.com/edsadr/aplicaciones-en-tiempo-real-con-meteor",
           "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/83ecd5/aplicaciones-en-tiempo-real-con-meteor.jpg"
         },
@@ -72,7 +72,7 @@
       "avatar": "https://secure.gravatar.com/avatar/e8279b670ce5a7f7b0bd938fc36f1af4.png?size=200",
       "slides": [
         {
-          "title": "Introduction to WebGl with three.js for 3d graphics",
+          "title": "Introduction to WebGL with three.js for 3D graphics",
           "url": "http://slides.com/alexramirez/introduction-to-webgl-with-three-js-for-3d-graphics",
           "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/alexramirez/041317/introduction-to-webgl-with-three-js-for-3d-graphics.jpg"
         },
@@ -90,7 +90,7 @@
       "avatar": "https://secure.gravatar.com/avatar/2bb905c4128af50f2fde8fe1dc37f931.png?size=200",
       "slides": [
         {
-          "title": "AngularJS y Ember.js - MVC framworks en el lado del cliente",            
+          "title": "AngularJS y Ember.js - MVC framworks en el lado del cliente",
           "url": "http://slides.com/edsadr/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente",
           "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/2b1815/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente.jpg"            
         },
@@ -108,14 +108,14 @@
       "avatar": "http://www.gravatar.com/avatar/a582b7dcbe7cca697bf0384ba09402f7.jpg?s=200",
       "slides": [
         {
-          "title": "Javascript Design Patterns",
+          "title": "JavaScript Design Patterns",
           "url": "https://slides.com/angelfire/javascriptdp",
-          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/angelfire/9d0236/javascriptdp.jpg"            
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/angelfire/9d0236/javascriptdp.jpg"
         },
         {
           "title": "Grunt vs Gulp",
           "url": "https://slides.com/angelfire/grunt-vs-gulp",
-          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/angelfire/eb09cf/grunt-vs-gulp.jpg"            
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/angelfire/eb09cf/grunt-vs-gulp.jpg"
         }
       ]
     },
@@ -178,24 +178,24 @@
       "avatar": "https://s.gravatar.com/avatar/73c8e61bb92a5d625c2773ead47af4f0?s=200",
       "slides": [
         {
-          "title": "apps móviles en HTML5 con soporte offline",
+          "title": "Apps móviles en HTML5 con soporte offline",
           "url": "http://slides.com/jdaison/html_offline#/",
           "thumbnail": "http://i.imgur.com/fgVpwT0.png?1"  
         }
       ]
     },
     "iosamuel": {
-      "name": "Samuel Burbano",      
+      "name": "Samuel Burbano",
       "twitter": "@iosamuel",
       "github": "iosamuel",
       "avatar": "https://pbs.twimg.com/profile_images/464975953962082305/9IZmC0It.jpeg",
-      "slides": [       
+      "slides": [
         {
-          "title": "Javascript en HTML5",           
+          "title": "JavaScript en HTML5",
           "url": "http://slides.com/iosamuel/js-html5#/",
           "thumbnail": "http://www.w3devcampus.com/wp-content/uploads/logoAndOther/logo_JavaScript.png"  
         }
-      ]      
-    }    
+      ]
+    }
   }
 }
