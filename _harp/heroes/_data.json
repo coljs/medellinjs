@@ -1,0 +1,192 @@
+{
+  "heroes": {
+    "julianduque": {
+      "name": "Julián Duque",
+      "twitter": "julian_duque",
+      "github": "julianduque",
+      "avatar": "https://secure.gravatar.com/avatar/c2d1139b787a469e13229070d6be918c.png?size=200",
+      "slides": [
+        {
+          "title": "Como no ser un patán",
+          "url": "http://slides.com/julianduque/no-ser-un-patan",
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/6f0ecf/no-ser-un-patan.jpg"
+        },
+        {
+          "title": "Node.js beyond the web",
+          "url": "http://slides.com/julianduque/nodejs-beyond-web",
+          "thumbnail": "https://i.cloudup.com/uhlBCVfF6YK/baYfOX.png"
+        },
+        {
+          "title": "WebSockets the right way",
+          "url": "http://slides.com/julianduque/websockets-the-right-way",
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/13ff89/websockets-the-right-way.jpg"
+        },
+        {
+          "title": "Async JavaScript",
+          "url": "http://slides.com/julianduque/async-javascript",
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/beeb52/async-javascript.jpg"
+        }
+      ]
+    },
+    "edsadr": {
+      "name": "Adrián Estrada",
+      "twitter": "edsadr",
+      "github": "edsadr",
+      "avatar": "https://secure.gravatar.com/userimage/28946174/8747a95cd541d80ffa63929a4856637d.jpg?size=200",
+      "slides": [
+        {
+          "title": "Phonegap y jQuery Mobile",
+          "url": "http://slides.com/edsadr/phonegap-y-jquery-mobile",
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/f88ae4/phonegap-y-jquery-mobile.jpg"
+        },
+        {
+          "title": "Aplicaciones en tiempo real con meteor",
+          "url": "http://slides.com/edsadr/aplicaciones-en-tiempo-real-con-meteor",
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/83ecd5/aplicaciones-en-tiempo-real-con-meteor.jpg"
+        },
+        {
+          "title": "AngularJS y Ember.js - MVC framworks en el lado del cliente",
+          "url": "http://slides.com/edsadr/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente",
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/2b1815/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente.jpg"
+        },
+        {
+          "title": "Yeoman - Flujos de trabajo modernos",
+          "url": "http://slides.com/edsadr/yeoman",
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/fc1435/yeoman.jpg"
+        }
+      ]
+    },
+    "ramirezalex": {
+      "name": "Alex Ramírez",
+      "twitter": "RamirezAlex_",
+      "github": "RamirezAlex",
+      "avatar": "https://secure.gravatar.com/avatar/e8279b670ce5a7f7b0bd938fc36f1af4.png?size=200",
+      "slides": [
+        {
+          "title": "Introduction to WebGL with three.js for 3D graphics",
+          "url": "http://slides.com/alexramirez/introduction-to-webgl-with-three-js-for-3d-graphics",
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/alexramirez/041317/introduction-to-webgl-with-three-js-for-3d-graphics.jpg"
+        },
+        {
+          "title": "Seven Databases in Node.js",
+          "url": "http://slides.com/julianduque/seven-databases",
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/8aa0f8/seven-databases.jpg"
+        }
+      ]
+    },
+    "codemaxter": {
+      "name": "Alvaro Agámez",
+      "twitter": "CodeMaxter",
+      "github": "CodeMaxter",
+      "avatar": "https://secure.gravatar.com/avatar/2bb905c4128af50f2fde8fe1dc37f931.png?size=200",
+      "slides": [
+        {
+          "title": "AngularJS y Ember.js - MVC framworks en el lado del cliente",
+          "url": "http://slides.com/edsadr/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente",
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/2b1815/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente.jpg"            
+        },
+        {
+          "title": "Make me Hapi",
+          "url": "http://slides.com/alvaroagamez/make-me-hapi",
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/alvaroagamez/9b2b1d/make-me-hapi.jpg"
+        }
+      ]
+    },
+    "angelfire": {
+      "name": "Andrés Bedoya",
+      "twitter": "Angel_fire",
+      "github": "angelfire",
+      "avatar": "http://www.gravatar.com/avatar/a582b7dcbe7cca697bf0384ba09402f7.jpg?s=200",
+      "slides": [
+        {
+          "title": "JavaScript Design Patterns",
+          "url": "https://slides.com/angelfire/javascriptdp",
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/angelfire/9d0236/javascriptdp.jpg"
+        },
+        {
+          "title": "Grunt vs Gulp",
+          "url": "https://slides.com/angelfire/grunt-vs-gulp",
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/angelfire/eb09cf/grunt-vs-gulp.jpg"
+        }
+      ]
+    },
+    "alexav": {
+      "name": "Alexandra Vargas",
+      "twitter": "alexav",
+      "github": "axelavargas",
+      "avatar": "http://www.gravatar.com/avatar/e322c4c78b001b013477ef504c1507b3.jpg?s=200",
+      "slides": [
+        {
+          "title": "Mis primeros pasos con JavaScript",
+          "url": "http://slides.com/axelav/mis-primeros-pasos-con-javascript",
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/axelav/45f93d/deck.jpg"
+        }
+      ]
+    },
+    "asgarothbelem": {
+      "name": "Alex Urbano",
+      "twitter": "asgarothbelem",
+      "github": "Asgaroth",
+      "avatar": "http://www.gravatar.com/avatar/3be17c5e8d2e77b74ed5643d7ff728aa.jpg?s=200",
+      "slides": [
+        {
+          "title": "Grunt.js",
+          "url": "http://slides.com/asgaroth/gruntjs",
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/asgaroth/82f9ae/gruntjs.jpg"
+        }
+      ]
+    },
+    "abrupto": {
+      "name": "Johann Echavarría",
+      "twitter": "@abrupto",
+      "github": "katio",
+      "avatar": "https://pbs.twimg.com/profile_images/987847212/foto.jpg",
+      "slides": [
+        {
+          "title": "Introducción a Ractive.js",
+          "url": "http://slides.com/johannpaulechavarriazapata/introduccion-a-ractive-js#/",
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/johannpaulechavarriazapata/3720a0/introduccion-a-ractive-js.jpg"  
+        }
+      ]
+    },
+    "academo": {
+      "name": "Esteban Beltran",
+      "twitter": "@academo",
+      "github": "academo",
+      "avatar": "http://www.gravatar.com/avatar/7e4e7591a5999d652b5f1f52b89bc4c7.jpg?s=200",
+      "slides": [
+        {
+          "title": "Mocha unit testing",
+          "url": "http://slides.com/estebanbeltran/mocha",
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/estebanbeltran/32c79a/mocha.jpg"  
+        }
+      ]
+    },
+    "jdaison": {
+      "name": "John Agudelo",
+      "twitter": "@os_group",
+      "github": "jdaison",
+      "avatar": "https://s.gravatar.com/avatar/73c8e61bb92a5d625c2773ead47af4f0?s=200",
+      "slides": [
+        {
+          "title": "Apps móviles en HTML5 con soporte offline",
+          "url": "http://slides.com/jdaison/html_offline#/",
+          "thumbnail": "http://i.imgur.com/fgVpwT0.png?1"  
+        }
+      ]
+    },
+    "iosamuel": {
+      "name": "Samuel Burbano",
+      "twitter": "@iosamuel",
+      "github": "iosamuel",
+      "avatar": "https://pbs.twimg.com/profile_images/464975953962082305/9IZmC0It.jpeg",
+      "slides": [
+        {
+          "title": "JavaScript en HTML5",
+          "url": "http://slides.com/iosamuel/js-html5#/",
+          "thumbnail": "http://www.w3devcampus.com/wp-content/uploads/logoAndOther/logo_JavaScript.png"  
+        }
+      ]
+    }
+  }
+}

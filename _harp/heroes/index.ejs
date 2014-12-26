@@ -1,11 +1,10 @@
 <section>
-  <div class="parallax" data-stellar-background-ratio="0.3" data-stellar-vertical-offset="0" style="background-image: url(img/banner-2.jpg); height: 300px">
+  <div class="parallax" data-stellar-background-ratio="0.3" data-stellar-vertical-offset="0" style="background-image: url(/img/banner-2.jpg); height: 300px">
     <div class="img-overlay1"></div>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="pull-right" style="margin-top: 90px; z-index: 20">
-         
           </div>
         </div>
       </div>
@@ -31,15 +30,14 @@
           <div class="row">
             <% var animateclass= 'slide-in-from-right'; %>
             <% var k= 0; %> 
-            <% var heroes = public._data.heroes; %>
+            <% var heroes = public.heroes._data.heroes; %>
             <% for(var slug in heroes) {  %>
               <% var hero = heroes[slug]; %>
-              <% k++; %>              
-              <% if(animateclass=='slide-in-from-right'){
+              <% k++; %>
+              <% if (animateclass == 'slide-in-from-right') {
                   animateclass='slide-in-from-left';
-              } 
-              else{
-                 animateclass="slide-in-from-right";
+              } else {
+                  animateclass="slide-in-from-right";
               } 
               %>
                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 blog-wrapper cre-animate" data-animation="<%= animateclass %>" data-delay="0" data-easing="easeInOutBack" data-offset="80%" data-speed="1000">              
