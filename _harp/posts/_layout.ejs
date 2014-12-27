@@ -13,10 +13,12 @@
 
 <!--<![endif]-->
 
+<% var post = public.posts._data.posts[current.source] %>
+
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
-  <title><%= title %></title>
+  <title><%= title %> | <%= post.title %></title>
   <link href="/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
   <link href="/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css">
   <link href="/css/icomoon.css" media="screen" rel="stylesheet" type="text/css">
@@ -24,13 +26,16 @@
   <link href="/css/menu.css" media="screen" rel="stylesheet" type="text/css">
   <link href="/css/prism.css" media="screen" rel="stylesheet" type="text/css">
   <link href="/css/haze.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="/css/custom.css" media="screen" rel="stylesheet" type="text/css">
   <link rel="alternate" type="application/rss+xml"  href="/feed.xml" title="<%= title %>">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+  <script type="text/javascript">stLight.options({publisher: "29b38c32-7e02-4c5e-8f92-380878788160", doNotHash: false, doNotCopy: false, hashAddressBar: true});</script>
 </head>
 
 <body>
 
   <%- partial("../_header") %>
-  <% var post = public.posts._data.posts[current.source] %>
   <% post.yield = partial(current.source) %>
 
   <%- partial('_decorator', post) %>
