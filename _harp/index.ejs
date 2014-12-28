@@ -22,41 +22,43 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1 class="color-white weight-300">Pr&oacute;ximos <strong class="color-primary">eventos</strong></h1>
+            <h1 class="color-white weight-300">{{{title}}}</h1>
           </div>
-        </div>
-        {{#unless events}}
-          <div class="row">
-            <div class="col-md-12">
-              <h3 class="color-white">
-                No hay eventos programados, para m&aacute;s informaci&oacute;n visita <a href="http://www.meetup.com/medellinjs" class="color-secondary">Meetup.com/MedellinJS</a>
-              </h3>
-            </div>
-          </div>
-        {{/unless}}
+        </div>       
         <div class="row">
-        {{#each events}}
-          <div class="col-md-{{cols}} col-md-offset-1" >
-              <div class="row">
-                 <div class="blog-wrapper">
-                 <h3><a href="{{link}}" target="_blank">{{title}}</a></h3>
-                 <i class="fa fa-clock-o"></i> {{date}}
-                   -  
-                     <i class="fa fa-map-marker"></i> {{venue.name}} - {{venue.address}}
-                  <span class="pull-right">
-                    <i class="fa fa-users"></i>
-                  </span>
-                  <strong>{{attending}} usuarios confirmados</strong>
-                </div>
-             </div>
-             <div class="row">
-               <a href="{{link}}" data-event="{{id}}" class="mu-rsvp-btn">RSVP</a>
-               <a class="btn btn-primary btn-3d pull-right" href="{{link}}">
-                 Ver m&aacute;s informaci&oacute;n
-               </a>
-             </div>
-          </div>
-        {{/each}}
+         <div id="carousel" class="carousel slide testimonial-slider">
+            <!-- Indicators -->
+          <ol class="carousel-indicators">
+            {{#each events}}
+            <li {{#if active}}class="active"{{/if}} data-slide-to="{{@index}}" data-target="#carousel"></li>
+            {{/each}}
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+          {{#each events}}
+            <div class="col-md-12 item {{#if active}}active{{/if}}" >
+                <div class="row">
+                   <div class="blog-wrapper">
+                   <h3><a href="{{link}}" target="_blank">{{title}}</a></h3>
+                   <i class="fa fa-clock-o"></i> {{date}}
+                     -  
+                       <i class="fa fa-map-marker"></i> {{venue.name}} - {{venue.address}}
+                    <span class="pull-right">
+                      <i class="fa fa-users"></i>
+                    </span>
+                    <strong>{{attending}} usuarios confirmados</strong>
+                  </div>
+               </div>
+               <div class="row">
+                 <a href="{{link}}" data-event="{{id}}" class="mu-rsvp-btn">RSVP</a>
+                 <a class="btn btn-primary btn-3d pull-right" href="{{link}}">
+                   Ver m&aacute;s informaci&oacute;n
+                 </a>
+               </div>
+            </div>
+          {{/each}}
+        </div>
+        </div>
         </div>
       </div>
     </div>

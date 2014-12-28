@@ -1941,6 +1941,7 @@ border-color:#119BD2;
 color:#119BD2;
 }
 
+
 .footer-bottom {
 background-color:#272d35;
 padding:20px;
@@ -1978,4 +1979,8 @@ margin-right:15px;
 	text-align: center;
 	min-height: 190px;
 	padding: 50px 5px 20px;
+}
+
+#eventos .fullwidth-section{
+	padding: 0;
 }
