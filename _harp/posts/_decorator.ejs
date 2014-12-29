@@ -6,7 +6,7 @@
         <div class="col-md-12">
           <h2 class="kill-top-margin"><strong><%= title %></strong></h2>
           <div class="post-info color-primary-dark">
-            <i class="fa fa-clock-o"></i> <%= date %>
+            <i class="fa fa-clock-o"></i> <span class="datetime"><%= new Date(date) %></span>
             <i class="im-user"></i> <a href="https://github.com/<%= by.github %>" target="_new"><%= by.name %></a>
             <div class="pull-right">
               <span class='st_twitter_large' displayText='Tweet'></span>
