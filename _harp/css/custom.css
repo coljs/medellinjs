@@ -1,3 +1,31 @@
 .slide .thumb {
   min-height: 186px;
 }
+
+.slide-container{
+	text-align: center;
+}
+
+.slide-container img{
+	max-width: 100%;
+}
+
+.slide-container h4{
+	display: block;
+	background: #fff;
+	border: 1px solid #ccc;
+	text-align: center;
+	min-height: 190px;
+	padding: 50px 5px 20px;
+}
+
+#eventos .fullwidth-section{
+	padding: 0;
+}
+
+.upcoming{
+	background: #22B14C;
+	text-align: center;
+	color: #fff;
+	padding: 5px;
+}

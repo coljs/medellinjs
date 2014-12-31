@@ -12,7 +12,7 @@ module.exports = function (callback) {
   var params = {
     sign: true,
     group_urlname: 'medellinjs',
-    page: 3,
+    page: 4,
     status: 'upcoming,past',
     desc: true,
     key: config.meetup.apiKey
