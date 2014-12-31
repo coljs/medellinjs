@@ -13,18 +13,16 @@
     </div>
   </div>
 </section>
-
 <!-- Eventos  -->
 <section id="eventos">
-
-  <script id="events-template" type="template/x-handlebars">
+ <script id="events-template" type="template/x-handlebars">
     <div class="fullwidth-section bg-secondary-dark">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <h1 class="color-white weight-300">Nuestros  <strong class="color-primary">eventos</strong></h1>
           </div>
-        </div>       
+        </div>   
         <div class="row">
          <div id="carousel" class="carousel slide testimonial-slider">
           <!-- Indicators -->
@@ -131,43 +129,25 @@
                   </a>
                 </div>
               </div>
-              <div class="col-md-9">
-               <h3>
-                 <a href="/posts/<%= slug %>"><%= post.title %></a>
-               </h3>
-             </div>
-           </div>                      
-           <div>
-            <%- excerpt(partial("posts/" + slug)) %>
+            </div>
+        <% } %>
           </div>
-          <div class="blog-info">
-            <hr>
-            <i class="fa fa-clock-o"></i> <%= post.date %>
-            <i class="im-user"></i>
-            <a href="https://github.com/<%= author.github %>" target="_blank">
-              <%= author.name %>
+           <div class="col-md-3">
+               <div class="cre-animate" data-animation="slide-in-from-right" data-delay="0" data-easing="easeInOutBack" data-offset="80%" data-speed="1000">
+                  <a class="twitter-timeline"  href="https://twitter.com/MedellinJS"  data-widget-id="450657424572051457">Tweets by @MedellinJS</a>
+                  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+              </div>     
+        </div>
+        </div>
+        <% if (Object.keys(public.posts._data.posts) > 3) { %>
+        <div class="row">
+          <div class="col-md-12">
+            <a class="btn btn-primary btn-3d pull-right" href="/posts">
+              Ver m&aacute;s art&iacute;culos
             </a>
           </div>
         </div>
-      </div>
       <% } %>
     </div>
-    <div class="col-md-3">
-     <div class="cre-animate" data-animation="slide-in-from-right" data-delay="0" data-easing="easeInOutBack" data-offset="80%" data-speed="1000">
-      <a class="twitter-timeline"  href="https://twitter.com/MedellinJS"  data-widget-id="450657424572051457">Tweets by @MedellinJS</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    </div>     
   </div>
-</div>
-<% if (Object.keys(public.posts._data.posts) > 3) { %>
-<div class="row">
-  <div class="col-md-12">
-    <a class="btn btn-primary btn-3d pull-right" href="/posts">
-      Ver m&aacute;s art&iacute;culos
-    </a>
-  </div>
-</div>
-<% } %>
-</div>
-</div>
 </section>
