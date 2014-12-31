@@ -18,7 +18,7 @@ module.exports = function (callback) {
     key: config.meetup.apiKey
   };
 
-  moment.lang("es");
+  moment.locale("es");
   url += qs.stringify(params);
 
   request(url, function (err, res, body) {
