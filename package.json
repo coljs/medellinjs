@@ -1,8 +1,7 @@
 {
   "name": "medellinjs-site",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "MedellinJS Official site",
-  "main": "setup.js",
   "private": true,
   "author": "Julian Duque <julianduquej@gmail.com>",
   "license": "MIT",
