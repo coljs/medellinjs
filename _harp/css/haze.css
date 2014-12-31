@@ -1941,6 +1941,7 @@ border-color:#119BD2;
 color:#119BD2;
 }
 
+
 .footer-bottom {
 background-color:#272d35;
 padding:20px;
@@ -1961,21 +1962,4 @@ color:#119bd2;
 margin-top:7px;
 margin-bottom:7px;
 margin-right:15px;
-}
-
-.slide-container{
-	text-align: center;
-}
-
-.slide-container img{
-	max-width: 100%;
-}
-
-.slide-container h4{
-	display: block;
-	background: #fff;
-	border: 1px solid #ccc;
-	text-align: center;
-	min-height: 190px;
-	padding: 50px 5px 20px;
 }
