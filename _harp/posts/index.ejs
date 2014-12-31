@@ -1,7 +1,9 @@
 <!-- Articulos -->
-<% function excerpt(content) { %>
-  <% return content.split('<!-- more -->')[0]; %>
-<% } %>
+<%
+  function excerpt(content) { 
+    return content.split('<!-- more -->')[0];
+  }
+%>
 <section>
   <div class="parallax" data-stellar-background-ratio="0.3" data-stellar-vertical-offset="0" style="background-image: url(/img/banner-2.jpg); height: 300px">
     <div class="img-overlay1"></div>
@@ -26,19 +28,20 @@
           </h1>
         </div>
       </div>
-      <% var animateclass= 'slide-in-from-right' %> 
-      <% var posts = public.posts._data.posts; %>
-      <% for (var slug in posts) {  %>
-        <% var post = posts[slug]; %>
-        <% var author = public.posts._data.authors[post.author]; %>
-        <% 
-          if (animateclass === 'slide-in-from-right') {
-            animateclass='slide-in-from-left';
+      <%
+        var animateClass;
+        var posts = public.posts._data.posts;
+        for (var slug in posts) {
+          var post = posts[slug];
+          var author = public.posts._data.authors[post.author];
+         
+          if (animateClass === 'slide-in-from-right') {
+            animateClass = 'slide-in-from-left';
           } else {
-            animateclass="slide-in-from-right";
+            animateClass = 'slide-in-from-right';
           }
         %>
-        <div class="row blog-wrapper cre-animate" data-animation="<%= animateclass %>" data-delay="0" data-easing="easeInOutBack" data-offset="80%" data-speed="1000">
+        <div class="row blog-wrapper cre-animate" data-animation="<%= animateClass %>" data-delay="0" data-easing="easeInOutBack" data-offset="80%" data-speed="1000">
           <div class="col-md-2">
              <a href="https://github.com/<%= author.github %>" target="_blank">
                 <img src="<%= author.avatar %>?s=200" alt="<%= author.name %>" class="img-circle" style="max-width:98%;" />

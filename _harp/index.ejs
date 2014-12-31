@@ -69,22 +69,24 @@
 </section>
 
 <!-- Articulos -->
-<% function excerpt(content) { %>
-  <% return content.split('<!-- more -->')[0]; %>
-<% } %>
+<%
+  function excerpt(content) {
+    return content.split('<!-- more -->')[0];
+  }
 
-<% function slice(object, items) { %>
-  <% var count = 0; %>
-  <% var sliced = {}; %>
-  <% for (var o in object) { %>
-    <% sliced[o] = object[o]; %>
-    <% if (count == items) { %>
-      <% break; %>
-    <% } %>
-    <% count++ %>
-  <% } %>
-  <% return sliced; %>
-<% } %>
+  function slice(object, items) {
+    var count = 0;
+    var sliced = {};
+    for (var o in object) {
+      sliced[o] = object[o];
+      if (count === items) {
+        break;
+      }
+      count++;
+    }
+    return sliced;
+  }
+%>
 
 <section id="articulos">
   <div class="fullwidth-section">
@@ -99,55 +101,57 @@
       </div>
       <div class="row">
         <div class="col-md-9">
-        <% var posts = slice(public.posts._data.posts, 3); %>
-        <% for(var slug in posts) {  %>
-          <% var post = posts[slug]; %>
-          <% var author = public.posts._data.authors[post.author]; %>
-            <div class="col-md-6">
-              <div class="blog-wrapper cre-animate" data-animation="slide-in-from-left" data-delay="0" data-easing="easeInOutBack" data-offset="80%" data-speed="1000">                
-                 <div class="row">
-                     <div class="col-md-3">
-                          <a href="https://github.com/<%= author.github %>" target="_blank">
-                              <img src="<%= author.avatar %>" alt="<%= author.name %>" class="img-circle" style="max-width:90%;" />
-                          </a>
-                     </div>
-                     <div class="col-md-9">
-                         <h3>
-                             <a href="/posts/<%= slug %>"><%= post.title %></a>
-                         </h3>
-                     </div>
-                 </div>
-                <div>
-                  <%- excerpt(partial("posts/" + slug)) %>
-                </div>
-                <div class="blog-info">
-                  <hr>
-                  <i class="fa fa-clock-o"></i> <span class="datetime"><%= new Date(post.date) %></span>
-                  <i class="im-user"></i>
+        <%
+          var posts = slice(public.posts._data.posts, 3);
+          for(var slug in posts) {
+          var post = posts[slug];
+          var author = public.posts._data.authors[post.author];
+          %>
+          <div class="col-md-6">
+            <div class="blog-wrapper cre-animate" data-animation="slide-in-from-left" data-delay="0" data-easing="easeInOutBack" data-offset="80%" data-speed="1000">                
+              <div class="row">
+                <div class="col-md-3">
                   <a href="https://github.com/<%= author.github %>" target="_blank">
-                    <%= author.name %>
+                    <img src="<%= author.avatar %>" alt="<%= author.name %>" class="img-circle" style="max-width:90%;" />
                   </a>
                 </div>
+                <div class="col-md-9">
+                  <h3>
+                    <a href="/posts/<%= slug %>"><%= post.title %></a>
+                  </h3>
+                </div>
+              </div>
+              <div>
+                <%- excerpt(partial("posts/" + slug)) %>
+              </div>
+              <div class="blog-info">
+                <hr>
+                <i class="fa fa-clock-o"></i> <span class="datetime"><%= new Date(post.date) %></span>
+                <i class="im-user"></i>
+                <a href="https://github.com/<%= author.github %>" target="_blank">
+                  <%= author.name %>
+                </a>
               </div>
             </div>
+          </div>
         <% } %>
-          </div>
-           <div class="col-md-3">
-               <div class="cre-animate" data-animation="slide-in-from-right" data-delay="0" data-easing="easeInOutBack" data-offset="80%" data-speed="1000">
-                  <a class="twitter-timeline"  href="https://twitter.com/MedellinJS"  data-widget-id="450657424572051457">Tweets by @MedellinJS</a>
-                  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-              </div>     
+      </div>
+      <div class="col-md-3">
+        <div class="cre-animate" data-animation="slide-in-from-right" data-delay="0" data-easing="easeInOutBack" data-offset="80%" data-speed="1000">
+          <a class="twitter-timeline"  href="https://twitter.com/MedellinJS"  data-widget-id="450657424572051457">Tweets by @MedellinJS</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </div>
+    </div>
+    </div>
+    <% if (Object.keys(public.posts._data.posts) > 3) { %>
+      <div class="row">
+        <div class="col-md-12">
+          <a class="btn btn-primary btn-3d pull-right" href="/posts">
+            Ver m&aacute;s art&iacute;culos
+          </a>
         </div>
-        </div>
-        <% if (Object.keys(public.posts._data.posts) > 3) { %>
-        <div class="row">
-          <div class="col-md-12">
-            <a class="btn btn-primary btn-3d pull-right" href="/posts">
-              Ver m&aacute;s art&iacute;culos
-            </a>
-          </div>
-        </div>
-      <% } %>
+      </div>
+    <% } %>
     </div>
   </div>
 </section>
