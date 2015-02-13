@@ -61,6 +61,14 @@
       "avatar": "https://secure.gravatar.com/userimage/28946174/8747a95cd541d80ffa63929a4856637d.jpg?size=200",
       "website": "http://twitter.com/edsadr"
     },
+    "academo": {
+      "name": "Esteban Beltran",
+      "bio": "Frontend Developer by Passion! I love to learn and teach",
+      "twitter": "academo",
+      "github": "academo",
+      "avatar": "https://2.gravatar.com/avatar/7e4e7591a5999d652b5f1f52b89bc4c7?size=200",
+      "website": "http://twitter.com/academo"
+    },
     "codemaxter": {
       "name": "Alvaro Agámez",
       "bio": "Fullstack developer, JavaScript Lover, PHP lover, curious, restless. Software Engineer in Craftinc",
