@@ -43,12 +43,11 @@
      
       <div class="row">
         <% var team = public._data.team  %>
-        <% var cols = 12 / team.length  %>
+        <% var cols = Math.floor(12 / team.length)  %>
         <% for(var i = 0; i < team.length; i++) { %>
           <% var username = team[i] %>
           <% var member = public.posts._data.authors[username] %>
-
-            <div class="col-md-<%= cols %>">
+            <div class="col-md-<%= cols %>"i style="width: 20%;">
               <img alt="team image" class="img-responsive" src="<%= member.avatar %>?s=200">
               <div class="team-info text-center">
                 <h4><%= member.name %></h4>
