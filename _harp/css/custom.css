@@ -29,3 +29,15 @@
 	color: #fff;
 	padding: 5px;
 }
+
+.row {
+	text-align: center;
+}
+.team-member {
+	float: none;
+	display: inline-block;
+	width: 300px;
+	min-height: 400px;
+	vertical-align: top;
+	margin-bottom: 10px;
+}
