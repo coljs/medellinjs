@@ -1,3 +1,5 @@
+'use strict';
+
 var express = require('express'),
     fs      = require('fs'),
     path    = require('path'),
@@ -6,9 +8,7 @@ var express = require('express'),
 mount('/',       path.join(__dirname, 'public'));
 mount('/posts/', path.join(__dirname, 'public', 'posts'));
 
-//
 // Mount static files without `html` extension
-//
 function mount(root, dir) {
   fs.readdirSync(dir).
     filter(function (file) {
@@ -18,7 +18,7 @@ function mount(root, dir) {
       var name = path.basename(file, '.html');
       var route = root + name;
       router.get(route, function (req, res) {
-        res.sendfile(path.join(dir, file));
+        res.sendFile(path.join(dir, file));
       });
     });
 }
