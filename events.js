@@ -1,11 +1,9 @@
 'use strict';
 
 var qs      = require('querystring'),
-    path    = require('path'),
-    util    = require('util'),
     request = require('request'),
     moment  = require('moment'),
-    config  = require('./config.json');
+    config  = require('./config');
 
 module.exports = function (callback) {
   var url = 'https://api.meetup.com/2/events?';
@@ -18,7 +16,7 @@ module.exports = function (callback) {
     key: config.meetup.apiKey
   };
 
-  moment.locale("es");
+  moment.locale('es');
   url += qs.stringify(params);
 
   request(url, function (err, res, body) {
@@ -32,7 +30,7 @@ module.exports = function (callback) {
         description: e.description,
         link: e.event_url,
         attending: e.yes_rsvp_count,
-        date: moment(e.time).format("LLLL"),
+        date: moment(e.time).format('LLLL'),
         venue: {
           name: e.venue.name,
           address: e.venue.address_1
