@@ -1,5 +1,8 @@
 {
-	"meetup": {
-		"apiKey": "xxxxxxxxx"
-	}
+  "meetup": {
+    "apiKey": "xxxxxxxxx"
+  },
+  "github": {
+    "secret": "xxxxxxxxxx"
+  }
 }
