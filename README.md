@@ -1,5 +1,8 @@
 # MedellinJS
 
+[![Join the chat at https://gitter.im/coljs/medellinjs](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/coljs/medellinjs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/ColombiaJS/medellinjs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Site powered by [Harp](http://harpjs.com)
 
 ## How to write a Post?
