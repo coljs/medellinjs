@@ -19,8 +19,9 @@
 	padding: 50px 5px 20px;
 }
 
-#eventos .fullwidth-section{
-	padding: 0;
+#eventos {
+	margin-top: 80px;
+	margin-bottom: 50px;
 }
 
 .upcoming{
