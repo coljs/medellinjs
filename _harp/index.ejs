@@ -15,57 +15,56 @@
 </section>
 <!-- Eventos  -->
 <section id="eventos">
- <script id="events-template" type="template/x-handlebars">
+  <script id="events-template" type="template/x-handlebars">
     <div class="fullwidth-section bg-secondary-dark">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <h1 class="color-white weight-300">Nuestros  <strong class="color-primary">eventos</strong></h1>
           </div>
-        </div>   
+        </div>
         <div class="row">
-         <div id="carousel" class="carousel slide testimonial-slider">
+        <div id="carousel" class="carousel slide testimonial-slider">
           <!-- Indicators -->
           <ol class="carousel-indicators">
             {{#each events}}
-            <li {{#if active}}class="active"{{/if}} data-slide-to="{{@index}}" data-target="#carousel"></li>
+              <li {{#if active}}class="active"{{/if}} data-slide-to="{{@index}}" data-target="#carousel"></li>
             {{/each}}
           </ol>
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             {{#each events}}
-            <div class="col-md-12 item {{#if active}}active{{/if}}" >
-              <div class="row">
-                {{#upcoming status}}
-                  <div class="col-md-12 upcoming">
-                    Proximamente: 
+              <div class="col-md-12 item {{#if active}}active{{/if}}" >
+                <div class="row">
+                  {{#upcoming status}}
+                    <div class="col-md-12 upcoming">
+                      Proximamente: 
+                    </div>
+                  {{/upcoming}}
+                  <div class="blog-wrapper">
+                    <h3><a href="{{link}}" target="_blank">{{title}}</a></h3>
+                    <i class="fa fa-clock-o"></i> {{date}}
+                    -  
+                    <i class="fa fa-map-marker"></i> {{venue.name}} - {{venue.address}}
+                    <span class="pull-right">
+                      <i class="fa fa-users"></i>
+                    </span>
+                    <strong>{{attending}} usuarios confirmados</strong>
                   </div>
-                {{/upcoming}}
-                <div class="blog-wrapper">
-                 <h3><a href="{{link}}" target="_blank">{{title}}</a></h3>
-                 <i class="fa fa-clock-o"></i> {{date}}
-                 -  
-                 <i class="fa fa-map-marker"></i> {{venue.name}} - {{venue.address}}
-                 <span class="pull-right">
-                  <i class="fa fa-users"></i>
-                </span>
-                <strong>{{attending}} usuarios confirmados</strong>
+                </div>
+                <div class="row">
+                  <a href="{{link}}" data-event="{{id}}" class="mu-rsvp-btn">RSVP</a>
+                  <a class="btn btn-primary btn-3d pull-right" href="{{link}}">
+                    Ver m&aacute;s informaci&oacute;n
+                  </a>
+                </div>
               </div>
-            </div>
-            <div class="row">
-             <a href="{{link}}" data-event="{{id}}" class="mu-rsvp-btn">RSVP</a>
-             <a class="btn btn-primary btn-3d pull-right" href="{{link}}">
-               Ver m&aacute;s informaci&oacute;n
-             </a>
-           </div>
-         </div>
-         {{/each}}
-       </div>
-     </div>
-   </div>
- </div>
-</div>
-</script>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </script>
 </section>
 
 <!-- Articulos -->
