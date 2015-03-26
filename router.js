@@ -8,6 +8,10 @@ var express = require('express'),
 mount('/',       path.join(__dirname, 'public'));
 mount('/posts/', path.join(__dirname, 'public', 'posts'));
 
+router.get('/calendario', function (req, res) {
+  res.redirect('/eventos')
+})
+
 // Mount static files without `html` extension
 function mount(root, dir) {
   fs.readdirSync(dir).
