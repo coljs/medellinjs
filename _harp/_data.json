@@ -1,10 +1,11 @@
 {
   "team": [
-    "julianduque",
     "edsadr",
     "montogeek",
     "codemaxter",
-    "ramirezalex"
+    "ramirezalex",
+    "naranjita",
+    "julianduque"
   ],
   "feed": {
     "layout": false
