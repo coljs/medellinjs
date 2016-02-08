@@ -16,7 +16,7 @@ El Arduino Kit que utilizamos se puede conseguir por $55 en [eBay][arduino-kit]:
 
 Este Kit es bastante completo y económico, para el taller solo utilizamos la mitad de los componentes pero sería bastante interesante realizar en futuros eventos talleres de mayor duración donde se puedan utilizar todos los componentes y porque no, trabajar en proyectos especificos integrando la parte electrónica con APIs o plataformas web.
 
-Estamos viendo la forma de conseguir unos cuantos kit para MedellínJS y continuar con los talleres de NodeBots, así que si te interesa la electrónica y programación te invitamos a que consigas un kit y lo lleves al próximo evento de NodeBots Medellín que esperamos sea muy pronto ;)
+Estamos viendo la forma de conseguir unos cuantos kit para MedellinJS y continuar con los talleres de NodeBots, así que si te interesa la electrónica y programación te invitamos a que consigas un kit y lo lleves al próximo evento de NodeBots Medellín que esperamos sea muy pronto ;)
 
 [nodebots]: http://nodebots.io
 [johnny-five]: https://github.com/rwaldron/johnny-five
