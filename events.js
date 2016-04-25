@@ -22,7 +22,7 @@ module.exports = function (callback) {
   request(url, function (err, res, body) {
     if (err) return callback(err);
 
-    var meetupEvents = JSON.parse(body).results;
+    var meetupEvents = JSON.parse(body).results || [];
     var events = meetupEvents.map(function (e) {
        var event = {
         id: e.id,

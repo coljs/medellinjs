@@ -92,6 +92,14 @@
       "github": "naranjitagolden",
       "avatar": "https://secure.gravatar.com/userimage/80259476/2dad36c56169c60363f29050f78ad24a?size=250",
       "website": "https://twitter.com/naranjitagolden"
+    },
+    "jessecogollo": {
+      "name": "Jesse Cogollo",
+      "bio": "JavaScript Developer",
+      "twitter": "jessecogollo",
+      "github": "jessecogollo",
+      "avatar": "https://s.gravatar.com/avatar/217ef78caa565c28fa5fd3d2153ee4eb?s=250",
+      "website": "https://twitter.com/jessecogollo"
     }
   }
 }
