@@ -280,6 +280,19 @@
           "thumbnail": "https://lh3.googleusercontent.com/fXbFbNNS6bOvsBHkfGgjyqmhW7ZQGAmNkfOwilfUroTWPvc3EI_gpvVOqivLpiuNKn-yyhJ8aHabYoCueaUu8dq6JMudjdIJz2jRuV9M_wqIvAq6PBhSmOCWFQ5pYuBNzXvqHBl_yA"  
         }
       ]
+    },
+    "mathius17": {
+      "name": "Mateo Calle",
+      "twitter": "Mathius17",
+      "github": "Mathius17",
+      "avatar": "https://pbs.twimg.com/profile_images/731132754704912384/BAMPMaBm.jpg",
+      "slides": [
+        {
+          "title": "Vue.js: un modelo reactivo eficiente",
+          "url": "http://slides.com/mathius17/vue-js",
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/0a9062bf75feb2fc8d6f69ddb3d2bf2a/thumb.jpg"  
+        }
+      ]
     }
   }
 }
