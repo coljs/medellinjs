@@ -72,7 +72,7 @@
           "url": "http://slides.com/julianduque/seven-databases",
           "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/8aa0f8/seven-databases.jpg"
         },
-        {     
+        {
           "title": "Automatización de Tareas con NPM - NPM Scripts",
           "url": "http://slides.com/alexramirez/deck-3",
           "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/aa4169/decks.jpg"
@@ -88,7 +88,7 @@
         {
           "title": "AngularJS y Ember.js - MVC framworks en el lado del cliente",
           "url": "http://slides.com/edsadr/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente",
-          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/2b1815/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente.jpg"            
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/2b1815/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente.jpg"
         },
         {
           "title": "Make me Hapi",
@@ -142,7 +142,7 @@
         {
           "title": "Nightwatch.js - End-to-End (E2E) Testing",
           "url": "http://slides.com/montogeek/nightwatch-js",
-          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/52c72d/decks.jpg"  
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/52c72d/decks.jpg"
         }
       ]
     },
@@ -181,12 +181,12 @@
         {
           "title": "Introducción a Ractive.js",
           "url": "http://slides.com/johannpaulechavarriazapata/introduccion-a-ractive-js#/",
-          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/johannpaulechavarriazapata/3720a0/introduccion-a-ractive-js.jpg"  
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/johannpaulechavarriazapata/3720a0/introduccion-a-ractive-js.jpg"
         },
         {
           "title": "Introducción a la nueva versión de Javascript ES6 o ES-2015",
           "url": "http://slides.com/johannpaulechavarriazapata/introduccion_es6",
-          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/000c42/decks.jpg"  
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/000c42/decks.jpg"
         }
       ]
     },
@@ -199,7 +199,7 @@
         {
           "title": "Mocha unit testing",
           "url": "http://slides.com/estebanbeltran/mocha",
-          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/estebanbeltran/32c79a/mocha.jpg"  
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/estebanbeltran/32c79a/mocha.jpg"
         }
       ]
     },
@@ -212,7 +212,7 @@
         {
           "title": "Apps móviles en HTML5 con soporte offline",
           "url": "http://slides.com/jdaison/html_offline#/",
-          "thumbnail": "http://i.imgur.com/fgVpwT0.png?1"  
+          "thumbnail": "http://i.imgur.com/fgVpwT0.png?1"
         }
       ]
     },
@@ -225,7 +225,7 @@
         {
           "title": "JavaScript en HTML5",
           "url": "http://slides.com/iosamuel/js-html5#/",
-          "thumbnail": "http://www.w3devcampus.com/wp-content/uploads/logoAndOther/logo_JavaScript.png"  
+          "thumbnail": "http://www.w3devcampus.com/wp-content/uploads/logoAndOther/logo_JavaScript.png"
         }
       ]
     },
@@ -238,7 +238,7 @@
         {
           "title": "Apps Móviles Híbridas Cross-platform",
           "url": "http://slides.com/juandavidnicholls/apps-moviles",
-          "thumbnail": "http://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/e78957/decks.jpg"  
+          "thumbnail": "http://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/e78957/decks.jpg"
         }
       ]
     },
@@ -251,7 +251,7 @@
         {
           "title": "Robótica y NodeJS?",
           "url": "http://slides.com/aldajo92/deck",
-          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/66a99c/decks.jpg"  
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/66a99c/decks.jpg"
         }
       ]
     },
@@ -259,12 +259,17 @@
       "name": "Khriztian Moreno",
       "twitter": "khriztianmoreno",
       "github": "khriztianmoreno",
-      "avatar": "https://pbs.twimg.com/profile_images/546326574660739073/mW9SSVZO.jpeg",
+      "avatar": "https://pbs.twimg.com/profile_images/724622881439756289/7XopFHEs.jpg",
       "slides": [
         {
           "title": "Depuración remota con Vorlon.js",
           "url": "http://slides.com/khriztianmoreno/vorlonjs",
-          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/93ddbe/decks.jpg"  
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/93ddbe/decks.jpg"
+        },
+        {
+          "title": "Isomorphic Javascript: El Futuro de las aplicaciones web",
+          "url": "http://slides.com/khriztianmoreno/isomorphic-javascript",
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/66aeda4566a565a0157553bc4f5fdf35/thumb.jpg"
         }
       ]
     },
@@ -277,7 +282,7 @@
         {
           "title": "P5.js JavaScript para artistas",
           "url": "https://docs.google.com/presentation/d/1N7OVi4wwG-31K27Lytwh73VtZV-IKk7L2lOffW6Hwwk/pub?start=false&loop=false&delayms=3000&slide=id.g79471db9d_00",
-          "thumbnail": "https://lh3.googleusercontent.com/fXbFbNNS6bOvsBHkfGgjyqmhW7ZQGAmNkfOwilfUroTWPvc3EI_gpvVOqivLpiuNKn-yyhJ8aHabYoCueaUu8dq6JMudjdIJz2jRuV9M_wqIvAq6PBhSmOCWFQ5pYuBNzXvqHBl_yA"  
+          "thumbnail": "https://lh3.googleusercontent.com/fXbFbNNS6bOvsBHkfGgjyqmhW7ZQGAmNkfOwilfUroTWPvc3EI_gpvVOqivLpiuNKn-yyhJ8aHabYoCueaUu8dq6JMudjdIJz2jRuV9M_wqIvAq6PBhSmOCWFQ5pYuBNzXvqHBl_yA"
         }
       ]
     },
@@ -290,7 +295,7 @@
         {
           "title": "Vue.js: un modelo reactivo eficiente",
           "url": "http://slides.com/mathius17/vue-js",
-          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/0a9062bf75feb2fc8d6f69ddb3d2bf2a/thumb.jpg"  
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/0a9062bf75feb2fc8d6f69ddb3d2bf2a/thumb.jpg"
         }
       ]
     }
