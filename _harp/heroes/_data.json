@@ -298,6 +298,19 @@
           "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/0a9062bf75feb2fc8d6f69ddb3d2bf2a/thumb.jpg"
         }
       ]
+    },
+    "jdmaldonado":{
+      "name" : "Juan David Maldonado",
+      "twitter" : "jdmaldonado06",
+      "github": "jdmaldonado06",
+      "avatar" : "https://en.gravatar.com/userimage/57278571/9f54708ca5bbc477ea7b219f5d2ce398.jpg?size=200",
+      "slides" : [
+        {
+          "title": "Angular-Meteor-ES6",
+          "url": "http://slides.com/jdmaldonado/deck#/",
+          "thumbnail": "http://image.slidesharecdn.com/8g7pin3rb61upkzexv4h-signature-09adb4eabd7fc81c611e796990aecec77e47b56b53f92c6b1c2e3263f7c53504-poli-150518082414-lva1-app6891/95/angular-meteor-for-angular-devs-1-638.jpg?cb=1431937650"
+        }
+      ]
     }
   }
 }
