@@ -17,20 +17,20 @@ export default (config = {}) => {
         customProperties: {
           variables: {
             mainColor: "#111",
-            mainColorContrasted: "#eee",
-          },
-        },
-      },
+            mainColorContrasted: "#eee"
+          }
+        }
+      }
     }),
     require("postcss-reporter")(),
     ...!config.production ? [
-      require("postcss-browser-reporter")(),
-    ] : [],
+      require("postcss-browser-reporter")()
+    ] : []
   ]
 
   return {
     ...config.dev && {
-      devtool: "#cheap-module-eval-source-map",
+      devtool: "#cheap-module-eval-source-map"
     },
     module: {
       noParse: /\.min\.js/,
@@ -47,19 +47,19 @@ export default (config = {}) => {
           test: /\.(md|markdown)$/,
           loader: phenomicLoader,
           query: {
-            context: path.join(__dirname, config.source),
+            context: path.join(__dirname, config.source)
             // plugins: [
             //   ...require("phenomic/lib/loader-preset-markdown").default
             // ]
             // see https://phenomic.io/docs/usage/plugins/
-          },
+          }
         },
 
         // *.json => like in node, return json
         // (not handled by webpack by default)
         {
           test: /\.json$/,
-          loader: "json-loader",
+          loader: "json-loader"
         },
 
         // *.js => babel + eslint
@@ -67,12 +67,12 @@ export default (config = {}) => {
           test: /\.js$/,
           include: [
             path.resolve(__dirname, "scripts"),
-            path.resolve(__dirname, "src"),
+            path.resolve(__dirname, "src")
           ],
           loaders: [
             "babel-loader?cacheDirectory",
-            "eslint-loader" + (config.dev ? "?emitWarning" : ""),
-          ],
+            "eslint-loader" + (config.dev ? "?emitWarning" : "")
+          ]
         },
 
         // ! \\
@@ -92,9 +92,9 @@ export default (config = {}) => {
               ? "[hash:base64:5]"
               : "[path][name]--[local]--[hash:base64:5]"
               }`,
-              "postcss-loader",
+              "postcss-loader"
             ].join("!"),
-          ),
+          )
           // webpack 2
           /*
           loader: ExtractTextPlugin.extract({
@@ -130,7 +130,7 @@ export default (config = {}) => {
           loader: ExtractTextPlugin.extract(
             "style-loader",
             [ "css-loader", "postcss-loader" ].join("!"),
-          ),
+          )
           // webpack 2
           /*
           loader: ExtractTextPlugin.extract({
@@ -207,16 +207,16 @@ export default (config = {}) => {
           loader: "file-loader",
           query: {
             name: "[path][name].[hash].[ext]",
-            context: path.join(__dirname, config.source),
-          },
+            context: path.join(__dirname, config.source)
+          }
         },
 
         // svg as raw string to be inlined
         {
           test: /\.svg$/,
-          loader: "raw-loader",
-        },
-      ],
+          loader: "raw-loader"
+        }
+      ]
     },
 
     // webpack 1
@@ -246,7 +246,7 @@ export default (config = {}) => {
         // here you define generic metadata for your feed
         feedsOptions: {
           title: pkg.name,
-          site_url: pkg.homepage,
+          site_url: pkg.homepage
         },
         feeds: {
           // here we define one feed, but you can generate multiple, based
@@ -256,10 +256,10 @@ export default (config = {}) => {
               filter: { layout: "Post" },
               sort: "date",
               reverse: true,
-              limit: 20,
-            },
-          },
-        },
+              limit: 20
+            }
+          }
+        }
       }),
 
       // webpack 1
@@ -279,22 +279,22 @@ export default (config = {}) => {
         new webpack.optimize.DedupePlugin(),
         new webpack.optimize.UglifyJsPlugin(
           { compress: { warnings: false } }
-        ),
-      ],
+        )
+      ]
     ],
 
     output: {
       path: path.join(__dirname, config.destination),
       publicPath: config.baseUrl.pathname,
-      filename: "[name].[hash].js",
+      filename: "[name].[hash].js"
     },
 
     // webpack 1
     resolve: {
       extensions: [ ".js", ".json", "" ],
-      root: [ path.join(__dirname, "node_modules") ],
+      root: [ path.join(__dirname, "node_modules") ]
     },
-    resolveLoader: { root: [ path.join(__dirname, "node_modules") ] },
+    resolveLoader: { root: [ path.join(__dirname, "node_modules") ] }
     // webpack 2
     /*
     resolve: { extensions: [ ".js", ".json" ] },

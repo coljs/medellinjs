@@ -1,1 +1,9 @@
 @import "~tachyons";
+
+:root {
+  --dark: #272d35;
+}
+
+.bg-black {
+  background-color: var(--dark);
+}

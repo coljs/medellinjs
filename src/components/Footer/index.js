@@ -1,21 +1,9 @@
 import React from "react"
 
-import styles from "./index.css"
-
 const Footer = () => (
-  <footer className={ styles.footer }>
-    { /* If you like Phenomic, this is a way to share the love ;) */ }
-    <p>
-      <a
-        href={ process.env.PHENOMIC_HOMEPAGE }
-        className={ styles.phenomicReference }
-      >
-        { "Website generated with " }
-        <span className={ styles.phenomicReferenceName }>
-          {  `<${ process.env.PHENOMIC_NAME} />` }
-        </span>
-      </a>
-    </p>
+  <footer className="w-100 pa2 white bg-black dt-l db">
+    <p className="tl-l dtc-l db tc">{"© Copyright 2012-2016 | Medellín, Colombia, Sur América"}</p>
+    <p className="tr-l dtc-l db tc">{"We are a Passion Driven Community!"}</p>
   </footer>
 )
 
