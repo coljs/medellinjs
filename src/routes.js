@@ -9,6 +9,8 @@ import PageLoading from "./layouts/PageLoading"
 import Homepage from "./layouts/Homepage"
 import Post from "./layouts/Post"
 
+import RaffleComponent from './components/Raffle'
+
 const PageContainer = (props) => (
   <PhenomicPageContainer
     { ...props }
@@ -24,6 +26,7 @@ const PageContainer = (props) => (
 
 export default (
   <Route component={ AppContainer }>
+    <Route path="/sorteo" component={ RaffleComponent } />
     <Route path="*" component={ PageContainer } />
   </Route>
 )

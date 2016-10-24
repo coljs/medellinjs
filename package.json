@@ -76,7 +76,10 @@
     }
   },
   "eslintConfig": {
-    "extends": "./node_modules/phenomic/lib/eslint-config-recommended/index.js"
+    "extends": "./node_modules/phenomic/lib/eslint-config-recommended/index.js",
+    "plugins": [
+      "react"
+    ]
   },
   "stylelint": {
     "extends": "stylelint-config-standard"
@@ -103,6 +106,7 @@
     "invariant": "^2.1.1",
     "json-loader": "^0.5.2",
     "npm-run-all": "^1.7.0",
+    "phenomic": "^0.17.11",
     "postcss-browser-reporter": "^0.4.0",
     "postcss-cssnext": "^2.4.0",
     "postcss-loader": "^0.13.0",
@@ -121,11 +125,10 @@
     "stylelint": "^7.2.0",
     "stylelint-config-standard": "^13.0.0",
     "webpack": "^1.11.0",
-    "whatwg-fetch": "^0.11.0",
-    "phenomic": "^0.17.11"
   },
   "dependencies": {
-    "tachyons": "^4.5.4",
-    "tachyons-cli": "^1.0.8"
+    "jsonp": "0.2.0",
+    "tachyons": "4.5.4",
+    "tachyons-cli": "1.0.8"
   }
 }
