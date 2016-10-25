@@ -1,5 +1,5 @@
 ---
-title: Phenomic base theme
+title: MedellinJS
 layout: Homepage
 ---
 
