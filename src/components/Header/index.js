@@ -1,51 +1,31 @@
 import React, { PropTypes } from "react"
 import { Link } from "react-router"
-import Svg from "react-svg-inline"
 
-import twitterSvg from "../icons/iconmonstr-twitter-1.svg"
-import gitHubSvg from "../icons/iconmonstr-github-1.svg"
-
-import styles from "./index.css"
-
-const Header = (props, { metadata: { pkg } }) => (
-  <header className={ styles.header }>
-    <nav className={ styles.nav }>
-      <div className={ styles.navPart1 }>
+const Header = () => (
+  <header className="w-100 bg-black white">
+    <nav className="dt w-100 mw8 center">
+      <div className="dtc w2 v-mid pa3 bg-blue">
         <Link
-          className={ styles.link }
+          className="ttu white no-underline fw8"
           to="/"
         >
-          { "Home" }
+          { "Med.JS" }
         </Link>
       </div>
-      <div className={ styles.navPart2 }>
-        {
-          pkg.twitter &&
-          <a
-            href={ `https://twitter.com/${pkg.twitter}` }
-            className={ styles.link }
-          >
-            <Svg svg={ twitterSvg } cleanup />
-            { "Twitter" }
-          </a>
-        }
-        {
-          pkg.repository &&
-          <a
-            href={ pkg.repository }
-            className={ styles.link }
-          >
-            <Svg svg={ gitHubSvg } cleanup />
-            { "GitHub" }
-          </a>
-        }
+      <div className="dtc v-mid tr pa3">
+          <a className="ph3">Eventos</a>
+          <a className="ph3">Artículos</a>
+          <a className="ph3">Charlas</a>
+          <a className="ph3">Comparte</a>
+          <a className="ph3">Acerca</a>
+          <a className="ph3">Chat</a>
       </div>
     </nav>
   </header>
 )
 
 Header.contextTypes = {
-  metadata: PropTypes.object.isRequired,
+  metadata: PropTypes.object.isRequired
 }
 
 export default Header
