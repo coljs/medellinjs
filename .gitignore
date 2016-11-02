@@ -1,4 +1,6 @@
-config.json
+# node / npm
 node_modules
 *.log
-public/*
+
+# phenomic build
+dist
