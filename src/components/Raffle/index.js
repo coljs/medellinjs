@@ -1,20 +1,23 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 import jsonp from 'jsonp';
 
+const ShowWinner = ({winner}) => <p>{winner}</p>
 
-const ShowWinner = ({winner}) => (
-  <p>{winner}</p>
-)
+ShowWinner.propTypes = {
+  winner: PropTypes.string.isRequired
+}
 
-const ShowError = ({error}) => (
-  <div>
-    {error}
-  </div>
-)
+const ShowError = ({error}) => <div>{error}</div>
 
-const ShowButton = ({onClick}) => (
-  <button onClick={onClick}>{"Get a Winner!"}</button>
-)
+ShowError.propTypes = {
+  error: PropTypes.string.isRequired
+}
+
+const ShowButton = ({onClick}) => <button onClick={onClick}>{"Get a Winner!"}</button>
+
+ShowButton.propTypes = {
+  onClick: PropTypes.func.isRequired
+}
 
 export default class Raffle extends React.Component {
   constructor(props) {
