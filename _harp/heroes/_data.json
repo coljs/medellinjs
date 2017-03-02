@@ -273,6 +273,19 @@
         }
       ]
     },
+    "mafesernaarbole": {
+      "name": "Maria Fernanda Serna",
+      "twitter": "mafesernaarbole",
+      "github": "mafesernaarboleda",
+      "avatar": "https://pbs.twimg.com/profile_images/836997239750918144/F1Q1fpDC.jpg",
+      "slides": [
+        {
+          "title": "Historia sin fin con FalcorJS",
+          "url": "http://slides.com/mariafernandasernaarboleda/falcorjs",
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/862ee21421b81c9933e0a7b36e3cfcb0/thumb.jpg"
+        }
+      ]
+    },
     "lizparody23": {
       "name": "Lyzzeth Parody Alvarez",
       "twitter": "lizparody23",

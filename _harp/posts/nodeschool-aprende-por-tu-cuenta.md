@@ -4,7 +4,7 @@ A la hora de querer aprender una nueva tecnología o conocer las característica
 
 ## Primeros pasos con Node School
 
-![nodeschoolmain](http://khriztianmoreno.com/wp-content/uploads/2016/05/nodeschoolmain.png)
+![nodeschoolmain](https://cdn-images-1.medium.com/max/800/1*S-xdnAkVDQheLsX_9Z68sA.png)
 
 Para iniciar con los talleres que provee Node School es necesario que tengas instalado en tu computador [Node.JS](https://nodejs.org/) para esto puedes descargar los instaladores desde su página oficial y seguir el asistente (a mi en lo personal me gusta instalar Node por medio de [NVM](https://github.com/creationix/nvm)). Las lecciones se ejecutan en la terminal y funcionan en Linux, Mac y Windows. Vamos a ver entonces como trabajar con estas lecciones.
 
@@ -25,7 +25,7 @@ Luego de ejecutar el comando **learnyounode **tendremos en consola un listado d
 
 Cuando seleccionamos un ejercicio en este caso "**Hello World**" tendremos una pantalla similar a la que a continuación se muestra, donde veremos la descripción del ejercicio y algunos tips y recursos para conocer mas acerca del contenido.
 
-![learnyounode](http://khriztianmoreno.com/wp-content/uploads/2016/05/learnyounode.png)
+![learnyounode](https://cdn-images-1.medium.com/max/800/0*o7v4hrSMxbqmPNba.png)
 
 El ejercicio nos recomienda crear un archivo con extension .js (particularmente me gusta nombrar este archivo con el nombre del ejercicio) en este caso creare un archivo llamado **helloworld.js** donde escribiremos la solución de este. Para verificar que  nuestra solucion al ejercicio es correcta debemos ejecutar el comando **learnyounode verify helloworld.js**   a
 
@@ -36,10 +36,10 @@ learnyounode verify helloworld.js
 
 Si nuestra solucion es correcta Node School nos lo indicara con una pantalla similar, si falla, nos dirá en que fallamos.
 
-![verifyprogram](http://khriztianmoreno.com/wp-content/uploads/2016/05/verifyprogram.png)
+![verifyprogram](https://cdn-images-1.medium.com/max/800/0*orYygx3ZLa1UqfgM.png)
 
 Finalmente si volvemos a ejecutar la instrucción **learnyounode N**ode School nos indicara que el ejercicio anterior lo hemos completado**.**
 
-![nodeschoolmain](http://khriztianmoreno.com/wp-content/uploads/2016/05/nodeschoolmain.png)
+![nodeschoolmain](https://cdn-images-1.medium.com/max/800/0*bC94-yHxUfrIJCnf.png)
 
 Espero que esta corta guía los pueda ayudar a dar comienzo a su auto-aprendizaje, hasta una próxima.
