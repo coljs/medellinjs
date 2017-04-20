@@ -3,6 +3,11 @@
     "layout": "../_layout"
   },
   "posts": {
+    "nodeschool-aprende-por-tu-cuenta": {
+      "title": "NodeSchool: Aprende por tu cuenta",
+      "author": "khriztianmoreno",
+      "date": "2016-06-17T12:00:00.000Z"
+    },
     "introduccion-arduino-nodejs-2": {
       "title": "Introducción a Arduino y Node.js - HTTP - Parte 2",
       "author": "julianduque",
@@ -92,6 +97,14 @@
       "github": "jessecogollo",
       "avatar": "https://s.gravatar.com/avatar/217ef78caa565c28fa5fd3d2153ee4eb?s=250",
       "website": "https://twitter.com/jessecogollo"
+    },
+    "khriztianmoreno": {
+      "name": "Cristian Moreno",
+      "bio": "FullStack Javascript Developer",
+      "twitter": "khriztianmoreno",
+      "github": "khriztianmoreno",
+      "avatar": "https://secure.gravatar.com/avatar/267898824a5115781fad35abba0130d0?s=250",
+      "website": "http://khriztianmoreno.com/"
     }
   }
 }

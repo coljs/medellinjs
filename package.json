@@ -14,6 +14,8 @@
     "async": "^0.9.0",
     "express": "^4.7.2",
     "github-webhook-middleware": "0.0.2",
+    "grunt": "^0.4.5",
+    "grunt-harp": "^0.18.0-0.0.0",
     "harp": "^0.15.2",
     "moment": "^2.5.1",
     "morgan": "^1.2.2",
