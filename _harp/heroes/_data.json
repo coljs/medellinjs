@@ -324,6 +324,19 @@
           "thumbnail": "http://image.slidesharecdn.com/8g7pin3rb61upkzexv4h-signature-09adb4eabd7fc81c611e796990aecec77e47b56b53f92c6b1c2e3263f7c53504-poli-150518082414-lva1-app6891/95/angular-meteor-for-angular-devs-1-638.jpg?cb=1431937650"
         }
       ]
+    },
+    "jenymzo": {
+      "name": "Jeny Mazo",
+      "twitter": "JenyMzo",
+      "github": "JenyMzo",
+      "avatar": "https://avatars3.githubusercontent.com/u/2567952?v=3&u=93af511467354af56abba97d969cccca6fdffbef&s=400",
+      "slides": [
+        {
+          "title": "Learn SASS",
+          "url": "http://slides.com/jenyalejandramazo/deck-3#/",
+          "thumbnail": "https://slack-imgs.com/?c=1&url=https%3A%2F%2Fs3.amazonaws.com%2Fmedia-p.slid.es%2Fthumbnails%2F372aae1aa3bc61e2748c8656babbed28%2Fthumb.jpg%3F490288253"
+        }
+      ]
     }
   }
 }
