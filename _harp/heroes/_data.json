@@ -324,6 +324,19 @@
           "thumbnail": "http://image.slidesharecdn.com/8g7pin3rb61upkzexv4h-signature-09adb4eabd7fc81c611e796990aecec77e47b56b53f92c6b1c2e3263f7c53504-poli-150518082414-lva1-app6891/95/angular-meteor-for-angular-devs-1-638.jpg?cb=1431937650"
         }
       ]
-    }
+    },
+    "alexeimun":{
+      "name" : "Alexis Muñoz Carvajal",
+      "twitter" : "Anticon11",
+      "github": "alexeimun",
+      "avatar" : "https://avatars1.githubusercontent.com/u/7406773",
+      "slides" : [
+        {
+          "title": "Recorriendo el DOM con jQuery",
+          "url": "http://slides.com/alexixmunoz/jquery",
+          "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/0c14441bfe18ea80b72e7533ef2e87fe/thumb.jpg?787569892" 
+        }
+      ]
+   }
   }
 }
