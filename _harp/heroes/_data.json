@@ -337,6 +337,19 @@
           "thumbnail": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/0c14441bfe18ea80b72e7533ef2e87fe/thumb.jpg?787569892" 
         }
       ]
-   }
+   },
+   "jenymzo": {
+      "name": "Jeny Mazo",
+      "twitter": "JenyMzo",
+      "github": "JenyMzo",
+      "avatar": "https://avatars3.githubusercontent.com/u/2567952?v=3&u=93af511467354af56abba97d969cccca6fdffbef&s=400",
+      "slides": [
+        {
+          "title": "Learn SASS",
+          "url": "http://slides.com/jenyalejandramazo/deck-3#/",
+          "thumbnail": "https://slack-imgs.com/?c=1&url=https%3A%2F%2Fs3.amazonaws.com%2Fmedia-p.slid.es%2Fthumbnails%2F372aae1aa3bc61e2748c8656babbed28%2Fthumb.jpg%3F490288253"
+        }
+      ]
+    }
   }
 }
