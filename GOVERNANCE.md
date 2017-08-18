@@ -1,14 +1,21 @@
 # Gobernanza de la comunidad MedellinJS
 
-La comunidad es gobernada por sus Colaboradores bajo un modelo de gobierno abierto, incluyendo a un grupo de Organizadores responsables de las tareas logísticas y administrativas de la comunidad.
+MedellinJS es una comunidad que se rige bajo la modalidad de [gobierno abierto](), en la cual participa el equipo de Organizadores, el grupo de Voluntarios y los asistentes.
 
+## Organizadores
 
-## Colaboradores
+El equipo de Organizadores esta conformado por las personas encargadas de estructurar y asignar las tareas administrativas, logisticas y técnicas necesarias para el desarrollo y mejoramiento de la comunidad.
 
-El repositorio Github [coljs/medellinjs](https://github.com/coljs/medellinjs) es mantenido por los Colaboradores, los cuales son agregados de manera continua por el grupo de Organizadores en base a un sistema de méritos.
+## Voluntarios
 
-Personas identificadas por los Organizadores como individuos que contribuyen significativamente a la comunidad son nombrados Colaboradores, los cuales asumirán un conjunto de responsabilidades con la comunidad.
+El grupo de Voluntarios se refiere a las personas que han manifestado su interes en colaborar significativamente con tareas especificadas en los [Issues](https://github.com/coljs/medellinjs/issues) del repositorio Github [coljs/medellinjs](https://github.com/coljs/medellinjs), y a las cuales el equipo de Organizadores ha asignado para desarrollar dichas tareas.
 
-### Colaboradores Activos
-Las actividades y responsabilidades típicas de los Colaboradores estarán definidas en los `Issues` del repositorio.
-Los Organizadores periódicamente revisan la lista de de Colaboradores para identificar Colaboradores inactivos.
+### Voluntarios Activos
+
+Los Organizadores periódicamente revisan la lista de Voluntarios para identificar colaboradores inactivos.
+
+## Asistentes
+
+Los Asistentes se refiere a cualquiera de las personas presentes en los diversos eventos de la comunidad, como con los Meetups ó Workshops.
+
+### Grupo de Organizadores
