@@ -230,7 +230,7 @@
       ]
     },
     "jdnichollsc": {
-      "name": "Juan David Nicholls",
+      "name": "Juan David Nicholls Cardona",
       "twitter": "jdnichollsc",
       "github": "jdnichollsc",
       "avatar": "https://pbs.twimg.com/profile_images/378800000117677255/0cf94eb1e871eb3da92f3382eae4f890.jpeg",
@@ -239,6 +239,16 @@
           "title": "Apps Móviles Híbridas Cross-platform",
           "url": "http://slides.com/juandavidnicholls/apps-moviles",
           "thumbnail": "http://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/e78957/decks.jpg"
+        },
+        {
+          "title": "Juegos en Javascript",
+          "url": "http://slides.com/juandavidnicholls/juegos-en-javascript",
+          "thumbnail": ""
+        },
+        {
+          "title": "Phaser Framework",
+          "url": "http://slides.com/juandavidnicholls/phaser",
+          "thumbnail": ""
         }
       ]
     },
