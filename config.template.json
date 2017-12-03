@@ -1,8 +1,0 @@
-{
-  "meetup": {
-    "apiKey": "xxxxxxxxx"
-  },
-  "github": {
-    "secret": "xxxxxxxxxx"
-  }
-}
