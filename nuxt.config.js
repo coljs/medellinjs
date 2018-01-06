@@ -3,16 +3,32 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'mde-js-site',
+    title: 'MedellinJS Community',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'MedellinJS Website powered by NuxtJS' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,800%7cRoboto:300,400,500,700' }
+    ],
+    script: [
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js', type: 'text/javascript' }
     ]
   },
+  /*
+  ** css external of the app
+  */
+  css: [
+    { src: 'animate.css', lang: 'css' }
+  ],
+
+  modules: [
+    'bootstrap-vue/nuxt',
+    '@nuxtjs/font-awesome'
+  ],
   /*
   ** Customize the progress bar color
   */
