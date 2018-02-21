@@ -591,107 +591,7 @@
       </div>
 
       <!--------------- Team area -------------->
-      <div id="team-area" class="section section-padding-extra">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-md-offset-3 text-center">
-              <div class="section-heading">
-                <h2 class="section-title">Our Team</h2>
-                <p class="section-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy</p>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="team-members">
-              <div class="col-md-3 col-sm-6">
-                <div class="team-member text-center wow animated fadeInUp" data-wow-duration="1.5s">
-                  <div class="member-mock">
-                    <img src="img/client-team/member-1.jpg" alt="...">
-                  </div>
-                  <h4 class="member-name">Jone Doe</h4>
-                  <span class="member-work">Graphic Designer</span>
-                  <p>Lorem ipsum dolor sit amet, eteturadip isicing elitempor incidi dunt ut labore solidet doloredof.</p>
-                  <div class="member-connections">
-                    <a href="#">
-                      <i class="fa fa-facebook"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fa fa-google-plus"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fa fa-pinterest"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="team-member text-center wow animated fadeInUp" data-wow-delay="0.5s" data-wow-duration="1.5s">
-                  <div class="member-mock">
-                    <img src="img/client-team/member-2.jpg" alt="...">
-                  </div>
-                  <h4 class="member-name">Stephen</h4>
-                  <span class="member-work">Graphic Designer</span>
-                  <p>Lorem ipsum dolor sit amet, eteturadip isicing elitempor incidi dunt ut labore solidet doloredof.</p>
-                  <div class="member-connections">
-                    <a href="#">
-                      <i class="fa fa-facebook"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fa fa-google-plus"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fa fa-pinterest"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="team-member text-center wow animated fadeInUp" data-wow-delay="1s" data-wow-duration="1.5s">
-                  <div class="member-mock">
-                    <img src="img/client-team/member-3.jpg" alt="...">
-                  </div>
-                  <h4 class="member-name">Devid Muller</h4>
-                  <span class="member-work">Graphic Designer</span>
-                  <p>Lorem ipsum dolor sit amet, eteturadip isicing elitempor incidi dunt ut labore solidet doloredof.</p>
-                  <div class="member-connections">
-                    <a href="#">
-                      <i class="fa fa-facebook"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fa fa-google-plus"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fa fa-pinterest"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="team-member text-center wow animated fadeInUp" data-wow-delay="1.5s" data-wow-duration="1.5s">
-                  <div class="member-mock">
-                    <img src="img/client-team/member-4.jpg" alt="...">
-                  </div>
-                  <h4 class="member-name">Oliver Liam</h4>
-                  <span class="member-work">Graphic Designer</span>
-                  <p>Lorem ipsum dolor sit amet, eteturadip isicing elitempor incidi dunt ut labore solidet doloredof.</p>
-                  <div class="member-connections">
-                    <a href="#">
-                      <i class="fa fa-facebook"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fa fa-google-plus"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fa fa-pinterest"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <AppOrganizer />
 
       <!--------------- CTA / Purchase -------------->
       <div class="section cta-section cta-2">
@@ -921,6 +821,7 @@
 
 <script>
 import AppHeader from '~/components/AppHeader.vue'
+import AppOrganizer from '~/components/AppOrganizer.vue'
 import AppNavBar from '~/components/AppNavBar.vue'
 import AppPreLoader from '~/components/AppPreLoader.vue'
 import AppFooter from '~/components/AppFooter.vue'
@@ -928,6 +829,7 @@ import AppFooter from '~/components/AppFooter.vue'
 export default {
   components: {
     AppHeader,
+    AppOrganizer,
     AppNavBar,
     AppPreLoader,
     AppFooter
