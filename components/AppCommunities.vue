@@ -10,8 +10,7 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="intros">
-          <div class="col-sm-16">
+          <div class="col-sm-12">
             <a href="http://www.coljs.org/">
               <div class="intro text-center wow animated fadeInUp" data-wow-duration="1.5s">
                 <span class="intro-icon">
@@ -22,10 +21,8 @@
               </div>
             </a>
           </div>
-        </div>
       </div>
       <div class="row">
-        <div class="intros">
           <div class="col-sm-4" v-for="community in communities">
             <a v-bind:href="community.website">
               <div class="intro text-center wow animated fadeInUp" data-wow-duration="1.5s">
@@ -34,7 +31,6 @@
               </div>
             </a>
           </div>
-        </div>
       </div>
     </div>
   </div>
