@@ -14,6 +14,10 @@
 
       <!--------------- Sponsors -------------->
       <AppSponsors />
+
+      <!--------------- Communities Area -------------->
+      <AppCommunities />
+
     </div>
     <!--------------- Footer -------------->
     <app-footer />
@@ -27,6 +31,7 @@
 
 
 <script>
+import AppCommunities from '~/components/AppCommunities.vue'
 import AppHeader from '~/components/AppHeader.vue'
 import AppOrganizer from '~/components/AppOrganizer.vue'
 import AppSponsors from '~/components/AppSponsors.vue'
@@ -36,6 +41,7 @@ import AppFooter from '~/components/AppFooter.vue'
 
 export default {
   components: {
+    AppCommunities,
     AppHeader,
     AppOrganizer,
     AppSponsors,

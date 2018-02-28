@@ -11,7 +11,7 @@
               </h1>
               <p class="section-subtitle">Somos una comunidad de apasionados cuyo fin es el de fortalecer y articular el ecosistema tecnológico de la ciudad de Medellín, Colombia.</p>
               <p class="section-subtitle">Cada mes nos reunimos en las instalaciones de Ruta N y realizamos dos charlas o conferencias relacionadas con JavaScript.</p>
-              <p class="section-subtitle">Todo el contenido del grupo es propuesto por los miembros de la comunidad, si tienes alguna charla, conferencia o experiencia que quieras compartir puedes enviar la propuesta en el siguiente formulario: http://medellinjs.org/comparte.</p>
+              <p class="section-subtitle">Todo el contenido del grupo es propuesto por los miembros de la comunidad, si tienes alguna charla, conferencia o experiencia que quieras compartir puedes enviar la propuesta en el siguiente formulario: <a href="http://medellinjs.org/comparte">http://medellinjs.org/comparte</a>.</p>
             </div>
             <div class="col-lg-5 col-md-6 hidden-sm hidden-xs">
               <div class="mock-group mock-group-1">
