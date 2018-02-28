@@ -1,46 +1,41 @@
 <template>
-    <div id="team-area" class="section section-padding-extra">
+  <div id="team-area" class="section section-padding-extra">
     <div class="container">
-    <div class="row">
-        <div class="col-md-6 col-md-offset-3 text-center">
-        <div class="section-heading">
-            <h2 class="section-title">Medellín JS</h2>
-            <p class="section-subtitle">Somos una comunidad de apasionados cuyo fin es el de fortalecer y articular el ecosistema tecnológico de la ciudad de Medellín, Colombia.
-            <p class="section-subtitle">Cada mes nos reunimos en las instalaciones de Ruta N y realizamos dos charlas o conferencias relacionadas con JavaScript.</p>
-            <p class="section-subtitle">Todo el contenido del grupo es propuesto por los miembros de la comunidad, si tienes alguna charla, conferencia o experiencia que quieras compartir puedes enviar la propuesta en el siguiente formulario: http://medellinjs.org/comparte.</p>
-            <h3 class="section-title">Equipo organizador</h3>
-        </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="team-members">
-        <div class="col-md-3 col-sm-6" v-for="organizer in organizers">
-            <div class="team-member text-center wow animated fadeInUp" data-wow-duration="1.5s">
-            <div class="member-mock">
-                <img v-bind:src="organizer.avatar" alt="organizer.name">
+      <div class='row'>
+          <div class='col-md-6 col-md-offset-3 text-center'>
+            <div class='section-heading'>
+              <h2 class='section-title'>Equipo Organizador</h2>
             </div>
-            <h4 class="member-name">{{ organizer.name }}</h4>
-            <span class="member-work">Co - Organizador</span>
-            <p>{{ organizer.bio }}</p>
-            <div class="member-connections">
+          </div>
+      </div>
+      <div class="row">
+        <div class="team-members">
+          <div class="col-md-3 col-sm-6" v-for="organizer in organizers">
+            <div class="team-member text-center wow animated fadeInUp" data-wow-duration="1.5s">
+              <div class="member-mock">
+                  <img v-bind:src="organizer.avatar" alt="organizer.name">
+              </div>
+              <h4 class="member-name">{{ organizer.name }}</h4>
+              <span class="member-work">Co - Organizador</span>
+              <p>{{ organizer.bio }}</p>
+              <div class="member-connections">
                 <a v-bind:href="'http://twitter.com/' + organizer.twitter">
-                <i class="fa fa-twitter"></i>
+                  <i class="fa fa-twitter"></i>
                 </a>
                 <a v-bind:href="'http://github.com/'  + organizer.github">
-                <i class="fa fa-github"></i>
+                  <i class="fa fa-github"></i>
                 </a>
                 <a v-bind:href="organizer.website">
-                <i class="fa fa-home"></i>
+                  <i class="fa fa-home"></i>
                 </a>
+              </div>
             </div>
-            </div>
+          </div>
         </div>
-        </div>
+      </div>
     </div>
-    </div>
-</div>
+  </div>
 </template>
-
 
 <script>
 export default {
