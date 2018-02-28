@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-md-6 col-md-offset-3 text-center">
         <div class="section-heading">
-          <h2 class="section-title">Sómos MedellínJS</h2>
+          <h2 class="section-title">Somos MedellínJS</h2>
           <p class="section-subtitle">Hacemos parte de una gran familia, la Comunidad JavaScript Colombiana</p>
         </div>
       </div>
