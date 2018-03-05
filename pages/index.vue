@@ -1,24 +1,22 @@
 <template>
   <div>
-    <!-- Pre loader -->
-
-    <!--------------- Navbar -------------->
-    <appNavbar />
-    <!--------------- Header -------------->
-    <appHeader />
     <!--------------- Main Body Area -------------->
     <div class="main-wrap">
+
+      <!--------------- Header -------------->
+      <appHeader />
 
       <!--------------- Team area -------------->
       <AppOrganizer />
 
-      <!--------------- Sponsors -------------->
-      <AppSponsors />
-
       <!--------------- Communities Area -------------->
       <AppCommunities />
 
+      <!--------------- Contact -------------->
       <AppContact />
+
+      <!--------------- Sponsors -------------->
+      <AppSponsors />
 
     </div>
     <!--------------- Footer -------------->
