@@ -34,7 +34,7 @@ export default {
         HUGE: {
           name: 'HUGE',
           logo:
-            'https://s.gravatar.com/avatar/76ed8ad4619a0b9474712de6b7edfa6b?s=200',
+            'https://en.gravatar.com/userimage/46333208/108cf2fa50119a1781427d15fe29f64b.jpg?size=200',
           website: 'https://www.hugeinc.com'
         },
         RutaN: {
