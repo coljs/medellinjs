@@ -1,0 +1,449 @@
+<template>
+  <div id='contact-area' class='section section-padding-extra contact-area'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-md-12 text-center'>
+          <div class='section-heading'>
+            <h2 class='section-title'>Heroes here...</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  data () {
+    return {
+      heroes: {
+        julianduque: {
+          name: 'Julián Duque',
+          twitter: 'julian_duque',
+          github: 'julianduque',
+          avatar:
+            'https://secure.gravatar.com/avatar/c2d1139b787a469e13229070d6be918c.png?size=200',
+          slides: [
+            {
+              title: 'Como no ser un patán',
+              url: 'http://slides.com/julianduque/no-ser-un-patan',
+              thumbnail:
+                'https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/6f0ecf/no-ser-un-patan.jpg'
+            },
+            {
+              title: 'Node.js beyond the web',
+              url: 'http://slides.com/julianduque/nodejs-beyond-web',
+              thumbnail: 'https://i.cloudup.com/uhlBCVfF6YK/baYfOX.png'
+            },
+            {
+              title: 'WebSockets the right way',
+              url: 'http://slides.com/julianduque/websockets-the-right-way',
+              thumbnail:
+                'https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/13ff89/websockets-the-right-way.jpg'
+            },
+            {
+              title: 'Async JavaScript',
+              url: 'http://slides.com/julianduque/async-javascript',
+              thumbnail:
+                'https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/beeb52/async-javascript.jpg'
+            }
+          ]
+        },
+        edsadr: {
+          name: 'Adrián Estrada',
+          twitter: 'edsadr',
+          github: 'edsadr',
+          avatar:
+            'https://secure.gravatar.com/userimage/28946174/8747a95cd541d80ffa63929a4856637d.jpg?size=200',
+          slides: [
+            {
+              title: 'Phonegap y jQuery Mobile',
+              url: 'http://slides.com/edsadr/phonegap-y-jquery-mobile',
+              thumbnail:
+                'https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/f88ae4/phonegap-y-jquery-mobile.jpg'
+            },
+            {
+              title: 'Aplicaciones en tiempo real con meteor',
+              url:
+                'http://slides.com/edsadr/aplicaciones-en-tiempo-real-con-meteor',
+              thumbnail:
+                'https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/83ecd5/aplicaciones-en-tiempo-real-con-meteor.jpg'
+            },
+            {
+              title:
+                'AngularJS y Ember.js - MVC framworks en el lado del cliente',
+              url:
+                'http://slides.com/edsadr/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente',
+              thumbnail:
+                'https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/2b1815/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente.jpg'
+            },
+            {
+              title: 'Yeoman - Flujos de trabajo modernos',
+              url: 'http://slides.com/edsadr/yeoman',
+              thumbnail:
+                'https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/fc1435/yeoman.jpg'
+            }
+          ]
+        },
+        ramirezalex: {
+          name: 'Alex Ramírez',
+          twitter: 'RamirezAlex_',
+          github: 'RamirezAlex',
+          avatar:
+            'https://secure.gravatar.com/avatar/e8279b670ce5a7f7b0bd938fc36f1af4.png?size=200',
+          slides: [
+            {
+              title: 'Introduction to WebGL with three.js for 3D graphics',
+              url:
+                'http://slides.com/alexramirez/introduction-to-webgl-with-three-js-for-3d-graphics',
+              thumbnail:
+                'https://s3.amazonaws.com/media-p.slid.es/thumbnails/alexramirez/041317/introduction-to-webgl-with-three-js-for-3d-graphics.jpg'
+            },
+            {
+              title: 'Seven Databases in Node.js',
+              url: 'http://slides.com/julianduque/seven-databases',
+              thumbnail:
+                'https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/8aa0f8/seven-databases.jpg'
+            },
+            {
+              title: 'Automatización de Tareas con NPM - NPM Scripts',
+              url: 'http://slides.com/alexramirez/deck-3',
+              thumbnail:
+                'https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/aa4169/decks.jpg'
+            }
+          ]
+        },
+        codemaxter: {
+          name: 'Alvaro Agámez',
+          twitter: 'CodeMaxter',
+          github: 'CodeMaxter',
+          avatar:
+            'https://secure.gravatar.com/avatar/2bb905c4128af50f2fde8fe1dc37f931.png?size=200',
+          slides: [
+            {
+              title:
+                'AngularJS y Ember.js - MVC framworks en el lado del cliente',
+              url:
+                'http://slides.com/edsadr/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente',
+              thumbnail:
+                'https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/2b1815/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente.jpg'
+            },
+            {
+              title: 'Make me Hapi',
+              url: 'http://slides.com/alvaroagamez/make-me-hapi',
+              thumbnail:
+                'https://s3.amazonaws.com/media-p.slid.es/thumbnails/alvaroagamez/9b2b1d/make-me-hapi.jpg'
+            }
+          ]
+        },
+        angelfire: {
+          name: 'Andrés Bedoya',
+          twitter: 'Angel_fire',
+          github: 'angelfire',
+          avatar:
+            'http://www.gravatar.com/avatar/a582b7dcbe7cca697bf0384ba09402f7.jpg?s=200',
+          slides: [
+            {
+              title: 'JavaScript Design Patterns',
+              url: 'https://slides.com/angelfire/javascriptdp',
+              thumbnail:
+                'https://s3.amazonaws.com/media-p.slid.es/thumbnails/angelfire/9d0236/javascriptdp.jpg'
+            },
+            {
+              title: 'Grunt vs Gulp',
+              url: 'https://slides.com/angelfire/grunt-vs-gulp',
+              thumbnail:
+                'https://s3.amazonaws.com/media-p.slid.es/thumbnails/angelfire/eb09cf/grunt-vs-gulp.jpg'
+            }
+          ]
+        },
+        jessecogollo: {
+          name: 'Jesse Cogollo',
+          twitter: 'jessecogollo',
+          github: 'jessecogollo',
+          avatar: 'https://avatars3.githubusercontent.com/u/1205255?v=3&s=400',
+          slides: [
+            {
+              title: 'MongoDB + JavaScript = mongoosejs',
+              url: 'https://speakerdeck.com/jessecogollo/mongoosejs',
+              thumbnail:
+                'https://speakerd.s3.amazonaws.com/presentations/f5bee4f2c7e640449127da2c5de3c7de/slide_0.jpg?1427164921'
+            },
+            {
+              title: 'AureliaJS',
+              url: 'https://speakerdeck.com/jessecogollo/aureliajs',
+              thumbnail:
+                'https://speakerd.s3.amazonaws.com/presentations/d80d3a231a8149edbbbae739fbbebf18/slide_0.jpg?1440007652'
+            }
+          ]
+        },
+        montogeek: {
+          name: 'Fernando Montoya',
+          twitter: 'montogeek',
+          github: 'montogeek',
+          avatar:
+            'https://s.gravatar.com/avatar/9f8beef8e01700d9196599838f5ecb92?s=200?s=200',
+          slides: [
+            {
+              title: 'Nightwatch.js - End-to-End (E2E) Testing',
+              url: 'http://slides.com/montogeek/nightwatch-js',
+              thumbnail:
+                'https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/52c72d/decks.jpg'
+            }
+          ]
+        },
+        alexav: {
+          name: 'Alexandra Vargas',
+          twitter: 'alexav',
+          github: 'axelavargas',
+          avatar:
+            'http://www.gravatar.com/avatar/e322c4c78b001b013477ef504c1507b3.jpg?s=200',
+          slides: [
+            {
+              title: 'Mis primeros pasos con JavaScript',
+              url: 'http://slides.com/axelav/mis-primeros-pasos-con-javascript',
+              thumbnail:
+                'https://s3.amazonaws.com/media-p.slid.es/thumbnails/axelav/45f93d/deck.jpg'
+            }
+          ]
+        },
+        asgarothbelem: {
+          name: 'Alex Urbano',
+          twitter: 'asgarothbelem',
+          github: 'Asgaroth',
+          avatar:
+            'http://www.gravatar.com/avatar/3be17c5e8d2e77b74ed5643d7ff728aa.jpg?s=200',
+          slides: [
+            {
+              title: 'Grunt.js',
+              url: 'http://slides.com/asgaroth/gruntjs',
+              thumbnail:
+                'https://s3.amazonaws.com/media-p.slid.es/thumbnails/asgaroth/82f9ae/gruntjs.jpg'
+            }
+          ]
+        },
+        abrupto: {
+          name: 'Johann Echavarría',
+          twitter: 'abrupto',
+          github: 'katio',
+          avatar: 'https://pbs.twimg.com/profile_images/987847212/foto.jpg',
+          slides: [
+            {
+              title: 'Introducción a Ractive.js',
+              url:
+                'http://slides.com/johannpaulechavarriazapata/introduccion-a-ractive-js#/',
+              thumbnail:
+                'https://s3.amazonaws.com/media-p.slid.es/thumbnails/johannpaulechavarriazapata/3720a0/introduccion-a-ractive-js.jpg'
+            },
+            {
+              title:
+                'Introducción a la nueva versión de Javascript ES6 o ES-2015',
+              url:
+                'http://slides.com/johannpaulechavarriazapata/introduccion_es6',
+              thumbnail:
+                'https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/000c42/decks.jpg'
+            }
+          ]
+        },
+        academo: {
+          name: 'Esteban Beltran',
+          twitter: 'academo',
+          github: 'academo',
+          avatar:
+            'http://www.gravatar.com/avatar/7e4e7591a5999d652b5f1f52b89bc4c7.jpg?s=200',
+          slides: [
+            {
+              title: 'Mocha unit testing',
+              url: 'http://slides.com/estebanbeltran/mocha',
+              thumbnail:
+                'https://s3.amazonaws.com/media-p.slid.es/thumbnails/estebanbeltran/32c79a/mocha.jpg'
+            }
+          ]
+        },
+        jdaison: {
+          name: 'John Agudelo',
+          twitter: 'os_group',
+          github: 'jdaison',
+          avatar:
+            'https://s.gravatar.com/avatar/73c8e61bb92a5d625c2773ead47af4f0?s=200',
+          slides: [
+            {
+              title: 'Apps móviles en HTML5 con soporte offline',
+              url: 'http://slides.com/jdaison/html_offline#/',
+              thumbnail: 'http://i.imgur.com/fgVpwT0.png?1'
+            }
+          ]
+        },
+        iosamuel: {
+          name: 'Samuel Burbano',
+          twitter: 'iosamuel',
+          github: 'iosamuel',
+          avatar:
+            'https://pbs.twimg.com/profile_images/464975953962082305/9IZmC0It.jpeg',
+          slides: [
+            {
+              title: 'JavaScript en HTML5',
+              url: 'http://slides.com/iosamuel/js-html5#/',
+              thumbnail:
+                'http://www.w3devcampus.com/wp-content/uploads/logoAndOther/logo_JavaScript.png'
+            }
+          ]
+        },
+        jdnichollsc: {
+          name: 'Juan David Nicholls Cardona',
+          twitter: 'jdnichollsc',
+          github: 'jdnichollsc',
+          avatar:
+            'https://pbs.twimg.com/profile_images/378800000117677255/0cf94eb1e871eb3da92f3382eae4f890.jpeg',
+          slides: [
+            {
+              title: 'Apps Móviles Híbridas Cross-platform',
+              url: 'http://slides.com/juandavidnicholls/apps-moviles',
+              thumbnail:
+                'http://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/e78957/decks.jpg'
+            },
+            {
+              title: 'Juegos en Javascript',
+              url: 'http://slides.com/juandavidnicholls/juegos-en-javascript',
+              thumbnail:
+                'https://user-images.githubusercontent.com/2154886/30140051-4f33cf72-9337-11e7-91b2-6e380f1a548a.png'
+            },
+            {
+              title: 'Phaser Framework',
+              url: 'http://slides.com/juandavidnicholls/phaser',
+              thumbnail:
+                'https://user-images.githubusercontent.com/2154886/30140016-1d2cefc2-9337-11e7-95a8-0437cc1d5926.png'
+            }
+          ]
+        },
+        aldajo92: {
+          name: 'Alejandro Daniel José Gómez Flórez',
+          twitter: 'aldajo92',
+          github: 'aldajo92',
+          avatar:
+            'https://pbs.twimg.com/profile_images/625179180670550016/GYruoSFJ.jpg',
+          slides: [
+            {
+              title: 'Robótica y NodeJS?',
+              url: 'http://slides.com/aldajo92/deck',
+              thumbnail:
+                'https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/66a99c/decks.jpg'
+            }
+          ]
+        },
+        khriztianmoreno: {
+          name: 'Khriztian Moreno',
+          twitter: 'khriztianmoreno',
+          github: 'khriztianmoreno',
+          avatar:
+            'https://pbs.twimg.com/profile_images/724622881439756289/7XopFHEs.jpg',
+          slides: [
+            {
+              title: 'Depuración remota con Vorlon.js',
+              url: 'http://slides.com/khriztianmoreno/vorlonjs',
+              thumbnail:
+                'https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/93ddbe/decks.jpg'
+            },
+            {
+              title: 'Isomorphic Javascript: El Futuro de las aplicaciones web',
+              url: 'http://slides.com/khriztianmoreno/isomorphic-javascript',
+              thumbnail:
+                'https://s3.amazonaws.com/media-p.slid.es/thumbnails/66aeda4566a565a0157553bc4f5fdf35/thumb.jpg'
+            }
+          ]
+        },
+        mafesernaarbole: {
+          name: 'Maria Fernanda Serna',
+          twitter: 'mafesernaarbole',
+          github: 'mafesernaarboleda',
+          avatar:
+            'https://pbs.twimg.com/profile_images/836997239750918144/F1Q1fpDC.jpg',
+          slides: [
+            {
+              title: 'Historia sin fin con FalcorJS',
+              url: 'http://slides.com/mariafernandasernaarboleda/falcorjs',
+              thumbnail:
+                'https://s3.amazonaws.com/media-p.slid.es/thumbnails/862ee21421b81c9933e0a7b36e3cfcb0/thumb.jpg'
+            }
+          ]
+        },
+        lizparody23: {
+          name: 'Lyzzeth Parody Alvarez',
+          twitter: 'lizparody23',
+          github: 'lizparody',
+          avatar:
+            'https://pbs.twimg.com/profile_images/690616233067159552/7mgp5o-r.jpg',
+          slides: [
+            {
+              title: 'P5.js JavaScript para artistas',
+              url:
+                'https://docs.google.com/presentation/d/1N7OVi4wwG-31K27Lytwh73VtZV-IKk7L2lOffW6Hwwk/pub?start=false&loop=false&delayms=3000&slide=id.g79471db9d_00',
+              thumbnail:
+                'https://lh3.googleusercontent.com/fXbFbNNS6bOvsBHkfGgjyqmhW7ZQGAmNkfOwilfUroTWPvc3EI_gpvVOqivLpiuNKn-yyhJ8aHabYoCueaUu8dq6JMudjdIJz2jRuV9M_wqIvAq6PBhSmOCWFQ5pYuBNzXvqHBl_yA'
+            }
+          ]
+        },
+        mathius17: {
+          name: 'Mateo Calle',
+          twitter: 'Mathius17',
+          github: 'Mathius17',
+          avatar:
+            'https://pbs.twimg.com/profile_images/731132754704912384/BAMPMaBm.jpg',
+          slides: [
+            {
+              title: 'Vue.js: un modelo reactivo eficiente',
+              url: 'http://slides.com/mathius17/vue-js',
+              thumbnail:
+                'https://s3.amazonaws.com/media-p.slid.es/thumbnails/0a9062bf75feb2fc8d6f69ddb3d2bf2a/thumb.jpg'
+            }
+          ]
+        },
+        jdmaldonado: {
+          name: 'Juan David Maldonado',
+          twitter: 'jdmaldonado06',
+          github: 'jdmaldonado06',
+          avatar:
+            'https://en.gravatar.com/userimage/57278571/9f54708ca5bbc477ea7b219f5d2ce398.jpg?size=200',
+          slides: [
+            {
+              title: 'Angular-Meteor-ES6',
+              url: 'http://slides.com/jdmaldonado/deck#/',
+              thumbnail:
+                'http://image.slidesharecdn.com/8g7pin3rb61upkzexv4h-signature-09adb4eabd7fc81c611e796990aecec77e47b56b53f92c6b1c2e3263f7c53504-poli-150518082414-lva1-app6891/95/angular-meteor-for-angular-devs-1-638.jpg?cb=1431937650'
+            }
+          ]
+        },
+        alexeimun: {
+          name: 'Alexis Muñoz Carvajal',
+          twitter: 'Anticon11',
+          github: 'alexeimun',
+          avatar: 'https://avatars1.githubusercontent.com/u/7406773',
+          slides: [
+            {
+              title: 'Recorriendo el DOM con jQuery',
+              url: 'http://slides.com/alexixmunoz/jquery',
+              thumbnail:
+                'https://s3.amazonaws.com/media-p.slid.es/thumbnails/0c14441bfe18ea80b72e7533ef2e87fe/thumb.jpg?787569892'
+            }
+          ]
+        },
+        jenymzo: {
+          name: 'Jeny Mazo',
+          twitter: 'JenyMzo',
+          github: 'JenyMzo',
+          avatar:
+            'https://avatars3.githubusercontent.com/u/2567952?v=3&u=93af511467354af56abba97d969cccca6fdffbef&s=400',
+          slides: [
+            {
+              title: 'Learn SASS',
+              url: 'http://slides.com/jenyalejandramazo/deck-3#/',
+              thumbnail:
+                'https://slack-imgs.com/?c=1&url=https%3A%2F%2Fs3.amazonaws.com%2Fmedia-p.slid.es%2Fthumbnails%2F372aae1aa3bc61e2748c8656babbed28%2Fthumb.jpg%3F490288253'
+            }
+          ]
+        }
+      }
+    }
+  }
+}
+</script>
