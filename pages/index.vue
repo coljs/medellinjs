@@ -7,7 +7,7 @@
       <appHeader />
 
       <!--------------- Team area -------------->
-      <AppOrganizer />
+      <AppHeroes />
 
       <!--------------- Communities Area -------------->
       <AppCommunities />
@@ -19,7 +19,7 @@
       <AppSponsors />
 
       <!--------------- Team area -------------->
-      <AppHeroes />
+      <AppOrganizer />
 
     </div>
     <!--------------- Footer -------------->
