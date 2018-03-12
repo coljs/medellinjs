@@ -9,9 +9,6 @@
       <!--------------- Team area -------------->
       <AppOrganizer />
 
-      <!--------------- Team area -------------->
-      <AppHeroes />
-
       <!--------------- Communities Area -------------->
       <AppCommunities />
 
@@ -20,6 +17,9 @@
 
       <!--------------- Sponsors -------------->
       <AppSponsors />
+
+      <!--------------- Team area -------------->
+      <AppHeroes />
 
     </div>
     <!--------------- Footer -------------->
