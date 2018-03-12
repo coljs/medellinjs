@@ -1,5 +1,5 @@
 <template>
-  <div id="team-area" class="section section-padding-extra">
+  <div id="team-area" class="section section-padding-extra section_bg">
     <div class="container">
       <div class='row'>
           <div class='col-md-6 col-md-offset-3 text-center'>
