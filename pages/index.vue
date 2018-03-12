@@ -9,6 +9,9 @@
       <!--------------- Team area -------------->
       <AppOrganizer />
 
+      <!--------------- Team area -------------->
+      <AppHeroes />
+
       <!--------------- Communities Area -------------->
       <AppCommunities />
 
@@ -33,6 +36,7 @@
 <script>
 import AppCommunities from '~/components/AppCommunities.vue'
 import AppContact from '~/components/AppContact.vue'
+import AppHeroes from '~/components/AppHeroes.vue'
 import AppHeader from '~/components/AppHeader.vue'
 import AppOrganizer from '~/components/AppOrganizer.vue'
 import AppSponsors from '~/components/AppSponsors.vue'
@@ -44,6 +48,7 @@ export default {
   components: {
     AppCommunities,
     AppContact,
+    AppHeroes,
     AppHeader,
     AppOrganizer,
     AppSponsors,
