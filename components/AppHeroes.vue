@@ -26,7 +26,7 @@
                 <h1>{{hero['.key']}}</h1>
               </div>
 
-              <b-modal size="lg" v-bind:id="'modal-' +hero.username" :title="'Charlas de '+hero.name">
+              <b-modal size="lg" hide-footer v-bind:id="'modal-' +hero.username" :title="'Charlas de '+hero.name">
                 <ul class="timeline">
                   <li v-for="slide in hero.slides">
                     <div :class="'direction-'+slide.direction">
