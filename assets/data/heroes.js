@@ -2,7 +2,7 @@ module.exports = {
   julianduque: {
     name: 'Julián Duque',
     username: 'julian_duque',
-    twitter: 'https:/twitter.com/julian_duque',
+    twitter: 'https://twitter.com/julian_duque',
     github: 'https://github.com/julianduque',
     avatar: 'https://secure.gravatar.com/avatar/c2d1139b787a469e13229070d6be918c.png?size=200',
     slides: [
