@@ -1,5 +1,11 @@
-config.json
+# dependencies
 node_modules
-*.log
-public/*
-.vscode
+
+# logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
