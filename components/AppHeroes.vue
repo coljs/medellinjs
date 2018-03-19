@@ -1,5 +1,5 @@
 <template>
-  <div id='contact-area' class='section section-padding-extra contact-area'>
+  <div id='heroes-area' class='section section-padding-extra  heroes-area'>
     <div class='container'>
       <div class='row'>
         <div class='col-md-12 text-center'>
@@ -16,9 +16,9 @@
               <div class="img-box reviewer-mock" v-b-modal="'modal-' + hero.username">
                 <img v-bind:src="hero.avatar" class="img-responsive">
                 <ul class="text-center hidden-sm hidden-xs">
-                  <a target="_blank" v-bind:href="hero.github"><li><i class="fa fa-github"></i></li></a>
-                  <a target="_blank" :href="hero.twitter"><li><i class="fa fa-twitter"></i></li></a>
-                  <a v-b-modal="'modal-' + hero.username"><li><i class="fa fa-comment"></i></li></a>
+                  <a target="_blank" v-bind:href="hero.github"><!--<li>--><i class="fa fa-github"></i><!--</li>--></a>
+                  <a target="_blank" :href="hero.twitter"><!--<li>--><i class="fa fa-twitter"></i><!--</li>--></a>
+                  <a v-b-modal="'modal-' + hero.username"><!--<li>--><i class="fa fa-comment"></i><!--</li>--></a>
                 </ul>
               </div>
               <div class="text-center ">
