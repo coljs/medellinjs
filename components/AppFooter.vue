@@ -21,8 +21,11 @@
         <a href="https://github.com/coljs/medellinjs/" class="social">
           <i class="fa fa-meetup"></i>
         </a>
+        <a href="https://www.linkedin.com/company/medellinjs/" class="social">
+          <i class="fa fa-linkedin"></i>
+        </a>
       </div>
-      <p class="copyright wow animated fadeInUp" data-wow-duration="1.5s">&copy; MedellinJS 2018. All Rights Reserved.</p>
+      <p class="copyright wow animated fadeInUp" data-wow-duration="1.5s">&copy; Corporación MedellinJS 2018. All Rights Reserved.</p>
     </div>
   </footer>
 </template>
