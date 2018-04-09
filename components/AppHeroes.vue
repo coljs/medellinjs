@@ -17,7 +17,6 @@
                 <img v-bind:src="hero.avatar" class="img-responsive">
                 <ul class="text-center hidden-sm hidden-xs">
                    <a target="_blank" v-bind:href="hero.github"><i class="fa fa-github"></i></a>
-                   <a target="_blank" v-bind:href="hero.github"><li><i class="fa fa-github"></i></li></a>
                    <a target="_blank" :href="hero.twitter"><i class="fa fa-twitter"></i></a>
                    <a v-b-modal="'modal-' + hero.username"><i class="fa fa-comment"></i></a>
                 </ul>
