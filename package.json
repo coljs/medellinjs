@@ -1,6 +1,6 @@
 {
   "name": "mde-js-site",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MedellinJS Website powered by NuxtJS",
   "author": "khriztianmoreno <khriztianmoreno@gmail.com>",
   "private": true,
@@ -10,7 +10,9 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
+    "precommit": "npm run lint",
+    "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate"
   },
   "dependencies": {
     "@nuxtjs/font-awesome": "^1.0.3",
@@ -30,6 +32,7 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
     "node-sass": "^4.6.0",
+    "push-dir": "^0.4.1",
     "sass-loader": "^6.0.6"
   }
 }

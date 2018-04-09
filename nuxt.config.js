@@ -1,3 +1,9 @@
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/medellinjs/'
+  }
+} : {};
+
 module.exports = {
   /*
   ** Headers of the page
@@ -52,5 +58,8 @@ module.exports = {
         })
       }
     }
+  },
+  router: {
+    routerBase
   }
 }
