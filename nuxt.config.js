@@ -59,7 +59,5 @@ module.exports = {
       }
     }
   },
-  router: {
-    routerBase
-  }
+  routerBase
 }
