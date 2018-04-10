@@ -12,22 +12,22 @@
       <div class="row">
           <div class="col-sm-12">
             <a href="http://www.coljs.org/">
-              <div class="intro text-center wow animated fadeInUp" data-wow-duration="1.5s">
+              <div class="text-center wow animated fadeInUp" data-wow-duration="1.5s">
                 <span class="intro-icon">
                   <i class="fa fa-angellist"></i>
                 </span>
                 <h4 class="intro-heading">COLJS</h4>
-                <img src="https://i.imgur.com/azFflhQ.jpg" alt="ColJS">
+                <img class='rounded-img' src="https://i.imgur.com/azFflhQ.jpg" alt="ColJS">
               </div>
             </a>
           </div>
       </div>
       <div class="row">
-          <div class="col-sm-4" v-for="community in communities">
+          <div class="col-sm-3" v-for="community in communities">
             <a v-bind:href="community.website">
-              <div class="intro text-center wow animated fadeInUp" data-wow-duration="1.5s">
+              <div class="text-center wow animated fadeInUp" data-wow-duration="1.5s">
                 <h4 class="intro-heading">{{community.name}}</h4>
-                <img v-bind:src="community.avatar" alt="MedellinJS" width="160" height="160">
+                <img class='rounded-img' v-bind:src="community.avatar" alt="MedellinJS" width="160" height="160">
               </div>
             </a>
           </div>

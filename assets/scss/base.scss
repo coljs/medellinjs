@@ -1307,6 +1307,10 @@ Intro
   transition: all 0.4s ease;
 }
 
+.rounded-img{
+  border-radius: 50%;
+}
+
 .intro:hover .intro-icon {
   background-color: #ffffff;
   box-shadow: 0 0 0 10px #1193d4;
@@ -1316,7 +1320,7 @@ Intro
 .intro-heading {
   font-size: 1.8rem;
   font-family: 'Roboto', sans-serif;
-  margin-bottom: 20px;
+  margin-top: 40px;
   transition: all 0.4s ease;
 }
 
@@ -1881,6 +1885,8 @@ Team Members
   margin-top: 62px;
   margin-bottom: 30px;
   transition: all 0.3s ease;
+  height: 352px;
+  position: relative;
   &:hover {
     background-color: #1193d4;
   }
@@ -1918,6 +1924,9 @@ Team Members
   &:hover .member-work {
     color: #ffffff;
   }
+  &:hover i{
+    color: #1193d4;
+  }
   p {
     font-size: 1.4rem;
     color: #6c6c6c;
@@ -1930,7 +1939,13 @@ Team Members
 }
 
 .member-connections {
-  padding-top: 10px;
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  // width: 100px;
   a {
     font-size: 2rem;
     color: #ffffff;
@@ -1942,6 +1957,9 @@ Team Members
     line-height: 42px;
     border-radius: 50%;
     transition: all 0.3s ease;
+    &:hover > i{
+      color: #1193d4;
+    }
     i{
       color: #ffffff;
     }
