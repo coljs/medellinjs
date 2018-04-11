@@ -10,7 +10,7 @@
       </div>
       <div class="row">
         <div class="team-members">
-          <div class="col-md-3 col-sm-6" v-for="organizer in organizers">
+          <div class="col-md-4 col-sm-6" v-for="organizer in organizers">
             <div class="team-member text-center wow animated fadeInUp" data-wow-duration="1.5s">
               <div class="member-mock">
                   <img v-bind:src="organizer.avatar" alt="organizer.name">
@@ -117,6 +117,15 @@ export default {
           avatar:
             'https://avatars3.githubusercontent.com/u/14205513?s=250',
           website: 'http://mafesernaarboleda.co'
+        },
+        frankbetancur: {
+          name: 'Frank Alejo Betancur',
+          bio: 'Systems Engineer, Backend Developer, Frontend Student, speaker and active participant of the communities in the city. Learning... Volunteer at @medellinJS',
+          twitter: 'KranK2Me',
+          github: 'KranK2Me',
+          avatar:
+            'https://pbs.twimg.com/profile_images/967936276245700613/MPbuW1px_400x400.jpg',
+          website: 'https://twitter.com/KranK2Me'
         }
       }
     }
