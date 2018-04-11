@@ -17,8 +17,8 @@
               <div id='wrapper'>
                 <div class='viewport'>
                   <div class='cube'>
-                    <div class='side' v-for="value in values">
-                      <div class='cube-image' >{{value}}</div>
+                    <div class='side' v-for="(value, key) in values" :key="key">
+                      <div class='cube-image'>{{value}}</div>
                     </div>
                   </div>
                 </div>
