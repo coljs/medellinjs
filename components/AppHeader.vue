@@ -36,7 +36,7 @@ export default {
   data () {
     return {
       values: {
-        face1: 5,
+        face1: '',
         face2: 'MED',
         face3: '.JS',
         face4: 'MED',
