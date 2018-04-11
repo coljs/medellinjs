@@ -640,6 +640,14 @@ Header
   letter-spacing: 0;
 }
 
+a.bold{
+  font-weight: bolder;
+  &:hover{
+    text-decoration: underline;
+    color: #fff;
+  }
+}
+
 .flex_text {
   margin-top: 40px;
   letter-spacing: 0;
