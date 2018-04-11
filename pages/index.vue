@@ -1,10 +1,13 @@
 <template>
   <div>
+    <!--------------- Navbar -------------->
+    <appNavBar />
+
+    <!--------------- Header -------------->
+    <appHeader />
+
     <!--------------- Main Body Area -------------->
     <div class="main-wrap">
-
-      <!--------------- Header -------------->
-      <appHeader />
 
       <!--------------- Heroes area -------------->
       <AppHeroes />
@@ -34,26 +37,26 @@
 
 
 <script>
-import AppCommunities from '~/components/AppCommunities.vue'
-import AppContact from '~/components/AppContact.vue'
-import AppHeroes from '~/components/AppHeroes.vue'
-import AppHeader from '~/components/AppHeader.vue'
-import AppOrganizer from '~/components/AppOrganizer.vue'
-import AppSponsors from '~/components/AppSponsors.vue'
-import AppNavBar from '~/components/AppNavBar.vue'
 import AppPreLoader from '~/components/AppPreLoader.vue'
+import AppNavBar from '~/components/AppNavBar.vue'
+import AppHeader from '~/components/AppHeader.vue'
+import AppHeroes from '~/components/AppHeroes.vue'
+import AppCommunities from '~/components/AppCommunities.vue'
+import AppOrganizer from '~/components/AppOrganizer.vue'
+import AppContact from '~/components/AppContact.vue'
+import AppSponsors from '~/components/AppSponsors.vue'
 import AppFooter from '~/components/AppFooter.vue'
 
 export default {
   components: {
-    AppCommunities,
-    AppContact,
-    AppHeroes,
-    AppHeader,
-    AppOrganizer,
-    AppSponsors,
-    AppNavBar,
     AppPreLoader,
+    AppNavBar,
+    AppHeader,
+    AppHeroes,
+    AppCommunities,
+    AppOrganizer,
+    AppContact,
+    AppSponsors,
     AppFooter
   }
 }

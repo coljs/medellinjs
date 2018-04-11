@@ -563,7 +563,7 @@ Pre Loader
 Navigation
 ----------------------------------------*/
 
-.navbar-default {
+.navbar-default{
   margin: 0;
   border-radius: 0;
   border: none;
@@ -576,62 +576,50 @@ Navigation
   z-index: 999;
   transform: translateY(-100%);
   transition: all 0.4s ease;
-  &.affix {
-    transform: translateY(0);
-  }
-  .navbar-brand {
-    color: #1193d4;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 3.4rem;
-    height: 60px;
-    padding: 20px 15px;
-  }
 }
-
-.nav li:before {
+.navbar-default.affix{
+  transform: translateY(0);
+}
+.navbar-default .navbar-brand{
+  color: #1193d4;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 3.4rem;
+  height: 60px;
+  padding: 20px 15px;
+}
+.nav li:before{
   content: none;
 }
-
-.navbar-nav > li > a {
+.navbar-nav>li>a {
   padding: 20px;
 }
-
-.navbar-default {
-  .navbar-nav > {
-    li > a {
-      color: #777;
-      font-size: 1.6rem;
-      font-family: 'Raleway', sans-serif;
-      font-weight: 400;
-      text-transform: capitalize;
-    }
-    .active > a {
-      color: #ffffff;
-      background-color: #1193d4;
-      &:focus, &:hover {
-        color: #ffffff;
-        background-color: #1193d4;
-      }
-    }
-  }
-  .navbar-right > li > a {
-    color: #1193d4;
-    &:hover {
-      color: #416467;
-    }
-  }
+.navbar-default .navbar-nav > li > a {
+  color: #777;
+  font-size: 1.6rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
 }
-
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #ffffff;
+  background-color: #1193d4;
+}
+.navbar-default .navbar-right > li > a{
+  color: #1193d4;
+}
+.navbar-default .navbar-right > li > a:hover{
+  color: #416467;
+}
 .nav-download a {
   background-color: #1193d4;
   color: #ffffff !important;
   border-radius: 4px;
   padding: 12px 20px !important;
   margin: 8px 0 8px 20px;
-  &:hover {
-    background-color: #1578aa !important;
-  }
+}
+.nav-download a:hover{
+  background-color: #1578aa !important;
 }
 
 /*----------------------------------------
@@ -650,6 +638,14 @@ Header
 .top-header h1 {
   margin-top: 40px;
   letter-spacing: 0;
+}
+
+a.bold{
+  font-weight: bolder;
+  &:hover{
+    text-decoration: underline;
+    color: #fff;
+  }
 }
 
 .flex_text {
