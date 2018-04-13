@@ -2,7 +2,7 @@ const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   router: {
     base: '/medellinjs/'
   }
-} : {};
+} : {}
 
 module.exports = {
   /*
@@ -36,6 +36,8 @@ module.exports = {
     'bootstrap-vue/nuxt',
     '@nuxtjs/font-awesome'
   ],
+
+  plugins: ['~/plugins/vue-js-modal'],
   /*
   ** Customize the progress bar color
   */
