@@ -9,6 +9,9 @@
     <!--------------- Main Body Area -------------->
     <div class="main-wrap">
 
+      <!--------------- Next Meetups area -------------->
+      <AppNextMeetups />
+
       <!--------------- Heroes area -------------->
       <AppHeroes />
 
@@ -40,6 +43,7 @@
 import AppPreLoader from '~/components/AppPreLoader.vue'
 import AppNavBar from '~/components/AppNavBar.vue'
 import AppHeader from '~/components/AppHeader.vue'
+import AppNextMeetups from '~/components/AppNextMeetups.vue'
 import AppHeroes from '~/components/AppHeroes.vue'
 import AppCommunities from '~/components/AppCommunities.vue'
 import AppOrganizer from '~/components/AppOrganizer.vue'
@@ -52,6 +56,7 @@ export default {
     AppPreLoader,
     AppNavBar,
     AppHeader,
+    AppNextMeetups,
     AppHeroes,
     AppCommunities,
     AppOrganizer,
