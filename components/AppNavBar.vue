@@ -13,6 +13,7 @@
       </div>
       <div class="collapse navbar-collapse" id="main-nav-collapse">
         <ul class="nav navbar-nav navbar-right">
+          <li><a @click="scrollSection('next-meetups-area')">Eventos</a></li>
           <li><a @click="scrollSection('heroes-area')">Héroes</a></li>
           <li><a @click="scrollSection('community-area')">Comunidad</a></li>
           <li><a @click="scrollSection('sponsors-area')">Sponsors</a></li>
