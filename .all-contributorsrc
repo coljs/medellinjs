@@ -1,0 +1,130 @@
+{
+  "projectName": "medellinjs",
+  "projectOwner": "coljs",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "julianduque",
+      "name": "Julian Duque",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/733877?v=4",
+      "profile": "http://about.me/julianduque",
+      "contributions": [
+        "code",
+        "eventOrganizing",
+        "talk",
+        "review",
+        "blog"
+      ]
+    },
+    {
+      "login": "edsadr",
+      "name": "Adrián Estrada",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1189785?v=4",
+      "profile": "https://github.com/edsadr",
+      "contributions": [
+        "code",
+        "eventOrganizing",
+        "talk",
+        "review",
+        "blog"
+      ]
+    },
+    {
+      "login": "RamirezAlex",
+      "name": "Alex Ramirez",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1482473?v=4",
+      "profile": "http://twitter.com/RamirezAlex_",
+      "contributions": [
+        "eventOrganizing",
+        "talk"
+      ]
+    },
+    {
+      "login": "CodeMaxter",
+      "name": "CodeMaxter",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3019827?v=4",
+      "profile": "https://github.com/CodeMaxter",
+      "contributions": [
+        "eventOrganizing",
+        "talk"
+      ]
+    },
+    {
+      "login": "jessecogollo",
+      "name": "Jesse cogollo",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1205255?v=4",
+      "profile": "http://jessecogollo.me/",
+      "contributions": [
+        "eventOrganizing",
+        "code",
+        "doc",
+        "financial",
+        "review",
+        "talk"
+      ]
+    },
+    {
+      "login": "khriztianmoreno",
+      "name": "Khriztian Moreno",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1481964?v=4",
+      "profile": "http://khriztianmoreno.com/",
+      "contributions": [
+        "code",
+        "doc",
+        "review",
+        "talk",
+        "bug",
+        "design"
+      ]
+    },
+    {
+      "login": "mafesernaarboleda",
+      "name": "Maria Fernanda Serna Arboleda",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14205513?v=4",
+      "profile": "http://mafesernaarboleda.co/",
+      "contributions": [
+        "eventOrganizing",
+        "talk",
+        "fundingFinding"
+      ]
+    },
+    {
+      "login": "JenyMzo",
+      "name": "Jeny Alejandra Mazo",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2567952?v=4",
+      "profile": "https://github.com/JenyMzo",
+      "contributions": [
+        "code",
+        "design",
+        "eventOrganizing",
+        "financial",
+        "talk"
+      ]
+    },
+    {
+      "login": "Krank2me",
+      "name": "Frank Alejo Betancur",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9942486?v=4",
+      "profile": "https://github.com/Krank2me",
+      "contributions": [
+        "eventOrganizing",
+        "talk"
+      ]
+    },
+    {
+      "login": "elyalvarado",
+      "name": "Ely Alvarado",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/545352?v=4",
+      "profile": "https://github.com/elyalvarado",
+      "contributions": [
+        "code"
+      ]
+    }
+  ]
+}
