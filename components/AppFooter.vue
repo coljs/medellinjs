@@ -12,13 +12,13 @@
         <a href="https://twitter.com/medellinjs" class="social">
           <i class="fa fa-twitter"></i>
         </a>
-        <a href="https://www.meetup.com/medellinjs" class="social">
+        <a href="https://github.com/coljs/medellinjs/" class="social">
           <i class="fa fa-github"></i>
         </a>
         <a href="https://www.instagram.com/medellinjs/" class="social">
           <i class="fa fa-instagram"></i>
         </a>
-        <a href="https://github.com/coljs/medellinjs/" class="social">
+        <a href="https://www.meetup.com/medellinjs" class="social">
           <i class="fa fa-meetup"></i>
         </a>
         <a href="https://www.linkedin.com/company/medellinjs/" class="social">
