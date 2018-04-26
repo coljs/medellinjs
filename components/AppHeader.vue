@@ -7,7 +7,7 @@
           <div class='display-flex'>
             <div class='col-lg-7 col-md-6'>
               <h1>
-                <b>Medellín JS</b>
+                <b>Medellin JS</b>
               </h1>
               <p>Somos una comunidad de apasionados cuyo fin es el de fortalecer y articular el ecosistema tecnológico de la ciudad de Medellín, Colombia.</p>
               <p>Cada mes nos reunimos en las instalaciones de Ruta N y realizamos dos charlas o conferencias relacionadas con JavaScript.</p>
