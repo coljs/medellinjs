@@ -29,7 +29,8 @@
                   <a @click="$modal.show(hero.username)"><i class="fa fa-comment"></i></a>
                 </div>
               </div>
-              <modal :name="hero.username" :width="700" :height="700">
+              <modal :name="hero.username" height="auto" width="800px" :adaptive="true" :scrollable="true">
+                <a class="pull-right close" @click="$modal.hide(hero.username)"><i class="fa fa-times"></i></a>
                 <ul class="timeline" v-if="hero">
                   <li v-for="(slide, index) in hero.slides" :key="index">
                     <div :class="'direction-'+slide.direction">
@@ -127,4 +128,6 @@
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+
+
 </style>
