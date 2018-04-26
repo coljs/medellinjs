@@ -1,6 +1,6 @@
 <template>
   <div id="community-area" class="section section-padding-extra section-bg">
-    <div class="row">
+    <div>
       <div class="col-md-6 col-md-offset-3 text-center">
         <div class="section-heading">
           <h2 class="section-title">Somos MedellínJS</h2>
