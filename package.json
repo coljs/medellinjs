@@ -1,6 +1,6 @@
 {
   "name": "mde-js-site",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "MedellinJS Website powered by NuxtJS",
   "author": "medellinjs <medellinjs@gmail.com>",
   "private": true,
