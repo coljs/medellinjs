@@ -18,6 +18,7 @@
           <li><a @click="scrollSection('community-area')">Comunidad</a></li>
           <li><a @click="scrollSection('sponsors-area')">Sponsors</a></li>
           <li><a @click="scrollSection('team-area')">Organizadores</a></li>
+          <li><a href="https://docs.google.com/spreadsheets/d/1S5wKPlgxg-sDEyOQQr0NaxXwE4g3zg2oEUgxn_ylSmA/edit#gid=0" target="_blank">Cuentas</a></li>
           <li><a href="https://gitter.im/coljs/medellinjs" target="_blank">Chat</a></li>
           <li class="nav-download"><a @click="scrollSection('contact-area')">Inscribe tu charla</a></li>
         </ul>
