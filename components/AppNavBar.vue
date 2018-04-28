@@ -9,7 +9,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html">MEDELLÍN JS</a>
+        <a class="navbar-brand" href="/">MEDELLIN JS</a>
       </div>
       <div class="collapse navbar-collapse" id="main-nav-collapse">
         <ul class="nav navbar-nav navbar-right">
@@ -19,6 +19,7 @@
           <li><a @click="scrollSection('sponsors-area')">Sponsors</a></li>
           <li><a @click="scrollSection('team-area')">Organizadores</a></li>
           <li><a href="https://docs.google.com/spreadsheets/d/1S5wKPlgxg-sDEyOQQr0NaxXwE4g3zg2oEUgxn_ylSmA/edit#gid=0" target="_blank">Cuentas</a></li>
+          <li><a href="https://gitter.im/coljs/medellinjs" target="_blank">Chat</a></li>
           <li class="nav-download"><a @click="scrollSection('contact-area')">Inscribe tu charla</a></li>
         </ul>
       </div>

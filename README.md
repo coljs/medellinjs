@@ -5,7 +5,12 @@
 
 ## Build Setup
 
+Check your Node version, this must be higher that 8+.
+
 ``` bash
+$ node -v
+#v8.11.1
+
 # install dependencies
 $ npm install # Or yarn install
 
