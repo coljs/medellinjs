@@ -12,4 +12,4 @@ deploy:
  local_dir: dist
  github_token: $GITHUB_TOKEN
  on:
-  branch: develop
+  branch: master
