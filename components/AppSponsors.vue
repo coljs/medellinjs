@@ -6,12 +6,13 @@
             <div class='section-heading'>
               <h2 class='section-title'>Sponsors</h2>
               <p class='section-subtitle'>Nuestros patrocinadores</p>
+              <router-link to="sponsor" target='_blank' class='linkSponsor'>Quieres ser patrocinador?</router-link>
             </div>
           </div>
       </div>
       <div class='row'>
         <div class='fun-facts'>
-          <div class='col-md-4 text-center' v-for='sponsor in sponsors'>
+          <div class='col-md-4 text-center' v-for='(sponsor, key) in sponsors' :key="key">
             <div class='fun-fact'>
               <a v-bind:href='sponsor.website'>
                 <div class='reviewer-mock'><img v-bind:src='sponsor.logo' alt='sponsor.name'></div>
@@ -54,3 +55,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.linkSponsor {
+  color: #fff;
+  font-weight: bold;
+}
+</style>
