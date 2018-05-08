@@ -16,7 +16,6 @@
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate"
   },
-  "homepage": "/medellinjs/",
   "dependencies": {
     "@nuxtjs/font-awesome": "^1.0.3",
     "animate.css": "^3.5.2",
