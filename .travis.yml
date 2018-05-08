@@ -4,6 +4,7 @@ node_js:
 before_script:
   - npm install
 script:
+  - npm run build:gh-pages
   - npm run generate:gh-pages
 deploy:
  provider: pages
