@@ -1,3 +1,39 @@
+/* Navigation */
+@media screen and (min-width: 769px){
+  .navbar-default .navbar-collapse {
+    display: inline-block !important;
+    padding: 0;
+  }
+  .navbar > .container .navbar-brand{
+    font-size: 24px;
+    padding: 20px 4px;
+  }
+  .navbar-default > .container > .navbar-header{
+    display: inline-block !important;
+    margin: 0 auto;
+    float: none;
+  }
+  .navbar-default .navbar-nav > li > a{
+    padding: 20px 8px;
+  }
+  .navbar-default > .container {
+    text-align: center;
+  }
+  .navbar-default .nav-download a{
+    padding: 10px !important;
+    margin: 11px;
+  }
+}
+@media screen and (min-width: 992px){
+  .navbar-default > .container > .navbar-header{
+    margin: 0;
+    float: left;
+  }
+  .navbar-default > .container {
+    text-align: right;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .description-tab {
     .nav-tabs {
