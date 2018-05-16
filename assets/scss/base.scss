@@ -1332,6 +1332,39 @@ Intro
     color: #f6f6f6;
   }
 }
+// Animation Box 3D
+
+.viewport .cube > .side{animation-direction: alternate;animation-fill-mode: forwards;}
+.cube > div:first-child{animation: giro1 10s ease-out infinite;}
+.cube > div:nth-child(2){animation: giro2 10s ease-out infinite;}
+.cube > div:nth-child(3){animation: giro3 10s ease-out infinite;}
+.cube > div:nth-child(4){animation: giro4 10s ease-out infinite;}
+.cube > div:nth-child(5){animation: giro5 10s ease-out infinite;}
+.cube > div:nth-child(6){animation: giro6 10s ease-out infinite;}
+@keyframes giro6{
+  0%{  -webkit-transform: rotateX(-90deg) rotate(180deg) translateZ(100px);transform: rotateX(-90deg) rotate(180deg) translateZ(100px);}
+  100%{   -webkit-transform: rotateX(-90deg) rotate(0deg) translateZ(100px);transform: rotateX(-90deg) rotate(270deg) translateZ(100px);}
+}
+@keyframes giro1{
+  0%{ -webkit-transform: rotateX(90deg) translateZ(100px); transform: rotateX(90deg) translateZ(100px);}
+  100%{  -webkit-transform: rotateX(159deg) translateZ(100px); transform: rotateX(90deg) translateZ(100px) rotate(270deg);}
+}
+@keyframes giro2{
+  0%{  -webkit-transform: translateZ(100px);transform: rotateY(0deg) translateZ(100px);}
+  100%{   -webkit-transform: rotateY(90deg) translateZ(100px);transform: rotateY(90deg) translateZ(100px);}
+}
+@keyframes giro3{
+  0%{  -webkit-transform: rotateY(90deg) translateZ(100px);transform: rotateY(90deg) translateZ(100px);}
+  100%{   -webkit-transform: rotateY(180deg) translateZ(100px);transform: rotateY(180deg) translateZ(100px);}
+}
+@keyframes giro4{
+  0%{  -webkit-transform: rotateY(180deg) translateZ(100px);transform: rotateY(180deg) translateZ(100px);}
+  100%{   -webkit-transform: rotateY(-90deg) translateZ(100px);transform: rotateY(270deg) translateZ(100px);}
+}
+@keyframes giro5{
+  0%{  -webkit-transform: rotateY(-90deg) translateZ(100px);transform: rotateY(-90deg) translateZ(100px);}
+  100%{   -webkit-transform: translateZ(100px);transform: rotateY(0deg) translateZ(100px);}
+}
 
 /*----------------------------------------
 Features
