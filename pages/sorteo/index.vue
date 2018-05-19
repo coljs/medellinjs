@@ -25,11 +25,13 @@
             </div>
           </div>
           <div class="row">
-            <select class="col-md-6" disabled size="13" v-if="show.attendance">
-              <option class="animated slideInUp" v-for="person in attendance" :key="person.member.id">{{person.member.name}}</option>
-            </select>
+            <div class="list-attendance ruleta col-md-8 row" disabled size="13" v-if="show.attendance">
+              <div class="col-md-4 animated fadeIn" v-for="person in attendance" v-bind:key="person.member.id">
+                {{person.member.name}}
+              </div>
+            </div>
 
-            <div class="container animated zoomInDown col-md-6" v-if="show.winner">
+            <div class="container animated zoomInDown col-md-4" v-if="show.winner">
               <h1>Ganador:</h1>
               <div id="info-winner">
                 <div>
@@ -42,7 +44,6 @@
               </div>
             </div>
           </div>
-
         </div>
       </section>
     </div><!-- #main -->
@@ -62,7 +63,7 @@
       return {
         ganador: {},
         attendance: [],
-        meetupID: '249414634',
+        meetupID: '',
         show: {
           attendance: false,
           winner: false
@@ -181,4 +182,24 @@
     border: 1px solid #1193d4;
   }
 
+  .list-attendance {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: inset 0 6px 8px -9px #44637e, inset 0 -6px 8px -9px #44637e;
+  }
+  /* Futura funcionalidad
+  @keyframes ruleta {
+    0% {transform: translateY(-1000px);}
+    100% {transform: translateY(0);}
+  }
+
+  .ruleta div {
+    animation-name: ruleta;
+    animation-timing-function: cubic-bezier(0,0,.9,.99);
+    animation-duration: 1s;
+    animation-iteration-count: 5;
+    animation-fill-mode: forwards;
+    animation-direction: initial;
+  }*/
 </style>
