@@ -71,7 +71,7 @@
       }
     },
     methods: {
-      searchAttendence: function () {
+      searchAttendence () {
         let self = this
         const meetup = 'https://api.meetup.com/MedellinJS/events/' + self.meetupID + '/attendance'
         jsonp(meetup, {}, function (err, data) {
@@ -85,7 +85,7 @@
           self.attendance = data.data
         })
       },
-      searchWinner: function () {
+      searchWinner () {
         let self = this
         let ganadorIndex = Math.floor(Math.random() * (self.attendance.length + 1))
         let ganadorInfo = self.attendance[ganadorIndex].member
