@@ -35,11 +35,11 @@
               <h1>Ganador:</h1>
               <div id="info-winner">
                 <div>
-                  <img :src="ganador.photo">
+                  <img :src="winner.photo">
                 </div>
                 <div>
-                  <div id="name">{{ganador.name}}</div>
-                  <div id="id">{{ganador.id}}</div>
+                  <div id="name">{{winner.name}}</div>
+                  <div id="id">{{winner.id}}</div>
                 </div>
               </div>
             </div>
@@ -61,7 +61,7 @@
     },
     data () {
       return {
-        ganador: {},
+        winner: {},
         attendance: [],
         meetupID: '',
         show: {
@@ -81,16 +81,15 @@
             self.show.attendance = false
             return
           }
-          self.show.attendance = true
           self.attendance = data.data
+          self.show.attendance = true
         })
       },
       searchWinner () {
         let self = this
-        let ganadorIndex = Math.floor(Math.random() * (self.attendance.length + 1))
-        let ganadorInfo = self.attendance[ganadorIndex].member
-        let ganador = { id: ganadorInfo.id, name: ganadorInfo.name, photo: ganadorInfo.photo.photo_link }
-        self.ganador = ganador
+        let winnerIndex = Math.floor(Math.random() * (self.attendance.length + 1))
+        let winnerInfo = self.attendance[winnerIndex].member
+        self.winner = { id: winnerInfo.id, name: winnerInfo.name, photo: winnerInfo.photo.photo_link }
         self.show.winner = true
       }
     }
