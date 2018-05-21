@@ -34,7 +34,10 @@ module.exports = {
 
   modules: [
     'bootstrap-vue/nuxt',
-    '@nuxtjs/font-awesome'
+    '@nuxtjs/font-awesome',
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-118815653-1'
+    }]
   ],
 
   plugins: ['~/plugins/vue-js-modal'],
