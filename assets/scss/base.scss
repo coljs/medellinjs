@@ -622,6 +622,9 @@ Navigation
 .nav-download a:hover{
   background-color: #1578aa !important;
 }
+.navbar-default .navbar-brand svg{
+  max-height: 50px;
+}
 
 /*----------------------------------------
 Header
@@ -631,7 +634,9 @@ Header
   background-image: url(/img/bg/1.jpg);
   height: 850px;
 }
-
+.top-header h1 svg{
+  max-height: 90px;
+}
 .logo {
   display: inline-block;
 }
