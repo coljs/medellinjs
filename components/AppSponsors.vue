@@ -45,7 +45,7 @@ export default {
           website: 'https://www.rutanmedellin.org'
         },
         TeamInternational: {
-          name: 'TeamInternational',
+          name: 'Team International',
           logo:
             'https://pbs.twimg.com/profile_images/963875088591409152/krlRSDkp_200x200.jpg',
           website: 'https://teaminternational.com'

@@ -1128,12 +1128,10 @@ Timeline
 }
 
 .flag {
-  // position: relative;
-  display: inline;
-  background: rgb(248,248,248);
+  display: flex;
+  background: #e8e8e8;
   padding: 6px 10px;
   border-radius: 5px;
-
   font-weight: 600;
   text-align: left;
 }
