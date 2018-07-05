@@ -1095,8 +1095,8 @@ module.exports = {
       {
         direction: 'l',
         title: 'Continuos Integration & Continuos Deployment in javascript',
-        url: '',
-        thumbnail: ''
+        url: 'http://slides.com/mariafernandasernaarboleda/cicd',
+        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/fc7186409ab04107ea408d48efb609d2/thumb.jpg'
       },
       {
         direction: 'r',
