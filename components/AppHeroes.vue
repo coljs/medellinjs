@@ -15,7 +15,7 @@
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 profileHero" v-for="(hero, key) in heroes" :key="key">
               <div class="img-box reviewer-mock">
                 <img :src="hero.avatar" class="img-responsive">
-                <ul class="text-center hidden-sm hidden-xs">
+                <ul class="text-center hidden-sm hidden-xs rs-links">
                    <a target="_blank" :href="hero.github"><i class="fa fa-github"></i></a>
                    <a target="_blank" :href="hero.twitter"><i class="fa fa-twitter"></i></a>
                    <a @click="$modal.show(hero.username)"><i class="fa fa-comment"></i></a>
@@ -23,7 +23,7 @@
               </div>
               <div class="text-center ">
                 <h1>{{hero.name}}</h1>
-                <div class="member-connections hidden-lg hidden-md">
+                <div class="member-connections hidden-lg hidden-md rs-links">
                   <a target="_blank" :href="hero.github"><i class="fa fa-github"></i></a>
                   <a target="_blank" :href="hero.twitter"><i class="fa fa-twitter"></i></a>
                   <a @click="$modal.show(hero.username)"><i class="fa fa-comment"></i></a>
@@ -97,6 +97,11 @@
   margin-top: 0;
   color: #42b983;
 }
+ul.rs-links{
+  top: 44%;
+  bottom: unset;
+  padding-left: 9px;
+}
 
 .modal-body {
   margin: 20px 0;
@@ -127,6 +132,9 @@
 .modal-leave-active .modal-container {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+.member-connections{
+   bottom: 10px;
 }
 
 
