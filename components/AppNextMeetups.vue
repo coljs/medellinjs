@@ -134,6 +134,15 @@ h2.meetup-event {
 .ribbon.red{background: #e43;}
 .ribbon.orange{background: #e82;}
 .ribbon.yellow{background: #ec0;}
+
+/* Show the meetups tables with the same height */
+@media screen and (min-width: 768px) {
+    .meetup-tables {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+    }
+}
 </style>
 
 <template>
