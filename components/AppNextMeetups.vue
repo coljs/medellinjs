@@ -8,6 +8,7 @@
 .meetup-table {
   float: left;
   width: 100%;
+  height: 100%;
   margin-bottom: 30px;
   position: relative;
 }
@@ -16,13 +17,14 @@
   background: #fff;
   border-radius: 4px;
   transition: all 0.3s ease;
+  height: 100%;
 }
 
 .meetup-table {
   &:hover .meetup-heading, &.past .meetup-heading {
     background-color: #1293d5;
   }
-  &:hover .meetup-event, &:hover .meetup-cycle, &.past .meetup-event, &.past .meetup-cycle {
+  &:hover .meetup-event, &:hover .meetup-cycle, &:hover .meetup-confirm, &.past .meetup-event, &.past .meetup-cycle {
     color: #fff;
   }
 }
@@ -33,12 +35,16 @@
   background-color: rgba(0, 0, 0, 0.11);
   margin: 0;
   padding: 33px 20px;
+  height: 60%;
 }
 
 h2.meetup-event {
   text-transform: none;
   font-size: 2rem;
   line-height: 1.2;
+  /* show an ellipsis (...) if the meetup title is too long */
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .event-meetup {
@@ -47,6 +53,16 @@ h2.meetup-event {
   color: #1293d5;
   margin: 0;
   padding: 19px 20px;
+  height: 25%;
+}
+
+.meetup-confirm {
+  font-size: 1.1rem;
+  color: #1293d5;
+  background-color: rgba(0, 0, 0, 0.11);
+  height: 10%;
+  padding: 0rem 0.2rem;
+  margin: 0rem;
 }
 
 .meetup-cycle {
@@ -148,6 +164,7 @@ h2.meetup-event {
                 <div class="meetup-table text-center past wow animated fadeInUp" :data-wow-delay="0.5*index+'s'" data-wow-duration="1.5s">
                   <div class="meetup-heading">
                     <h2 class="meetup-event">{{meetup.name}}</h2>
+                    <h3 class="meetup-confirm"></h3>
                     <h3 class="event-meetup">
                       <div class="meetup-cycle">{{formatDate(meetup.time)}}</div>
                     </h3>
@@ -160,8 +177,9 @@ h2.meetup-event {
             <div class="col-sm-4" v-for="(meetup, index) in nextMeetups" :key="meetup.id">
               <a :href="meetup.link" target="new">
                 <div class="meetup-table text-center wow animated fadeInUp" :data-wow-delay="(0.5*pastMeetups.length+0.5*index)+'s'" data-wow-duration="1.5s">
-                  <div class="meetup-heading">
+                  <div class="meetup-heading ">
                     <h2 class="meetup-event">{{meetup.name}}</h2>
+                    <h3 class="meetup-confirm">click para confirmar asistencia</h3>
                     <h3 class="event-meetup">
                       <div class="meetup-cycle">{{formatDate(meetup.time)}}</div>
                     </h3>
