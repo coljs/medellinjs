@@ -1342,5 +1342,20 @@ module.exports = {
         thumbnail: ''
       }
     ]
+  },
+  jgomez: {
+    name: 'Juliana Gómez',
+    username: 'gomezjuliana',
+    twitter: 'https://twitter.com/gmzjuliana',
+    github: 'https://github.com/gomezjuliana',
+    avatar: 'https://gomezjuliana.files.wordpress.com/2017/10/screenshot-from-2017-07-17-08-09-07.png',
+    slides: [
+      {
+        direction: 'r',
+        title: 'Accessibility is important.. now what?',
+        url: 'https://drive.google.com/open?id=1T1BANZekaOH0z5l11e9_Zb3rMycDbGgk',
+        thumbnail: ''
+      }
+    ]
   }
 }
