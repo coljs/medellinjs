@@ -1357,5 +1357,20 @@ module.exports = {
         thumbnail: ''
       }
     ]
+  },
+  juandatoro: {
+    name: 'Juan David Restrepo',
+    username: 'juandatoro',
+    twitter: 'https://twitter.com/jdretoro',
+    github: '',
+    avatar: 'https://pbs.twimg.com/profile_images/978797949244370944/x7YNAwSa_400x400.jpg',
+    slides: [
+      {
+        direction: 'r',
+        title: 'Code & Art',
+        url: '',
+        thumbnail: ''
+      }
+    ]
   }
 }
