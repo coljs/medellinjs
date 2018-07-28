@@ -1362,13 +1362,13 @@ module.exports = {
     name: 'Juan David Restrepo',
     username: 'juandatoro',
     twitter: 'https://twitter.com/jdretoro',
-    github: '',
+    github: 'https://github.com/juandatoro',
     avatar: 'https://pbs.twimg.com/profile_images/978797949244370944/x7YNAwSa_400x400.jpg',
     slides: [
       {
         direction: 'r',
-        title: 'Code & Art',
-        url: '',
+        title: 'React 101',
+        url: 'https://github.com/juandatoro/react101',
         thumbnail: ''
       }
     ]
