@@ -7,6 +7,7 @@
               <h2 class='section-title'>Sponsors</h2>
               <p class='section-subtitle'>Nuestros patrocinadores</p>
               <router-link to="sponsor" target='_blank' class='linkSponsor'>Quieres ser patrocinador?</router-link>
+              <router-link to="sponsor-en" target='_blank' class='linkSponsor'>Do you want to be a sponsor?</router-link>
             </div>
           </div>
       </div>
@@ -60,5 +61,6 @@ export default {
 .linkSponsor {
   color: #fff;
   font-weight: bold;
+  margin: 0 30px;
 }
 </style>

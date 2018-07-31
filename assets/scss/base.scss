@@ -633,7 +633,8 @@ Header
 
 .top-header {
   background-image: url(/img/bg/1.jpg);
-  height: 850px;
+  min-height: 100vh;
+  height: 900px;
 }
 
 .logo {
