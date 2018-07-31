@@ -1372,5 +1372,20 @@ module.exports = {
         thumbnail: ''
       }
     ]
+  },
+  krank2me: {
+    name: 'Frank Alejandro Betancur',
+    username: 'krank2me',
+    twitter: 'https://twitter.com/KranK2Me',
+    github: 'https://github.com/Krank2me',
+    avatar: 'https://pbs.twimg.com/profile_images/967936276245700613/MPbuW1px_400x400.jpg',
+    slides: [
+      {
+        direction: 'r',
+        title: 'Geolocalización con ionic',
+        url: 'https://github.com/Krank2me/geolocationApp',
+        thumbnail: ''
+      }
+    ]
   }
 }
