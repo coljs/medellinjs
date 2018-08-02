@@ -16,16 +16,16 @@
               <div class="img-box reviewer-mock">
                 <img :src="hero.avatar" class="img-responsive">
                 <ul class="text-center hidden-sm hidden-xs rs-links">
-                   <a target="_blank" :href="hero.github"><i class="fa fa-github"></i></a>
-                   <a target="_blank" :href="hero.twitter"><i class="fa fa-twitter"></i></a>
+                   <a target="_blank" :href="hero.github"><i class="fab fa-github"></i></a>
+                   <a target="_blank" :href="hero.twitter"><i class="fab fa-twitter"></i></a>
                    <a @click="$modal.show(hero.username)"><i class="fa fa-comment"></i></a>
                 </ul>
               </div>
               <div class="text-center ">
                 <h1>{{hero.name}}</h1>
                 <div class="member-connections hidden-lg hidden-md rs-links">
-                  <a target="_blank" :href="hero.github"><i class="fa fa-github"></i></a>
-                  <a target="_blank" :href="hero.twitter"><i class="fa fa-twitter"></i></a>
+                  <a target="_blank" :href="hero.github"><i class="fab fa-github"></i></a>
+                  <a target="_blank" :href="hero.twitter"><i class="fab fa-twitter"></i></a>
                   <a @click="$modal.show(hero.username)"><i class="fa fa-comment"></i></a>
                 </div>
               </div>

@@ -2,7 +2,7 @@
   <div class="col-md-12 text-center">
   <h3 class="section-title">Documentos Públicos</h3>
   <p class="section-subtitle text-justify">La siguiente información se publica en cumplimiento a la ley, cumpliendo con los requisitos solicitados para la permanencia en el régimen vigente para ESALs</p>
-  <ul class="list text-left">
+  <ul class="text-left">
     <!--<li>Acta 1 Junio TBD</li>
     <li>Acta 2 Septiembre TBD</li>
     <li>Acta 3 Diciembre TBD</li>-->
