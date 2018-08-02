@@ -24,6 +24,9 @@
         <a href="https://www.linkedin.com/company/medellinjs/" class="social">
           <i class="fa fa-linkedin"></i>
         </a>
+        <a href="https://gitter.im/coljs/medellinjs" class="social">
+          <i class="fa fa-comments-o"></i>
+        </a>
       </div>
       <p class="copyright wow animated fadeInUp" data-wow-duration="1.5s">&copy; Corporación MedellinJS 2018. All Rights Reserved.</p>
     </div>
