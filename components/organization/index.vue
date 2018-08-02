@@ -46,7 +46,7 @@
 </template>
 
 <script>
-import AppFundationDocuments from '~/components/fundation/documents.vue'
+import AppFundationDocuments from '~/components/organization/documents.vue'
 
 export default {
   components: {

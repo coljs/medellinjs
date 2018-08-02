@@ -19,7 +19,7 @@
 
 <script>
 import AppPreLoader from '~/components/AppPreLoader.vue'
-import AppFundacion from '~/components/fundation/index.vue'
+import AppFundacion from '~/components/organization/index.vue'
 import AppFooter from '~/components/AppFooter.vue'
 
 export default {
