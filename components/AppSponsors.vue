@@ -63,4 +63,9 @@ export default {
   font-weight: bold;
   margin: 0 30px;
 }
+@media screen and (max-width: 768px){
+  .linkSponsor{
+    display: block;
+  }
+}
 </style>
