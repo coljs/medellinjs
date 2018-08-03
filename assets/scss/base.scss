@@ -632,7 +632,6 @@ Header
 ----------------------------------------*/
 
 .top-header {
-  background-image: url(/img/bg/1.jpg);
   min-height: 100vh;
   height: 900px;
 }
@@ -748,9 +747,7 @@ a.bold{
   background-position: center;
  }
  .top-header{
-  background: radial-gradient(circle farthest-side at 0% 50%,#1578aa 23.5%,rgba(240,166,17,0) 0)21px 30px, radial-gradient(circle farthest-side at 0% 50%,#1193d4 24%,rgba(240,166,17,0) 0)19px 30px, linear-gradient(#1578aa 14%,rgba(240,166,17,0) 0, rgba(240,166,17,0) 85%,#1578aa 0)0 0, linear-gradient(150deg,#1578aa 24%,#1193d4 0,#1193d4 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#1193d4 0,#1193d4 76%,#1578aa 0)0 0, linear-gradient(30deg,#1578aa 24%,#1193d4 0,#1193d4 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#1193d4 0,#1193d4 76%,#1578aa 0)0 0, linear-gradient(90deg,#1193d4 2%,#1578aa 0,#1578aa 98%,#1193d4 0%)0 0 #1578aa;
-  background-size: auto auto, auto auto, auto auto, auto auto, auto auto, auto auto;
-  background-size: 40px 60px;
+  background-color:rgba(0, 100, 151, 0.9);
  }
 
  .top-header p{
