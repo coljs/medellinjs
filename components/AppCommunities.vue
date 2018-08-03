@@ -14,7 +14,7 @@
             <a href="http://www.coljs.org/">
               <div class="text-center wow animated fadeInUp" data-wow-duration="1.5s">
                 <span class="intro-icon">
-                  <i class="fa fa-angellist"></i>
+                  <i class="fab fa-angellist"></i>
                 </span>
                 <h4 class="intro-heading">COLJS</h4>
                 <img class='rounded-img' src="https://i.imgur.com/azFflhQ.jpg" alt="ColJS">
