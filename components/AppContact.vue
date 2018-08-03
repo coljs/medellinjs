@@ -44,8 +44,8 @@
               <span class="contact-icon">
                 <i class="fa fa-envelope"></i>
               </span>
-              <p class="contact-detail">medellinjs@gmail.com
-                <br/>https:// github.com/coljs/medellinjs</p>
+              <p class="contact-detail"><a href="mailto:medellinjs@gmail.com">medellinjs@gmail.com</a>
+                <br/><a href="https:// github.com/coljs/medellinjs">https:// github.com/coljs/medellinjs</a></p>
             </div>
           </div>
         </div>
