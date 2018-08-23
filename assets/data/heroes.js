@@ -1408,5 +1408,20 @@ module.exports = {
         thumbnail: ''
       }
     ]
+  },
+  elyalvarado: {
+    name: 'Ely Alvarado',
+    username: 'elyalvarado',
+    twitter: 'https://twitter.com/elyalvarado',
+    github: 'https://github.com/elyalvarado',
+    avatar: 'https://secure.gravatar.com/avatar/8f4a825085dda7d9ea059838a3d6dcd7.jpg?s=200',
+    slides: [
+      {
+        direction: 'r',
+        title: 'WebAssembly 101',
+        url: 'https://wasm101.surge.sh',
+        thumbnail: 'https://wasm101.surge.sh/thumbnail.png'
+      }
+    ]
   }
 }
