@@ -957,15 +957,21 @@ module.exports = {
       {
         direction: 'r',
         title: 'React Native: Verdaderas aplicaciones nativas con JavaScript',
-        url: '',
-        thumbnail: ''
+        url: 'https://slides.com/dobleuber/react-native/live',
+        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/7ccdaf99834281393c1a149f22af1afc/thumb.jpg'
       },
       {
         direction: 'l',
         title: 'Javascript Everywhere: Nativescript',
-        url: '',
-        thumbnail: ''
-      }
+        url: 'https://slides.com/dobleuber/native-script/live',
+        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/6ea0a35104cb0ada970b60b9578d5111/thumb.jpg'
+      },
+      {
+        direction: 'r',
+        title: 'GraphQL Mi Primer API',
+        url: 'https://slides.com/dobleuber/graphql-api',
+        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/6084fc5c5ece0dbbb8d888b71194d7cd/thumb.jpg?1534935882'
+      },
     ]
   },
   jdmaldonado: {
@@ -1369,6 +1375,21 @@ module.exports = {
         direction: 'r',
         title: 'React 101',
         url: 'https://github.com/juandatoro/react101',
+        thumbnail: ''
+      }
+    ]
+  },
+  krank2me: {
+    name: 'Frank Alejandro Betancur',
+    username: 'krank2me',
+    twitter: 'https://twitter.com/KranK2Me',
+    github: 'https://github.com/Krank2me',
+    avatar: 'https://pbs.twimg.com/profile_images/967936276245700613/MPbuW1px_400x400.jpg',
+    slides: [
+      {
+        direction: 'r',
+        title: 'Geolocalización con ionic',
+        url: 'https://github.com/Krank2me/geolocationApp',
         thumbnail: ''
       }
     ]

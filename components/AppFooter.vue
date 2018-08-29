@@ -7,22 +7,25 @@
       </a>
       <div class="socials wow animated fadeIn" data-wow-duration="1.5s">
         <a href="https://www.facebook.com/medellinjs" class="social">
-          <i class="fa fa-facebook"></i>
+          <i class="fab fa-facebook"></i>
         </a>
         <a href="https://twitter.com/medellinjs" class="social">
-          <i class="fa fa-twitter"></i>
+          <i class="fab fa-twitter"></i>
         </a>
         <a href="https://github.com/coljs/medellinjs/" class="social">
-          <i class="fa fa-github"></i>
+          <i class="fab fa-github"></i>
         </a>
         <a href="https://www.instagram.com/medellinjs/" class="social">
-          <i class="fa fa-instagram"></i>
+          <i class="fab fa-instagram"></i>
         </a>
         <a href="https://www.meetup.com/medellinjs" class="social">
-          <i class="fa fa-meetup"></i>
+          <i class="fab fa-meetup"></i>
         </a>
         <a href="https://www.linkedin.com/company/medellinjs/" class="social">
-          <i class="fa fa-linkedin"></i>
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://gitter.im/coljs/medellinjs" class="social">
+          <i class="fab fa-gitter"></i>
         </a>
       </div>
       <p class="copyright wow animated fadeInUp" data-wow-duration="1.5s">&copy; Corporación MedellinJS 2018. All Rights Reserved.</p>
