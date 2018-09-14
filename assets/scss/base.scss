@@ -135,8 +135,13 @@ ul, ol {
   padding: 0;
 }
 
-ul.list {
+ul.list,
+ul.without-list-style {
   list-style: none;
+}
+
+ul.list {
+  // list-style: none;
   li {
     position: relative;
     line-height: 2.25;
@@ -270,6 +275,10 @@ img {
 
 .section-bg .section-subtitle {
   color: #f3f3f3;
+}
+
+.section-talk-tips {
+  margin-top: 40px;
 }
 
 .mock-group {
