@@ -971,7 +971,7 @@ module.exports = {
         title: 'GraphQL Mi Primer API',
         url: 'https://slides.com/dobleuber/graphql-api',
         thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/6084fc5c5ece0dbbb8d888b71194d7cd/thumb.jpg?1534935882'
-      },
+      }
     ]
   },
   jdmaldonado: {
