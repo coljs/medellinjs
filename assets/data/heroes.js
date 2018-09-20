@@ -1349,6 +1349,21 @@ module.exports = {
       }
     ]
   },
+  erunamojazz: {
+    name: 'C. Daniel Sanchez',
+    username: 'ErunamoJAZZ',
+    twitter: 'https://twitter.com/EruJazz',
+    github: 'https://github.com/ErunamoJAZZ',
+    avatar: 'https://pbs.twimg.com/profile_images/993526471837745153/HhcB3sjs_400x400.jpg',
+    slides: [
+      {
+        direction: 'r',
+        title: 'The next step for Functional Programing in JavaScript',
+        url: 'https://slides.com/erujazz/the-next-step-for-fp-in-javascript',
+        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/6c8fec3679e05a90a2d5807a8cc35f98/thumb.jpg?1514301581'
+      }
+    ]
+  },
   jgomez: {
     name: 'Juliana Gómez',
     username: 'gomezjuliana',
