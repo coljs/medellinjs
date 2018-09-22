@@ -978,7 +978,7 @@ module.exports = {
     name: 'Juan David Maldonado',
     username: 'jdmaldonado06',
     twitter: 'https://twitter.com/jdmaldonado06',
-    github: 'https://github.com/jdmaldonado06',
+    github: 'https://github.com/jdmaldonado',
     avatar: 'https://en.gravatar.com/userimage/57278571/9f54708ca5bbc477ea7b219f5d2ce398.jpg?size=200',
     slides: [
       {
