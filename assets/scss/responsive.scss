@@ -32,6 +32,7 @@
   .navbar-default > .container {
     text-align: right;
   }
+  
 }
 
 @media screen and (max-width: 1200px) {
@@ -123,6 +124,15 @@
   .child-comments {
     padding-left: 60px;
   }
+  .profileHero h1 {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 14px auto 0 auto;
+    white-space: nowrap;
+    max-width: 240px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -169,6 +179,9 @@
   }
   .top-header h1, .flex_text, .top-header p, .device-download, .button-group {
     margin-top: 25px;
+  }
+  .top-header p{
+    font-size: 1.2em;
   }
   .banner-v2 .button-group .btn + .btn {
     display: block;

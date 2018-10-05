@@ -20,10 +20,10 @@
               <p>{{ organizer.bio }}</p>
               <div class="member-connections">
                 <a v-bind:href="'http://twitter.com/' + organizer.twitter">
-                  <i class="fa fa-twitter"></i>
+                  <i class="fab fa-twitter"></i>
                 </a>
                 <a v-bind:href="'http://github.com/'  + organizer.github">
-                  <i class="fa fa-github"></i>
+                  <i class="fab fa-github"></i>
                 </a>
                 <a v-bind:href="organizer.website">
                   <i class="fa fa-home"></i>

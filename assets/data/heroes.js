@@ -957,14 +957,20 @@ module.exports = {
       {
         direction: 'r',
         title: 'React Native: Verdaderas aplicaciones nativas con JavaScript',
-        url: '',
-        thumbnail: ''
+        url: 'https://slides.com/dobleuber/react-native/live',
+        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/7ccdaf99834281393c1a149f22af1afc/thumb.jpg'
       },
       {
         direction: 'l',
         title: 'Javascript Everywhere: Nativescript',
-        url: '',
-        thumbnail: ''
+        url: 'https://slides.com/dobleuber/native-script/live',
+        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/6ea0a35104cb0ada970b60b9578d5111/thumb.jpg'
+      },
+      {
+        direction: 'r',
+        title: 'GraphQL Mi Primer API',
+        url: 'https://slides.com/dobleuber/graphql-api',
+        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/6084fc5c5ece0dbbb8d888b71194d7cd/thumb.jpg?1534935882'
       }
     ]
   },
@@ -1340,6 +1346,81 @@ module.exports = {
         title: 'Code & Art',
         url: '',
         thumbnail: ''
+      }
+    ]
+  },
+  erunamojazz: {
+    name: 'C. Daniel Sanchez',
+    username: 'ErunamoJAZZ',
+    twitter: 'https://twitter.com/EruJazz',
+    github: 'https://github.com/ErunamoJAZZ',
+    avatar: 'https://pbs.twimg.com/profile_images/993526471837745153/HhcB3sjs_400x400.jpg',
+    slides: [
+      {
+        direction: 'r',
+        title: 'The next step for Functional Programing in JavaScript',
+        url: 'https://slides.com/erujazz/the-next-step-for-fp-in-javascript',
+        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/6c8fec3679e05a90a2d5807a8cc35f98/thumb.jpg?1514301581'
+      }
+    ]
+  },
+  jgomez: {
+    name: 'Juliana Gómez',
+    username: 'gomezjuliana',
+    twitter: 'https://twitter.com/gmzjuliana',
+    github: 'https://github.com/gomezjuliana',
+    avatar: 'https://gomezjuliana.files.wordpress.com/2017/10/screenshot-from-2017-07-17-08-09-07.png',
+    slides: [
+      {
+        direction: 'r',
+        title: 'Accessibility is important.. now what?',
+        url: 'https://drive.google.com/open?id=1T1BANZekaOH0z5l11e9_Zb3rMycDbGgk',
+        thumbnail: ''
+      }
+    ]
+  },
+  juandatoro: {
+    name: 'Juan David Restrepo',
+    username: 'juandatoro',
+    twitter: 'https://twitter.com/jdretoro',
+    github: 'https://github.com/juandatoro',
+    avatar: 'https://pbs.twimg.com/profile_images/978797949244370944/x7YNAwSa_400x400.jpg',
+    slides: [
+      {
+        direction: 'r',
+        title: 'React 101',
+        url: 'https://github.com/juandatoro/react101',
+        thumbnail: ''
+      }
+    ]
+  },
+  krank2me: {
+    name: 'Frank Alejandro Betancur',
+    username: 'krank2me',
+    twitter: 'https://twitter.com/KranK2Me',
+    github: 'https://github.com/Krank2me',
+    avatar: 'https://pbs.twimg.com/profile_images/967936276245700613/MPbuW1px_400x400.jpg',
+    slides: [
+      {
+        direction: 'r',
+        title: 'Geolocalización con ionic',
+        url: 'https://github.com/Krank2me/geolocationApp',
+        thumbnail: ''
+      }
+    ]
+  },
+  elyalvarado: {
+    name: 'Ely Alvarado',
+    username: 'elyalvarado',
+    twitter: 'https://twitter.com/elyalvarado',
+    github: 'https://github.com/elyalvarado',
+    avatar: 'https://secure.gravatar.com/avatar/8f4a825085dda7d9ea059838a3d6dcd7.jpg?s=200',
+    slides: [
+      {
+        direction: 'r',
+        title: 'WebAssembly 101',
+        url: 'https://wasm101.surge.sh',
+        thumbnail: 'https://wasm101.surge.sh/thumbnail.png'
       }
     ]
   }
