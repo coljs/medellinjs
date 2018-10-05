@@ -1010,15 +1010,11 @@ h6.description{
     opacity: 1;
     display: block;
     position: relative;
-    &:after{
-      content:"";
-      opacity: 0;
-      background-color: rgba(0, 0, 0, 0.75);
-      position: absolute;
-      right: 0;
-      left: 0;
-      top: 0;
-      bottom: 0;
+    background-color: transparent;
+    transition: all .5s ease;
+    background-blend-mode: multiply;
+    &:hover{
+        background-color: rgba(0,0,0,0.7);
     }
     ul{
       position: absolute;
@@ -1726,6 +1722,9 @@ Reviews
   border-radius: 50%;
   margin: 8px auto;
   box-shadow: 0 0 0 8px #b1c9d1;
+  /* */
+  background-size: cover;
+  background-position: center;
 }
 
 .review-comment {
