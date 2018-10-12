@@ -13,12 +13,12 @@
           <div>
             <div class="row">
               <div class="col-md-2 text-right">
-                <label id="label-meetup" for="meetup-id">Meetup ID:</label>
+                <label id="label-meetup" for="meetup">Select meetup:</label>
               </div>
-              <div class="col-md-3">
-                <input id="meetup-id" type="text" v-model="meetupID">
+              <div class="col-md-5">
+                <b-form-select v-model="meetupID" :options="meetups" class="select-meetups"></b-form-select>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-5">
                 <button class="button" v-on:click="searchAttendence()">Cargar asistentes</button>
                 <button class="button" v-on:click="searchWinner()">Ganador</button>
               </div>
@@ -61,9 +61,10 @@
     },
     data () {
       return {
+        meetups: [],
         winner: {},
         attendance: [],
-        meetupID: '',
+        meetupID: null,
         show: {
           attendance: false,
           winner: false
@@ -71,27 +72,40 @@
       }
     },
     methods: {
-      searchAttendence () {
-        let self = this
-        const meetup = 'https://api.meetup.com/MedellinJS/events/' + self.meetupID + '/attendance'
-        jsonp(meetup, {}, function (err, data) {
+      getMeetups () {
+        const url = 'https://api.meetup.com/MedellinJS/events?desc=true&page=2&status=past'
+        jsonp(url, {}, (err, data) => {
           if (err) {
+            console.error('Error getting list of events')
+          }
+          this.meetups = data.data.map((item) => { return { value: item.id, text: item.name } })
+        })
+      },
+      searchAttendence () {
+        if (!this.meetupID) {
+          return
+        }
+        const meetup = 'https://api.meetup.com/MedellinJS/events/' + this.meetupID + '/attendance'
+        jsonp(meetup, {}, (err, data) => {
+          if (err || data.data.errors) {
             console.error('Error fetching next meetups from MeetupAPI')
-            self.attendance = []
-            self.show.attendance = false
+            this.attendance = []
+            this.show.attendance = false
             return
           }
-          self.attendance = data.data
-          self.show.attendance = true
+          this.attendance = data.data
+          this.show.attendance = true
         })
       },
       searchWinner () {
-        let self = this
-        let winnerIndex = Math.floor(Math.random() * (self.attendance.length + 1))
-        let winnerInfo = self.attendance[winnerIndex].member
-        self.winner = { id: winnerInfo.id, name: winnerInfo.name, photo: winnerInfo.photo.photo_link }
-        self.show.winner = true
+        let winnerIndex = Math.floor(Math.random() * (this.attendance.length + 1))
+        let winnerInfo = this.attendance[winnerIndex].member
+        this.winner = { id: winnerInfo.id, name: winnerInfo.name, photo: winnerInfo.photo.photo_link }
+        this.show.winner = true
       }
+    },
+    mounted () {
+      this.getMeetups()
     }
   }
 </script>
@@ -186,6 +200,10 @@
     text-align: center;
     overflow: hidden;
     box-shadow: inset 0 6px 8px -9px #44637e, inset 0 -6px 8px -9px #44637e;
+  }
+
+  .select-meetups {
+    font-size: 1em;
   }
   /* Futura funcionalidad
   @keyframes ruleta {
