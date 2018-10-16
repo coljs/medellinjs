@@ -1423,5 +1423,26 @@ module.exports = {
         thumbnail: 'https://wasm101.surge.sh/thumbnail.png'
       }
     ]
+  },
+  manucastrillon: {
+    name: 'Manu Castrillon',
+    username: 'manucastrillonm',
+    twitter: 'https://twitter.com/manucastrillonm',
+    github: 'https://github.com/manucastrillonm',
+    avatar: 'https://avatars2.githubusercontent.com/u/10585946?s=460&v=4',
+    slides: [
+      {
+        direction: 'r',
+        title: 'CSS Houdini',
+        url: 'https://slides.com/manucastrillonm/css-houdini#/',
+        thumbnail: ''
+      },
+      {
+        direction: 'l',
+        title: 'SMACSS',
+        url: 'https://slides.com/manucastrillonm/smacss#/',
+        thumbnail: ''
+      }
+    ]
   }
 }
