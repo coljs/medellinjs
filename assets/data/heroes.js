@@ -1429,5 +1429,26 @@ module.exports = {
         thumbnail: 'https://wasm101.surge.sh/thumbnail.png'
       }
     ]
+  },
+  romelperez: {
+    name: 'Romel Pérez',
+    username: 'romelperez',
+    twitter: 'https://twitter.com/romelperez07',
+    github: 'https://github.com/romelperez',
+    avatar: 'https://secure.gravatar.com/avatar/3f489111102b5a41cf2ce6867508fcdf?size=400',
+    slides: [
+      {
+        direction: 'r',
+        title: 'Testing in JavaScript with Jest',
+        url: 'https://romelperez.com/talks/testing-javascript-jest',
+        thumbnail: 'https://romelperez.com/static/img/romelperez.jpg'
+      },
+      {
+        direction: 'r',
+        title: 'CSS in JS with JSS and React',
+        url: 'https://romelperez.com/talks/css-in-js-with-jss-and-react',
+        thumbnail: 'https://romelperez.com/static/img/romelperez.jpg'
+      }
+    ]
   }
 }
