@@ -13,8 +13,7 @@
         <div class="col-md-10 col-md-offset-1">
           <div id="heroes" class="heroes">
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 profileHero" v-for="(hero, key) in heroes" :key="key">
-              <div class="img-box reviewer-mock">
-                <img :src="hero.avatar" class="img-responsive">
+              <div class="img-box reviewer-mock" :style="{backgroundImage:`url(${hero.avatar})`}" >
                 <ul class="text-center hidden-sm hidden-xs rs-links">
                    <a target="_blank" :href="hero.github"><i class="fab fa-github"></i></a>
                    <a target="_blank" :href="hero.twitter"><i class="fab fa-twitter"></i></a>

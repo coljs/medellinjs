@@ -978,7 +978,7 @@ module.exports = {
     name: 'Juan David Maldonado',
     username: 'jdmaldonado06',
     twitter: 'https://twitter.com/jdmaldonado06',
-    github: 'https://github.com/jdmaldonado06',
+    github: 'https://github.com/jdmaldonado',
     avatar: 'https://en.gravatar.com/userimage/57278571/9f54708ca5bbc477ea7b219f5d2ce398.jpg?size=200',
     slides: [
       {
@@ -986,6 +986,12 @@ module.exports = {
         title: 'Angular-Meteor-ES6',
         url: 'http://slides.com/jdmaldonado/deck#/',
         thumbnail: 'http://image.slidesharecdn.com/8g7pin3rb61upkzexv4h-signature-09adb4eabd7fc81c611e796990aecec77e47b56b53f92c6b1c2e3263f7c53504-poli-150518082414-lva1-app6891/95/angular-meteor-for-angular-devs-1-638.jpg?cb=1431937650'
+      },
+      {
+        direction: 'l',
+        title: 'PWA + ionic + firebase + oneSignal',
+        url: 'http://slides.com/jdmaldonado/deck-4#/',
+        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/6e01f3568a018f811300ec8c37f8ef0f/thumb.jpg?1537859595'
       }
     ]
   },
