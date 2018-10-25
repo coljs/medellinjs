@@ -978,7 +978,7 @@ module.exports = {
     name: 'Juan David Maldonado',
     username: 'jdmaldonado06',
     twitter: 'https://twitter.com/jdmaldonado06',
-    github: 'https://github.com/jdmaldonado06',
+    github: 'https://github.com/jdmaldonado',
     avatar: 'https://en.gravatar.com/userimage/57278571/9f54708ca5bbc477ea7b219f5d2ce398.jpg?size=200',
     slides: [
       {
@@ -986,6 +986,12 @@ module.exports = {
         title: 'Angular-Meteor-ES6',
         url: 'http://slides.com/jdmaldonado/deck#/',
         thumbnail: 'http://image.slidesharecdn.com/8g7pin3rb61upkzexv4h-signature-09adb4eabd7fc81c611e796990aecec77e47b56b53f92c6b1c2e3263f7c53504-poli-150518082414-lva1-app6891/95/angular-meteor-for-angular-devs-1-638.jpg?cb=1431937650'
+      },
+      {
+        direction: 'l',
+        title: 'PWA + ionic + firebase + oneSignal',
+        url: 'http://slides.com/jdmaldonado/deck-4#/',
+        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/6e01f3568a018f811300ec8c37f8ef0f/thumb.jpg?1537859595'
       }
     ]
   },
@@ -1421,6 +1427,48 @@ module.exports = {
         title: 'WebAssembly 101',
         url: 'https://wasm101.surge.sh',
         thumbnail: 'https://wasm101.surge.sh/thumbnail.png'
+      }
+    ]
+  },
+  manucastrillon: {
+    name: 'Manu Castrillon',
+    username: 'manucastrillonm',
+    twitter: 'https://twitter.com/manucastrillonm',
+    github: 'https://github.com/manucastrillonm',
+    avatar: 'https://avatars2.githubusercontent.com/u/10585946?s=460&v=4',
+    slides: [
+      {
+        direction: 'r',
+        title: 'CSS Houdini',
+        url: 'https://slides.com/manucastrillonm/css-houdini#/',
+        thumbnail: ''
+      },
+      {
+        direction: 'l',
+        title: 'SMACSS',
+        url: 'https://slides.com/manucastrillonm/smacss#/',
+        thumbnail: ''
+      }
+    ]
+  },
+  romelperez: {
+    name: 'Romel Pérez',
+    username: 'romelperez',
+    twitter: 'https://twitter.com/romelperez07',
+    github: 'https://github.com/romelperez',
+    avatar: 'https://secure.gravatar.com/avatar/3f489111102b5a41cf2ce6867508fcdf?size=400',
+    slides: [
+      {
+        direction: 'r',
+        title: 'Testing in JavaScript with Jest',
+        url: 'https://romelperez.com/talks/testing-javascript-jest',
+        thumbnail: 'https://romelperez.com/static/img/romelperez.jpg'
+      },
+      {
+        direction: 'r',
+        title: 'CSS in JS with JSS and React',
+        url: 'https://romelperez.com/talks/css-in-js-with-jss-and-react',
+        thumbnail: 'https://romelperez.com/static/img/romelperez.jpg'
       }
     ]
   }
