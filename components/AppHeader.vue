@@ -41,7 +41,7 @@ export default {
         face3: '.JS',
         face4: 'MED',
         face5: '.JS',
-        face6: 5
+        face6: 6
       }
     }
   }
