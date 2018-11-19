@@ -16,7 +16,7 @@
           <div class='col-md-4 text-center' v-for='(sponsor, key) in sponsors' :key="key">
             <div class='fun-fact'>
               <a v-bind:href='sponsor.website'>
-                <div class='reviewer-mock'><img v-bind:src='sponsor.logo' alt='sponsor.name'></div>
+                <div class='reviewer-mock'><img v-bind:src='sponsor.logo' :alt='sponsor.name'></div>
                 <p class='fact-name'>{{ sponsor.name }}</p>
               </a>
             </div>
