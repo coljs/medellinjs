@@ -738,19 +738,19 @@ a.bold{
   background-size: cover;
   background-position: center center;
   &.item-1 {
-    background-image: url(/img/slider/1.jpg);
+    background-image: url(~assets/img/slider/1.jpg);
   }
   &.item-2 {
-    background-image: url(/img/slider/2.jpg);
+    background-image: url(~assets/img/slider/2.jpg);
   }
   &.item-3 {
-    background-image: url(/img/slider/3.jpg);
+    background-image: url(~assets/img/slider/3.jpg);
   }
 }
 
 .top-header:before {
   content: '';
-  background-image: url(/static/img/photos/portada.jpg);
+  background-image: url(~assets/img/photos/portada.jpg);
   background-size: cover;
   opacity: 0.15;
   background-position: center;
