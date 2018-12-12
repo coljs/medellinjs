@@ -16,7 +16,7 @@
           <div class='col-md-4 text-center' v-for='(sponsor, key) in sponsors' :key="key">
             <div class='fun-fact'>
               <a v-bind:href='sponsor.website'>
-                <div class='reviewer-mock'><img v-bind:src='sponsor.logo' alt='sponsor.name'></div>
+                <div class='reviewer-mock'><img v-bind:src='sponsor.logo' :alt='sponsor.name'></div>
                 <p class='fact-name'>{{ sponsor.name }}</p>
               </a>
             </div>
@@ -50,6 +50,17 @@ export default {
           logo:
             'https://pbs.twimg.com/profile_images/963875088591409152/krlRSDkp_200x200.jpg',
           website: 'https://teaminternational.com'
+        },
+        ColombiaDev: {
+          name: 'Colombia Dev',
+          logo: 'https://colombia-dev.org/public/assets/images/condor-logo.svg',
+          website: 'https://colombia-dev.org/'
+        },
+        MatterSupplyCo: {
+          name: 'Matter Supply Co',
+          logo:
+            'https://s3.amazonaws.com/media-p.slid.es/uploads/245238/images/5118287/wordmark-cropped.png',
+          website: 'https://mattersupply.co/'
         }
       }
     }
