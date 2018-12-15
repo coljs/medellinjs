@@ -3,7 +3,11 @@
   "version": "1.4.0",
   "description": "MedellinJS Website powered by NuxtJS",
   "author": "medellinjs <medellinjs@gmail.com>",
-  "private": true,
+  "private": false,
+  "engines": {
+    "node": ">=10.13.0"
+  },
+  "engineStrict": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
