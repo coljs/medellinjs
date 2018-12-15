@@ -37,8 +37,21 @@ module.exports = {
     'bootstrap-vue/nuxt',
     ['@nuxtjs/google-analytics', {
       id: 'UA-118815653-1'
-    }]
+    }],
+    '@nuxtjs/pwa',
   ],
+
+  /*
+   ** PWA Manifest.json 
+   */
+  manifest: {
+    background_color: '#0CA1CB',
+    description: 'A simply readable Hacker News app.',
+    display: 'standalone',
+    lang: 'es',
+    name: 'MedellinJS Website',
+    short_name: 'MedellinJS',
+  },
 
   plugins: ['~/plugins/vue-js-modal'],
   /*
