@@ -73,7 +73,7 @@
     },
     methods: {
       getMeetups () {
-        const url = 'https://api.meetup.com/MedellinJS/events?desc=true&page=2&status=past'
+        const url = 'https://api.meetup.com/MedellinJS/events?desc=true&page=2'
         jsonp(url, {}, (err, data) => {
           if (err) {
             console.error('Error getting list of events')
