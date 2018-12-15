@@ -16,7 +16,12 @@
           <div class='col-md-4 text-center' v-for='(sponsor, key) in sponsors' :key="key">
             <div class='fun-fact'>
               <a v-bind:href='sponsor.website'>
-                <div class='reviewer-mock'><img v-bind:src='sponsor.logo' :alt='sponsor.name'></div>
+                <div
+                  role='img'
+                  :aria-label="sponsor.name"
+                  class='reviewer-mock'
+                  :style="{ backgroundImage: `url(${sponsor.logo})`, backgroundSize: 'contain' }"
+                />
                 <p class='fact-name'>{{ sponsor.name }}</p>
               </a>
             </div>
@@ -69,14 +74,17 @@ export default {
 </script>
 
 <style scoped>
-.linkSponsor {
-  color: #fff;
-  font-weight: bold;
-  margin: 0 30px;
-}
-@media screen and (max-width: 768px){
-  .linkSponsor{
-    display: block;
+  .sponsor-logo {
+    background-size: contain;
   }
-}
+  .linkSponsor {
+    color: #fff;
+    font-weight: bold;
+    margin: 0 30px;
+  }
+  @media screen and (max-width: 768px){
+    .linkSponsor{
+      display: block;
+    }
+  }
 </style>
