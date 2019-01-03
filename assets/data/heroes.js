@@ -1314,12 +1314,12 @@ module.exports = {
     name: 'Cristian Martinez',
     username: 'iscristianhere',
     twitter: 'https://twitter.com/iscristianhere',
-    github: 'https://github.com/b3nkos',
+    github: 'https://github.com/cristianmartinez',
     avatar: 'https://pbs.twimg.com/profile_images/1003720249299095560/kwLccCaS_400x400.jpg',
     slides: [
       {
         direction: 'r',
-        title: 'NestJS - scalable web applications with nodejs with TS',
+        title: 'NestJS - scalable web applications with nodejs',
         url: '',
         thumbnail: ''
       }
