@@ -1471,5 +1471,20 @@ module.exports = {
         thumbnail: 'https://romelperez.com/static/img/romelperez.jpg'
       }
     ]
+  },
+  kathcode: {
+    name: 'Catalina Meneses',
+    username: 'kathcode',
+    twitter: 'https://twitter.com/Kath_Code',
+    github: 'https://github.com/kathcode',
+    avatar: 'https://pbs.twimg.com/profile_images/984624523252088833/enaxS6VT_400x400.jpg',
+    slides: [
+      {
+        direction: 'r',
+        title: 'Iniciando con Redux Form',
+        url: 'https://slides.com/kath_code/catalina',
+        thumbnail: ''
+      },
+    ]
   }
 }
