@@ -65,7 +65,6 @@
         winner: {},
         attendance: [],
         meetupID: null,
-        selectedUsers: [],
         show: {
           attendance: false,
           winner: false
@@ -96,7 +95,6 @@
           }
           this.attendance = data.data
           this.show.attendance = true
-          this.selectedUsers = []
         })
       },
       searchWinner () {
@@ -105,7 +103,6 @@
         this.winner = { id: winnerInfo.id, name: winnerInfo.name, photo: winnerInfo.photo.photo_link }
         this.show.winner = true
         // avoid that one community member appear two times during the raffle
-        this.selectedUsers = this.selectedUsers.concat([ this.attendance[winnerIndex] ])
         this.attendance = this.attendance.filter(({ member }) => member.id !== winnerInfo.id )
       }
     },
