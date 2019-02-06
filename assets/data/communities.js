@@ -81,7 +81,7 @@ module.exports = {
     twitter: '@barranquillajs',
     github: 'barranquillajs',
     avatar:
-      'https://secure.meetupstatic.com/photos/member/5/8/5/c/highres_259462620.jpeg',
+      'https://imgur.com/VqnQcvx',
     website: 'https://www.meetup.com/BarranquillaJS/'
   },
   bucaramangajs: {
