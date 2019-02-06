@@ -6,7 +6,7 @@ module.exports = {
     twitter: '@bogotajs',
     github: 'bogotajs',
     avatar:
-      'imgur.com/0VE7Df0.png',
+      'https://imgur.com/ik1530G',
     website: 'www.bogotajs.com/'
   },
   calijs: {
@@ -36,7 +36,7 @@ module.exports = {
     twitter: '@quibdojs',
     github: 'quibdojs',
     avatar:
-      'i.imgur.com/MQwQ9Kt.png',
+      'https://imgur.com/8aT52a7',
     website: 'https://twitter.com/QuibdoJs'
   },
   pereirajs: {
@@ -54,7 +54,7 @@ module.exports = {
     twitter: '@monteriajs',
     github: 'monteriajs',
     avatar:
-      'i.imgur.com/e35RPp3.png',
+      'https://imgur.com/u0GKFUv',
     website: 'www.meetup.com/monteriajs/'
   },
   popayanjs: {
