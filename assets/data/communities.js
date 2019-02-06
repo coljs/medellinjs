@@ -26,7 +26,7 @@ module.exports = {
     twitter: '@villavicenciojs',
     github: 'villavicenciojs',
     avatar:
-      'https://i.imgur.com/6RKQMj1.png',
+      'https://imgur.com/8bj4poT',
     website: 'www.meetup.com/es-ES/Villavicencio-JS/'
   },
   quibdojs: {
