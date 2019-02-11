@@ -1314,12 +1314,12 @@ module.exports = {
     name: 'Cristian Martinez',
     username: 'iscristianhere',
     twitter: 'https://twitter.com/iscristianhere',
-    github: 'https://github.com/b3nkos',
+    github: 'https://github.com/cristianmartinez',
     avatar: 'https://pbs.twimg.com/profile_images/1003720249299095560/kwLccCaS_400x400.jpg',
     slides: [
       {
         direction: 'r',
-        title: 'NestJS - scalable web applications with nodejs with TS',
+        title: 'NestJS - scalable web applications with nodejs',
         url: '',
         thumbnail: ''
       }
@@ -1470,6 +1470,21 @@ module.exports = {
         url: 'https://romelperez.com/talks/css-in-js-with-jss-and-react',
         thumbnail: 'https://romelperez.com/static/img/romelperez.jpg'
       }
+    ]
+  },
+  kathcode: {
+    name: 'Catalina Meneses',
+    username: 'kathcode',
+    twitter: 'https://twitter.com/Kath_Code',
+    github: 'https://github.com/kathcode',
+    avatar: 'https://pbs.twimg.com/profile_images/984624523252088833/enaxS6VT_400x400.jpg',
+    slides: [
+      {
+        direction: 'r',
+        title: 'Iniciando con Redux Form',
+        url: 'https://slides.com/kath_code/catalina',
+        thumbnail: ''
+      },
     ]
   }
 }
