@@ -66,7 +66,11 @@ export default {
           logo:
             'https://s3.amazonaws.com/media-p.slid.es/uploads/245238/images/5118287/wordmark-cropped.png',
           website: 'https://mattersupply.co/'
-        }
+        },
+        Almundo: {
+          name: 'Almundo',
+          logo: 'https://drive.google.com/file/d/1fM0arrzrxbfHkEqSFQb1JFmPxZFX0ltG/view',
+          website: 'https://almundo.com.co/'
       }
     }
   }
