@@ -6,7 +6,7 @@
             <div class='section-heading'>
               <h2 class='section-title'>Sponsors</h2>
               <p class='section-subtitle'>Nuestros patrocinadores</p>
-              <router-link to="sponsor" target='_blank' class='linkSponsor'>Quieres ser patrocinador?</router-link>
+              <router-link to="sponsor" target='_blank' class='linkSponsor'>¿Quieres ser patrocinador?</router-link>
               <router-link to="sponsor-en" target='_blank' class='linkSponsor'>Do you want to be a sponsor?</router-link>
             </div>
           </div>
@@ -47,7 +47,7 @@ export default {
         RutaN: {
           name: 'RutaN',
           logo:
-            'https://pbs.twimg.com/profile_images/948573975847849985/_It5tvFS_200x200.jpg',
+            'https://imgur.com/jLWnMk9',
           website: 'https://www.rutanmedellin.org'
         },
         TeamInternational: {
