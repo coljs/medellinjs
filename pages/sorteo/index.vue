@@ -102,6 +102,8 @@
         let winnerInfo = this.attendance[winnerIndex].member
         this.winner = { id: winnerInfo.id, name: winnerInfo.name, photo: winnerInfo.photo.photo_link }
         this.show.winner = true
+        // avoid that one community member appear two times during the raffle
+        this.attendance = this.attendance.filter(({ member }) => member.id !== winnerInfo.id )
       }
     },
     mounted () {

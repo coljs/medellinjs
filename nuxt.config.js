@@ -46,7 +46,7 @@ module.exports = {
    */
   manifest: {
     background_color: '#0CA1CB',
-    description: 'A simply readable Hacker News app.',
+    description: 'Somos una comunidad de apasionados cuyo fin es el de fortalecer y articular el ecosistema tecnológico de la ciudad de Medellín, Colombia.',
     display: 'standalone',
     lang: 'es',
     name: 'MedellinJS Website',
