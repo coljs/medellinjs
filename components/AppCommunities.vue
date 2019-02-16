@@ -17,7 +17,7 @@
                   <i class="fab fa-angellist"></i>
                 </span>
                 <h4 class="intro-heading">COLJS</h4>
-                <img class='rounded-img' src="https://i.imgur.com/azFflhQ.jpg" alt="ColJS">
+                <img class='rounded-img' src="//i.imgur.com/azFflhQ.jpg" alt="ColJS">
               </div>
             </a>
           </div>

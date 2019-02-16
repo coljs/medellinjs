@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-12 text-center">
           <div class="section-heading">
-            <h2 class="section-title">Por qué una fundación?</h2>
+            <h2 class="section-title">¿Por qué una fundación?</h2>
             <p class="section-subtitle text-justify">Hemos creado este grupo con el fin de reunir, compartir y aprender de los desarrolladores JavaScript de la ciudad de Medellín, Colombia.</p>
             <p class="section-subtitle text-justify">
               Nuestra filosofía será siempre la de mantener un ambiente informal, nada estricto en ningún sentido. Así que cualquier colaboración, en cualquier sentido, será muy bien recibida.</p>
@@ -36,7 +36,7 @@
                 <i class="fa fa-envelope"></i>
               </span>
               <p class="contact-detail"><a href="mailto:medellinjs@gmail.com">medellinjs@gmail.com</a>
-                <br/><a href="https:// github.com/coljs/medellinjs">https:// github.com/coljs/medellinjs</a></p>
+                <br/><a href="://github.com/coljs/medellinjs">://github.com/coljs/medellinjs</a></p>
             </div>
           </div>
         </div>

@@ -246,8 +246,8 @@ export default {
   },
   mounted () {
     let self = this
-    const nextMeetupsURL = 'https://api.meetup.com/MedellinJS/events?photo-host=public&page=20&sig_id=233024411&sig=4f25bc7667fd757ce3cda2aa99feacf3b8ce5fbd'
-    const pastMeetupsURL = 'https://api.meetup.com/MedellinJS/events?desc=true&photo-host=public&page=1&sig_id=233024411&status=past&sig=032b49e98bab5fc4368836d6f71e5b2c00fb3154'
+    const nextMeetupsURL = '//api.meetup.com/MedellinJS/events?photo-host=public&page=20&sig_id=233024411&sig=4f25bc7667fd757ce3cda2aa99feacf3b8ce5fbd'
+    const pastMeetupsURL = '//api.meetup.com/MedellinJS/events?desc=true&photo-host=public&page=1&sig_id=233024411&status=past&sig=032b49e98bab5fc4368836d6f71e5b2c00fb3154'
 
     jsonp(nextMeetupsURL, {}, function (err, data) {
       if (err) {

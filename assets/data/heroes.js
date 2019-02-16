@@ -175,7 +175,7 @@ module.exports = {
     username: 'seeleJG',
     twitter: 'https://twitter.com/seeleJG',
     github: '',
-    avatar: 'https://pbs.twimg.com/profile_images/668955398074929152/MagCZsr3_400x400.jpg',
+    avatar: 'https://pbs.twimg.com/profile_images/1096089919305469955/6TwewI5__400x400.png',
     slides: [
       {
         direction: 'r',
@@ -298,7 +298,7 @@ module.exports = {
     username: 'iosamuel',
     twitter: 'https://twitter.com/iosamuel',
     github: 'https://github.com/iosamuel',
-    avatar: 'https://pbs.twimg.com/profile_images/1010278503625953281/QQyrKSvm_400x400.jpg',
+    avatar: 'https://pbs.twimg.com/profile_images/1094511601741381632/pXB_vxCp_400x400.jpg',
     slides: [
       {
         direction: 'r',
@@ -313,7 +313,7 @@ module.exports = {
     username: '5h1rU',
     twitter: 'https://twitter.com/5h1rU',
     github: 'https://github.com/5h1rU',
-    avatar: 'https://pbs.twimg.com/profile_images/557756970501808128/qiWjG8wp_400x400.jpeg',
+    avatar: 'https://pbs.twimg.com/profile_images/1069632070647984128/KaZrvuj1_400x400.jpg',
     slides: [
       {
         direction: 'r',
@@ -589,7 +589,7 @@ module.exports = {
     username: 'alexav',
     twitter: 'https://twitter.com/alexav',
     github: 'https://github.com/axelavargas',
-    avatar: 'www.gravatar.com/avatar/e322c4c78b001b013477ef504c1507b3.jpg?s=200',
+    avatar: 'http://www.gravatar.com/avatar/e322c4c78b001b013477ef504c1507b3.jpg?s=200',
     slides: [
       {
         direction: 'r',
@@ -1000,7 +1000,7 @@ module.exports = {
     username: 'Mathius17',
     twitter: 'https://twitter.com/Mathius17',
     github: 'https://github.com/Mathius17',
-    avatar: 'https://pbs.twimg.com/profile_images/869027504237010944/IYcphUq__200x200.jpg',
+    avatar: 'https://pbs.twimg.com/profile_images/1024307974746124288/TDfUawtV_400x400.jpg',
     slides: [
       {
         direction: 'r',
@@ -1345,7 +1345,7 @@ module.exports = {
     username: 'HumoBinario',
     twitter: 'https://twitter.com/HumoBinario',
     github: '',
-    avatar: 'https://pbs.twimg.com/profile_images/938595601444253696/ltvu-Bws_400x400.jpg',
+    avatar: 'https://pbs.twimg.com/profile_images/1064749741588795392/_-Ze0j0j_400x400.jpg',
     slides: [
       {
         direction: 'r',
