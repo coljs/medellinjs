@@ -54,10 +54,9 @@ export default {
           website: '//yungol.com/'
         },
         RutaN: {
-          name: 'RutaN',
-          logo:
-            '//i.imgur.com/jLWnMk9.jpg',
-          website: '//www.rutanmedellin.org'
+          name: "RutaN",
+          logo: "//i.imgur.com/jLWnMk9.jpg",
+          website: "https://www.rutanmedellin.org"
         },
         TeamInternational: {
           name: "Team International",
@@ -78,8 +77,7 @@ export default {
         },
         Almundo: {
           name: "Almundo",
-          logo:
-            "//drive.google.com/file/d/1fM0arrzrxbfHkEqSFQb1JFmPxZFX0ltG/view",
+          logo: "https://apprecs.org/ios/images/app-icons/256/56/1182079574.jpg",
           website: "//almundo.com.co/"
         },
         NodeSource: {
