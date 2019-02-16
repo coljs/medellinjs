@@ -21,7 +21,7 @@ module.exports = {
     twitter: 'CodeMaxter',
     github: 'CodeMaxter',
     avatar: 'https://secure.gravatar.com/avatar/2bb905c4128af50f2fde8fe1dc37f931.png?size=200',
-    website: 'https://twitter.com/Codemaxter1'
+    website: 'https://twitter.com/Codemaxter'
   },
   ramirezalex: {
     name: 'Alex Ramírez',
