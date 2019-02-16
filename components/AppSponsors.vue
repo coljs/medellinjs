@@ -54,9 +54,10 @@ export default {
           website: 'https://yungol.com/'
         },
         RutaN: {
-          name: "RutaN",
-          logo: "https://imgur.com/jLWnMk9",
-          website: "https://www.rutanmedellin.org"
+          name: 'RutaN',
+          logo:
+            '//i.imgur.com/jLWnMk9.jpg',
+          website: 'https://www.rutanmedellin.org'
         },
         TeamInternational: {
           name: "Team International",
