@@ -111,6 +111,7 @@ ul.rs-links {
 }
 
 ul.rs-links a {
+  cursor: pointer;
   margin: 0 5px;
 }
 
