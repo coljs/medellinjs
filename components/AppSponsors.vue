@@ -47,7 +47,7 @@ export default {
         RutaN: {
           name: 'RutaN',
           logo:
-            'https://imgur.com/jLWnMk9',
+            '//i.imgur.com/jLWnMk9.jpg',
           website: 'https://www.rutanmedellin.org'
         },
         TeamInternational: {
