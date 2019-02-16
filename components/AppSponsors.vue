@@ -48,10 +48,16 @@ export default {
             "//en.gravatar.com/userimage/46333208/108cf2fa50119a1781427d15fe29f64b.jpg?size=200",
           website: "//www.hugeinc.com"
         },
+        yungol :{
+          name :'yungol',
+          logo: '//yungol.com/modules/core/client/img/brand/y530.png',
+          website: '//yungol.com/'
+        },
         RutaN: {
-          name: "RutaN",
-          logo: "//imgur.com/jLWnMk9",
-          website: "//www.rutanmedellin.org"
+          name: 'RutaN',
+          logo:
+            '//i.imgur.com/jLWnMk9.jpg',
+          website: '//www.rutanmedellin.org'
         },
         TeamInternational: {
           name: "Team International",
@@ -75,6 +81,11 @@ export default {
           logo:
             "//drive.google.com/file/d/1fM0arrzrxbfHkEqSFQb1JFmPxZFX0ltG/view",
           website: "//almundo.com.co/"
+        },
+        NodeSource: {
+          name: "NODESOURCE",
+          logo: "//nodesource.com/assets/icons/nodesource-512x512.png",
+          website: "//nodesource.com/"
         }
       }
     };
