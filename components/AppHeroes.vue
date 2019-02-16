@@ -96,11 +96,6 @@
   margin-top: 0;
   color: #42b983;
 }
-ul.rs-links{
-  top: 44%;
-  bottom: unset;
-  padding-left: 9px;
-}
 
 .modal-body {
   margin: 20px 0;
@@ -108,6 +103,19 @@ ul.rs-links{
 
 .modal-default-button {
   float: right;
+}
+
+ul.rs-links {
+  bottom: 30%; /* Reset style */
+}
+
+ul.rs-links a {
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+ul.rs-links i {
+  letter-spacing: 0; /* Reset style */
 }
 
 /*

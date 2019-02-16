@@ -23,7 +23,7 @@
       <div class="row">
           <div class="col-md-12 text-center">
             <p>&nbsp;</p>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSczKOv3FDAYfPfD3_IGl3Z9cRBPSa-9gqQAZ5E7xK0g-72VyQ/viewform?embedded=true" width="90%" height="1600px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            <iframe src="//docs.google.com/forms/d/e/1FAIpQLSczKOv3FDAYfPfD3_IGl3Z9cRBPSa-9gqQAZ5E7xK0g-72VyQ/viewform?embedded=true" width="90%" height="1600px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
           </div>
       </div>
       <div class="row">
@@ -45,7 +45,7 @@
                 <i class="fa fa-envelope"></i>
               </span>
               <p class="contact-detail"><a href="mailto:medellinjs@gmail.com">medellinjs@gmail.com</a>
-                <br/><a href="https:// github.com/coljs/medellinjs">https:// github.com/coljs/medellinjs</a></p>
+                <br/><a href="//github.com/coljs/medellinjs">https://github.com/coljs/medellinjs</a></p>
             </div>
           </div>
         </div>

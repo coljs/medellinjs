@@ -6,25 +6,25 @@
         <!--<img src="img/template/logo-footer.png" alt="...">-->
       </a>
       <div class="socials wow animated fadeIn" data-wow-duration="1.5s">
-        <a href="https://www.facebook.com/medellinjs" class="social">
+        <a href="//www.facebook.com/medellinjs" class="social">
           <i class="fab fa-facebook"></i>
         </a>
-        <a href="https://twitter.com/medellinjs" class="social">
+        <a href="//twitter.com/medellinjs" class="social">
           <i class="fab fa-twitter"></i>
         </a>
-        <a href="https://github.com/coljs/medellinjs/" class="social">
+        <a href="//github.com/coljs/medellinjs/" class="social">
           <i class="fab fa-github"></i>
         </a>
-        <a href="https://www.instagram.com/medellinjs/" class="social">
+        <a href="//www.instagram.com/medellinjs/" class="social">
           <i class="fab fa-instagram"></i>
         </a>
-        <a href="https://www.meetup.com/medellinjs" class="social">
+        <a href="//www.meetup.com/medellinjs" class="social">
           <i class="fab fa-meetup"></i>
         </a>
-        <a href="https://www.linkedin.com/company/medellinjs/" class="social">
+        <a href="//www.linkedin.com/company/medellinjs/" class="social">
           <i class="fab fa-linkedin"></i>
         </a>
-        <a href="https://gitter.im/coljs/medellinjs" class="social">
+        <a href="//gitter.im/coljs/medellinjs" class="social">
           <i class="fab fa-gitter"></i>
         </a>
       </div>
