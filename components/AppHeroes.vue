@@ -107,12 +107,15 @@
 
 ul.rs-links {
   bottom: 30%; /* Reset style */
-  letter-spacing: 0; /* Reset style */
 }
 
 ul.rs-links a {
   cursor: pointer;
   margin: 0 5px;
+}
+
+ul.rs-links i {
+  letter-spacing: 0; /* Reset style */
 }
 
 /*
