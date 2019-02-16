@@ -8,7 +8,7 @@
       </div>
       <div class="row">
         <div class="col-md-12 text-center">
-          <a class="video-play-icon wow animated fadeInUp" data-wow-duration="1.5s" href="https://www.youtube.com/watch?v=0I8GmbDU7c4">
+          <a class="video-play-icon wow animated fadeInUp" data-wow-duration="1.5s" href="//www.youtube.com/watch?v=0I8GmbDU7c4">
             <i class="fa fa-play"></i>
           </a>
         </div>

@@ -36,7 +36,7 @@
                 <i class="fa fa-envelope"></i>
               </span>
               <p class="contact-detail"><a href="mailto:medellinjs@gmail.com">medellinjs@gmail.com</a>
-                <br/><a href="https:// github.com/coljs/medellinjs">https:// github.com/coljs/medellinjs</a></p>
+                <br/><a href="://github.com/coljs/medellinjs">://github.com/coljs/medellinjs</a></p>
             </div>
           </div>
         </div>

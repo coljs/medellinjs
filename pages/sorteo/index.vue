@@ -73,7 +73,7 @@
     },
     methods: {
       getMeetups () {
-        const url = 'https://api.meetup.com/MedellinJS/events?desc=true&page=2'
+        const url = '//api.meetup.com/MedellinJS/events?desc=true&page=2'
         jsonp(url, {}, (err, data) => {
           if (err) {
             console.error('Error getting list of events')
@@ -85,7 +85,7 @@
         if (!this.meetupID) {
           return
         }
-        const meetup = 'https://api.meetup.com/MedellinJS/events/' + this.meetupID + '/attendance'
+        const meetup = '//api.meetup.com/MedellinJS/events/' + this.meetupID + '/attendance'
         jsonp(meetup, {}, (err, data) => {
           if (err || data.data.errors) {
             console.error('Error fetching next meetups from MeetupAPI')
