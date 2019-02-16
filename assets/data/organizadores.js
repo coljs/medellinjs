@@ -13,7 +13,7 @@ module.exports = {
     twitter: 'edsadr',
     github: 'edsadr',
     avatar: 'https://secure.gravatar.com/userimage/28946174/8747a95cd541d80ffa63929a4856637d.jpg?size=200',
-    website: 'twitter.com/edsadr'
+    website: 'https://twitter.com/edsadr'
   },
   codemaxter: {
     name: 'Alvaro Agámez',
@@ -21,7 +21,7 @@ module.exports = {
     twitter: 'CodeMaxter',
     github: 'CodeMaxter',
     avatar: 'https://secure.gravatar.com/avatar/2bb905c4128af50f2fde8fe1dc37f931.png?size=200',
-    website: 'https://twitter.com/CodeMaxter'
+    website: 'https://twitter.com/Codemaxter1'
   },
   ramirezalex: {
     name: 'Alex Ramírez',
@@ -45,7 +45,7 @@ module.exports = {
     twitter: 'khriztianmoreno',
     github: 'khriztianmoreno',
     avatar: 'https://secure.gravatar.com/avatar/267898824a5115781fad35abba0130d0?s=250',
-    website: 'khriztianmoreno.com/'
+    website: 'https://khriztianmoreno.com/'
   },
   jenymazo: {
     name: 'Jeny Mazo',
@@ -61,7 +61,7 @@ module.exports = {
     twitter: 'mafesernaarbole',
     github: 'mafesernaarboleda',
     avatar: 'https://avatars3.githubusercontent.com/u/14205513?s=250',
-    website: 'mafesernaarboleda.co'
+    website: 'https://mafesernaarboleda.co'
   },
   frankbetancur: {
     name: 'Frank Alejo Betancur',
