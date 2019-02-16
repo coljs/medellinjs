@@ -45,36 +45,36 @@ export default {
         HUGE: {
           name: "HUGE",
           logo:
-            "https://en.gravatar.com/userimage/46333208/108cf2fa50119a1781427d15fe29f64b.jpg?size=200",
-          website: "https://www.hugeinc.com"
+            "//en.gravatar.com/userimage/46333208/108cf2fa50119a1781427d15fe29f64b.jpg?size=200",
+          website: "//www.hugeinc.com"
         },
         RutaN: {
           name: "RutaN",
-          logo: "https://imgur.com/jLWnMk9",
-          website: "https://www.rutanmedellin.org"
+          logo: "//imgur.com/jLWnMk9",
+          website: "//www.rutanmedellin.org"
         },
         TeamInternational: {
           name: "Team International",
           logo:
-            "https://pbs.twimg.com/profile_images/963875088591409152/krlRSDkp_200x200.jpg",
-          website: "https://teaminternational.com"
+            "//pbs.twimg.com/profile_images/963875088591409152/krlRSDkp_200x200.jpg",
+          website: "//teaminternational.com"
         },
         ColombiaDev: {
           name: "Colombia Dev",
-          logo: "https://colombia-dev.org/public/assets/images/condor-logo.svg",
-          website: "https://colombia-dev.org/"
+          logo: "//colombia-dev.org/public/assets/images/condor-logo.svg",
+          website: "//colombia-dev.org/"
         },
         MatterSupplyCo: {
           name: "Matter Supply Co",
           logo:
-            "https://s3.amazonaws.com/media-p.slid.es/uploads/245238/images/5118287/wordmark-cropped.png",
-          website: "https://mattersupply.co/"
+            "//s3.amazonaws.com/media-p.slid.es/uploads/245238/images/5118287/wordmark-cropped.png",
+          website: "//mattersupply.co/"
         },
         Almundo: {
           name: "Almundo",
           logo:
-            "https://drive.google.com/file/d/1fM0arrzrxbfHkEqSFQb1JFmPxZFX0ltG/view",
-          website: "https://almundo.com.co/"
+            "//drive.google.com/file/d/1fM0arrzrxbfHkEqSFQb1JFmPxZFX0ltG/view",
+          website: "//almundo.com.co/"
         }
       }
     };
