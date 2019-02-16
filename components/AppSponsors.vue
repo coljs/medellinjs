@@ -44,6 +44,11 @@ export default {
             'https://en.gravatar.com/userimage/46333208/108cf2fa50119a1781427d15fe29f64b.jpg?size=200',
           website: 'https://www.hugeinc.com'
         },
+        yungol :{
+          name :'yungol',
+          logo: 'https://yungol.com/modules/core/client/img/brand/y530.png',
+          website: 'https://yungol.com/'
+        },
         RutaN: {
           name: 'RutaN',
           logo:
