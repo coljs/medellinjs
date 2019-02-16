@@ -1,5 +1,9 @@
 # mde-js-site
 [![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors)
+[![Build Status](https://travis-ci.org/coljs/medellinjs.svg?branch=master)](https://travis-ci.org/coljs/medellinjs)
+[![dependencies Status](https://david-dm.org/coljs/medellinjs/status.svg)](https://david-dm.org/coljs/medellinjs)
+[![devDependencies Status](https://david-dm.org/coljs/medellinjs/dev-status.svg)](https://david-dm.org/coljs/medellinjs?type=dev)
+
 
 > MedellinJS Website powered by NuxtJS
 
