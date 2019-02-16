@@ -15,7 +15,7 @@
         <div class='fun-facts'>
           <div class='col-md-4 text-center' v-for='(sponsor, key) in sponsors' :key="key">
             <div class='fun-fact'>
-              <a v-bind:href='sponsor.website'>
+              <a v-bind:href='sponsor.website' target="_blank">
                 <div
                   role='img'
                   :aria-label="sponsor.name"
