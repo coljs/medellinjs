@@ -105,6 +105,15 @@
   float: right;
 }
 
+ul.rs-links {
+  bottom: 30%; /* Reset style */
+  letter-spacing: 0; /* Reset style */
+}
+
+ul.rs-links a {
+  margin: 0 5px;
+}
+
 /*
  * The following styles are auto-applied to elements with
  * transition="modal" when their visibility is toggled
