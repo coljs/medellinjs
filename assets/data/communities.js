@@ -6,8 +6,8 @@ module.exports = {
     twitter: '@bogotajs',
     github: 'bogotajs',
     avatar:
-      'https://imgur.com/ik1530G',
-    website: 'www.bogotajs.com/'
+      './img/communities/bogotajs.jpeg',
+    website: '//www.bogotajs.com/'
   },
   calijs: {
     name: 'CaliJS',
@@ -26,7 +26,7 @@ module.exports = {
     twitter: '@villavicenciojs',
     github: 'villavicenciojs',
     avatar:
-      'https://imgur.com/8bj4poT',
+      './img/communities/villadevs.jpeg',
     website: 'www.meetup.com/es-ES/Villavicencio-JS/'
   },
   quibdojs: {
@@ -36,7 +36,7 @@ module.exports = {
     twitter: '@quibdojs',
     github: 'quibdojs',
     avatar:
-      'https://imgur.com/8aT52a7',
+      './img/communities/dojs.png',
     website: 'https://twitter.com/QuibdoJs'
   },
   pereirajs: {
@@ -54,7 +54,7 @@ module.exports = {
     twitter: '@monteriajs',
     github: 'monteriajs',
     avatar:
-      'https://imgur.com/u0GKFUv',
+      './img/communities/monjs.png',
     website: 'www.meetup.com/monteriajs/'
   },
   popayanjs: {
@@ -63,7 +63,7 @@ module.exports = {
     twitter: '@popayanjs',
     github: 'popayanjs',
     avatar:
-      'i.imgur.com/CSM3nCr.png',
+      './img/communities/popjs.jpeg',
     website: 'www.meetup.com/PopayanJS/'
   },
   manizalesjs: {
@@ -81,7 +81,7 @@ module.exports = {
     twitter: '@barranquillajs',
     github: 'barranquillajs',
     avatar:
-      'https://imgur.com/VqnQcvx',
+      './img/communities/baqjs.jpg',
     website: 'https://www.meetup.com/BarranquillaJS/'
   },
   bucaramangajs: {
