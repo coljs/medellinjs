@@ -75,6 +75,11 @@ export default {
           logo:
             "https://drive.google.com/file/d/1fM0arrzrxbfHkEqSFQb1JFmPxZFX0ltG/view",
           website: "https://almundo.com.co/"
+        },
+        NodeSource: {
+          name: "NODESOURCE",
+          logo: "https://nodesource.com/assets/icons/nodesource-512x512.png",
+          website: "https://nodesource.com/"
         }
       }
     };
