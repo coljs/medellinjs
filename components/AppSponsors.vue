@@ -23,9 +23,10 @@
                 <div
                   role="img"
                   :aria-label="sponsor.name"
-                  class="reviewer-mock"
-                  :style="{ backgroundImage: `url(${sponsor.logo})`, backgroundSize: 'contain' }"
-                />
+                  class="sponsor-img-container"
+                >
+                  <img v-bind:src="sponsor.logo"/>
+                </div>
                 <p class="fact-name">{{ sponsor.name }}</p>
               </a>
             </div>
@@ -77,7 +78,7 @@ export default {
         },
         Almundo: {
           name: "Almundo",
-          logo: "https://apprecs.org/ios/images/app-icons/256/56/1182079574.jpg",
+          logo:"https://files.fm/thumb_show.php?i=6pcwv4p4",
           website: "//almundo.com.co/"
         },
         NodeSource: {
