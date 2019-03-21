@@ -15,14 +15,6 @@ module.exports = {
     avatar: 'https://secure.gravatar.com/userimage/28946174/8747a95cd541d80ffa63929a4856637d.jpg?size=200',
     website: 'twitter.com/edsadr'
   },
-  codemaxter: {
-    name: 'Alvaro Agámez',
-    bio: 'Ingeniero en Informática, desarrollador por pasión, co-organizador de MedellinJS.',
-    twitter: 'CodeMaxter',
-    github: 'CodeMaxter',
-    avatar: 'https://secure.gravatar.com/avatar/2bb905c4128af50f2fde8fe1dc37f931.png?size=200',
-    website: 'https://twitter.com/CodeMaxter'
-  },
   ramirezalex: {
     name: 'Alex Ramírez',
     bio: 'Software Developer & Blockchain Padawan. I like it better if JavaScript == true. CTO at @INplazainc and co-organizer of @MedellinJS',
@@ -70,5 +62,13 @@ module.exports = {
     github: 'KranK2Me',
     avatar: 'https://pbs.twimg.com/profile_images/967936276245700613/MPbuW1px_400x400.jpg',
     website: 'https://twitter.com/KranK2Me'
+  },
+  ivandev: {
+    name: 'Ivan Villa',
+    bio: 'Software developer, Javascript lover and developer by passion 👨🏽‍💻, speaker and active participant of the communities. Co-organizer at @MedellinJS.',
+    twitter: 'IVilla85',
+    github: 'IvanVilla1585',
+    avatar: 'https://avatars0.githubusercontent.com/u/9753149?s=400&u=8db2280d571197e34825cd4fc8052bee8f1200db&v=4',
+    website: 'https://twitter.com/IVilla85'
   }
 }
