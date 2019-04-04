@@ -1722,9 +1722,24 @@ Reviews
   border-radius: 50%;
   margin: 8px auto;
   box-shadow: 0 0 0 8px #b1c9d1;
-  /* */
   background-size: cover;
   background-position: center;
+}
+
+.sponsor-img-container {
+    width: 164px;
+    height: 164px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 8px auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+      padding: 20px;
+    }
 }
 
 .review-comment {
