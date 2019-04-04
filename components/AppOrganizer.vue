@@ -19,13 +19,13 @@
               <span class="member-work">Co - Organizador</span>
               <p>{{ organizer.bio }}</p>
               <div class="member-connections">
-                <a v-bind:href="'twitter.com/' + organizer.twitter">
+                <a target="_blank" v-bind:href="'https://twitter.com/' + organizer.twitter">
                   <i class="fab fa-twitter"></i>
                 </a>
-                <a v-bind:href="'github.com/'  + organizer.github">
+                <a target="_blank" v-bind:href="'https://github.com/'  + organizer.github">
                   <i class="fab fa-github"></i>
                 </a>
-                <a v-bind:href="organizer.website">
+                <a target="_blank" v-bind:href="organizer.website">
                   <i class="fa fa-home"></i>
                 </a>
               </div>
