@@ -39,6 +39,7 @@
 
 
 <script>
+import teamInternationalLogo from '../assets/img/logos/teaminternational.png'
 export default {
   data() {
     return {
@@ -61,8 +62,7 @@ export default {
         },
         TeamInternational: {
           name: "Team International",
-          logo:
-            "//pbs.twimg.com/profile_images/963875088591409152/krlRSDkp_200x200.jpg",
+          logo: teamInternationalLogo,
           website: "//teaminternational.com"
         },
         ColombiaDev: {
@@ -78,7 +78,7 @@ export default {
         },
         Almundo: {
           name: "Almundo",
-          logo:"https://files.fm/thumb_show.php?i=6pcwv4p4",
+          logo: "https://files.fm/thumb_show.php?i=6pcwv4p4",
           website: "//almundo.com.co/"
         },
         NodeSource: {
