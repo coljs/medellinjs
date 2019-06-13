@@ -9,3 +9,6 @@ node_modules
 
 # Nuxt generate
 dist
+
+#OS Files
+.DS_Store

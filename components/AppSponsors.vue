@@ -23,9 +23,10 @@
                 <div
                   role="img"
                   :aria-label="sponsor.name"
-                  class="reviewer-mock"
-                  :style="{ backgroundImage: `url(${sponsor.logo})`, backgroundSize: 'contain' }"
-                />
+                  class="sponsor-img-container"
+                >
+                  <img v-bind:src="sponsor.logo"/>
+                </div>
                 <p class="fact-name">{{ sponsor.name }}</p>
               </a>
             </div>
@@ -38,6 +39,7 @@
 
 
 <script>
+import teamInternationalLogo from '../assets/img/logos/teaminternational.png'
 export default {
   data() {
     return {
@@ -60,8 +62,7 @@ export default {
         },
         TeamInternational: {
           name: "Team International",
-          logo:
-            "//pbs.twimg.com/profile_images/963875088591409152/krlRSDkp_200x200.jpg",
+          logo: teamInternationalLogo,
           website: "//teaminternational.com"
         },
         ColombiaDev: {

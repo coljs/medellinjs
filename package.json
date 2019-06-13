@@ -17,8 +17,8 @@
     "precommit": "npm run lint",
     "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
     "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate",
-    "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate"
+    "contributors:add": "npx all-contributors add",
+    "contributors:generate": "npx all-contributors generate"
   },
   "dependencies": {
     "@nuxtjs/font-awesome": "^1.0.3",
