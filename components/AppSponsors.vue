@@ -78,7 +78,7 @@ export default {
         },
         Almundo: {
           name: "Almundo",
-          logo: "https://files.fm/thumb_show.php?i=6pcwv4p4",
+          logo: "https://apprecs.org/ios/images/app-icons/256/56/1182079574.jpg",
           website: "//almundo.com.co/"
         },
         NodeSource: {
