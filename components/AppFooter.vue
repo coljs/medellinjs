@@ -28,7 +28,7 @@
           <i class="fab fa-gitter"></i>
         </a>
       </div>
-      <p class="copyright wow animated fadeInUp" data-wow-duration="1.5s">&copy; Corporación MedellinJS 2018. All Rights Reserved.</p>
+      <p class="copyright wow animated fadeInUp" data-wow-duration="1.5s">&copy; Corporación MedellínJS 2018. All Rights Reserved.</p>
     </div>
   </footer>
 </template>
