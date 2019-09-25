@@ -619,7 +619,7 @@ module.exports = {
     username: 'jdnichollsc',
     twitter: 'https://twitter.com/jdnichollsc',
     github: 'https://github.com/jdnichollsc',
-    avatar: 'https://pbs.twimg.com/profile_images/956743209794678784/iDB45HQ7_200x200.jpg',
+    avatar: 'https://avatars3.githubusercontent.com/u/2154886?v=3',
     slides: [
       {
         direction: 'r',

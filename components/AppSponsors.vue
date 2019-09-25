@@ -40,6 +40,7 @@
 
 <script>
 import teamInternationalLogo from '../assets/img/logos/teaminternational.png'
+import yungolLogo from '../assets/img/logos/yungol.png'
 export default {
   data() {
     return {
@@ -52,12 +53,12 @@ export default {
         },
         yungol :{
           name :'yungol',
-          logo: '//yungol.com/modules/core/client/img/brand/y530.png',
+          logo: yungolLogo,
           website: '//yungol.com/'
         },
         RutaN: {
           name: "RutaN",
-          logo: "//i.imgur.com/jLWnMk9.jpg",
+          logo: "//www.rutanmedellin.org/images/logo.svg",
           website: "https://www.rutanmedellin.org"
         },
         TeamInternational: {
