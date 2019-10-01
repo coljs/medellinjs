@@ -846,11 +846,11 @@ module.exports = {
     ]
   },
   khriztianmoreno: {
-    name: 'Khriztian Moreno',
+    name: 'Cristian Moreno',
     username: 'khriztianmoreno',
     twitter: 'https://twitter.com/khriztianmoreno',
     github: 'https://github.com/khriztianmoreno',
-    avatar: 'https://pbs.twimg.com/profile_images/869999018843267073/DftJ2I0x_200x200.jpg',
+    avatar: 'https://avatars3.githubusercontent.com/u/1481964?s=460&v=4',
     slides: [
       {
         direction: 'r',
