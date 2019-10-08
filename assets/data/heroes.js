@@ -589,7 +589,7 @@ module.exports = {
     username: 'alexav',
     twitter: 'https://twitter.com/alexav',
     github: 'https://github.com/axelavargas',
-    avatar: 'http://www.gravatar.com/avatar/e322c4c78b001b013477ef504c1507b3.jpg?s=200',
+    avatar: 'https://www.gravatar.com/avatar/e322c4c78b001b013477ef504c1507b3.jpg?s=200',
     slides: [
       {
         direction: 'r',
