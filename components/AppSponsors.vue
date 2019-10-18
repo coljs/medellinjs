@@ -86,6 +86,11 @@ export default {
           name: "NODESOURCE",
           logo: "//nodesource.com/assets/icons/nodesource-512x512.png",
           website: "//nodesource.com/"
+        },
+        Endava: {
+          name: "Endava",
+          logo: "https://user-images.githubusercontent.com/2567952/66471043-ff3bb400-ea8a-11e9-8c57-023a88b38d48.png",
+          website: "https://www.endava.com/"
         }
       }
     };
