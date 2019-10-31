@@ -60,7 +60,7 @@ module.exports = {
     bio: 'Systems Engineer, Backend Developer, Frontend Student, speaker and active participant of the communities in the city. Learning... Co-organizer at @medellinJS',
     twitter: 'KranK2Me',
     github: 'KranK2Me',
-    avatar: 'https://pbs.twimg.com/profile_images/967936276245700613/MPbuW1px_400x400.jpg',
+    avatar: 'https://pbs.twimg.com/profile_images/1188222560850329600/BkkXE89i_400x400.jpg',
     website: 'https://twitter.com/KranK2Me'
   },
   ivandev: {
