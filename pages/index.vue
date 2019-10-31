@@ -66,6 +66,12 @@ export default {
     AppContact,
     AppSponsors,
     AppFooter
+  },
+  mounted () {
+    if(process.client) {
+      const WOW = require('wow.js/dist/wow.min')
+      new WOW().init()
+    }
   }
 }
 </script>
