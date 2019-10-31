@@ -57,7 +57,7 @@ export default {
           website: '//yungol.com/'
         },
         RutaN: {
-          name: "RutaN",
+          name: "Ruta N",
           logo: "//www.rutanmedellin.org/images/logo.svg",
           website: "https://www.rutanmedellin.org"
         },
