@@ -1,35 +1,31 @@
 module.exports = {
   bogotajs: {
     name: 'BogotáJS',
-    bio:
-      'Comunidad JS Bogotá',
+    bio: 'Comunidad JS Bogotá',
     twitter: '@bogotajs',
     github: 'bogotajs',
     avatar: 'https://i.imgur.com/ik1530G.jpeg',
-    website: '//www.bogotajs.com/'
+    website: 'http://www.bogotajs.com/'
   },
   calijs: {
     name: 'CaliJS',
-    bio:
-      'Comunidad JS Cali',
+    bio: 'Comunidad JS Cali',
     twitter: '@calijs',
     github: 'calijs',
     avatar: 'https://i.imgur.com/sBZF10C.png',
-    website: 'www.meetup.com/CaliJS/'
+    website: 'http://www.meetup.com/CaliJS/'
   },
   villavicenciojs: {
     name: 'VillavicencioJS',
-    bio:
-      'Comunidad JS Villavicencio',
+    bio: 'Comunidad JS Villavicencio',
     twitter: '@villavicenciojs',
     github: 'villavicenciojs',
     avatar: 'https://i.imgur.com/8bj4poT.jpeg',
-    website: 'www.meetup.com/es-ES/Villavicencio-JS/'
+    website: 'http://www.meetup.com/es-ES/Villavicencio-JS/'
   },
   quibdojs: {
     name: 'QuibdóJS',
-    bio:
-      'Comunidad JS Quibdó',
+    bio: 'Comunidad JS Quibdó',
     twitter: '@quibdojs',
     github: 'quibdojs',
     avatar: 'https://i.imgur.com/8aT52a7.jpeg',
@@ -41,7 +37,7 @@ module.exports = {
     twitter: '@pereirajs',
     github: 'pereirajs',
     avatar: 'https://i.imgur.com/K74Qa1f.png',
-    website: 'www.pereirajs.org/'
+    website: 'http://www.pereirajs.org/'
   },
   monteriajs: {
     name: 'MonteríaJS',
@@ -49,7 +45,7 @@ module.exports = {
     twitter: '@monteriajs',
     github: 'monteriajs',
     avatar: 'https://i.imgur.com/u0GKFUv.jpeg',
-    website: 'www.meetup.com/monteriajs/'
+    website: 'http://www.meetup.com/monteriajs/'
   },
   popayanjs: {
     name: 'PopayánJS',
@@ -57,7 +53,7 @@ module.exports = {
     twitter: '@popayanjs',
     github: 'popayanjs',
     avatar: 'https://i.imgur.com/CSM3nCr.png',
-    website: 'www.meetup.com/PopayanJS/'
+    website: 'http://www.meetup.com/PopayanJS/'
   },
   manizalesjs: {
     name: 'manizalesJS',
@@ -72,8 +68,7 @@ module.exports = {
     bio: 'Comunidad JS Barranquilla',
     twitter: '@barranquillajs',
     github: 'barranquillajs',
-    avatar:
-      'https://i.imgur.com/VqnQcvx.jpeg',
+    avatar: 'https://i.imgur.com/VqnQcvx.jpeg',
     website: 'https://www.meetup.com/BarranquillaJS/'
   },
   bucaramangajs: {
