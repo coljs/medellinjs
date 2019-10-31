@@ -13,7 +13,7 @@
           <div class="col-md-4 col-sm-6" v-for="organizer in organizers">
             <div class="team-member text-center wow animated fadeInUp" data-wow-duration="1.5s">
               <div class="member-mock">
-                  <img v-bind:src="organizer.avatar" alt="organizer.name">
+                  <img v-bind:src="organizer.avatar" :alt="organizer.name">
               </div>
               <h4 class="member-name">{{ organizer.name }}</h4>
               <span class="member-work">Co - Organizador</span>
