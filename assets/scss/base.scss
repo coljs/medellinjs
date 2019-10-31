@@ -993,7 +993,7 @@ h6.description{
 	border-bottom: 1px solid rgba(0, 0, 0,0.1);
 	padding-bottom: 5px;
 }
-.profileHero{
+.heroes-profile{
   margin-top: 25px;
   height: 270px;
   h1{
@@ -1086,11 +1086,10 @@ Timeline
 /* ================ The Timeline ================ */
 
 .timeline {
+  display: block;
   position: relative;
   width: 660px;
-  margin: 0 auto;
-  margin-top: 20px;
-  padding: 1em 0;
+  margin: 16px auto;
   list-style-type: none;
 }
 
@@ -1982,13 +1981,8 @@ Team Members
 }
 
 .member-connections {
-  position: absolute;
-  bottom: 25px;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  // width: 100px;
+  margin-top: 10px;
+
   a {
     font-size: 2rem;
     color: #ffffff;
