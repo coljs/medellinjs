@@ -27,7 +27,7 @@
                 >
                   <img v-bind:src="sponsor.logo"/>
                 </div>
-                <p class="fact-name">{{ sponsor.name }}</p>
+                <p class="sponsor-name">{{ sponsor.name }}</p>
               </a>
             </div>
           </div>
