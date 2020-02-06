@@ -667,7 +667,7 @@ module.exports = {
     username: 'jhonjairoroa87',
     twitter: 'https://twitter.com/jhonjairoroa87',
     github: 'https://github.com/jhonjairoroa87',
-    avatar: 'https://pbs.twimg.com/profile_images/821425898633183232/3dEJ-U28_400x400.jpg',
+    avatar: 'https://avatars3.githubusercontent.com/u/619203?s=460&v=4',
     slides: [
       {
         direction: 'r',
@@ -1315,7 +1315,7 @@ module.exports = {
     username: 'iscristianhere',
     twitter: 'https://twitter.com/iscristianhere',
     github: 'https://github.com/cristianmartinez',
-    avatar: 'https://pbs.twimg.com/profile_images/1003720249299095560/kwLccCaS_400x400.jpg',
+    avatar: 'https://avatars0.githubusercontent.com/u/2459170?s=400&v=4',
     slides: [
       {
         direction: 'r',
@@ -1360,7 +1360,7 @@ module.exports = {
     username: 'ErunamoJAZZ',
     twitter: 'https://twitter.com/EruJazz',
     github: 'https://github.com/ErunamoJAZZ',
-    avatar: 'https://pbs.twimg.com/profile_images/993526471837745153/HhcB3sjs_400x400.jpg',
+    avatar: 'https://avatars2.githubusercontent.com/u/421398?s=400&v=4',
     slides: [
       {
         direction: 'r',
@@ -1405,7 +1405,7 @@ module.exports = {
     username: 'krank2me',
     twitter: 'https://twitter.com/KranK2Me',
     github: 'https://github.com/Krank2me',
-    avatar: 'https://pbs.twimg.com/profile_images/967936276245700613/MPbuW1px_400x400.jpg',
+    avatar: 'https://avatars2.githubusercontent.com/u/9942486?s=460&v=4',
     slides: [
       {
         direction: 'r',
