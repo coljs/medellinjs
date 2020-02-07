@@ -12,12 +12,5 @@ module.exports = {
         twitter: 'cssconfco',
         instagram: 'cssconfco/',
         logo: './img/communityParners/logo-reactlaconf.svg'
-    },
-    /*nodeconfco: {
-        name: 'NodeConfCo',
-        website: 'https://colombia.nodeconf.com/',
-        twitter: 'NodeConfCo',
-        instagram: 'nodeconf_co/',
-        logo: './img/communityParners/logo-nodeconfco.svg'
-    }*/
+    }
 }
