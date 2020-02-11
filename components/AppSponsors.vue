@@ -19,7 +19,7 @@
         <div class="fun-facts">
           <div class="col-md-4 text-center" v-for="(sponsor, key) in sponsors" :key="key">
             <div class="fun-fact">
-              <a v-bind:href="sponsor.website">
+              <a v-bind:href="sponsor.website" target="_blank">
                 <div
                   role="img"
                   :aria-label="sponsor.name"
@@ -27,7 +27,7 @@
                 >
                   <img v-bind:src="sponsor.logo"/>
                 </div>
-                <p class="fact-name">{{ sponsor.name }}</p>
+                <p class="sponsor-name">{{ sponsor.name }}</p>
               </a>
             </div>
           </div>
@@ -57,7 +57,7 @@ export default {
           website: '//yungol.com/'
         },
         RutaN: {
-          name: "RutaN",
+          name: "Ruta N",
           logo: "//www.rutanmedellin.org/images/logo.svg",
           website: "https://www.rutanmedellin.org"
         },

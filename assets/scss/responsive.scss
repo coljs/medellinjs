@@ -1,5 +1,8 @@
 /* Navigation */
-@media screen and (min-width: 769px){
+@media screen and (min-width: 768px){
+  .navbar {
+    font-size: 0;
+  }
   .navbar-default .navbar-collapse {
     display: inline-block !important;
     padding: 0;
@@ -21,7 +24,7 @@
   }
   .navbar-default .nav-download a{
     padding: 10px !important;
-    margin: 11px;
+    margin: 10px;
   }
 }
 @media screen and (min-width: 992px){
@@ -32,7 +35,7 @@
   .navbar-default > .container {
     text-align: right;
   }
-  
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -124,7 +127,7 @@
   .child-comments {
     padding-left: 60px;
   }
-  .profileHero h1 {
+  .heroes-profile h1 {
     font-weight: 400;
     font-size: 18px;
     margin: 14px auto 0 auto;
@@ -321,7 +324,6 @@
 
   .timeline {
     width: 100%;
-    padding: 4em 0 1em 0;
   }
 
   .timeline li {

@@ -993,7 +993,7 @@ h6.description{
 	border-bottom: 1px solid rgba(0, 0, 0,0.1);
 	padding-bottom: 5px;
 }
-.profileHero{
+.heroes-profile{
   margin-top: 25px;
   height: 270px;
   h1{
@@ -1086,11 +1086,10 @@ Timeline
 /* ================ The Timeline ================ */
 
 .timeline {
+  display: block;
   position: relative;
   width: 660px;
-  margin: 0 auto;
-  margin-top: 20px;
-  padding: 1em 0;
+  margin: 16px auto;
   list-style-type: none;
 }
 
@@ -1307,7 +1306,6 @@ Intro
 .intro-icon {
   font-size: 3rem;
   background-color: #1193d4;
-  position: relative;
   text-align: center;
   width: 63px;
   height: 63px;
@@ -1317,7 +1315,6 @@ Intro
   margin: 0 auto 0 auto;
   box-shadow: 0 0 0 10px rgba(0, 168, 224, 0.2);
   color: #ffffff;
-  top: -41px;
   transition: all 0.4s ease;
 }
 
@@ -1742,6 +1739,12 @@ Reviews
     }
 }
 
+.sponsor-name {
+  font-weight: 500;
+  font-size: 1.8rem;
+  letter-spacing: 0;
+}
+
 .review-comment {
   margin: 45px 0 30px 0;
 }
@@ -1982,13 +1985,8 @@ Team Members
 }
 
 .member-connections {
-  position: absolute;
-  bottom: 25px;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  // width: 100px;
+  margin-top: 10px;
+
   a {
     font-size: 2rem;
     color: #ffffff;
