@@ -27,6 +27,7 @@
             <a v-bind:href="community.website">
               <div class="text-center wow animated fadeInUp" data-wow-duration="1.5s">
                 <h4 class="intro-heading">{{community.name}}</h4>
+                <img class="rounded-img community-img" :src="community.avatar" :alt="community.name">
               </div>
             </a>
           </div>

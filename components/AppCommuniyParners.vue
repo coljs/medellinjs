@@ -10,7 +10,7 @@
             </div>
             <div class="row">
                 <div class="fun-facts">
-                    <div class="col-md-4 text-center" v-for="community in communityParners" >
+                    <div class="col-md-3 text-center" v-for="community in communityParners" >
                         <div class="fun-fact">
                             <h4 class="member-name">{{ community.name }}</h4>
                             <a v-bind:href="community.website">
@@ -48,6 +48,7 @@
     import reactLaConfLogo from '@/assets/img/communityParners/logo-reactlaconf.svg'
     import cssConfCoLogo from '@/assets/img/communityParners/logo-cssconfco.svg'
     import ngConfCoLogo from '@/assets/img/communityParners/logo-ngConfCo.svg'
+    import nodeConfCoLogo from '@/assets/img/communityParners/logo-nodeConfCo.jpg'
 
     export default {
         data () {
@@ -73,6 +74,13 @@
                         twitter: 'NgConfCo',
                         instagram: 'https://www.instagram.com/explore/tags/ngconfcolombia/',
                         logo: ngConfCoLogo
+                    },
+                    nodeConfCo: {
+                        name: 'NodeConfCo',
+                        website: 'https://colombia.nodeconf.com/',
+                        twitter: 'NodeConfCo',
+                        instagram: 'nodeconf_co/',
+                        logo: nodeConfCoLogo
                     }
                 }
             }
