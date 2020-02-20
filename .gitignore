@@ -12,3 +12,7 @@ dist
 
 #OS Files
 .DS_Store
+
+# Editors
+.idea
+.vscode

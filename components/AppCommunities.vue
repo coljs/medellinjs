@@ -23,14 +23,14 @@
           </div>
       </div>
       <div class="row">
-        <div class="col-xs-12 col-sm-4 col-md-3" v-for="community in communities" :key="community.name">
-          <a v-bind:href="community.website">
-            <div class="text-center wow animated fadeInUp" data-wow-duration="1.5s">
-              <h4 class="intro-heading">{{community.name}}</h4>
-              <img class="rounded-img community-img" :src="community.avatar" :alt="community.name">
-            </div>
-          </a>
-        </div>
+          <div class="col-sm-3" v-for="community in communities" :key="community.name">
+            <a v-bind:href="community.website">
+              <div class="text-center wow animated fadeInUp" data-wow-duration="1.5s">
+                <h4 class="intro-heading">{{community.name}}</h4>
+                <img class="rounded-img community-img" :src="community.avatar" :alt="community.name">
+              </div>
+            </a>
+          </div>
       </div>
     </div>
   </div>

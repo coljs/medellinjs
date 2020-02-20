@@ -77,11 +77,6 @@ export default {
             "//s3.amazonaws.com/media-p.slid.es/uploads/245238/images/5118287/wordmark-cropped.png",
           website: "//mattersupply.co/"
         },
-        Almundo: {
-          name: "Almundo",
-          logo: "https://apprecs.org/ios/images/app-icons/256/56/1182079574.jpg",
-          website: "//almundo.com.co/"
-        },
         NodeSource: {
           name: "NODESOURCE",
           logo: "//nodesource.com/assets/icons/nodesource-512x512.png",
