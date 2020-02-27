@@ -23,7 +23,7 @@
                                 </div>
                             </a>
                             <br>
-                            <div class="member-connections">
+                            <div class="community-parners">
                                 <a target="_blank" v-bind:href="community.website">
                                 <i class="fa fa-home"></i>
                                 </a>

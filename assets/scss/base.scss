@@ -2651,3 +2651,37 @@ Blog Page Single
 .commentform-sub {
   margin-bottom: 40px;
 }
+
+/*----------------------------------------
+Community Parners
+----------------------------------------*/
+
+.community-parners {
+  margin-top: 10px;
+
+  a {
+    font-size: 2rem;
+    color: #ffffff;
+    background-color: #1193d4;
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    &:hover > i{
+      color: #ffffff;
+    }
+    i{
+      color: #ffffff;
+    }
+    + a {
+      margin-left: 16px;
+    }
+  }
+}
+
+.community-parners a:hover {
+  box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+}
