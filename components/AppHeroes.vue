@@ -11,38 +11,7 @@
       </div>
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
-          <div id="heroes" class="heroes-list">
-            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 heroes-profile" v-for="(hero, key) in heroes" :key="key">
-              <div class="img-box reviewer-mock" :style="{backgroundImage:`url(${hero.avatar})`}" >
-                <ul class="text-center hidden-sm hidden-xs rs-links">
-                   <a target="_blank" :href="hero.github"><i class="fab fa-github"></i></a>
-                   <a target="_blank" :href="hero.twitter"><i class="fab fa-twitter"></i></a>
-                   <a @click="$modal.show(hero.username)"><i class="fa fa-comment"></i></a>
-                </ul>
-              </div>
-              <div class="text-center">
-                <h1>{{hero.name}}</h1>
-                <div class="member-connections hidden-lg hidden-md rs-links">
-                  <a target="_blank" :href="hero.github"><i class="fab fa-github"></i></a>
-                  <a target="_blank" :href="hero.twitter"><i class="fab fa-twitter"></i></a>
-                  <a @click="$modal.show(hero.username)"><i class="fa fa-comment"></i></a>
-                </div>
-              </div>
-              <modal class="heroes-modal" :name="hero.username" :adaptive="true" :scrollable="true">
-                <a class="heroes-modal__close pull-right close" @click="$modal.hide(hero.username)"><i class="fa fa-times"></i></a>
-                <ul class="timeline" v-if="hero">
-                  <li v-for="(slide, index) in hero.slides" :key="index">
-                    <div :class="'direction-'+slide.direction">
-                      <div class="flag-wrapper">
-                        <span class="flag">{{slide.title}}</span>
-                      </div>
-                      <div class="desc"><a :href="slide.url">{{slide.url}}</a></div>
-                    </div>
-                  </li>
-                </ul>
-              </modal>
-            </div>
-          </div>
+          <base-heroes :heroes="heroes" />
         </div>
       </div>
     </div>
@@ -51,11 +20,17 @@
 
 
 <script>
-  import heroes from '@/assets/data/heroes.js'
+  import BaseHeroes from '~/components/BaseHeroes'
+
+  import heroesData from '@/assets/data/heroes.js'
+
   export default {
+    components: {
+      BaseHeroes,
+    },
     data () {
       return {
-        heroes,
+        heroes: heroesData,
         showModal: false
       }
     }
@@ -63,9 +38,9 @@
 </script>
 
 <style lang="scss">
-.heroes-list {
-  position: relative;
-}
+  .heroes-list {
+    position: relative;
+  }
 
 .heroes-modal {
   background: white;

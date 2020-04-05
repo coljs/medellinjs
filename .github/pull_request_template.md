@@ -1,7 +1,12 @@
-# Pull request
+# Title of Pull request
 
-Closes #(numero de issue asociado)
+Closes #(issue number)
 
-## Observaciones
+## Overview
 
-Colocar la información que considere pertinente del cambio que se está subiendo, por ejemplo una captura de pantalla si es algún cambio visual que quiera resaltar.
+Place the information that you consider pertinent to the change that is being uploaded, for example a screenshot if it is any visual change that you want to highlight.
+
+## Preview URL
+[Deploy preview ###](https://deploy-preview-###--medellinjs.netlify.com/)
+
+*Please change the ### for the number of the `pull request`, after that you can delete this line*.
