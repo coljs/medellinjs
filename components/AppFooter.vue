@@ -25,11 +25,17 @@
         >
           <fa :icon="['fab', 'youtube']" />
         </a>
+        <a href="//www.youtube.com/channel/UCSHfIXcoEVFb9e4gZWoqsWA" class="social">
+          <i class="fab fa-youtube"></i>
+        </a>
         <a href="//www.instagram.com/medellinjs/" class="social">
           <fa :icon="['fab', 'instagram']" />
         </a>
         <a href="//www.twitch.com/medellinjs/" class="social">
           <fa :icon="['fab', 'twitch']" />
+        </a>
+        <a href="//www.twitch.com/medellinjs/" class="social">
+          <i class="fab fa-twitch"></i>
         </a>
         <a href="//www.meetup.com/medellinjs" class="social">
           <fa :icon="['fab', 'meetup']" />
