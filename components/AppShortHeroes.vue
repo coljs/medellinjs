@@ -62,8 +62,13 @@
 
     .buttton-hero {
       background-color: #6670e1;
+      border-radius: 4px;
       color: #ffffff;
       padding: 20px;
+
+      &:hover {
+        background-color: #3C50C4;
+      }
     }
   }
 

@@ -1,4 +1,12 @@
 module.exports = {
+  mariaserna: {
+    name: 'Maria Serna',
+    bio: 'Software developer with +5 years in software construction, speaker and active participant of the communities. Co-organizer @medellinjs - @node_co',
+    twitter: 'mafesernaarbole',
+    github: 'mafesernaarboleda',
+    avatar: 'https://avatars3.githubusercontent.com/u/14205513?s=250',
+    website: 'https://mafe.dev/'
+  },
   edsadr: {
     name: 'Adrián Estrada',
     bio: 'Developer in love with NodeJS, thirsty for new technologies, working at @NodeSource - organizer @MedellinJS and @JSConfCO',
@@ -12,7 +20,7 @@ module.exports = {
     bio: 'Software Developer & Blockchain Padawan. I like it better if JavaScript == true. CTO at @INplazainc and co-organizer of @MedellinJS',
     twitter: 'RamirezAlex_',
     github: 'RamirezAlex',
-    avatar: 'https://secure.gravatar.com/avatar/e8279b670ce5a7f7b0bd938fc36f1af4.png?size=200',
+    avatar: 'https://avatars2.githubusercontent.com/u/1482473?s=460&v=4',
     website: 'https://twitter.com/RamirezAlex_'
   },
   khriztianmoreno: {
@@ -30,14 +38,6 @@ module.exports = {
     github: 'JenyMzo',
     avatar: 'https://avatars3.githubusercontent.com/u/2567952?v=3&u=93af511467354af56abba97d969cccca6fdffbef&s=250',
     website: 'https://twitter.com/JenyMzo'
-  },
-  mariaserna: {
-    name: 'Maria Serna',
-    bio: 'Software developer with +5 years in software construction, speaker and active participant of the communities. Co-organizer @medellinjs - @node_co',
-    twitter: 'mafesernaarbole',
-    github: 'mafesernaarboleda',
-    avatar: 'https://avatars3.githubusercontent.com/u/14205513?s=250',
-    website: 'https://mafe.dev/'
   },
   frankbetancur: {
     name: 'Frank Alejo Betancur',

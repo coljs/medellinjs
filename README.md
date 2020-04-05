@@ -48,7 +48,7 @@ For further information about the meetup API please check the [documentation](ht
 
 ## Contributors
 
-### Add new contritutor
+### Add new contritutor from CLI
 
 Use `npm run contributors:add <username> contribution1, contribution2` to add new contributors to our project. They will be added to your configuration file, and the contributors file will be updated just as if you used the generate command.
 
@@ -58,6 +58,20 @@ npm run contributors:add <username> <contribution>
 # Example:
 npm run contributors:add khriztianmoreno code,doc
 ```
+
+### Add new contritutor from Issue or Pull Request
+
+Comment on Issue or Pull Request, asking @all-contributors to add a contributor:
+
+```bash
+@all-contributors please add <username> for <contributions>
+```
+
+**contribution:** See the [Emoji Key (Contribution Types Reference)](https://allcontributors.org/docs/en/emoji-key) for a list of valid `contribution` types.
+
+The bot will then create a Pull Request to add the contributor, then reply with the pull request details.
+
+<img src="https://allcontributors.org/docs/assets/bot-usage.png" alt="example all contributor bot" />
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
