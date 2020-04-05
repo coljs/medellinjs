@@ -35,7 +35,7 @@
     "vue-lodash": "2.1.2"
   },
   "devDependencies": {
-    "all-contributors-cli": "5.4.1",
+    "all-contributors-cli": "5.11.0",
     "babel-eslint": "8.2.6",
     "eslint": "5.10.0",
     "eslint-loader": "2.1.1",
