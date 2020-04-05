@@ -308,15 +308,6 @@
       ]
     },
     {
-      "login": "aagamezl",
-      "name": "Álvaro José Agámez Licha",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/45150637?v=4",
-      "profile": "https://github.com/aagamezl",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
       "login": "michel1024",
       "name": "erickgarciagit",
       "avatar_url": "https://avatars2.githubusercontent.com/u/36075313?v=4",
@@ -411,6 +402,15 @@
       "name": "gabynr",
       "avatar_url": "https://avatars2.githubusercontent.com/u/16828751?v=4",
       "profile": "https://github.com/gabynr",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "josepplloo",
+      "name": "Jose Miguel",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1114740?v=4",
+      "profile": "https://brodevhood.firebaseapp.com/",
       "contributions": [
         "code"
       ]
