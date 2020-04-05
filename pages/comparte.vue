@@ -2,7 +2,8 @@
   <div>
     <!--------------- Main Body Area -------------->
     <div class="main-wrap">
-        
+      <app-navbar-page />
+
       <!--------------- Contact -------------->
       <AppContact />
 
@@ -18,12 +19,14 @@
 </template>
 
 <script>
+import AppNavbarPage from '~/components/AppNavbarPage'
 import AppPreLoader from '~/components/AppPreLoader.vue'
 import AppContact from '~/components/AppContact.vue'
 import AppFooter from '~/components/AppFooter.vue'
 
 export default {
   components: {
+    AppNavbarPage,
     AppPreLoader,
     AppContact,
     AppFooter

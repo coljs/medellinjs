@@ -20,15 +20,6 @@
   height: 100%;
 }
 
-.meetup-table {
-  &:hover .meetup-heading, &.past .meetup-heading {
-    background-color: #1293d5;
-  }
-  &:hover .meetup-event, &:hover .meetup-cycle, &:hover .meetup-confirm, &.past .meetup-event, &.past .meetup-cycle {
-    color: #fff;
-  }
-}
-
 .meetup-event {
   font-weight: 800;
   color: #1293d5;

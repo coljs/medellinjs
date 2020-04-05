@@ -1,5 +1,5 @@
 <template>
-  <footer class="section-bg">
+  <footer class="section-bg section-bg-green-dark">
     <div class="container text-center">
       <a class="logo-footer wow animated fadeInDown" data-wow-duration="1.5s" href="#">
         <!--update image with medellinjs logo-->
@@ -28,7 +28,9 @@
           <i class="fab fa-gitter"></i>
         </a>
       </div>
-      <p class="copyright wow animated fadeInUp" data-wow-duration="1.5s">&copy; Corporación MedellínJS 2018. All Rights Reserved.</p>
+      <p class="copyright wow animated fadeInUp" data-wow-duration="1.5s">
+        &copy; Corporación MedellínJS {{new Date().getFullYear()}}. All Rights Reserved.
+        </p>
     </div>
   </footer>
 </template>

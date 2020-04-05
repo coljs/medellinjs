@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   margin: 0 0 10px 0;
   line-height: 1.33;
-  color: #1193d4;
+  color: #6670e1;
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
   letter-spacing: 0.3px;
@@ -104,9 +104,9 @@ h6 {
 
 a {
   transition: all 0.4s ease;
-  color: #1193d4;
+  color: #6670e1;
   &:focus, &:visited {
-    color: #1193d4;
+    color: #6670e1;
   }
   &:hover {
     color: #416467;
@@ -152,7 +152,7 @@ ul.list {
       font-family: "FontAwesome";
       font-size: 1.8rem;
       vertical-align: middle;
-      color: #1193d4;
+      color: #6670e1;
       margin-right: 12px;
     }
   }
@@ -181,9 +181,50 @@ img {
   padding: 112px 0;
 }
 
+.section-bg-green {
+  &:before {
+    background-color: #91D160;
+  }
+}
+
+.section-bg-green-dark {
+  &:before {
+    background-color: #0E9390;
+  }
+}
+
+.section-bg-red {
+  &:before {
+    background-color: #EE3769;
+  }
+}
+
+.section-bg-orange {
+  &:before {
+    background-color: #fe7b4a;
+  }
+}
+
+.section-bg-greenblue {
+  &:before {
+    background-color: #07a6c0;
+  }
+}
+
+.section-bg-purple {
+  &:before {
+    background-color: #6670e1;
+  }
+}
+
+.section-bg-yellow {
+  &:before {
+    background-color: #f5dc22;
+  }
+}
+
 .section-bg {
   &:before {
-    background-color: #1193d4;
     z-index: 0;
     content: "";
     position: absolute;
@@ -231,7 +272,7 @@ img {
 }
 
 .section-bg .section-heading:before {
-  background-color: #1193d4;
+  background-color: #ffffff;
 }
 
 .section-heading:after {
@@ -241,7 +282,7 @@ img {
   left: 50%;
   width: 50px;
   height: 1px;
-  background-color: #1193d4;
+  background-color: #6670e1;
   margin-left: -25px;
   transition: all 0.3s ease;
 }
@@ -304,7 +345,7 @@ img {
   display: inline-block;
   font-size: 1.8rem;
   color: #ffffff;
-  background-color: #1193d4;
+  background-color: #6670e1;
   border-radius: 4px;
   padding: 10px 52px;
   position: relative;
@@ -324,10 +365,10 @@ img {
 }
 
 .btn-white {
-  color: #1193d4;
+  color: #6670e1;
   background-color: #ffffff;
   &:focus, &:visited {
-    color: #1193d4;
+    color: #6670e1;
     background-color: #ffffff;
   }
   &:hover, &:focus:hover, &:visited:hover {
@@ -590,7 +631,7 @@ Navigation
   transform: translateY(0);
 }
 .navbar-default .navbar-brand{
-  color: #1193d4;
+  color: #6670e1;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 3.4rem;
@@ -617,23 +658,23 @@ Navigation
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
   color: #ffffff;
-  background-color: #1193d4;
+  background-color: #6670e1;
 }
 .navbar-default .navbar-right > li > a{
-  color: #1193d4;
+  color: #6670e1;
 }
 .navbar-default .navbar-right > li > a:hover{
-  color: #416467;
+  color: #3C50C4;
 }
 .nav-download a {
-  background-color: #1193d4;
+  background-color: #6670e1;
   color: #ffffff !important;
   border-radius: 4px;
   padding: 12px 20px !important;
   margin: 8px 0 8px 20px;
 }
 .nav-download a:hover{
-  background-color: #1578aa !important;
+  background-color: #3C50C4 !important;
 }
 
 /*----------------------------------------
@@ -642,7 +683,7 @@ Header
 
 .top-header {
   min-height: 100vh;
-  height: 900px;
+  // hseight: 900px;
 }
 
 .logo {
@@ -749,20 +790,20 @@ a.bold{
 }
 
 .top-header:before {
-  content: '';
-  background-image: url(~assets/img/photos/portada.jpg);
-  background-size: cover;
-  opacity: 0.15;
+  background-image: url(~assets/img/photos/cover-1280.png);
   background-position: center;
- }
- .top-header{
-  background-color:rgba(0, 100, 151, 0.9);
- }
+  background-size: cover;
+  content: '';
+  opacity: 0.7;
+}
+.top-header {
+  background-color:rgb(81, 89, 171)
+}
 
- .top-header p{
+.top-header p{
   font-size: 1.5em;
-line-height: 24px;
- }
+  line-height: 24px;
+}
 
 
 /*** Header Banner Signup ***/
@@ -777,7 +818,7 @@ line-height: 24px;
     position: absolute;
     width: 75%;
     height: 6px;
-    background-color: #1193d4;
+    background-color: #6670e1;
     opacity: 0.11;
     left: 50%;
     transform: translateX(-50%);
@@ -795,7 +836,7 @@ line-height: 24px;
 }
 
 .banner-signup input {
-  border: 1px solid #1193d4;
+  border: 1px solid #6670e1;
   border-radius: 4px;
   text-align: center;
   + {
@@ -1040,7 +1081,7 @@ h6.description{
       width: 30px;
       height: 30px;
       text-align: center;
-      border: 1px solid #1193d4;
+      border: 1px solid #6670e1;
       border-radius: 50px;
       margin: auto;
       padding: 3px 5px;
@@ -1062,13 +1103,13 @@ h6.description{
     }
     a:hover li{
       border-color: #fff;
-      color: #1193d4;
+      color: #6670e1;
     }
   }
 }
 
 a{
-    color:#1193d4;
+    color:#6670e1;
 }
 a:hover{
     text-decoration:none;
@@ -1178,7 +1219,7 @@ Timeline
   margin-top: -10px;
   background: #fff;
   border-radius: 10px;
-  border: 4px solid #1193d4;;
+  border: 4px solid #6670e1;;
   z-index: 10;
 }
 
@@ -1219,7 +1260,7 @@ Timeline
 
   line-height: 1em;
   font-size: 0.66666em;
-  color: #1193d4;
+  color: #6670e1;
   vertical-align: middle;
 }
 
@@ -1253,7 +1294,7 @@ CTA / Free Trial
 ----------------------------------------*/
 
 .cta-section {
-  background-color: #1193d4;
+  background-color: #6670e1;
   padding: 40px 0;
 }
 
@@ -1299,13 +1340,13 @@ Intro
   margin-bottom: 30px;
   transition: all 0.4s ease;
   &:hover {
-    background-color: #1193d4;
+    background-color: #6670e1;
   }
 }
 
 .intro-icon {
   font-size: 3rem;
-  background-color: #1193d4;
+  background-color: #3C50C4;
   text-align: center;
   width: 63px;
   height: 63px;
@@ -1313,7 +1354,7 @@ Intro
   line-height: 63px;
   display: block;
   margin: 0 auto 0 auto;
-  box-shadow: 0 0 0 10px rgba(0, 168, 224, 0.2);
+  box-shadow: 0 0 0 10px rgba(235, 241, 243, 0.2);
   color: #ffffff;
   transition: all 0.4s ease;
 }
@@ -1324,8 +1365,8 @@ Intro
 
 .intro:hover .intro-icon {
   background-color: #ffffff;
-  box-shadow: 0 0 0 10px #1193d4;
-  color: #1193d4;
+  box-shadow: 0 0 0 10px #6670e1;
+  color: #6670e1;
 }
 
 .intro-heading {
@@ -1386,7 +1427,7 @@ Features
 .feature:hover .feature-icon {
   background-color: #ffffff;
   box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.2);
-  color: #1193d4;
+  color: #6670e1;
 }
 
 .feature-title {
@@ -1425,7 +1466,7 @@ More Features
   height: 60px;
   line-height: 60px;
   text-align: center;
-  background-color: #1193d4;
+  background-color: #6670e1;
   border-radius: 50%;
   float: left;
   margin-right: 18px;
@@ -1434,7 +1475,7 @@ More Features
 
 .more-feature:hover .more-feature-icon {
   box-shadow: 0 0 0 10px rgba(0, 168, 224, 0.2);
-  color: #1193d4;
+  color: #6670e1;
   background-color: #ffffff;
 }
 
@@ -1488,7 +1529,7 @@ Fun Fact
 .fun-fact:hover .fact-icon {
   background-color: #ffffff;
   box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.2);
-  color: #1193d4;
+  color: #6670e1;
 }
 
 .fact-count {
@@ -1540,16 +1581,16 @@ Description
       display: block;
       height: 80px;
       width: 80px;
-      border: 3px solid #1193d4;
+      border: 3px solid #6670e1;
       border-radius: 50%;
       font-size: 3rem;
-      color: #1193d4;
+      color: #6670e1;
       line-height: 77px;
       padding: 0;
       text-align: center;
       position: relative;
       &:focus, &:hover {
-        background-color: #1193d4;
+        background-color: #6670e1;
         color: #ffffff;
       }
       &:after {
@@ -1562,20 +1603,20 @@ Description
         transform: translate(-20px, -50%);
         border-width: 15px 25px 15px 25px;
         border-style: solid;
-        border-color: transparent transparent transparent #1193d4;
+        border-color: transparent transparent transparent #6670e1;
         opacity: 0;
         transition: none;
       }
     }
     &.active > a {
-      background-color: #1193d4;
-      border: 3px solid #1193d4;
-      box-shadow: 0 0 0 10px #1193d4;
+      background-color: #6670e1;
+      border: 3px solid #6670e1;
+      box-shadow: 0 0 0 10px #6670e1;
       color: #ffffff;
       &:focus, &:hover {
-        background-color: #1193d4;
-        border: 3px solid #1193d4;
-        box-shadow: 0 0 0 10px #1193d4;
+        background-color: #6670e1;
+        border: 3px solid #6670e1;
+        box-shadow: 0 0 0 10px #6670e1;
         color: #ffffff;
       }
       &:after, &:focus:after, &:hover:after {
@@ -1684,7 +1725,7 @@ Screenshots
     padding: 0;
     opacity: 1;
     &:hover {
-      color: #1193d4;
+      color: #6670e1;
     }
   }
   .owl-prev {
@@ -1718,7 +1759,7 @@ Reviews
   overflow: hidden;
   border-radius: 50%;
   margin: 8px auto;
-  box-shadow: 0 0 0 8px #b1c9d1;
+  box-shadow: 0 0 0 8px #6670e163;
   background-size: cover;
   background-position: center;
 }
@@ -1871,13 +1912,13 @@ Price Table
 }
 
 .btn-get-plan {
-  border: 1px solid #1193d4;
+  border: 1px solid #6670e1;
   background-color: transparent;
-  color: #1193d4;
+  color: #6670e1;
   padding: 12px 46px;
   &:focus, &:visited {
     background-color: transparent;
-    color: #1193d4;
+    color: #6670e1;
   }
 }
 
@@ -1906,7 +1947,7 @@ Download
       padding: 16px 56px;
       &:hover {
         background-color: #ffffff;
-        color: #1193d4;
+        color: #6670e1;
       }
       + .btn {
         margin-left: 50px;
@@ -1934,7 +1975,7 @@ Team Members
   height: 330px;
   position: relative;
   &:hover {
-    background-color: #1193d4;
+    background-color: #6670e1;
   }
 }
 
@@ -1971,7 +2012,7 @@ Team Members
     color: #ffffff;
   }
   &:hover i{
-    color: #1193d4;
+    color: #6670e1;
   }
   p {
     font-size: 1.4rem;
@@ -1990,7 +2031,7 @@ Team Members
   a {
     font-size: 2rem;
     color: #ffffff;
-    background-color: #1193d4;
+    background-color: #6670e1;
     display: inline-block;
     width: 42px;
     height: 42px;
@@ -1999,7 +2040,7 @@ Team Members
     border-radius: 50%;
     transition: all 0.3s ease;
     &:hover > i{
-      color: #1193d4;
+      color: #6670e1;
     }
     i{
       color: #ffffff;
@@ -2010,9 +2051,35 @@ Team Members
   }
 }
 
+.member-connections__alternative {
+  margin-top: 10px;
+
+  a {
+    font-size: 2rem;
+    color: #ffffff;
+    background-color: #ffffff;
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    &:hover > i{
+      color: #0E9390;
+    }
+    i{
+      color: #91D160;
+    }
+    + a {
+      margin-left: 16px;
+    }
+  }
+}
+
 .team-member:hover a {
   background-color: #ffffff;
-  color: #1193d4;
+  color: #6670e1;
 }
 
 .member-connections a:hover {
@@ -2056,16 +2123,16 @@ Faq
   padding: 10px 20px;
   transition: all 0.3s ease;
   &.active {
-    background-color: #1193d4;
+    background-color: #6670e1;
   }
 }
 
 .panel-title {
-  color: #1193d4;
+  color: #6670e1;
   text-transform: none;
   font-family: 'Roboto', sans-serif;
   a {
-    color: #1193d4;
+    color: #6670e1;
     position: relative;
     display: block;
     transition: all 0.3s ease;
@@ -2097,7 +2164,7 @@ Faq
 }
 
 .panel-body p {
-  border-left: 4px solid #1193d4;
+  border-left: 4px solid #6670e1;
   padding-left: 18px;
   margin: 0;
   + p {
@@ -2119,9 +2186,9 @@ Bootstrap Form
 .input-group-addon {
   font-size: 1.6rem;
   width: 44px;
-  color: #1193d4;
+  color: #6670e1;
   background-color: transparent;
-  border: 1px solid #1193d4;
+  border: 1px solid #6670e1;
   border-radius: 0;
 }
 
@@ -2130,14 +2197,14 @@ Bootstrap Form
   font-size: 1.6rem;
   color: #4a4a4a;
   background-color: transparent;
-  border: 1px solid #1193d4;
+  border: 1px solid #6670e1;
   box-shadow: none;
   border-radius: 0;
   transition: all 0.3s ease;
 }
 
 button.form-control {
-  background-color: #1193d4;
+  background-color: #6670e1;
   color: #ffffff;
   text-transform: uppercase;
   font-size: 1.8rem;
@@ -2178,7 +2245,7 @@ Subscribe
     font-weight: 700;
     text-transform: uppercase;
     line-height: 24px;
-    color: #1193d4;
+    color: #6670e1;
     background-color: #ffffff;
     border: 1px solid #ffffff;
     vertical-align: middle;
@@ -2209,7 +2276,7 @@ Contact Area
 }
 
 .input-success {
-  border: 1px solid #1193d4;
+  border: 1px solid #6670e1;
 }
 
 .input-error {
@@ -2229,7 +2296,7 @@ Contact Area
 
 .contact-icon {
   font-size: 2.4rem;
-  color: #1193d4;
+  color: #6670e1;
   margin-bottom: 10px;
   display: inline-block;
 }
@@ -2244,7 +2311,7 @@ Footer
 ----------------------------------------*/
 
 footer {
-  // background-color: #1193d4;
+  // background-color: #6670e1;
   padding-top: 80px;
   padding-bottom: 50px;
 }
@@ -2269,7 +2336,7 @@ footer {
     border-radius: 50%;
     background-color: #ffffff;
     display: inline-block;
-    color: #1193d4;
+    color: #0E9390;
     + .social {
       margin-left: 16px;
     }
@@ -2292,7 +2359,7 @@ footer {
   height: 50px;
   width: 50px;
   font-size: 2rem;
-  background-color: #1193d4;
+  background-color: #6670e1;
   text-align: center;
   color: #ffffff;
   line-height: 46px;
@@ -2314,7 +2381,7 @@ Extra Pages
 
 .page-header {
   margin: 0;
-  border-bottom: 1px solid #1193d4;
+  border-bottom: 1px solid #6670e1;
   padding: 80px 0;
   position: relative;
   background-position: center center;
@@ -2327,7 +2394,7 @@ Extra Pages
     height: 100%;
     width: 100%;
     z-index: 0;
-    background-color: #1193d4;
+    background-color: #6670e1;
     opacity: 0.8;
   }
 }
@@ -2381,7 +2448,7 @@ article {
   line-height: 30px;
   text-align: center;
   border-radius: 50%;
-  background-color: #1193d4;
+  background-color: #6670e1;
   color: #ffffff;
   &:focus, &:visited {
     float: left;
@@ -2390,7 +2457,7 @@ article {
     line-height: 30px;
     text-align: center;
     border-radius: 50%;
-    background-color: #1193d4;
+    background-color: #6670e1;
     color: #ffffff;
   }
   &:hover {
@@ -2436,7 +2503,7 @@ aside, .widget-content {
 .searchform {
   position: relative;
   input[type=search] {
-    border: 1px solid #1193d4;
+    border: 1px solid #6670e1;
     padding: 10px 35px 10px 20px;
     box-shadow: none;
     margin: 0;
@@ -2458,7 +2525,7 @@ aside, .widget-content {
 .cat {
   color: #6a6a6a;
   &:hover {
-    color: #1193d4;
+    color: #6670e1;
   }
   a {
     color: inherit;
@@ -2514,7 +2581,7 @@ aside, .widget-content {
   width: 100%;
   margin-bottom: -10px;
   .tag {
-    border: 1px solid #1193d4;
+    border: 1px solid #6670e1;
     border-radius: 4px;
     display: inline-block;
     float: left;
@@ -2525,7 +2592,7 @@ aside, .widget-content {
     line-height: 100%;
     &:hover {
       color: #ffffff;
-      background-color: #1193d4;
+      background-color: #6670e1;
     }
   }
 }
@@ -2549,8 +2616,8 @@ Blog Page Single
 /*** Share on socials ***/
 
 .share-block {
-  border-top: 1px solid #1193d4;
-  border-bottom: 1px solid #1193d4;
+  border-top: 1px solid #6670e1;
+  border-bottom: 1px solid #6670e1;
   margin: 60px 0;
   padding: 15px 0;
 }
@@ -2565,7 +2632,7 @@ Blog Page Single
   color: #6a6a6a;
   margin: 0 15px;
   &:hover {
-    color: #1193d4;
+    color: #6670e1;
   }
 }
 
