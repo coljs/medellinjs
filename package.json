@@ -41,7 +41,7 @@
     "eslint-loader": "4.0.0",
     "eslint-plugin-vue": "6.2.2",
     "node-sass": "4.13.1",
-    "nodemon": "2.0.2",
+    "nodemon": "2.0.3",
     "push-dir": "0.4.1",
     "sass-loader": "8.0.2"
   }
