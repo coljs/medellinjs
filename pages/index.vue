@@ -8,7 +8,6 @@
 
     <!--------------- Main Body Area -------------->
     <div class="main-wrap">
-
       <!--------------- Next Meetups area -------------->
       <!-- <AppNextMeetups /> -->
 
@@ -29,24 +28,25 @@
 
       <!--------------- Community Parners area -------------->
       <AppCommuniyParners />
-
     </div>
     <!--------------- Footer -------------->
     <app-footer />
 
-    <a id="to-top" class="to-top" href="#top-header" data-spy="affix" data-offset-top="500">
-      <i class="fa fa-chevron-up"></i>
+    <a
+      id="to-top"
+      class="to-top"
+      href="#top-header"
+      data-spy="affix"
+      data-offset-top="500"
+    >
+      <fa icon="chevron-up" />
     </a>
-
   </div>
 </template>
 
-
 <script>
-import AppPreLoader from '~/components/AppPreLoader.vue'
 import AppNavBar from '~/components/AppNavBar.vue'
 import AppHeader from '~/components/AppHeader.vue'
-import AppNextMeetups from '~/components/AppNextMeetups.vue'
 import AppShortHeroes from '~/components/AppShortHeroes.vue'
 import AppCommunities from '~/components/AppCommunities.vue'
 import AppOrganizer from '~/components/AppOrganizer.vue'
@@ -57,10 +57,8 @@ import AppFooter from '~/components/AppFooter.vue'
 
 export default {
   components: {
-    AppPreLoader,
     AppNavBar,
     AppHeader,
-    AppNextMeetups,
     AppShortHeroes,
     AppCommunities,
     AppOrganizer,

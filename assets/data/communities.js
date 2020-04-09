@@ -60,7 +60,8 @@ module.exports = {
     bio: 'Comunidad JS Manizales',
     twitter: '@manizalesjs',
     github: 'manizalesjs',
-    avatar: 'https://secure.meetupstatic.com/photos/event/d/f/b/c/highres_433977276.jpeg',
+    avatar:
+      'https://secure.meetupstatic.com/photos/event/d/f/b/c/highres_433977276.jpeg',
     website: 'https://www.meetup.com/ManizalesJS/'
   },
   barranquillajs: {
@@ -76,7 +77,8 @@ module.exports = {
     bio: 'Comunidad JS Bucaramanga',
     twitter: '@bucaramangajs',
     github: 'bucaramangajs',
-    avatar: 'https://secure.meetupstatic.com/photos/event/a/9/1/2/highres_444343282.jpeg',
+    avatar:
+      'https://secure.meetupstatic.com/photos/event/a/9/1/2/highres_444343282.jpeg',
     website: 'https://www.meetup.com/BucaramangaJS/'
   }
 }

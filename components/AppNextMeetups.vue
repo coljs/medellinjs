@@ -85,54 +85,75 @@ h2.meetup-event {
   width: 100px;
 }
 
-.ribbon.top-left{
+.ribbon.top-left {
   -webkit-transform: rotate(-45deg);
-  -moz-transform:    rotate(-45deg);
-  -ms-transform:     rotate(-45deg);
-  -o-transform:      rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
   top: 15px;
   left: -25px;
 }
 
-.ribbon.top-right{
+.ribbon.top-right {
   top: 15px;
   right: -25px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
 
-.ribbon.bottom-left{
+.ribbon.bottom-left {
   bottom: 15px;
   left: -25px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
 
-.ribbon.bottom-right{
+.ribbon.bottom-right {
   right: -25px;
   bottom: 15px;
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
 
-.ribbon.white{background: #f0f0f0; color: #555;}
-.ribbon.black{background: #333;}
-.ribbon.grey{background: #999;}
-.ribbon.blue{background: #39d;}
-.ribbon.green{background: #2c7;}
-.ribbon.turquoise{background: #1b9;}
-.ribbon.purple{background: #95b;}
-.ribbon.red{background: #e43;}
-.ribbon.orange{background: #e82;}
-.ribbon.yellow{background: #ec0;}
+.ribbon.white {
+  background: #f0f0f0;
+  color: #555;
+}
+.ribbon.black {
+  background: #333;
+}
+.ribbon.grey {
+  background: #999;
+}
+.ribbon.blue {
+  background: #39d;
+}
+.ribbon.green {
+  background: #2c7;
+}
+.ribbon.turquoise {
+  background: #1b9;
+}
+.ribbon.purple {
+  background: #95b;
+}
+.ribbon.red {
+  background: #e43;
+}
+.ribbon.orange {
+  background: #e82;
+}
+.ribbon.yellow {
+  background: #ec0;
+}
 
 /* Show the meetups tables with the same height */
 @media screen and (min-width: 768px) {
-    .meetup-tables {
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-    }
+  .meetup-tables {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 </style>
 
@@ -143,45 +164,74 @@ h2.meetup-event {
         <div class="col-md-6 col-md-offset-3 text-center">
           <div class="section-heading">
             <h2 class="section-title">Próximos Eventos</h2>
-            <p class="section-subtitle">Estos son los eventos que tenemos programados</p>
+            <p class="section-subtitle">
+              Estos son los eventos que tenemos programados
+            </p>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="meetup-tables">
-
           <div v-if="!finishedLoading(loaded)" class="col-sm-4 col-sm-offset-4">
-            <div class="meetup-table text-center wow past animated fadeInUp" data-wow-delay="0" data-wow-duration="1.5s">
+            <div
+              class="meetup-table text-center wow past animated fadeInUp"
+              data-wow-delay="0"
+              data-wow-duration="1.5s"
+            >
               <div class="meetup-heading">
                 <h1 class="meetup-event">Cargando</h1>
               </div>
             </div>
           </div>
 
-          <template v-else >
-            <div class="col-sm-4" v-for="(meetup, index) in pastMeetups" :key="meetup.id">
+          <template v-else>
+            <div
+              v-for="(meetup, index) in pastMeetups"
+              :key="meetup.id"
+              class="col-sm-4"
+            >
               <a :href="meetup.link" target="new">
-                <div class="meetup-table text-center past wow animated fadeInUp" :data-wow-delay="0.5*index+'s'" data-wow-duration="1.5s">
+                <div
+                  class="meetup-table text-center past wow animated fadeInUp"
+                  :data-wow-delay="0.5 * index + 's'"
+                  data-wow-duration="1.5s"
+                >
                   <div class="meetup-heading">
-                    <h2 class="meetup-event">{{meetup.name}}</h2>
+                    <h2 class="meetup-event">{{ meetup.name }}</h2>
                     <h3 class="meetup-confirm"></h3>
                     <h3 class="event-meetup">
-                      <div class="meetup-cycle">{{formatDate(meetup.time)}}</div>
+                      <div class="meetup-cycle">
+                        {{ formatDate(meetup.time) }}
+                      </div>
                     </h3>
                   </div>
-                  <div class="ribbon-wrapper"><div class="ribbon bottom-right red">pasó</div></div>
+                  <div class="ribbon-wrapper">
+                    <div class="ribbon bottom-right red">pasó</div>
+                  </div>
                 </div>
               </a>
             </div>
 
-            <div class="col-sm-4" v-for="(meetup, index) in nextMeetups" :key="meetup.id">
+            <div
+              v-for="(meetup, index) in nextMeetups"
+              :key="meetup.id"
+              class="col-sm-4"
+            >
               <a :href="meetup.link" target="new">
-                <div class="meetup-table text-center wow animated fadeInUp" :data-wow-delay="(0.5*pastMeetups.length+0.5*index)+'s'" data-wow-duration="1.5s">
+                <div
+                  class="meetup-table text-center wow animated fadeInUp"
+                  :data-wow-delay="0.5 * pastMeetups.length + 0.5 * index + 's'"
+                  data-wow-duration="1.5s"
+                >
                   <div class="meetup-heading ">
-                    <h2 class="meetup-event">{{meetup.name}}</h2>
-                    <h3 class="meetup-confirm">click para confirmar asistencia</h3>
+                    <h2 class="meetup-event">{{ meetup.name }}</h2>
+                    <h3 class="meetup-confirm">
+                      click para confirmar asistencia
+                    </h3>
                     <h3 class="event-meetup">
-                      <div class="meetup-cycle">{{formatDate(meetup.time)}}</div>
+                      <div class="meetup-cycle">
+                        {{ formatDate(meetup.time) }}
+                      </div>
                     </h3>
                   </div>
                 </div>
@@ -189,8 +239,19 @@ h2.meetup-event {
             </div>
           </template>
 
-          <div class="col-sm-8 col-sm-offset-2" v-if="!nextMeetups.length && !pastMeetups.length && finishedLoading(loaded)" >
-            <div class="meetup-table text-center wow animated fadeInUp" :data-wow-delay="0" data-wow-duration="1.5s">
+          <div
+            v-if="
+              !nextMeetups.length &&
+                !pastMeetups.length &&
+                finishedLoading(loaded)
+            "
+            class="col-sm-8 col-sm-offset-2"
+          >
+            <div
+              class="meetup-table text-center wow animated fadeInUp"
+              :data-wow-delay="0"
+              data-wow-duration="1.5s"
+            >
               <div class="meetup-heading">
                 <h3 class="event-meetup">
                   <small class="meetup-cycle">No hay eventos programados</small>
@@ -198,7 +259,6 @@ h2.meetup-event {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
@@ -209,19 +269,27 @@ h2.meetup-event {
 import jsonp from 'jsonp'
 
 const formatDate = (d) => {
-  let dateObject = new Date(d)
-  let locale = 'es-CO'
-  let options = { month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' }
+  const dateObject = new Date(d)
+  const locale = 'es-CO'
+  const options = {
+    month: 'long',
+    day: 'numeric',
+    hour: 'numeric',
+    minute: 'numeric'
+  }
 
   return dateObject.toLocaleDateString(locale, options)
 }
 
 const finishedLoading = (loaded) => {
-  return Object.keys(loaded).reduce((acc, loader) => loaded[loader] && acc, true)
+  return Object.keys(loaded).reduce(
+    (acc, loader) => loaded[loader] && acc,
+    true
+  )
 }
 
 export default {
-  data () {
+  data() {
     return {
       nextMeetups: [],
       pastMeetups: [],
@@ -231,15 +299,13 @@ export default {
       }
     }
   },
-  methods: {
-    formatDate,
-    finishedLoading
-  },
-  mounted () {
-    let self = this
-    const nextMeetupsURL = '//api.meetup.com/MedellinJS/events?photo-host=public&page=20&sig_id=233024411'
-    const pastMeetupsURL = '//api.meetup.com/MedellinJS/events?desc=true&photo-host=public&page=1&sig_id=233024411&status=past'
-    jsonp(nextMeetupsURL, {}, function (err, data) {
+  mounted() {
+    const self = this
+    const nextMeetupsURL =
+      '//api.meetup.com/MedellinJS/events?photo-host=public&page=20&sig_id=233024411'
+    const pastMeetupsURL =
+      '//api.meetup.com/MedellinJS/events?desc=true&photo-host=public&page=1&sig_id=233024411&status=past'
+    jsonp(nextMeetupsURL, {}, function(err, data) {
       if (err) {
         console.error('Error fetching next meetups from MeetupAPI')
         self.loaded.nextEvents = true
@@ -250,7 +316,7 @@ export default {
       self.nextMeetups = data.data
     })
 
-    jsonp(pastMeetupsURL, {}, function (err, data) {
+    jsonp(pastMeetupsURL, {}, function(err, data) {
       if (err) {
         console.error('Error fetching past meetups from MeetupAPI')
         self.loaded.pastEvents = true
@@ -260,6 +326,10 @@ export default {
       self.loaded.pastEvents = true
       self.pastMeetups = data.data
     })
+  },
+  methods: {
+    formatDate,
+    finishedLoading
   }
 }
 </script>
