@@ -5,14 +5,14 @@
   "author": "medellinjs <medellinjs@gmail.com>",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate",
     "contributors:add": "npx all-contributors add",
     "contributors:generate": "npx all-contributors generate",
+    "dev": "nuxt",
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate",
+    "generate": "nuxt generate",
     "lint": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
+    "start": "nuxt start",
     "test": "jest"
   },
   "lint-staged": {
@@ -24,7 +24,6 @@
     }
   },
   "dependencies": {
-    "@nuxtjs/axios": "5.3.6",
     "@nuxtjs/google-analytics": "2.2.3",
     "@nuxtjs/pwa": "2.6.0",
     "animate.css": "3.7.2",
