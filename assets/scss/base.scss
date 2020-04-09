@@ -2065,10 +2065,10 @@ Team Members
     line-height: 42px;
     border-radius: 50%;
     transition: all 0.3s ease;
-    &:hover > i{
+    &:hover > svg {
       color: #0E9390;
     }
-    i{
+    svg{
       color: #91D160;
     }
     + a {

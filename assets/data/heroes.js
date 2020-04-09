@@ -4,13 +4,15 @@ module.exports = {
     username: 'julian_duque',
     twitter: 'https://twitter.com/julian_duque',
     github: 'https://github.com/julianduque',
-    avatar: 'https://secure.gravatar.com/avatar/c2d1139b787a469e13229070d6be918c.png?size=200',
+    avatar:
+      'https://secure.gravatar.com/avatar/c2d1139b787a469e13229070d6be918c.png?size=200',
     slides: [
       {
         direction: 'r',
         title: 'Node.js en las nubes',
         url: 'slides.com/julianduque/nodejs-in-the-cloud',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/cf966a/nodejs-in-the-cloud.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/cf966a/nodejs-in-the-cloud.jpg'
       },
       {
         direction: 'l',
@@ -22,31 +24,36 @@ module.exports = {
         direction: 'r',
         title: 'Async JavaScript',
         url: 'slides.com/julianduque/async-javascript',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/beeb52/async-javascript.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/beeb52/async-javascript.jpg'
       },
       {
         direction: 'l',
         title: 'WebSockets the right way',
         url: 'slides.com/julianduque/websockets-the-right-way',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/13ff89/websockets-the-right-way.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/13ff89/websockets-the-right-way.jpg'
       },
       {
         direction: 'r',
         title: 'Siete Bases de Datos en Node.js',
         url: 'slides.com/julianduque/seven-databases',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/8aa0f8/seven-databases.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/8aa0f8/seven-databases.jpg'
       },
       {
         direction: 'l',
         title: 'WebComponents con Polymer',
         url: 'slides.com/julianduque/webcomponents-polymer',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/50016e/webcomponents-polymer.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/50016e/webcomponents-polymer.jpg'
       },
       {
         direction: 'r',
         title: 'Cómo no ser un patán',
         url: 'slides.com/julianduque/no-ser-un-patan',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/6f0ecf/no-ser-un-patan.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/6f0ecf/no-ser-un-patan.jpg'
       },
       {
         direction: 'l',
@@ -58,7 +65,8 @@ module.exports = {
         direction: 'r',
         title: 'Node.js is dead, Long Live Node.js',
         url: 'slides.com/julianduque/nodejs-is-dead-longlive-nodejs',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/977814/decks.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/977814/decks.jpg'
       },
       {
         direction: 'l',
@@ -103,7 +111,8 @@ module.exports = {
     username: 'c4milo',
     twitter: 'https://twitter.com/c4milo',
     github: 'https://github.com/c4milo',
-    avatar: 'https://pbs.twimg.com/profile_images/605968391959126016/NXRZoBJu_400x400.jpg',
+    avatar:
+      'https://pbs.twimg.com/profile_images/605968391959126016/NXRZoBJu_400x400.jpg',
     slides: [
       {
         direction: 'r',
@@ -118,43 +127,52 @@ module.exports = {
     username: 'edsadr',
     twitter: 'https://twitter.com/edsadr',
     github: 'https://github.com/edsadr',
-    avatar: 'https://secure.gravatar.com/userimage/28946174/8747a95cd541d80ffa63929a4856637d.jpg?size=200',
+    avatar:
+      'https://secure.gravatar.com/userimage/28946174/8747a95cd541d80ffa63929a4856637d.jpg?size=200',
     slides: [
       {
         direction: 'r',
         title: 'Phonegap y jQuery Mobile',
         url: 'slides.com/edsadr/phonegap-y-jquery-mobile',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/f88ae4/phonegap-y-jquery-mobile.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/f88ae4/phonegap-y-jquery-mobile.jpg'
       },
       {
         direction: 'l',
         title: 'Aplicaciones en tiempo real con meteor',
         url: 'slides.com/edsadr/aplicaciones-en-tiempo-real-con-meteor',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/83ecd5/aplicaciones-en-tiempo-real-con-meteor.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/83ecd5/aplicaciones-en-tiempo-real-con-meteor.jpg'
       },
       {
         direction: 'r',
         title: 'AngularJS y Ember.js - MVC framworks en el lado del cliente',
-        url: 'slides.com/edsadr/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/2b1815/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente.jpg'
+        url:
+          'slides.com/edsadr/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente',
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/2b1815/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente.jpg'
       },
       {
         direction: 'l',
         title: 'Yeoman - Flujos de trabajo modernos',
         url: 'slides.com/edsadr/yeoman',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/fc1435/yeoman.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/fc1435/yeoman.jpg'
       },
       {
         direction: 'r',
-        title: 'Aplicaciones móviles reactivas, multiplataforma y auto - actualizables con Meteor y Phonegap',
+        title:
+          'Aplicaciones móviles reactivas, multiplataforma y auto - actualizables con Meteor y Phonegap',
         url: 'slides.com/edsadr/aplicaciones-en-tiempo-real-con-meteor--2#/',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/a61634/aplicaciones-en-tiempo-real-con-meteor--2.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/a61634/aplicaciones-en-tiempo-real-con-meteor--2.jpg'
       },
       {
         direction: 'l',
         title: 'Understanding the prototype with fishes',
         url: 'slides.com/edsadr/prototype-fishes',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/4f442457655e25ceab1faf1271ac000b/thumb.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/4f442457655e25ceab1faf1271ac000b/thumb.jpg'
       },
       {
         direction: 'r',
@@ -166,7 +184,8 @@ module.exports = {
         direction: 'l',
         title: 'HTTP2 intro for the Node world',
         url: 'slides.com/edsadr/http2-node',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/6e65bc81edbc44b3c27284757a7fb5c2/thumb.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/6e65bc81edbc44b3c27284757a7fb5c2/thumb.jpg'
       }
     ]
   },
@@ -175,7 +194,8 @@ module.exports = {
     username: 'seeleJG',
     twitter: 'https://twitter.com/seeleJG',
     github: '',
-    avatar: 'https://pbs.twimg.com/profile_images/1096089919305469955/6TwewI5__400x400.png',
+    avatar:
+      'https://pbs.twimg.com/profile_images/1096089919305469955/6TwewI5__400x400.png',
     slides: [
       {
         direction: 'r',
@@ -194,7 +214,7 @@ module.exports = {
     slides: [
       {
         direction: 'r',
-        title: 'Cómo crear plugin\'s con jQuery',
+        title: "Cómo crear plugin's con jQuery",
         url: '',
         thumbnail: ''
       },
@@ -223,7 +243,8 @@ module.exports = {
         direction: 'l',
         title: 'Automatización de tareas con Grunt.js',
         url: 'slides.com/asgaroth/gruntjs',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/asgaroth/82f9ae/gruntjs.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/asgaroth/82f9ae/gruntjs.jpg'
       },
       {
         direction: 'r',
@@ -249,14 +270,17 @@ module.exports = {
       {
         direction: 'l',
         title: 'AngularJS y Ember.js - MVC framworks en el lado del cliente',
-        url: 'slides.com/edsadr/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/2b1815/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente.jpg'
+        url:
+          'slides.com/edsadr/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente',
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/2b1815/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente.jpg'
       },
       {
         direction: 'r',
         title: 'Make me Hapi',
         url: 'slides.com/alvaroagamez/make-me-hapi',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/alvaroagamez/9b2b1d/make-me-hapi.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/alvaroagamez/9b2b1d/make-me-hapi.jpg'
       },
       {
         direction: 'l',
@@ -277,7 +301,8 @@ module.exports = {
     username: 'leocongote',
     twitter: 'https://twitter.com/leocongote',
     github: 'https://github.com/leocongote',
-    avatar: 'https://pbs.twimg.com/profile_images/2301556993/h77ojuczwfqmqbrpo8yl_400x400.jpeg',
+    avatar:
+      'https://pbs.twimg.com/profile_images/2301556993/h77ojuczwfqmqbrpo8yl_400x400.jpeg',
     slides: [
       {
         direction: 'r',
@@ -298,13 +323,15 @@ module.exports = {
     username: 'iosamuel',
     twitter: 'https://twitter.com/iosamuel',
     github: 'https://github.com/iosamuel',
-    avatar: 'https://pbs.twimg.com/profile_images/1094511601741381632/pXB_vxCp_400x400.jpg',
+    avatar:
+      'https://pbs.twimg.com/profile_images/1094511601741381632/pXB_vxCp_400x400.jpg',
     slides: [
       {
         direction: 'r',
         title: 'JavaScript en HTML5',
         url: 'slides.com/iosamuel/js-html5#/',
-        thumbnail: 'www.w3devcampus.com/wp-content/uploads/logoAndOther/logo_JavaScript.png'
+        thumbnail:
+          'www.w3devcampus.com/wp-content/uploads/logoAndOther/logo_JavaScript.png'
       }
     ]
   },
@@ -313,7 +340,8 @@ module.exports = {
     username: '5h1rU',
     twitter: 'https://twitter.com/5h1rU',
     github: 'https://github.com/5h1rU',
-    avatar: 'https://pbs.twimg.com/profile_images/1069632070647984128/KaZrvuj1_400x400.jpg',
+    avatar:
+      'https://pbs.twimg.com/profile_images/1069632070647984128/KaZrvuj1_400x400.jpg',
     slides: [
       {
         direction: 'r',
@@ -382,7 +410,8 @@ module.exports = {
         direction: 'r',
         title: 'Unit Testing con Mocha',
         url: 'slides.com/estebanbeltran/mocha',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/estebanbeltran/32c79a/mocha.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/estebanbeltran/32c79a/mocha.jpg'
       },
       {
         direction: 'l',
@@ -397,11 +426,13 @@ module.exports = {
     username: 'JaimeAGarciaM',
     twitter: 'https://twitter.com/JaimeAGarciaM',
     github: '',
-    avatar: 'https://pbs.twimg.com/profile_images/378800000691582674/e466512f1dab320da10833a231c27b72_400x400.jpeg',
+    avatar:
+      'https://pbs.twimg.com/profile_images/378800000691582674/e466512f1dab320da10833a231c27b72_400x400.jpeg',
     slides: [
       {
         direction: 'r',
-        title: 'Dile adios al PowerPoint, construye tus presentaciones con JavaScript',
+        title:
+          'Dile adios al PowerPoint, construye tus presentaciones con JavaScript',
         url: '',
         thumbnail: ''
       },
@@ -439,13 +470,15 @@ module.exports = {
         direction: 'r',
         title: 'Grunt vs Gulp',
         url: 'https://slides.com/angelfire/grunt-vs-gulp',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/angelfire/eb09cf/grunt-vs-gulp.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/angelfire/eb09cf/grunt-vs-gulp.jpg'
       },
       {
         direction: 'l',
         title: 'JavaScript Design Patterns',
         url: 'https://slides.com/angelfire/javascriptdp',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/angelfire/9d0236/javascriptdp.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/angelfire/9d0236/javascriptdp.jpg'
       },
       {
         direction: 'r',
@@ -466,19 +499,23 @@ module.exports = {
     username: 'abrupto',
     twitter: 'https://twitter.com/abrupto',
     github: 'https://github.com/katio',
-    avatar: 'https://pbs.twimg.com/profile_images/954018981244997632/J_3DPptq_400x400.jpg',
+    avatar:
+      'https://pbs.twimg.com/profile_images/954018981244997632/J_3DPptq_400x400.jpg',
     slides: [
       {
         direction: 'r',
         title: 'Introducción a Ractive.js',
-        url: 'slides.com/johannpaulechavarriazapata/introduccion-a-ractive-js#/',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/johannpaulechavarriazapata/3720a0/introduccion-a-ractive-js.jpg'
+        url:
+          'slides.com/johannpaulechavarriazapata/introduccion-a-ractive-js#/',
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/johannpaulechavarriazapata/3720a0/introduccion-a-ractive-js.jpg'
       },
       {
         direction: 'l',
         title: 'Introducción a la nueva versión de Javascript ES6 o ES-2015',
         url: 'slides.com/johannpaulechavarriazapata/introduccion_es6',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/000c42/decks.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/000c42/decks.jpg'
       }
     ]
   },
@@ -493,19 +530,23 @@ module.exports = {
         direction: 'r',
         title: 'Siete Bases de Datos en Node.js',
         url: 'slides.com/julianduque/seven-databases',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/8aa0f8/seven-databases.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/julianduque/8aa0f8/seven-databases.jpg'
       },
       {
         direction: 'l',
         title: 'Introduction to WebGL with three.js for 3D graphics',
-        url: 'slides.com/alexramirez/introduction-to-webgl-with-three-js-for-3d-graphics',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/alexramirez/041317/introduction-to-webgl-with-three-js-for-3d-graphics.jpg'
+        url:
+          'slides.com/alexramirez/introduction-to-webgl-with-three-js-for-3d-graphics',
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/alexramirez/041317/introduction-to-webgl-with-three-js-for-3d-graphics.jpg'
       },
       {
         direction: 'r',
         title: 'Automatización de Tareas con NPM - NPM Scripts',
         url: 'slides.com/alexramirez/deck-3',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/aa4169/decks.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/aa4169/decks.jpg'
       }
     ]
   },
@@ -514,7 +555,8 @@ module.exports = {
     username: 'CristianG540',
     twitter: 'https://twitter.com/CristianG540',
     github: 'https://github.com/CristianG540',
-    avatar: 'https://pbs.twimg.com/profile_images/464431828313460736/cm2ADMLY_400x400.png',
+    avatar:
+      'https://pbs.twimg.com/profile_images/464431828313460736/cm2ADMLY_400x400.png',
     slides: [
       {
         direction: 'r',
@@ -529,7 +571,8 @@ module.exports = {
     username: 'nebiros',
     twitter: 'https://twitter.com/nebiros',
     github: 'https://github.com/nebiros',
-    avatar: 'https://pbs.twimg.com/profile_images/834488718090178560/vzbH1hwH_400x400.jpg',
+    avatar:
+      'https://pbs.twimg.com/profile_images/834488718090178560/vzbH1hwH_400x400.jpg',
     slides: [
       {
         direction: 'r',
@@ -544,7 +587,8 @@ module.exports = {
     username: 'pipevegaaraujo',
     twitter: 'https://twitter.com/pipevegaaraujo',
     github: 'https://github.com/felipevegaaraujo',
-    avatar: 'https://pbs.twimg.com/profile_images/664177585501413376/p-70G6wp_400x400.jpg',
+    avatar:
+      'https://pbs.twimg.com/profile_images/664177585501413376/p-70G6wp_400x400.jpg',
     slides: [
       {
         direction: 'r',
@@ -589,13 +633,15 @@ module.exports = {
     username: 'alexav',
     twitter: 'https://twitter.com/alexav',
     github: 'https://github.com/axelavargas',
-    avatar: 'https://www.gravatar.com/avatar/e322c4c78b001b013477ef504c1507b3.jpg?s=200',
+    avatar:
+      'https://www.gravatar.com/avatar/e322c4c78b001b013477ef504c1507b3.jpg?s=200',
     slides: [
       {
         direction: 'r',
         title: 'Mis primeros pasos con JavaScript',
         url: 'slides.com/axelav/mis-primeros-pasos-con-javascript',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/axelav/45f93d/deck.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/axelav/45f93d/deck.jpg'
       }
     ]
   },
@@ -625,19 +671,22 @@ module.exports = {
         direction: 'r',
         title: 'Phaser Framework',
         url: 'slides.com/juandavidnicholls/phaser',
-        thumbnail: 'https://user-images.githubusercontent.com/2154886/30140016-1d2cefc2-9337-11e7-95a8-0437cc1d5926.png'
+        thumbnail:
+          'https://user-images.githubusercontent.com/2154886/30140016-1d2cefc2-9337-11e7-95a8-0437cc1d5926.png'
       },
       {
         direction: 'l',
         title: 'Apps Móviles Híbridas Cross-platform',
         url: 'slides.com/juandavidnicholls/apps-moviles',
-        thumbnail: 's3.amazonaws.com/media-p.slid.es/thumbnails/secure/e78957/decks.jpg'
+        thumbnail:
+          's3.amazonaws.com/media-p.slid.es/thumbnails/secure/e78957/decks.jpg'
       },
       {
         direction: 'r',
         title: 'Juegos en Javascript',
         url: 'slides.com/juandavidnicholls/juegos-en-javascript',
-        thumbnail: 'https://user-images.githubusercontent.com/2154886/30140051-4f33cf72-9337-11e7-91b2-6e380f1a548a.png'
+        thumbnail:
+          'https://user-images.githubusercontent.com/2154886/30140051-4f33cf72-9337-11e7-91b2-6e380f1a548a.png'
       }
     ]
   },
@@ -646,13 +695,15 @@ module.exports = {
     username: 'aldajo92',
     twitter: 'https://twitter.com/aldajo92',
     github: 'https://github.com/aldajo92',
-    avatar: 'https://pbs.twimg.com/profile_images/699813678091206656/mz7OvAEt_200x200.jpg',
+    avatar:
+      'https://pbs.twimg.com/profile_images/699813678091206656/mz7OvAEt_200x200.jpg',
     slides: [
       {
         direction: 'r',
         title: 'Robótica y NodeJS?',
         url: 'slides.com/aldajo92/deck',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/66a99c/decks.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/66a99c/decks.jpg'
       },
       {
         direction: 'l',
@@ -688,13 +739,15 @@ module.exports = {
         direction: 'r',
         title: 'MongoDB + JavaScript = mongoosejs',
         url: 'https://speakerdeck.com/jessecogollo/mongoosejs',
-        thumbnail: 'https://speakerd.s3.amazonaws.com/presentations/f5bee4f2c7e640449127da2c5de3c7de/slide_0.jpg?1427164921'
+        thumbnail:
+          'https://speakerd.s3.amazonaws.com/presentations/f5bee4f2c7e640449127da2c5de3c7de/slide_0.jpg?1427164921'
       },
       {
         direction: 'l',
         title: 'AureliaJS',
         url: 'https://speakerdeck.com/jessecogollo/aureliajs',
-        thumbnail: 'https://speakerd.s3.amazonaws.com/presentations/d80d3a231a8149edbbbae739fbbebf18/slide_0.jpg?1440007652'
+        thumbnail:
+          'https://speakerd.s3.amazonaws.com/presentations/d80d3a231a8149edbbbae739fbbebf18/slide_0.jpg?1440007652'
       }
     ]
   },
@@ -703,7 +756,8 @@ module.exports = {
     username: 'woloski',
     twitter: 'https://twitter.com/woloski',
     github: 'https://github.com/woloski',
-    avatar: 'https://pbs.twimg.com/profile_images/994018747739451392/kA7OC8jm_400x400.jpg',
+    avatar:
+      'https://pbs.twimg.com/profile_images/994018747739451392/kA7OC8jm_400x400.jpg',
     slides: [
       {
         direction: 'r',
@@ -763,7 +817,8 @@ module.exports = {
     username: 'joseduran',
     twitter: 'https://twitter.com/josefeduran',
     github: 'https://github.com/josefduran',
-    avatar: 'https://pbs.twimg.com/profile_images/972964761121050624/PUsqCoZ__400x400.jpg',
+    avatar:
+      'https://pbs.twimg.com/profile_images/972964761121050624/PUsqCoZ__400x400.jpg',
     slides: [
       {
         direction: 'r',
@@ -803,7 +858,8 @@ module.exports = {
     slides: [
       {
         direction: 'r',
-        title: 'Cómo creamos un recorido inmersivo en las calles de Medellín con una GoPro y Javascript',
+        title:
+          'Cómo creamos un recorido inmersivo en las calles de Medellín con una GoPro y Javascript',
         url: '',
         thumbnail: ''
       }
@@ -829,13 +885,15 @@ module.exports = {
     username: 'montogeek',
     twitter: 'https://twitter.com/montogeek',
     github: 'https://github.com/montogeek',
-    avatar: 'https://s.gravatar.com/avatar/9f8beef8e01700d9196599838f5ecb92?s=200?s=200',
+    avatar:
+      'https://s.gravatar.com/avatar/9f8beef8e01700d9196599838f5ecb92?s=200?s=200',
     slides: [
       {
         direction: 'r',
         title: 'Nightwatch.js - End-to-End (E2E) Testing',
         url: 'slides.com/montogeek/nightwatch-js',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/52c72d/decks.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/52c72d/decks.jpg'
       },
       {
         direction: 'l',
@@ -856,13 +914,15 @@ module.exports = {
         direction: 'r',
         title: 'Depuración remota con Vorlon.js',
         url: 'slides.com/khriztianmoreno/vorlonjs',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/93ddbe/decks.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/93ddbe/decks.jpg'
       },
       {
         direction: 'l',
         title: 'Isomorphic Javascript: El Futuro de las aplicaciones web',
         url: 'slides.com/khriztianmoreno/isomorphic-javascript',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/66aeda4566a565a0157553bc4f5fdf35/thumb.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/66aeda4566a565a0157553bc4f5fdf35/thumb.jpg'
       }
     ]
   },
@@ -896,7 +956,7 @@ module.exports = {
       },
       {
         direction: 'l',
-        title: ' I Promise you, you won\'t regret it',
+        title: " I Promise you, you won't regret it",
         url: '',
         thumbnail: ''
       }
@@ -912,8 +972,10 @@ module.exports = {
       {
         direction: 'r',
         title: 'P5.js JavaScript para artistas',
-        url: 'https://docs.google.com/presentation/d/1N7OVi4wwG-31K27Lytwh73VtZV-IKk7L2lOffW6Hwwk/pub?start=false&loop=false&delayms=3000&slide=id.g79471db9d_00',
-        thumbnail: 'https://lh3.googleusercontent.com/fXbFbNNS6bOvsBHkfGgjyqmhW7ZQGAmNkfOwilfUroTWPvc3EI_gpvVOqivLpiuNKn-yyhJ8aHabYoCueaUu8dq6JMudjdIJz2jRuV9M_wqIvAq6PBhSmOCWFQ5pYuBNzXvqHBl_yA'
+        url:
+          'https://docs.google.com/presentation/d/1N7OVi4wwG-31K27Lytwh73VtZV-IKk7L2lOffW6Hwwk/pub?start=false&loop=false&delayms=3000&slide=id.g79471db9d_00',
+        thumbnail:
+          'https://lh3.googleusercontent.com/fXbFbNNS6bOvsBHkfGgjyqmhW7ZQGAmNkfOwilfUroTWPvc3EI_gpvVOqivLpiuNKn-yyhJ8aHabYoCueaUu8dq6JMudjdIJz2jRuV9M_wqIvAq6PBhSmOCWFQ5pYuBNzXvqHBl_yA'
       }
     ]
   },
@@ -922,7 +984,8 @@ module.exports = {
     username: 'acornssn',
     twitter: 'https://twitter.com/acornssn',
     github: 'https://github.com/baldore',
-    avatar: 'https://pbs.twimg.com/profile_images/569565608841191424/YFguX5hE_400x400.jpeg',
+    avatar:
+      'https://pbs.twimg.com/profile_images/569565608841191424/YFguX5hE_400x400.jpeg',
     slides: [
       {
         direction: 'r',
@@ -958,19 +1021,22 @@ module.exports = {
         direction: 'r',
         title: 'React Native: Verdaderas aplicaciones nativas con JavaScript',
         url: 'https://slides.com/dobleuber/react-native/live',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/7ccdaf99834281393c1a149f22af1afc/thumb.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/7ccdaf99834281393c1a149f22af1afc/thumb.jpg'
       },
       {
         direction: 'l',
         title: 'Javascript Everywhere: Nativescript',
         url: 'https://slides.com/dobleuber/native-script/live',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/6ea0a35104cb0ada970b60b9578d5111/thumb.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/6ea0a35104cb0ada970b60b9578d5111/thumb.jpg'
       },
       {
         direction: 'r',
         title: 'GraphQL Mi Primer API',
         url: 'https://slides.com/dobleuber/graphql-api',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/6084fc5c5ece0dbbb8d888b71194d7cd/thumb.jpg?1534935882'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/6084fc5c5ece0dbbb8d888b71194d7cd/thumb.jpg?1534935882'
       }
     ]
   },
@@ -979,19 +1045,22 @@ module.exports = {
     username: 'jdmaldonado06',
     twitter: 'https://twitter.com/jdmaldonado06',
     github: 'https://github.com/jdmaldonado',
-    avatar: 'https://en.gravatar.com/userimage/57278571/9f54708ca5bbc477ea7b219f5d2ce398.jpg?size=200',
+    avatar:
+      'https://en.gravatar.com/userimage/57278571/9f54708ca5bbc477ea7b219f5d2ce398.jpg?size=200',
     slides: [
       {
         direction: 'r',
         title: 'Angular-Meteor-ES6',
         url: 'slides.com/jdmaldonado/deck#/',
-        thumbnail: 'image.slidesharecdn.com/8g7pin3rb61upkzexv4h-signature-09adb4eabd7fc81c611e796990aecec77e47b56b53f92c6b1c2e3263f7c53504-poli-150518082414-lva1-app6891/95/angular-meteor-for-angular-devs-1-638.jpg?cb=1431937650'
+        thumbnail:
+          'image.slidesharecdn.com/8g7pin3rb61upkzexv4h-signature-09adb4eabd7fc81c611e796990aecec77e47b56b53f92c6b1c2e3263f7c53504-poli-150518082414-lva1-app6891/95/angular-meteor-for-angular-devs-1-638.jpg?cb=1431937650'
       },
       {
         direction: 'l',
         title: 'PWA + ionic + firebase + oneSignal',
         url: 'slides.com/jdmaldonado/deck-4#/',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/6e01f3568a018f811300ec8c37f8ef0f/thumb.jpg?1537859595'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/6e01f3568a018f811300ec8c37f8ef0f/thumb.jpg?1537859595'
       }
     ]
   },
@@ -1000,19 +1069,22 @@ module.exports = {
     username: 'Mathius17',
     twitter: 'https://twitter.com/Mathius17',
     github: 'https://github.com/Mathius17',
-    avatar: 'https://pbs.twimg.com/profile_images/1024307974746124288/TDfUawtV_400x400.jpg',
+    avatar:
+      'https://pbs.twimg.com/profile_images/1024307974746124288/TDfUawtV_400x400.jpg',
     slides: [
       {
         direction: 'r',
         title: 'Vue.js: un modelo reactivo eficiente',
         url: 'slides.com/mathius17/vue-js',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/0a9062bf75feb2fc8d6f69ddb3d2bf2a/thumb.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/0a9062bf75feb2fc8d6f69ddb3d2bf2a/thumb.jpg'
       },
       {
         direction: 'l',
         title: 'Nunca escribas un loop de nuevo',
         url: 'slides.com/mathius17/deck-4',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/8bf44e44aa901b2b0f0f069d9dab58c2/thumb.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/8bf44e44aa901b2b0f0f069d9dab58c2/thumb.jpg'
       }
     ]
   },
@@ -1051,7 +1123,8 @@ module.exports = {
     username: 'Colada_FF',
     twitter: 'https://twitter.com/Colada_FF',
     github: 'https://github.com/barreracristian',
-    avatar: 'https://pbs.twimg.com/profile_images/970894815616557056/00uYoiTr_400x400.jpg',
+    avatar:
+      'https://pbs.twimg.com/profile_images/970894815616557056/00uYoiTr_400x400.jpg',
     slides: [
       {
         direction: 'r',
@@ -1096,19 +1169,22 @@ module.exports = {
     username: 'mafesernaarbole',
     twitter: 'https://twitter.com/mafesernaarbole',
     github: 'https://github.com/mafesernaarboleda',
-    avatar: 'https://pbs.twimg.com/profile_images/920062386358444038/R0XzV4F-_200x200.jpg',
+    avatar:
+      'https://pbs.twimg.com/profile_images/920062386358444038/R0XzV4F-_200x200.jpg',
     slides: [
       {
         direction: 'r',
         title: 'Historia sin fin con FalcorJS',
         url: 'slides.com/mariafernandasernaarboleda/falcorjs',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/862ee21421b81c9933e0a7b36e3cfcb0/thumb.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/862ee21421b81c9933e0a7b36e3cfcb0/thumb.jpg'
       },
       {
         direction: 'l',
         title: 'Continuos Integration & Continuos Deployment in javascript',
         url: 'slides.com/mariafernandasernaarboleda/cicd',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/fc7186409ab04107ea408d48efb609d2/thumb.jpg'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/fc7186409ab04107ea408d48efb609d2/thumb.jpg'
       },
       {
         direction: 'r',
@@ -1129,7 +1205,8 @@ module.exports = {
         direction: 'r',
         title: 'Recorriendo el DOM con jQuery',
         url: 'slides.com/alexixmunoz/jquery',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/0c14441bfe18ea80b72e7533ef2e87fe/thumb.jpg?787569892'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/0c14441bfe18ea80b72e7533ef2e87fe/thumb.jpg?787569892'
       }
     ]
   },
@@ -1138,13 +1215,15 @@ module.exports = {
     username: 'JenyMzo',
     twitter: 'https://twitter.com/JenyMzo',
     github: 'https://github.com/JenyMzo',
-    avatar: 'https://avatars3.githubusercontent.com/u/2567952?v=3&u=93af511467354af56abba97d969cccca6fdffbef&s=400',
+    avatar:
+      'https://avatars3.githubusercontent.com/u/2567952?v=3&u=93af511467354af56abba97d969cccca6fdffbef&s=400',
     slides: [
       {
         direction: 'r',
         title: 'Learn SASS',
         url: 'slides.com/jenyalejandramazo/deck-3#/',
-        thumbnail: 'https://slack-imgs.com/?c=1&url=https%3A%2F%2Fs3.amazonaws.com%2Fmedia-p.slid.es%2Fthumbnails%2F372aae1aa3bc61e2748c8656babbed28%2Fthumb.jpg%3F490288253'
+        thumbnail:
+          'https://slack-imgs.com/?c=1&url=https%3A%2F%2Fs3.amazonaws.com%2Fmedia-p.slid.es%2Fthumbnails%2F372aae1aa3bc61e2748c8656babbed28%2Fthumb.jpg%3F490288253'
       },
       {
         direction: 'l',
@@ -1159,7 +1238,8 @@ module.exports = {
     username: 'q314tra',
     twitter: 'https://twitter.com/q314tra',
     github: 'https://github.com/q314tra',
-    avatar: 'https://pbs.twimg.com/profile_images/898165570503397378/Io0fKoCh_400x400.jpg',
+    avatar:
+      'https://pbs.twimg.com/profile_images/898165570503397378/Io0fKoCh_400x400.jpg',
     slides: [
       {
         direction: 'r',
@@ -1285,7 +1365,8 @@ module.exports = {
     username: 'jhenaoz93',
     twitter: 'https://twitter.com/jhenaoz93',
     github: 'https://github.com/jhenaoz',
-    avatar: 'https://pbs.twimg.com/profile_images/589167535888719873/wx6Cgn0w_400x400.jpg',
+    avatar:
+      'https://pbs.twimg.com/profile_images/589167535888719873/wx6Cgn0w_400x400.jpg',
     slides: [
       {
         direction: 'r',
@@ -1345,7 +1426,8 @@ module.exports = {
     username: 'HumoBinario',
     twitter: 'https://twitter.com/HumoBinario',
     github: '',
-    avatar: 'https://pbs.twimg.com/profile_images/1064749741588795392/_-Ze0j0j_400x400.jpg',
+    avatar:
+      'https://pbs.twimg.com/profile_images/1064749741588795392/_-Ze0j0j_400x400.jpg',
     slides: [
       {
         direction: 'r',
@@ -1366,7 +1448,8 @@ module.exports = {
         direction: 'r',
         title: 'The next step for Functional Programing in JavaScript',
         url: 'https://slides.com/erujazz/the-next-step-for-fp-in-javascript',
-        thumbnail: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/6c8fec3679e05a90a2d5807a8cc35f98/thumb.jpg?1514301581'
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/6c8fec3679e05a90a2d5807a8cc35f98/thumb.jpg?1514301581'
       }
     ]
   },
@@ -1375,12 +1458,14 @@ module.exports = {
     username: 'gomezjuliana',
     twitter: 'https://twitter.com/gmzjuliana',
     github: 'https://github.com/gomezjuliana',
-    avatar: 'https://gomezjuliana.files.wordpress.com/2017/10/screenshot-from-2017-07-17-08-09-07.png',
+    avatar:
+      'https://gomezjuliana.files.wordpress.com/2017/10/screenshot-from-2017-07-17-08-09-07.png',
     slides: [
       {
         direction: 'r',
         title: 'Accessibility is important.. now what?',
-        url: 'https://drive.google.com/open?id=1T1BANZekaOH0z5l11e9_Zb3rMycDbGgk',
+        url:
+          'https://drive.google.com/open?id=1T1BANZekaOH0z5l11e9_Zb3rMycDbGgk',
         thumbnail: ''
       }
     ]
@@ -1390,7 +1475,8 @@ module.exports = {
     username: 'juandatoro',
     twitter: 'https://twitter.com/jdretoro',
     github: 'https://github.com/juandatoro',
-    avatar: 'https://pbs.twimg.com/profile_images/978797949244370944/x7YNAwSa_400x400.jpg',
+    avatar:
+      'https://pbs.twimg.com/profile_images/978797949244370944/x7YNAwSa_400x400.jpg',
     slides: [
       {
         direction: 'r',
@@ -1420,7 +1506,8 @@ module.exports = {
     username: 'elyalvarado',
     twitter: 'https://twitter.com/elyalvarado',
     github: 'https://github.com/elyalvarado',
-    avatar: 'https://secure.gravatar.com/avatar/8f4a825085dda7d9ea059838a3d6dcd7.jpg?s=200',
+    avatar:
+      'https://secure.gravatar.com/avatar/8f4a825085dda7d9ea059838a3d6dcd7.jpg?s=200',
     slides: [
       {
         direction: 'r',
@@ -1456,7 +1543,8 @@ module.exports = {
     username: 'romelperez',
     twitter: 'https://twitter.com/romelperez07',
     github: 'https://github.com/romelperez',
-    avatar: 'https://secure.gravatar.com/avatar/3f489111102b5a41cf2ce6867508fcdf?size=400',
+    avatar:
+      'https://secure.gravatar.com/avatar/3f489111102b5a41cf2ce6867508fcdf?size=400',
     slides: [
       {
         direction: 'r',
@@ -1477,14 +1565,15 @@ module.exports = {
     username: 'kathcode',
     twitter: 'https://twitter.com/Kath_Code',
     github: 'https://github.com/kathcode',
-    avatar: 'https://pbs.twimg.com/profile_images/984624523252088833/enaxS6VT_400x400.jpg',
+    avatar:
+      'https://pbs.twimg.com/profile_images/984624523252088833/enaxS6VT_400x400.jpg',
     slides: [
       {
         direction: 'r',
         title: 'Iniciando con Redux Form',
         url: 'https://slides.com/kath_code/catalina',
         thumbnail: ''
-      },
+      }
     ]
   }
 }

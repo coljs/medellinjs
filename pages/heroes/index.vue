@@ -7,15 +7,15 @@
 </template>
 
 <script>
-  import AppNavbarPage from '~/components/AppNavbarPage'
-  import AppHeroes from '~/components/AppHeroes'
-  import AppFooter from '~/components/AppFooter'
+import AppNavbarPage from '~/components/AppNavbarPage'
+import AppHeroes from '~/components/AppHeroes'
+import AppFooter from '~/components/AppFooter'
 
-  export default {
-    components: {
-      AppNavbarPage,
-      AppHeroes,
-      AppFooter
-    },
+export default {
+  components: {
+    AppNavbarPage,
+    AppHeroes,
+    AppFooter
   }
+}
 </script>

@@ -2,29 +2,33 @@
   <div>
     <!--------------- Main Body Area -------------->
     <div class="main-wrap">
-        
+      <app-navbar-page />
       <!--------------- Fundacion -------------->
       <AppFundacion />
-
     </div>
     <!--------------- Footer -------------->
     <app-footer />
 
-    <a id="to-top" class="to-top" href="#top-header" data-spy="affix" data-offset-top="500">
-      <i class="fa fa-chevron-up"></i>
+    <a
+      id="to-top"
+      class="to-top"
+      href="#top-header"
+      data-spy="affix"
+      data-offset-top="500"
+    >
+      <fa icon="chevron-up" />
     </a>
-
   </div>
 </template>
 
 <script>
-import AppPreLoader from '~/components/AppPreLoader.vue'
+import AppNavbarPage from '~/components/AppNavbarPage'
 import AppFundacion from '~/components/organization/index.vue'
 import AppFooter from '~/components/AppFooter.vue'
 
 export default {
   components: {
-    AppPreLoader,
+    AppNavbarPage,
     AppFundacion,
     AppFooter
   }
