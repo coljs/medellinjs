@@ -35,11 +35,11 @@
     "vue-lodash": "2.1.2"
   },
   "devDependencies": {
-    "@fortawesome/free-brands-svg-icons": "^5.13.0",
-    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/free-brands-svg-icons": "5.13.0",
+    "@fortawesome/free-solid-svg-icons": "5.13.0",
     "@nuxtjs/eslint-config": "2.0.0",
     "@nuxtjs/eslint-module": "1.0.0",
-    "@nuxtjs/fontawesome": "^1.1.2",
+    "@nuxtjs/fontawesome": "1.1.2",
     "@vue/test-utils": "1.0.0-beta.27",
     "all-contributors-cli": "6.14.1",
     "babel-eslint": "10.0.1",
@@ -54,6 +54,6 @@
     "node-sass": "4.13.1",
     "prettier": "1.19.1",
     "sass-loader": "8.0.2",
-    "vue-jest": "^3.0.5"
+    "vue-jest": "3.0.5"
   }
 }
