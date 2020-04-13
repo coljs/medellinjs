@@ -319,12 +319,12 @@ module.exports = {
     ]
   },
   iosamuel: {
-    name: 'Samuel Burbano Ramos',
+    name: 'Samuel Burbano',
     username: 'iosamuel',
     twitter: 'https://twitter.com/iosamuel',
     github: 'https://github.com/iosamuel',
     avatar:
-      'https://pbs.twimg.com/profile_images/1094511601741381632/pXB_vxCp_400x400.jpg',
+      'https://pbs.twimg.com/profile_images/1246844314908594178/aOK2G2ah_400x400.jpg',
     slides: [
       {
         direction: 'r',
