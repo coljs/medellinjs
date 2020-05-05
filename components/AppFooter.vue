@@ -10,40 +10,76 @@
         <!--<img src="img/template/logo-footer.png" alt="...">-->
       </a>
       <div class="socials wow animated fadeIn" data-wow-duration="1.5s">
-        <a href="//www.facebook.com/medellinjs" class="social">
+        <a
+          href="//www.facebook.com/medellinjs"
+          class="social"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <fa :icon="['fab', 'facebook-square']" />
         </a>
-        <a href="//twitter.com/medellinjs" class="social">
+        <a
+          href="//twitter.com/medellinjs"
+          class="social"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <fa :icon="['fab', 'twitter']" />
         </a>
-        <a href="//github.com/coljs/medellinjs/" class="social">
+        <a
+          href="//github.com/coljs/medellinjs/"
+          class="social"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <fa :icon="['fab', 'github']" />
         </a>
         <a
-          href="//www.youtube.com/channel/UCSHfIXcoEVFb9e4gZWoqsWA"
+          href="//www.youtube.com/medellinjs"
           class="social"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <fa :icon="['fab', 'youtube']" />
         </a>
-        <a href="//www.youtube.com/channel/UCSHfIXcoEVFb9e4gZWoqsWA" class="social">
-          <i class="fab fa-youtube"></i>
-        </a>
-        <a href="//www.instagram.com/medellinjs/" class="social">
+        <a
+          href="//www.instagram.com/medellinjs/"
+          class="social"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <fa :icon="['fab', 'instagram']" />
         </a>
-        <a href="//www.twitch.com/medellinjs/" class="social">
+        <a
+          href="//www.twitch.tv/medellinjs/"
+          class="social"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <fa :icon="['fab', 'twitch']" />
         </a>
-        <a href="//www.twitch.com/medellinjs/" class="social">
-          <i class="fab fa-twitch"></i>
-        </a>
-        <a href="//www.meetup.com/medellinjs" class="social">
+        <a
+          href="//www.meetup.com/medellinjs"
+          class="social"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <fa :icon="['fab', 'meetup']" />
         </a>
-        <a href="//www.linkedin.com/company/medellinjs/" class="social">
+        <a
+          href="//www.linkedin.com/company/medellinjs/"
+          class="social"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <fa :icon="['fab', 'linkedin']" />
         </a>
-        <a href="//gitter.im/coljs/medellinjs" class="social">
+        <a
+          href="//gitter.im/coljs/medellinjs"
+          class="social"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <fa :icon="['fab', 'gitter']" />
         </a>
       </div>
