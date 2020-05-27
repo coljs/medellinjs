@@ -20,11 +20,7 @@
       </div>
       <div class="row">
         <div class="fun-facts">
-          <div
-            v-for="(sponsor, key) in sponsors"
-            :key="key"
-            class="col-md-4 text-center"
-          >
+          <div class="col-md-4 text-center wow animated fadeInUp" data-wow-duration="1.5s" v-for="(sponsor, key) in sponsors" :key="key">
             <div class="fun-fact">
               <a :href="sponsor.website" target="_blank">
                 <div
