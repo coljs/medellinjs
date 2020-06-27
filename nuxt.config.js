@@ -84,6 +84,7 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
+    '@nuxtjs/pwa',
     [
       '@nuxtjs/fontawesome',
       {
@@ -139,22 +140,26 @@ export default {
         id: 'UA-118815653-1',
       },
     ],
-    '@nuxtjs/pwa',
   ],
 
   /*
    ** PWA Manifest.json
    */
-  manifest: {
-    background_color: '#0CA1CB',
-    description:
-      'Somos una comunidad de apasionados cuyo fin es el de fortalecer y articular el ecosistema tecnológico de la ciudad de Medellín, Colombia.',
-    display: 'standalone',
-    lang: 'es',
-    name: 'MedellinJS Website',
-    short_name: 'MedellinJS',
+  pwa: {
+    meta: {
+      title: 'MedellinJS Website',
+      author: 'MedellinJS Community',
+    },
+    manifest: {
+      background_color: '#0CA1CB',
+      description:
+        'Somos una comunidad de apasionados cuyo fin es el de fortalecer y articular el ecosistema tecnológico de la ciudad de Medellín, Colombia.',
+      display: 'standalone',
+      lang: 'es',
+      name: 'MedellinJS Website',
+      short_name: 'MedellinJS',
+    },
   },
-
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
