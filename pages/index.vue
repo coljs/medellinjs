@@ -65,13 +65,14 @@ export default {
     AppCommuniyParners,
     AppContact,
     AppSponsors,
-    AppFooter
+    AppFooter,
   },
-  mounted () {
-    if(process.client) {
+  mounted() {
+    // eslint-disable-next-line nuxt/no-env-in-hooks
+    if (process.client) {
       const WOW = require('wow.js/dist/wow.min')
       new WOW().init()
     }
-  }
+  },
 }
 </script>

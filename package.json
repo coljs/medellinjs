@@ -9,8 +9,7 @@
     "contributors:add": "npx all-contributors add",
     "contributors:generate": "npx all-contributors generate",
     "dev": "nuxt",
-    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate",
-    "generate": "nuxt generate",
+    "generate": "npm run build && nuxt generate",
     "lint": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
     "start": "nuxt start",
     "test": "jest"
