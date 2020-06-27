@@ -35,8 +35,8 @@
     "wow.js": "1.2.2"
   },
   "devDependencies": {
-    "@fortawesome/free-brands-svg-icons": "5.13.0",
-    "@fortawesome/free-solid-svg-icons": "5.13.0",
+    "@fortawesome/free-brands-svg-icons": "5.13.1",
+    "@fortawesome/free-solid-svg-icons": "5.13.1",
     "@nuxtjs/eslint-config": "3.0.0",
     "@nuxtjs/eslint-module": "2.0.0",
     "@nuxtjs/fontawesome": "1.1.2",
