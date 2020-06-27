@@ -54,7 +54,7 @@ export default {
   methods: {
     scrollSection(section) {
       scrollTo(window, document)(document.getElementById(section).offsetTop)
-    }
-  }
+    },
+  },
 }
 </script>

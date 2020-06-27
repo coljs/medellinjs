@@ -31,7 +31,7 @@ export default {
   components: {
     AppNavbarPage,
     AppContact,
-    AppFooter
-  }
+    AppFooter,
+  },
 }
 </script>

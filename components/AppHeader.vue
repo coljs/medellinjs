@@ -43,9 +43,9 @@ export default {
         face3: '.JS',
         face4: 'MED',
         face5: '.JS',
-        face6: new Date().getFullYear()
-      }
+        face6: new Date().getFullYear(),
+      },
     }
-  }
+  },
 }
 </script>

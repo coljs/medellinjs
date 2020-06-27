@@ -38,6 +38,6 @@
 
 <script>
 export default {
-  name: 'AppNavbarPage'
+  name: 'AppNavbarPage',
 }
 </script>

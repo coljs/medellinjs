@@ -25,13 +25,13 @@ import AppFooter from '~/components/AppFooter'
 
 export default {
   components: {
-    AppFooter
+    AppFooter,
   },
   mounted() {
     const raffleScript = document.createElement('script')
     raffleScript.setAttribute('src', 'https://unpkg.com/meetup-raffle-widget')
     document.head.appendChild(raffleScript)
-  }
+  },
 }
 </script>
 

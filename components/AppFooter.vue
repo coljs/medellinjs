@@ -55,9 +55,9 @@ export default {
   computed: {
     fab() {
       return {
-        faJs
+        faJs,
       }
-    }
-  }
+    },
+  },
 }
 </script>

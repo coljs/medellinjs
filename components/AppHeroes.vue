@@ -29,13 +29,13 @@ const heroes = Object.keys(heroesData).map((h) => heroesData[h])
 
 export default {
   components: {
-    BaseHeroes
+    BaseHeroes,
   },
   data() {
     return {
       heroes,
-      showModal: false
+      showModal: false,
     }
-  }
+  },
 }
 </script>

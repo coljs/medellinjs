@@ -67,16 +67,16 @@ import communities from '@/assets/data/communities.js'
 export default {
   data() {
     return {
-      communities
+      communities,
     }
   },
   computed: {
     fab() {
       return {
-        faJs
+        faJs,
       }
-    }
-  }
+    },
+  },
 }
 </script>
 

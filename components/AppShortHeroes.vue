@@ -36,12 +36,12 @@ import BaseHeroes from '~/components/BaseHeroes'
 
 export default {
   components: {
-    BaseHeroes
+    BaseHeroes,
   },
   data() {
     return {
       keysHeros: Object.keys(heroesData),
-      showModal: false
+      showModal: false,
     }
   },
   computed: {
@@ -49,8 +49,8 @@ export default {
       const heoresKeys = sampleSize(this.keysHeros, 8)
       const heroes = heoresKeys.map((heroe) => heroesData[heroe])
       return heroes
-    }
-  }
+    },
+  },
 }
 </script>
 

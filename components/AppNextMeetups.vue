@@ -223,7 +223,7 @@ h2.meetup-event {
                   :data-wow-delay="0.5 * pastMeetups.length + 0.5 * index + 's'"
                   data-wow-duration="1.5s"
                 >
-                  <div class="meetup-heading ">
+                  <div class="meetup-heading">
                     <h2 class="meetup-event">{{ meetup.name }}</h2>
                     <h3 class="meetup-confirm">
                       click para confirmar asistencia
@@ -242,8 +242,8 @@ h2.meetup-event {
           <div
             v-if="
               !nextMeetups.length &&
-                !pastMeetups.length &&
-                finishedLoading(loaded)
+              !pastMeetups.length &&
+              finishedLoading(loaded)
             "
             class="col-sm-8 col-sm-offset-2"
           >
@@ -275,7 +275,7 @@ const formatDate = (d) => {
     month: 'long',
     day: 'numeric',
     hour: 'numeric',
-    minute: 'numeric'
+    minute: 'numeric',
   }
 
   return dateObject.toLocaleDateString(locale, options)
@@ -295,8 +295,8 @@ export default {
       pastMeetups: [],
       loaded: {
         pastEvents: false,
-        nextEvents: false
-      }
+        nextEvents: false,
+      },
     }
   },
   mounted() {
@@ -305,7 +305,7 @@ export default {
       '//api.meetup.com/MedellinJS/events?photo-host=public&page=20&sig_id=233024411'
     const pastMeetupsURL =
       '//api.meetup.com/MedellinJS/events?desc=true&photo-host=public&page=1&sig_id=233024411&status=past'
-    jsonp(nextMeetupsURL, {}, function(err, data) {
+    jsonp(nextMeetupsURL, {}, function (err, data) {
       if (err) {
         console.error('Error fetching next meetups from MeetupAPI')
         self.loaded.nextEvents = true
@@ -316,7 +316,7 @@ export default {
       self.nextMeetups = data.data
     })
 
-    jsonp(pastMeetupsURL, {}, function(err, data) {
+    jsonp(pastMeetupsURL, {}, function (err, data) {
       if (err) {
         console.error('Error fetching past meetups from MeetupAPI')
         self.loaded.pastEvents = true
@@ -329,7 +329,7 @@ export default {
   },
   methods: {
     formatDate,
-    finishedLoading
-  }
+    finishedLoading,
+  },
 }
 </script>

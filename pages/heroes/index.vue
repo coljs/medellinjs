@@ -15,7 +15,7 @@ export default {
   components: {
     AppNavbarPage,
     AppHeroes,
-    AppFooter
-  }
+    AppFooter,
+  },
 }
 </script>

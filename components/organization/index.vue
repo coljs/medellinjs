@@ -77,7 +77,7 @@ import AppFundationDocuments from '~/components/organization/documents.vue'
 
 export default {
   components: {
-    AppFundationDocuments
-  }
+    AppFundationDocuments,
+  },
 }
 </script>

@@ -20,7 +20,12 @@
       </div>
       <div class="row">
         <div class="fun-facts">
-          <div class="col-md-4 text-center wow animated fadeInUp" data-wow-duration="1.5s" v-for="(sponsor, key) in sponsors" :key="key">
+          <div
+            v-for="(sponsor, key) in sponsors"
+            :key="key"
+            class="col-md-4 text-center wow animated fadeInUp"
+            data-wow-duration="1.5s"
+          >
             <div class="fun-fact">
               <a :href="sponsor.website" target="_blank">
                 <div
@@ -51,48 +56,48 @@ export default {
           name: 'HUGE',
           logo:
             '//en.gravatar.com/userimage/46333208/108cf2fa50119a1781427d15fe29f64b.jpg?size=200',
-          website: '//www.hugeinc.com'
+          website: '//www.hugeinc.com',
         },
         yungol: {
           name: 'yungol',
           logo: yungolLogo,
-          website: '//yungol.com/'
+          website: '//yungol.com/',
         },
         RutaN: {
           name: 'Ruta N',
           logo: '//www.rutanmedellin.org/images/logo.svg',
-          website: 'https://www.rutanmedellin.org'
+          website: 'https://www.rutanmedellin.org',
         },
         TeamInternational: {
           name: 'Team International',
           logo: teamInternationalLogo,
-          website: '//teaminternational.com'
+          website: '//teaminternational.com',
         },
         ColombiaDev: {
           name: 'Colombia Dev',
           logo: '//colombia-dev.org/public/assets/images/condor-logo.svg',
-          website: '//colombia-dev.org/'
+          website: '//colombia-dev.org/',
         },
         MatterSupplyCo: {
           name: 'Matter Supply Co',
           logo:
             '//s3.amazonaws.com/media-p.slid.es/uploads/245238/images/5118287/wordmark-cropped.png',
-          website: '//mattersupply.co/'
+          website: '//mattersupply.co/',
         },
         NodeSource: {
           name: 'NODESOURCE',
           logo: '//nodesource.com/assets/icons/nodesource-512x512.png',
-          website: '//nodesource.com/'
+          website: '//nodesource.com/',
         },
         Endava: {
           name: 'Endava',
           logo:
             'https://user-images.githubusercontent.com/2567952/66471043-ff3bb400-ea8a-11e9-8c57-023a88b38d48.png',
-          website: 'https://www.endava.com/'
-        }
-      }
+          website: 'https://www.endava.com/',
+        },
+      },
     }
-  }
+  },
 }
 </script>
 

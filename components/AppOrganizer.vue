@@ -56,15 +56,15 @@ import organizers from '@/assets/data/organizadores.js'
 export default {
   data() {
     return {
-      organizers
+      organizers,
     }
   },
   computed: {
     fab() {
       return {
-        faJs
+        faJs,
       }
-    }
-  }
+    },
+  },
 }
 </script>

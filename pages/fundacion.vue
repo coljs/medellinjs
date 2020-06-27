@@ -30,7 +30,7 @@ export default {
   components: {
     AppNavbarPage,
     AppFundacion,
-    AppFooter
-  }
+    AppFooter,
+  },
 }
 </script>

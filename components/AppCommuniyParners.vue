@@ -30,7 +30,7 @@
                 </div>
               </a>
               <br /><br />
-              <div class="member-connections__alternative ">
+              <div class="member-connections__alternative">
                 <a target="_blank" :href="community.website">
                   <fa icon="home" />
                 </a>
@@ -72,38 +72,38 @@ export default {
           website: 'https://reactlaconf.co/',
           twitter: 'reactlaconf',
           instagram: 'reactlaconf/',
-          logo: reactLaConfLogo
+          logo: reactLaConfLogo,
         },
         cssconf: {
           name: 'CssConfCo',
           website: 'https://cssconf.co/',
           twitter: 'cssconfco',
           instagram: 'cssconfco/',
-          logo: cssConfCoLogo
+          logo: cssConfCoLogo,
         },
         NgColombia: {
           name: 'NgColombia',
           website: 'https://ngconf.co/',
           twitter: 'NgConfCo',
           instagram: 'https://www.instagram.com/explore/tags/ngconfcolombia/',
-          logo: ngConfCoLogo
+          logo: ngConfCoLogo,
         },
         nodeConfCo: {
           name: 'NodeConfCo',
           website: 'https://colombia.nodeconf.com/',
           twitter: 'NodeConfCo',
           instagram: 'nodeconf_co/',
-          logo: nodeConfCoLogo
-        }
-      }
+          logo: nodeConfCoLogo,
+        },
+      },
     }
   },
   computed: {
     fab() {
       return {
-        faJs
+        faJs,
       }
-    }
-  }
+    },
+  },
 }
 </script>

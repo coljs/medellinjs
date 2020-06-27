@@ -2,8 +2,8 @@ const routerBase =
   process.env.DEPLOY_ENV === 'GH_PAGES'
     ? {
         router: {
-          base: '/medellinjs/'
-        }
+          base: '/medellinjs/',
+        },
       }
     : {}
 
@@ -20,51 +20,51 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || 'MedellínJS'
-      }
+        content: process.env.npm_package_description || 'MedellínJS',
+      },
     ],
     link: [
       {
         rel: 'apple-touch-icon',
         sizes: '180x180',
-        href: '/favicon/apple-touch-icon.png'
+        href: '/favicon/apple-touch-icon.png',
       },
       {
         rel: 'icon',
         type: 'image/png',
         sizes: '32x32',
-        href: '/favicon/favicon-32x32.png'
+        href: '/favicon/favicon-32x32.png',
       },
       {
         rel: 'icon',
         type: 'image/png',
         sizes: '16x16',
-        href: '/favicon/favicon-16x16.png'
+        href: '/favicon/favicon-16x16.png',
       },
       { rel: 'manifest', href: '/favicon/site.webmanifest' },
       {
         rel: 'stylesheet',
         href:
-          'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'
+          'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css',
       },
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,800%7cRoboto:300,400,500,700'
-      }
+          'https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,800%7cRoboto:300,400,500,700',
+      },
     ],
     script: [
       {
         src:
           'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js',
-        type: 'text/javascript'
+        type: 'text/javascript',
       },
       {
         src:
           'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js',
-        type: 'text/javascript'
-      }
-    ]
+        type: 'text/javascript',
+      },
+    ],
   },
   /*
    ** Customize the progress-bar color
@@ -101,9 +101,9 @@ export default {
               'faMapMarkerAlt',
               'faPuzzlePiece',
               'faTimes',
-              'faSortAlphaDown'
-            ]
-          }
+              'faSortAlphaDown',
+            ],
+          },
         ],
         icons: {
           solid: true,
@@ -119,15 +119,15 @@ export default {
             'faTwitch',
             'faTwitter',
             'faVuejs',
-            'faYoutube'
-          ]
-        }
-      }
-    ]
+            'faYoutube',
+          ],
+        },
+      },
+    ],
   ],
 
   fontawesome: {
-    icons: ['faCog', 'faCalendar', 'faHome', 'faCircle', 'faCheck']
+    icons: ['faCog', 'faCalendar', 'faHome', 'faCircle', 'faCheck'],
   },
   /*
    ** Nuxt.js modules
@@ -136,10 +136,10 @@ export default {
     [
       '@nuxtjs/google-analytics',
       {
-        id: 'UA-118815653-1'
-      }
+        id: 'UA-118815653-1',
+      },
     ],
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
   ],
 
   /*
@@ -152,7 +152,7 @@ export default {
     display: 'standalone',
     lang: 'es',
     name: 'MedellinJS Website',
-    short_name: 'MedellinJS'
+    short_name: 'MedellinJS',
   },
 
   /*
@@ -167,8 +167,8 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend(config, ctx) {},
   },
 
-  ...routerBase
+  ...routerBase,
 }
