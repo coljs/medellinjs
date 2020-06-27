@@ -24,7 +24,6 @@
   },
   "dependencies": {
     "@nuxtjs/google-analytics": "2.3.0",
-    "@nuxtjs/pwa": "2.6.0",
     "animate.css": "4.1.0",
     "cross-env": "7.0.2",
     "jsonp": "0.2.1",
@@ -40,6 +39,7 @@
     "@nuxtjs/eslint-config": "3.0.0",
     "@nuxtjs/eslint-module": "2.0.0",
     "@nuxtjs/fontawesome": "1.1.2",
+    "@nuxtjs/pwa": "^2.6.0",
     "@vue/test-utils": "1.0.3",
     "all-contributors-cli": "6.16.0",
     "babel-eslint": "10.1.0",
