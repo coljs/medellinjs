@@ -1905,7 +1905,7 @@
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/@nuxtjs/meta/-/meta-2.6.0.tgz#cc8fd2a019fb3e2e1feaa78abefee3a6a6aed477"
 
-"@nuxtjs/pwa@^2.6.0":
+"@nuxtjs/pwa@2.6.0":
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/@nuxtjs/pwa/-/pwa-2.6.0.tgz#3138e1f32f4d080ccbe96dc0b206efea4e790199"
   integrity sha512-iwLPyE0r2FuDdoG5XA9cU3Ca4zWdN+eLJ6E2XImCsL7vOZgBrfw3jJ7Tzh/zUGBm1AgLGHHJB27pffaN2+mvtg==
@@ -6981,7 +6981,12 @@ lodash.zip@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/lodash.zip/-/lodash.zip-4.2.0.tgz#ec6662e4896408ed4ab6c542a3990b72cc080020"
 
-lodash@4.17.15, lodash@^4.0.0, lodash@^4.11.2, lodash@^4.15.0, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.17.5, lodash@~4.17.12:
+lodash@4.17.17:
+  version "4.17.17"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.17.tgz#d9018b3acc57a95c9dcf4a45c6b63b877b6c2d45"
+  integrity sha512-/B2DjOphAoqi5BX4Gg2oh4UR0Gy/A7xYAMh3aSECEKzwS3eCDEpS0Cals1Ktvxwlal3bBJNc+5W9kNIcADdw5Q==
+
+lodash@^4.0.0, lodash@^4.11.2, lodash@^4.15.0, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.17.5, lodash@~4.17.12:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
 
