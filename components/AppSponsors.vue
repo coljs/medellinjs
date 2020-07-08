@@ -70,7 +70,7 @@ export default {
           website: 'https://www.endava.com/',
         },
         NodeSource: {
-          name: 'NODESOURCE',
+          name: 'NodeSource',
           logo: '//nodesource.com/assets/icons/nodesource-512x512.png',
           website: '//nodesource.com/',
         },
