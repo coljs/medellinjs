@@ -52,21 +52,32 @@ export default {
   data() {
     return {
       sponsors: {
-        HUGE: {
-          name: 'HUGE',
+        RutaN: {
+          name: 'Ruta N',
+          logo: '//www.rutanmedellin.org/images/logo.svg',
+          website: 'https://www.rutanmedellin.org',
+        },
+        MatterSupplyCo: {
+          name: 'Matter Supply Co',
           logo:
-            '//en.gravatar.com/userimage/46333208/108cf2fa50119a1781427d15fe29f64b.jpg?size=200',
-          website: '//www.hugeinc.com',
+            '//s3.amazonaws.com/media-p.slid.es/uploads/245238/images/5118287/wordmark-cropped.png',
+          website: '//mattersupply.co/',
+        },
+        Endava: {
+          name: 'Endava',
+          logo:
+            'https://user-images.githubusercontent.com/2567952/66471043-ff3bb400-ea8a-11e9-8c57-023a88b38d48.png',
+          website: 'https://www.endava.com/',
+        },
+        NodeSource: {
+          name: 'NODESOURCE',
+          logo: '//nodesource.com/assets/icons/nodesource-512x512.png',
+          website: '//nodesource.com/',
         },
         yungol: {
           name: 'yungol',
           logo: yungolLogo,
           website: '//yungol.com/',
-        },
-        RutaN: {
-          name: 'Ruta N',
-          logo: '//www.rutanmedellin.org/images/logo.svg',
-          website: 'https://www.rutanmedellin.org',
         },
         TeamInternational: {
           name: 'Team International',
@@ -77,23 +88,6 @@ export default {
           name: 'Colombia Dev',
           logo: '//colombia-dev.org/public/assets/images/condor-logo.svg',
           website: '//colombia-dev.org/',
-        },
-        MatterSupplyCo: {
-          name: 'Matter Supply Co',
-          logo:
-            '//s3.amazonaws.com/media-p.slid.es/uploads/245238/images/5118287/wordmark-cropped.png',
-          website: '//mattersupply.co/',
-        },
-        NodeSource: {
-          name: 'NODESOURCE',
-          logo: '//nodesource.com/assets/icons/nodesource-512x512.png',
-          website: '//nodesource.com/',
-        },
-        Endava: {
-          name: 'Endava',
-          logo:
-            'https://user-images.githubusercontent.com/2567952/66471043-ff3bb400-ea8a-11e9-8c57-023a88b38d48.png',
-          website: 'https://www.endava.com/',
         },
       },
     }
