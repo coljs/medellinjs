@@ -23,7 +23,7 @@
     }
   },
   "dependencies": {
-    "@nuxtjs/google-analytics": "2.3.0",
+    "@nuxtjs/google-analytics": "2.4.0",
     "animate.css": "4.1.0",
     "cross-env": "7.0.2",
     "jsonp": "0.2.1",
