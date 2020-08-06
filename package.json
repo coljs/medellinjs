@@ -41,7 +41,7 @@
     "@nuxtjs/fontawesome": "1.1.2",
     "@nuxtjs/pwa": "2.6.0",
     "@vue/test-utils": "1.0.3",
-    "all-contributors-cli": "6.16.1",
+    "all-contributors-cli": "6.17.0",
     "babel-eslint": "10.1.0",
     "babel-jest": "26.1.0",
     "eslint": "7.6.0",
