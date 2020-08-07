@@ -25,12 +25,12 @@ jobs:
 
     - name: Install Project Dependencies 🔧
       run: |
-          npm install
-          npm run generate
+        npm install
+        npm run generate
 
-    - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@3.5.9
-        with:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: dist
+    - name: Deploy to GitHub Pages 🚀
+      uses: JamesIves/github-pages-deploy-action@3.5.9
+      with:
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: dist
