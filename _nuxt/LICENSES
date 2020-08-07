@@ -1,5 +1,5 @@
 /*!
-  * vue-router v3.1.6
+  * vue-router v3.4.0
   * (c) 2020 Evan You
   * @license MIT
   */
@@ -21,3 +21,7 @@
  * (c) 2018-present egoist <0x142857@gmail.com>
  * Released under the MIT License.
  */
+
+/*! WOW wow.js - v1.2.1 - 2016-09-05
+* https://wowjs.uk
+* Copyright (c) 2016 Thomas Grainger; Licensed MIT */
