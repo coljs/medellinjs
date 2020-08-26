@@ -48,6 +48,7 @@
 <script>
 import teamInternationalLogo from '../assets/img/logos/teaminternational.png'
 import yungolLogo from '../assets/img/logos/yungol.png'
+import terminal from '../assets/img/logos/terminal.png'
 export default {
   data() {
     return {
@@ -88,6 +89,11 @@ export default {
           name: 'Colombia Dev',
           logo: '//colombia-dev.org/public/assets/images/condor-logo.svg',
           website: '//colombia-dev.org/',
+        },
+        Terminal: {
+          name: 'Terminal',
+          logo: terminal,
+          website: '//terminal.io/',
         },
       },
     }
