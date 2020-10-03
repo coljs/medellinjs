@@ -1576,4 +1576,68 @@ module.exports = {
       },
     ],
   },
+  oscarbarajas: {
+    name: 'Oscar Barajas',
+    username: 'gndx',
+    twitter: 'https://twitter.com/gndx',
+    github: 'https://github.com/gndx',
+    avatar:
+      'https://avatars2.githubusercontent.com/u/10554486?s=460&u=e0d77bc982578378a147692f80b8b23fa25fa081&v=4',
+    slides: [
+      {
+        direction: 'r',
+        title: 'Svelte el framework 100% reactivo',
+        url: '',
+        thumbnail: '',
+      },
+    ],
+  },
+  nicobytes: {
+    name: 'Nicolas Molina',
+    username: 'nicobytes',
+    twitter: 'https://twitter.com/nicobytes',
+    github: 'https://github.com/nicobytes',
+    avatar:
+      'https://avatars2.githubusercontent.com/u/7611944?s=460&u=4d1d3c84781586ad9ff406bf16b6bb17e8df779b&v=4',
+    slides: [
+      {
+        direction: 'r',
+        title: 'Web components con Stencil.js',
+        url: '',
+        thumbnail: '',
+      },
+    ],
+  },
+  melinamejia: {
+    name: 'Melina Mejía',
+    username: 'melinamejia95',
+    twitter: 'https://twitter.com/melinamejia95',
+    github: 'https://github.com/melinamejia95',
+    avatar:
+      'https://avatars3.githubusercontent.com/u/19215389?s=460&u=6bb57927089809bcbb4a25d23ef9d70e35060807&v=4',
+    slides: [
+      {
+        direction: 'r',
+        title: 'Your code under the hood',
+        url: '',
+        thumbnail: '',
+      },
+    ],
+  },
+  devpato: {
+    name: 'Patricio Vargas',
+    username: 'devpato',
+    twitter: 'https://twitter.com/devpato',
+    github: 'https://github.com/devpato',
+    avatar:
+      'https://avatars0.githubusercontent.com/u/11162114?s=460&u=1ccc0ce9d3ac9dc485181d96837767be5920bee8&v=4',
+    slides: [
+      {
+        direction: 'r',
+        title: 'PWAs en JavaScript',
+        url: '',
+        thumbnail: '',
+      },
+    ],
+  },
 }
