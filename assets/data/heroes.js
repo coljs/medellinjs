@@ -324,7 +324,7 @@ module.exports = {
     twitter: 'https://twitter.com/iosamuel',
     github: 'https://github.com/iosamuel',
     avatar:
-      'https://pbs.twimg.com/profile_images/1246844314908594178/aOK2G2ah_400x400.jpg',
+      'https://avatars3.githubusercontent.com/u/1578540?s=460&u=eb310318c03aacbc191e0b6e0dab6654688074c5&v=4',
     slides: [
       {
         direction: 'r',
@@ -556,7 +556,7 @@ module.exports = {
     twitter: 'https://twitter.com/CristianG540',
     github: 'https://github.com/CristianG540',
     avatar:
-      'https://pbs.twimg.com/profile_images/464431828313460736/cm2ADMLY_400x400.png',
+      'https://avatars0.githubusercontent.com/u/1929796?s=460&u=6c4e1d77da89bb6f75f922000d229b55599c5faa&v=4',
     slides: [
       {
         direction: 'r',
@@ -1124,7 +1124,7 @@ module.exports = {
     twitter: 'https://twitter.com/Colada_FF',
     github: 'https://github.com/barreracristian',
     avatar:
-      'https://pbs.twimg.com/profile_images/970894815616557056/00uYoiTr_400x400.jpg',
+      'https://avatars0.githubusercontent.com/u/12430316?s=460&u=cf1889bf4878f987573982b2c261f469fde76471&v=4',
     slides: [
       {
         direction: 'r',
@@ -1566,7 +1566,7 @@ module.exports = {
     twitter: 'https://twitter.com/Kath_Code',
     github: 'https://github.com/kathcode',
     avatar:
-      'https://pbs.twimg.com/profile_images/984624523252088833/enaxS6VT_400x400.jpg',
+      'https://avatars1.githubusercontent.com/u/11249129?s=460&u=401d7007528cb62a7e9e60d63406fb62d84b2b29&v=4',
     slides: [
       {
         direction: 'r',
