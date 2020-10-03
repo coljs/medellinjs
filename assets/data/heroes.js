@@ -1576,4 +1576,20 @@ module.exports = {
       },
     ],
   },
+  michellinares: {
+    name: 'Michel Linares',
+    username: 'xkweb',
+    twitter: 'https://www.youtube.com/xkweb',
+    github: 'https://github.com/Michaelxk',
+    avatar:
+      'https://avatars1.githubusercontent.com/u/34779991?s=460&u=3b0b5ffa335a953b7dc059a8667692f042c7055c&v=4',
+    slides: [
+      {
+        direction: 'r',
+        title: 'Sobreviviendo a una entrevista de JavaScript',
+        url: 'https://slides.com/michaellinares/deck-d69a41',
+        thumbnail: '',
+      },
+    ],
+  },
 }
