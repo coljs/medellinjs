@@ -74,6 +74,12 @@ module.exports = {
         url: '',
         thumbnail: '',
       },
+      {
+        direction: 'l',
+        title: 'Utilizando codificación binaria en servicios Web y RPC ',
+        url: '',
+        thumbnail: '',
+      },
     ],
   },
   bipsa: {
@@ -186,6 +192,13 @@ module.exports = {
         url: 'slides.com/edsadr/http2-node',
         thumbnail:
           'https://s3.amazonaws.com/media-p.slid.es/thumbnails/6e65bc81edbc44b3c27284757a7fb5c2/thumb.jpg',
+      },
+      {
+        direction: 'r',
+        title: 'Acercamiento práctico a la certificación oficial de Node.js',
+        url: 'http://slides.com/edsadr/certificacion-en-node',
+        thumbnail:
+          'https://s3.amazonaws.com/media-p.slid.es/thumbnails/65dc07dbeb47a55eb3b041250eae449d/thumb.jpg',
       },
     ],
   },
@@ -547,6 +560,12 @@ module.exports = {
         url: 'slides.com/alexramirez/deck-3',
         thumbnail:
           'https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/aa4169/decks.jpg',
+      },
+      {
+        direction: 'l',
+        title: 'Algoritmos y Estructuras de Datos con Javascript',
+        url: '',
+        thumbnail: '',
       },
     ],
   },
@@ -1231,6 +1250,12 @@ module.exports = {
         url: 'https://t.co/tlmo1erjSl',
         thumbnail: '',
       },
+      {
+        direction: 'r',
+        title: 'Iniciando con ElasticSearch',
+        url: '',
+        thumbnail: '',
+      },
     ],
   },
   miguelcupitra: {
@@ -1281,6 +1306,12 @@ module.exports = {
         direction: 'l',
         title: 'DarkSide to JavaScript',
         url: 'https://t.co/tlmo1erjSl',
+        thumbnail: '',
+      },
+      {
+        direction: 'l',
+        title: 'Es hora de perder el miedo a los algoritmos!',
+        url: '',
         thumbnail: '',
       },
     ],
@@ -1468,6 +1499,13 @@ module.exports = {
           'https://drive.google.com/open?id=1T1BANZekaOH0z5l11e9_Zb3rMycDbGgk',
         thumbnail: '',
       },
+      {
+        direction: 'l',
+        title:
+          'No crees tu propio select: y otros aprendizajes del equipo de Buffer',
+        url: '',
+        thumbnail: '',
+      },
     ],
   },
   juandatoro: {
@@ -1534,6 +1572,12 @@ module.exports = {
         direction: 'l',
         title: 'SMACSS',
         url: 'https://slides.com/manucastrillonm/smacss#/',
+        thumbnail: '',
+      },
+      {
+        direction: 'r',
+        title: 'Workflows personalizados utilizando GitHub Actions',
+        url: 'https://slides.com/manucastrillonm/github-actions',
         thumbnail: '',
       },
     ],
