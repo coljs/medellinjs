@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@nuxtjs/google-analytics": "2.4.0",
-    "animate.css": "4.1.0",
+    "animate.css": "4.1.1",
     "cross-env": "7.0.2",
     "jsonp": "0.2.1",
     "lodash": "4.17.20",
