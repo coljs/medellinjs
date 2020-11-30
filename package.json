@@ -39,7 +39,7 @@
     "@nuxtjs/eslint-config": "3.1.0",
     "@nuxtjs/eslint-module": "2.0.0",
     "@nuxtjs/fontawesome": "1.1.2",
-    "@nuxtjs/pwa": "3.0.2",
+    "@nuxtjs/pwa": "3.3.2",
     "@vue/test-utils": "1.1.0",
     "all-contributors-cli": "6.18.0",
     "babel-eslint": "10.1.0",
