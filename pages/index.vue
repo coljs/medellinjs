@@ -26,8 +26,8 @@
       <!--------------- Team area -------------->
       <AppOrganizer />
 
-      <!--------------- Community Parners area -------------->
-      <AppCommuniyParners />
+      <!--------------- Community Partners area -------------->
+      <AppCommunityPartners />
     </div>
     <!--------------- Footer -------------->
     <app-footer />
@@ -50,7 +50,7 @@ import AppHeader from '~/components/AppHeader.vue'
 import AppShortHeroes from '~/components/AppShortHeroes.vue'
 import AppCommunities from '~/components/AppCommunities.vue'
 import AppOrganizer from '~/components/AppOrganizer.vue'
-import AppCommuniyParners from '~/components/AppCommuniyParners.vue'
+import AppCommunityPartners from '~/components/AppCommunityPartners.vue'
 import AppContact from '~/components/AppContact.vue'
 import AppSponsors from '~/components/AppSponsors.vue'
 import AppFooter from '~/components/AppFooter.vue'
@@ -62,7 +62,7 @@ export default {
     AppShortHeroes,
     AppCommunities,
     AppOrganizer,
-    AppCommuniyParners,
+    AppCommunityPartners,
     AppContact,
     AppSponsors,
     AppFooter,
