@@ -1,55 +1,114 @@
-importScripts('/_nuxt/workbox.4c4f5ca6.js')
+const options = {"workboxURL":"https://cdn.jsdelivr.net/npm/workbox-cdn@5.1.4/workbox/workbox-sw.js","importScripts":[],"config":{"debug":false},"cacheOptions":{"cacheId":"medellinjs-prod","directoryIndex":"/","revision":"kN1EdXcwRy7Q"},"clientsClaim":true,"skipWaiting":true,"cleanupOutdatedCaches":true,"offlineAnalytics":false,"preCaching":[{"revision":"kN1EdXcwRy7Q","url":"/?standalone=true"}],"runtimeCaching":[{"urlPattern":"/_nuxt/","handler":"CacheFirst","method":"GET","strategyPlugins":[]},{"urlPattern":"/","handler":"NetworkFirst","method":"GET","strategyPlugins":[]}],"offlinePage":null,"pagesURLPattern":"/","offlineStrategy":"NetworkFirst"}
 
-workbox.precaching.precacheAndRoute([
-  {
-    "url": "/_nuxt/app.c89c9a0.js",
-    "revision": "d9be4619d87fa525db9f53ecb254c409"
-  },
-  {
-    "url": "/_nuxt/commons/heroes.index~index.58870e4.js",
-    "revision": "16953f100d62bc1783eef77ddbf84eda"
-  },
-  {
-    "url": "/_nuxt/pages/comparte.9d4cc36.js",
-    "revision": "1fd430338eb253185fef20126b724a73"
-  },
-  {
-    "url": "/_nuxt/pages/fundacion.3668680.js",
-    "revision": "7d3f4e3e25a75b06d059001238b430fa"
-  },
-  {
-    "url": "/_nuxt/pages/heroes/index.fb5083b.js",
-    "revision": "43e901fc95056101b4446e99e06aa83a"
-  },
-  {
-    "url": "/_nuxt/pages/index.6207b50.js",
-    "revision": "d81dc558cf635bb09f6afe0b1df7084d"
-  },
-  {
-    "url": "/_nuxt/pages/sorteo/index.1c5f3cf.js",
-    "revision": "2f3a43aff6af748ea2889bbe9431da10"
-  },
-  {
-    "url": "/_nuxt/pages/sponsor-en/index.aafa8d1.js",
-    "revision": "40ee983f63e5c595f52fe63aa49cd4ed"
-  },
-  {
-    "url": "/_nuxt/pages/sponsor/index.f832e97.js",
-    "revision": "718285a6eb07c369d3ef675c38f17637"
-  },
-  {
-    "url": "/_nuxt/runtime.cef4450.js",
-    "revision": "ac06c2c03309a6bf8385d5198e742f5e"
+importScripts(...[options.workboxURL, ...options.importScripts])
+
+initWorkbox(workbox, options)
+workboxExtensions(workbox, options)
+precacheAssets(workbox, options)
+cachingExtensions(workbox, options)
+runtimeCaching(workbox, options)
+offlinePage(workbox, options)
+routingExtensions(workbox, options)
+
+function getProp(obj, prop) {
+  return prop.split('.').reduce((p, c) => p[c], obj)
+}
+
+function initWorkbox(workbox, options) {
+  if (options.config) {
+    // Set workbox config
+    workbox.setConfig(options.config)
   }
-], {
-  "cacheId": "medellinjs",
-  "directoryIndex": "/",
-  "cleanUrls": false
-})
 
-workbox.clientsClaim()
-workbox.skipWaiting()
+  if (options.cacheNames) {
+    // Set workbox cache names
+    workbox.core.setCacheNameDetails(options.cacheNames)
+  }
 
-workbox.routing.registerRoute(new RegExp('/_nuxt/.*'), workbox.strategies.cacheFirst({}), 'GET')
+  if (options.clientsClaim) {
+    // Start controlling any existing clients as soon as it activates
+    workbox.core.clientsClaim()
+  }
 
-workbox.routing.registerRoute(new RegExp('/.*'), workbox.strategies.networkFirst({}), 'GET')
+  if (options.skipWaiting) {
+    workbox.core.skipWaiting()
+  }
+
+  if (options.cleanupOutdatedCaches) {
+    workbox.precaching.cleanupOutdatedCaches()
+  }
+
+  if (options.offlineAnalytics) {
+    // Enable offline Google Analytics tracking
+    workbox.googleAnalytics.initialize()
+  }
+}
+
+function precacheAssets(workbox, options) {
+  if (options.preCaching.length) {
+    workbox.precaching.precacheAndRoute(options.preCaching, options.cacheOptions)
+  }
+}
+
+
+function runtimeCaching(workbox, options) {
+  const requestInterceptor = {
+    requestWillFetch({ request }) {
+      if (request.cache === 'only-if-cached' && request.mode === 'no-cors') {
+        return new Request(request.url, { ...request, cache: 'default', mode: 'no-cors' })
+      }
+      return request
+    },
+    fetchDidFail(ctx) {
+      ctx.error.message =
+        '[workbox] Network request for ' + ctx.request.url + ' threw an error: ' + ctx.error.message
+      console.error(ctx.error, 'Details:', ctx)
+    },
+    handlerDidError(ctx) {
+      ctx.error.message =
+        `[workbox] Network handler threw an error: ` + ctx.error.message
+      console.error(ctx.error, 'Details:', ctx)
+      return null
+    }
+  }
+
+  for (const entry of options.runtimeCaching) {
+    const urlPattern = new RegExp(entry.urlPattern)
+    const method = entry.method || 'GET'
+
+    const plugins = (entry.strategyPlugins || [])
+      .map(p => new (getProp(workbox, p.use))(...p.config))
+
+    plugins.unshift(requestInterceptor)
+
+    const strategyOptions = { ...entry.strategyOptions, plugins }
+
+    const strategy = new workbox.strategies[entry.handler](strategyOptions)
+
+    workbox.routing.registerRoute(urlPattern, strategy, method)
+  }
+}
+
+function offlinePage(workbox, options) {
+  if (options.offlinePage) {
+    // Register router handler for offlinePage
+    workbox.routing.registerRoute(new RegExp(options.pagesURLPattern), ({ request, event }) => {
+      const strategy = new workbox.strategies[options.offlineStrategy]
+      return strategy
+        .handle({ request, event })
+        .catch(() => caches.match(options.offlinePage))
+    })
+  }
+}
+
+function workboxExtensions(workbox, options) {
+  
+}
+
+function cachingExtensions(workbox, options) {
+  
+}
+
+function routingExtensions(workbox, options) {
+  
+}
