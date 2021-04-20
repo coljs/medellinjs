@@ -27,8 +27,8 @@
           <li><a @click="scrollSection('sponsors-area')">Sponsors</a></li>
           <li><a @click="scrollSection('team-area')">Organizadores</a></li>
           <li>
-            <a @click="scrollSection('communityParners-area')"
-              >Community Parners</a
+            <a @click="scrollSection('communityPartners-area')"
+              >Community Partners</a
             >
           </li>
           <li>

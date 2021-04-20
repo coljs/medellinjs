@@ -1,20 +1,20 @@
 <template>
   <div
-    id="communityParners-area"
+    id="communityPartners-area"
     class="section section-padding-extra section-bg section-bg-green"
   >
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-md-offset-3 text-center">
           <div class="section-heading">
-            <h2 class="section-title">Community Parners</h2>
+            <h2 class="section-title">Community Partners</h2>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="fun-facts">
           <div
-            v-for="(community, index) in communityParners"
+            v-for="(community, index) in communityPartners"
             :key="index"
             class="col-md-3 text-center"
           >
@@ -58,15 +58,15 @@
 <script>
 import { faJs } from '@fortawesome/free-brands-svg-icons'
 
-import reactLaConfLogo from '@/assets/img/communityParners/logo-reactlaconf.svg'
-import cssConfCoLogo from '@/assets/img/communityParners/logo-cssconfco.svg'
-import ngConfCoLogo from '@/assets/img/communityParners/logo-ngConfCo.svg'
-import nodeConfCoLogo from '@/assets/img/communityParners/logo-nodeConfCo.jpg'
+import reactLaConfLogo from '@/assets/img/communityPartners/logo-reactlaconf.svg'
+import cssConfCoLogo from '@/assets/img/communityPartners/logo-cssconfco.svg'
+import ngConfCoLogo from '@/assets/img/communityPartners/logo-ngConfCo.svg'
+import nodeConfCoLogo from '@/assets/img/communityPartners/logo-nodeConfCo.jpg'
 
 export default {
   data() {
     return {
-      communityParners: {
+      communityPartners: {
         reactLaConf: {
           name: 'ReactLaConf',
           website: 'https://reactlaconf.co/',

@@ -187,8 +187,9 @@ img {
   }
 }
 
-.section-bg-green-dark {
+footer.section-bg-green-dark {
   &:before {
+    z-index: -1;
     background-color: #0E9390;
   }
 }

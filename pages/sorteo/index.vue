@@ -2,9 +2,7 @@
   <div id="wrapper">
     <header>
       <div class="container">
-        <h1 id="logo">
-          Sorteos MedellinJS
-        </h1>
+        <h1 id="logo">Sorteos MedellinJS</h1>
       </div>
     </header>
     <!-- /header -->
