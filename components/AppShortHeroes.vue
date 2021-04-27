@@ -42,14 +42,17 @@ export default {
     return {
       keysHeros: Object.keys(heroesData),
       showModal: false,
+      myHeroes: [],
     }
   },
   computed: {
     heroes() {
-      const heoresKeys = sampleSize(this.keysHeros, 8)
-      const heroes = heoresKeys.map((heroe) => heroesData[heroe])
-      return heroes
+      return this.myHeroes
     },
+  },
+  mounted() {
+    const heoresKeys = sampleSize(this.keysHeros, 8)
+    this.myHeroes = heoresKeys.map((heroe) => heroesData[heroe])
   },
 }
 </script>
