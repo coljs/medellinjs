@@ -51,8 +51,8 @@ export default {
     },
   },
   mounted() {
-    const heoresKeys = sampleSize(this.keysHeros, 8)
-    this.myHeroes = heoresKeys.map((heroe) => heroesData[heroe])
+    const heroesKeys = sampleSize(this.keysHeros, 8)
+    this.myHeroes = heroesKeys.map((hero) => heroesData[hero])
   },
 }
 </script>
