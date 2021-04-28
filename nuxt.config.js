@@ -3,9 +3,26 @@ const routerBase =
     ? {
         router: {
           base: '/medellinjs/',
+          extendRoutes(routes, resolve) {
+            routes.push({
+              name: 'custom',
+              path: '*',
+              component: resolve(__dirname, 'pages/index.vue'),
+            })
+          },
         },
       }
-    : {}
+    : {
+        router: {
+          extendRoutes(routes, resolve) {
+            routes.push({
+              name: 'custom',
+              path: '*',
+              component: resolve(__dirname, 'pages/index.vue'),
+            })
+          },
+        },
+      }
 
 export default {
   ssr: true,
