@@ -1,18 +1,11 @@
-/*!
-  * vue-router v3.4.9
-  * (c) 2020 Evan You
-  * @license MIT
-  */
+/*! WOW wow.js - v1.2.1 - 2016-09-05
+* https://wowjs.uk
+* Copyright (c) 2016 Thomas Grainger; Licensed MIT */
+
 
 /*!
  * Font Awesome Free 5.15.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- */
-
-/*!
- * Vue.js v2.6.12
- * (c) 2014-2020 Evan You
- * Released under the MIT License.
  */
 
 /*!
@@ -27,6 +20,15 @@
  * Released under the MIT License.
  */
 
-/*! WOW wow.js - v1.2.1 - 2016-09-05
-* https://wowjs.uk
-* Copyright (c) 2016 Thomas Grainger; Licensed MIT */
+
+/*!
+  * vue-router v3.5.1
+  * (c) 2021 Evan You
+  * @license MIT
+  */
+
+/*!
+ * Vue.js v2.6.12
+ * (c) 2014-2020 Evan You
+ * Released under the MIT License.
+ */
