@@ -27,7 +27,7 @@ export default {
   },
   mounted() {
     const raffleScript = document.createElement('script')
-    raffleScript.setAttribute('src', 'https://unpkg.com/meetup-raffle-widget')
+    raffleScript.setAttribute('src', '//unpkg.com/meetup-raffle-widget')
     document.head.appendChild(raffleScript)
   },
 }

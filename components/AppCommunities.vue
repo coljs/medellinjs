@@ -17,7 +17,7 @@
       </div>
       <div class="row">
         <div class="col-sm-12">
-          <a href="http://www.coljs.org/">
+          <a href="//www.coljs.org/">
             <div
               class="text-center wow animated fadeInUp"
               data-wow-duration="1.5s"

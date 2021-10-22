@@ -36,13 +36,13 @@
                 </a>
                 <a
                   target="_blank"
-                  :href="'https://twitter.com/' + community.twitter"
+                  :href="'//twitter.com/' + community.twitter"
                 >
                   <fa :icon="['fab', 'twitter']" />
                 </a>
                 <a
                   target="_blank"
-                  :href="'https://www.instagram.com/' + community.instagram"
+                  :href="'//www.instagram.com/' + community.instagram"
                 >
                   <fa :icon="['fab', 'instagram']" />
                 </a>
@@ -69,28 +69,28 @@ export default {
       communityPartners: {
         reactLaConf: {
           name: 'ReactLaConf',
-          website: 'https://reactlaconf.co/',
+          website: '//reactlaconf.co/',
           twitter: 'reactlaconf',
           instagram: 'reactlaconf/',
           logo: reactLaConfLogo,
         },
         cssconf: {
           name: 'CssConfCo',
-          website: 'https://cssconf.co/',
+          website: '//cssconf.co/',
           twitter: 'cssconfco',
           instagram: 'cssconfco/',
           logo: cssConfCoLogo,
         },
         NgColombia: {
           name: 'NgColombia',
-          website: 'https://ngconf.co/',
+          website: '//ngconf.co/',
           twitter: 'NgConfCo',
-          instagram: 'https://www.instagram.com/explore/tags/ngconfcolombia/',
+          instagram: '//www.instagram.com/explore/tags/ngconfcolombia/',
           logo: ngConfCoLogo,
         },
         nodeConfCo: {
           name: 'NodeConfCo',
-          website: 'https://colombia.nodeconf.com/',
+          website: '//colombia.nodeconf.com/',
           twitter: 'NodeConfCo',
           instagram: 'nodeconf_co/',
           logo: nodeConfCoLogo,

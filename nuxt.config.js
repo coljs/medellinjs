@@ -62,23 +62,23 @@ export default {
       {
         rel: 'stylesheet',
         href:
-          'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css',
+          '//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css',
       },
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,800%7cRoboto:300,400,500,700',
+          '//fonts.googleapis.com/css?family=Raleway:300,400,500,700,800%7cRoboto:300,400,500,700',
       },
     ],
     script: [
       {
         src:
-          'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js',
+          '//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js',
         type: 'text/javascript',
       },
       {
         src:
-          'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js',
+          '//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js',
         type: 'text/javascript',
       },
     ],
@@ -99,7 +99,7 @@ export default {
    ** Nuxt.js dev-modules
    */
   buildModules: [
-    // Doc: https://github.com/nuxt-community/eslint-module
+    // Doc: //github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
     '@nuxtjs/pwa',
     [
@@ -179,7 +179,7 @@ export default {
   },
   /*
    ** Axios module configuration
-   ** See https://axios.nuxtjs.org/options
+   ** See //axios.nuxtjs.org/options
    */
   axios: {},
   /*

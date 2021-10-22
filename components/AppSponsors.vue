@@ -56,7 +56,7 @@ export default {
         RutaN: {
           name: 'Ruta N',
           logo: '//www.rutanmedellin.org/images/logo.svg',
-          website: 'https://www.rutanmedellin.org',
+          website: '//www.rutanmedellin.org',
         },
         MatterSupplyCo: {
           name: 'Matter Supply Co',
@@ -67,8 +67,8 @@ export default {
         Endava: {
           name: 'Endava',
           logo:
-            'https://user-images.githubusercontent.com/2567952/66471043-ff3bb400-ea8a-11e9-8c57-023a88b38d48.png',
-          website: 'https://www.endava.com/',
+            '//user-images.githubusercontent.com/2567952/66471043-ff3bb400-ea8a-11e9-8c57-023a88b38d48.png',
+          website: '//www.endava.com/',
         },
         NodeSource: {
           name: 'NodeSource',

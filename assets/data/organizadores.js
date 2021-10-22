@@ -5,8 +5,8 @@ module.exports = {
       'Software developer with +5 years in software construction, speaker and active participant of the communities. Co-organizer @medellinjs - @node_co',
     twitter: 'mafesernaarbole',
     github: 'mafesernaarboleda',
-    avatar: 'https://avatars3.githubusercontent.com/u/14205513?s=250',
-    website: 'https://mafe.dev/',
+    avatar: '//avatars3.githubusercontent.com/u/14205513?s=250',
+    website: '//mafe.dev/',
   },
   edsadr: {
     name: 'Adrián Estrada',
@@ -15,8 +15,8 @@ module.exports = {
     twitter: 'edsadr',
     github: 'edsadr',
     avatar:
-      'https://secure.gravatar.com/userimage/28946174/8747a95cd541d80ffa63929a4856637d.jpg?size=200',
-    website: 'https://twitter.com/edsadr',
+      '//secure.gravatar.com/userimage/28946174/8747a95cd541d80ffa63929a4856637d.jpg?size=200',
+    website: '//twitter.com/edsadr',
   },
   ramirezalex: {
     name: 'Alex Ramírez',
@@ -24,8 +24,8 @@ module.exports = {
       'Software Developer & Blockchain Padawan. I like it better if JavaScript == true. CTO at @INplazainc and co-organizer of @MedellinJS',
     twitter: 'RamirezAlex_',
     github: 'RamirezAlex',
-    avatar: 'https://avatars2.githubusercontent.com/u/1482473?s=460&v=4',
-    website: 'https://twitter.com/RamirezAlex_',
+    avatar: '//avatars2.githubusercontent.com/u/1482473?s=460&v=4',
+    website: '//twitter.com/RamirezAlex_',
   },
   khriztianmoreno: {
     name: 'Cristian Moreno',
@@ -34,8 +34,8 @@ module.exports = {
     twitter: 'khriztianmoreno',
     github: 'khriztianmoreno',
     avatar:
-      'https://secure.gravatar.com/avatar/267898824a5115781fad35abba0130d0?s=250',
-    website: 'https://khriztianmoreno.dev/',
+      '//secure.gravatar.com/avatar/267898824a5115781fad35abba0130d0?s=250',
+    website: '//khriztianmoreno.dev/',
   },
   jenymazo: {
     name: 'Jeny Mazo',
@@ -44,8 +44,8 @@ module.exports = {
     twitter: 'JenyMzo',
     github: 'JenyMzo',
     avatar:
-      'https://avatars3.githubusercontent.com/u/2567952?v=3&u=93af511467354af56abba97d969cccca6fdffbef&s=250',
-    website: 'https://twitter.com/JenyMzo',
+      '//avatars3.githubusercontent.com/u/2567952?v=3&u=93af511467354af56abba97d969cccca6fdffbef&s=250',
+    website: '//twitter.com/JenyMzo',
   },
   frankbetancur: {
     name: 'Frank Alejo Betancur',
@@ -53,8 +53,8 @@ module.exports = {
       'Systems Engineer, Backend Developer, Frontend Padawan, speaker and active participant of the communities in the city. Learning... Co-organizer at @medellinJS',
     twitter: 'KranK2Me',
     github: 'KranK2Me',
-    avatar: 'https://avatars2.githubusercontent.com/u/9942486?s=460&v=4',
-    website: 'https://www.frankbetancur.dev/',
+    avatar: '//avatars2.githubusercontent.com/u/9942486?s=460&v=4',
+    website: '//www.frankbetancur.dev/',
   },
   ivandev: {
     name: 'Ivan Villa',
@@ -63,7 +63,7 @@ module.exports = {
     twitter: 'IVilla85',
     github: 'IvanVilla1585',
     avatar:
-      'https://avatars0.githubusercontent.com/u/9753149?s=400&u=8db2280d571197e34825cd4fc8052bee8f1200db&v=4',
-    website: 'https://twitter.com/IVilla85',
+      '//avatars0.githubusercontent.com/u/9753149?s=400&u=8db2280d571197e34825cd4fc8052bee8f1200db&v=4',
+    website: '//twitter.com/IVilla85',
   },
 }

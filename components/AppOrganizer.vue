@@ -28,13 +28,13 @@
               <div class="member-connections">
                 <a
                   target="_blank"
-                  :href="'https://twitter.com/' + organizer.twitter"
+                  :href="'//twitter.com/' + organizer.twitter"
                 >
                   <fa :icon="['fab', 'twitter']" />
                 </a>
                 <a
                   target="_blank"
-                  :href="'https://github.com/' + organizer.github"
+                  :href="'//github.com/' + organizer.github"
                 >
                   <fa :icon="['fab', 'github']" />
                 </a>
