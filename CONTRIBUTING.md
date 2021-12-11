@@ -18,14 +18,15 @@ Este codigo de conducta expresa el comportamiento _minimo_ esperado por todos lo
 
 Issues en `coljs/medellinjs` es el lugar principal donde se reportan bugs y se realizan discusiones generales.
 
-- [Como Contribuir en Issues](./doc/guides/contributing/issues.md#hcomo-contribuir-en-issues)
+- [Como Contribuir en Issues](./doc/guides/contributing/issues.md#como-contribuir-en-issues)
 - [Asking for General Help](./doc/guides/contributing/issues.md#solicitando-ayuda-en-general)
 - [Discusiones no tecnicas](./doc/guides/contributing/issues.md#discusiones-no-tecnicas)
 - [Enviando un Bug](./doc/guides/contributing/issues.md#reportando-un-bug)
 - [Triaging a Bug Report](./doc/guides/contributing/issues.md#bug-triage)
 - [Resolviendo un Bug](./doc/guides/contributing/issues.md#resolviendo-un-bug)
 
-## [Pull Requests](./doc/guides/contributing/pull_request.md)
+## [Pull Requests](./doc/guides/contributing/pull_
+request.md)
 
 Pull Requests son el camino concreto de los cambios hechos en el código, documentación en este repositorio.
 
