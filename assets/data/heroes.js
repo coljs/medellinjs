@@ -147,8 +147,7 @@ module.exports = {
       {
         direction: 'r',
         title: 'AngularJS y Ember.js - MVC framworks en el lado del cliente',
-        url:
-          'slides.com/edsadr/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente',
+        url: 'slides.com/edsadr/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente',
         thumbnail:
           'https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/2b1815/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente.jpg',
       },
@@ -270,8 +269,7 @@ module.exports = {
       {
         direction: 'l',
         title: 'AngularJS y Ember.js - MVC framworks en el lado del cliente',
-        url:
-          'slides.com/edsadr/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente',
+        url: 'slides.com/edsadr/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente',
         thumbnail:
           'https://s3.amazonaws.com/media-p.slid.es/thumbnails/edsadr/2b1815/angularjs-y-ember-js-mvc-framworks-en-el-lado-del-cliente.jpg',
       },
@@ -505,8 +503,7 @@ module.exports = {
       {
         direction: 'r',
         title: 'Introducción a Ractive.js',
-        url:
-          'slides.com/johannpaulechavarriazapata/introduccion-a-ractive-js#/',
+        url: 'slides.com/johannpaulechavarriazapata/introduccion-a-ractive-js#/',
         thumbnail:
           'https://s3.amazonaws.com/media-p.slid.es/thumbnails/johannpaulechavarriazapata/3720a0/introduccion-a-ractive-js.jpg',
       },
@@ -536,8 +533,7 @@ module.exports = {
       {
         direction: 'l',
         title: 'Introduction to WebGL with three.js for 3D graphics',
-        url:
-          'slides.com/alexramirez/introduction-to-webgl-with-three-js-for-3d-graphics',
+        url: 'slides.com/alexramirez/introduction-to-webgl-with-three-js-for-3d-graphics',
         thumbnail:
           'https://s3.amazonaws.com/media-p.slid.es/thumbnails/alexramirez/041317/introduction-to-webgl-with-three-js-for-3d-graphics.jpg',
       },
@@ -972,8 +968,7 @@ module.exports = {
       {
         direction: 'r',
         title: 'P5.js JavaScript para artistas',
-        url:
-          'https://docs.google.com/presentation/d/1N7OVi4wwG-31K27Lytwh73VtZV-IKk7L2lOffW6Hwwk/pub?start=false&loop=false&delayms=3000&slide=id.g79471db9d_00',
+        url: 'https://docs.google.com/presentation/d/1N7OVi4wwG-31K27Lytwh73VtZV-IKk7L2lOffW6Hwwk/pub?start=false&loop=false&delayms=3000&slide=id.g79471db9d_00',
         thumbnail:
           'https://lh3.googleusercontent.com/fXbFbNNS6bOvsBHkfGgjyqmhW7ZQGAmNkfOwilfUroTWPvc3EI_gpvVOqivLpiuNKn-yyhJ8aHabYoCueaUu8dq6JMudjdIJz2jRuV9M_wqIvAq6PBhSmOCWFQ5pYuBNzXvqHBl_yA',
       },
@@ -1464,8 +1459,7 @@ module.exports = {
       {
         direction: 'r',
         title: 'Accessibility is important.. now what?',
-        url:
-          'https://drive.google.com/open?id=1T1BANZekaOH0z5l11e9_Zb3rMycDbGgk',
+        url: 'https://drive.google.com/open?id=1T1BANZekaOH0z5l11e9_Zb3rMycDbGgk',
         thumbnail: '',
       },
     ],

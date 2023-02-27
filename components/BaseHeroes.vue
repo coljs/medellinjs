@@ -3,7 +3,13 @@
     <div
       v-for="(hero, key) in heroes"
       :key="key"
-      class="col-lg-3 col-md-3 col-sm-4 col-xs-12 heroes-profile wow animated fadeInUp"
+      class="
+        col-lg-3 col-md-3 col-sm-4 col-xs-12
+        heroes-profile
+        wow
+        animated
+        fadeInUp
+      "
       data-wow-duration="1.5s"
     >
       <div

@@ -1,8 +1,7 @@
 module.exports = {
   mariaserna: {
     name: 'Maria Serna',
-    bio:
-      'Software developer with +5 years in software construction, speaker and active participant of the communities. Co-organizer @medellinjs - @node_co',
+    bio: 'Software developer with +5 years in software construction, speaker and active participant of the communities. Co-organizer @medellinjs - @node_co',
     twitter: 'mafesernaarbole',
     github: 'mafesernaarboleda',
     avatar: 'https://avatars3.githubusercontent.com/u/14205513?s=250',
@@ -10,8 +9,7 @@ module.exports = {
   },
   edsadr: {
     name: 'Adrián Estrada',
-    bio:
-      'Developer in love with NodeJS, thirsty for new technologies, working at @NodeSource - organizer @MedellinJS and @JSConfCO',
+    bio: 'Developer in love with NodeJS, thirsty for new technologies, working at @NodeSource - organizer @MedellinJS and @JSConfCO',
     twitter: 'edsadr',
     github: 'edsadr',
     avatar:
@@ -20,8 +18,7 @@ module.exports = {
   },
   ramirezalex: {
     name: 'Alex Ramírez',
-    bio:
-      'Software Developer & Blockchain Padawan. I like it better if JavaScript == true. CTO at @INplazainc and co-organizer of @MedellinJS',
+    bio: 'Software Developer & Blockchain Padawan. I like it better if JavaScript == true. CTO at @INplazainc and co-organizer of @MedellinJS',
     twitter: 'RamirezAlex_',
     github: 'RamirezAlex',
     avatar: 'https://avatars2.githubusercontent.com/u/1482473?s=460&v=4',
@@ -29,8 +26,7 @@ module.exports = {
   },
   khriztianmoreno: {
     name: 'Cristian Moreno',
-    bio:
-      'FullStack Javascript Developer and Community builder. Javascript Lover 👨🏻‍💻♥️👨🏻‍🏫 Co-Organize of @MedellinJS @avanet',
+    bio: 'FullStack Javascript Developer and Community builder. Javascript Lover 👨🏻‍💻♥️👨🏻‍🏫 Co-Organize of @MedellinJS @avanet',
     twitter: 'khriztianmoreno',
     github: 'khriztianmoreno',
     avatar:
@@ -39,8 +35,7 @@ module.exports = {
   },
   jenymazo: {
     name: 'Jeny Mazo',
-    bio:
-      'Developer in love with NodeJS, Co-organizer at @MedellinJS and Mentor at @Coderiseorg',
+    bio: 'Developer in love with NodeJS, Co-organizer at @MedellinJS and Mentor at @Coderiseorg',
     twitter: 'JenyMzo',
     github: 'JenyMzo',
     avatar:
@@ -49,8 +44,7 @@ module.exports = {
   },
   frankbetancur: {
     name: 'Frank Alejo Betancur',
-    bio:
-      'Systems Engineer, Backend Developer, Frontend Padawan, speaker and active participant of the communities in the city. Learning... Co-organizer at @medellinJS',
+    bio: 'Systems Engineer, Backend Developer, Frontend Padawan, speaker and active participant of the communities in the city. Learning... Co-organizer at @medellinJS',
     twitter: 'KranK2Me',
     github: 'KranK2Me',
     avatar: 'https://avatars2.githubusercontent.com/u/9942486?s=460&v=4',
@@ -58,8 +52,7 @@ module.exports = {
   },
   ivandev: {
     name: 'Ivan Villa',
-    bio:
-      'Software developer, Javascript lover and developer by passion 👨🏽‍💻, speaker and active participant of the communities. Co-organizer at @MedellinJS.',
+    bio: 'Software developer, Javascript lover and developer by passion 👨🏽‍💻, speaker and active participant of the communities. Co-organizer at @MedellinJS.',
     twitter: 'IVilla85',
     github: 'IvanVilla1585',
     avatar:
