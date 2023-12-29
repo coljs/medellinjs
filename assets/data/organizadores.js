@@ -44,7 +44,7 @@ module.exports = {
   },
   frankbetancur: {
     name: 'Frank Alejo Betancur',
-    bio: 'Systems Engineer, Backend Developer, Frontend Padawan, speaker and active participant of the communities in the city. Learning... Co-organizer at @medellinJS',
+    bio: 'Systems Engineer, FullStack Padawan and Community builder. Learning... Co-organizer at @MedellinJS and @Avanet',
     twitter: 'KranK2Me',
     github: 'KranK2Me',
     avatar: 'https://avatars2.githubusercontent.com/u/9942486?s=460&v=4',

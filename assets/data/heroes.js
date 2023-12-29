@@ -194,7 +194,7 @@ module.exports = {
     twitter: 'https://twitter.com/seeleJG',
     github: '',
     avatar:
-      'https://pbs.twimg.com/profile_images/1096089919305469955/6TwewI5__400x400.png',
+      'https://pbs.twimg.com/profile_images/1687357493146501121/n2GnnB7q_400x400.jpg',
     slides: [
       {
         direction: 'r',
@@ -338,8 +338,7 @@ module.exports = {
     username: '5h1rU',
     twitter: 'https://twitter.com/5h1rU',
     github: 'https://github.com/5h1rU',
-    avatar:
-      'https://pbs.twimg.com/profile_images/1069632070647984128/KaZrvuj1_400x400.jpg',
+    avatar: 'https://avatars.githubusercontent.com/u/989826?v=4',
     slides: [
       {
         direction: 'r',
@@ -497,8 +496,7 @@ module.exports = {
     username: 'abrupto',
     twitter: 'https://twitter.com/abrupto',
     github: 'https://github.com/katio',
-    avatar:
-      'https://pbs.twimg.com/profile_images/954018981244997632/J_3DPptq_400x400.jpg',
+    avatar: 'https://avatars.githubusercontent.com/u/1719536?v=4',
     slides: [
       {
         direction: 'r',
@@ -752,8 +750,7 @@ module.exports = {
     username: 'woloski',
     twitter: 'https://twitter.com/woloski',
     github: 'https://github.com/woloski',
-    avatar:
-      'https://pbs.twimg.com/profile_images/994018747739451392/kA7OC8jm_400x400.jpg',
+    avatar: 'https://avatars.githubusercontent.com/u/175880?v=4',
     slides: [
       {
         direction: 'r',
@@ -1164,8 +1161,7 @@ module.exports = {
     username: 'mafesernaarbole',
     twitter: 'https://twitter.com/mafesernaarbole',
     github: 'https://github.com/mafesernaarboleda',
-    avatar:
-      'https://pbs.twimg.com/profile_images/920062386358444038/R0XzV4F-_200x200.jpg',
+    avatar: 'https://avatars.githubusercontent.com/u/14205513?v=4',
     slides: [
       {
         direction: 'r',
@@ -1249,7 +1245,8 @@ module.exports = {
     username: 'anonymous',
     twitter: '',
     github: '',
-    avatar: 'https://sm-c.jp/wp-content/uploads/2017/09/mr-x.jpg',
+    avatar:
+      'https://pbs.twimg.com/profile_images/1012362101510160384/EjayQ10E_400x400.jpg',
     slides: [
       {
         direction: 'r',
@@ -1422,7 +1419,7 @@ module.exports = {
     twitter: 'https://twitter.com/HumoBinario',
     github: '',
     avatar:
-      'https://pbs.twimg.com/profile_images/1064749741588795392/_-Ze0j0j_400x400.jpg',
+      'https://pbs.twimg.com/profile_images/1711028373839884288/op6SpAJm_400x400.jpg',
     slides: [
       {
         direction: 'r',

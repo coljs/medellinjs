@@ -46,52 +46,32 @@
 </template>
 
 <script>
-import teamInternationalLogo from '../assets/img/logos/teaminternational.png'
-import yungolLogo from '../assets/img/logos/yungol.png'
-import terminal from '../assets/img/logos/terminal.png'
+import rutaNLogo from '../assets/img/logos/logo_ruta.svg'
+import softserveLogo from '../assets/img/logos/softserve_logo.png'
+
 export default {
   data() {
     return {
       sponsors: {
         RutaN: {
           name: 'Ruta N',
-          logo: '//www.rutanmedellin.org/images/logo.svg',
+          logo: rutaNLogo,
           website: 'https://www.rutanmedellin.org',
-        },
-        MatterSupplyCo: {
-          name: 'Matter Supply Co',
-          logo: '//s3.amazonaws.com/media-p.slid.es/uploads/245238/images/5118287/wordmark-cropped.png',
-          website: '//mattersupply.co/',
-        },
-        Endava: {
-          name: 'Endava',
-          logo: 'https://user-images.githubusercontent.com/2567952/66471043-ff3bb400-ea8a-11e9-8c57-023a88b38d48.png',
-          website: 'https://www.endava.com/',
-        },
-        NodeSource: {
-          name: 'NodeSource',
-          logo: '//nodesource.com/assets/icons/nodesource-512x512.png',
-          website: '//nodesource.com/',
-        },
-        yungol: {
-          name: 'yungol',
-          logo: yungolLogo,
-          website: '//yungol.com/',
-        },
-        TeamInternational: {
-          name: 'Team International',
-          logo: teamInternationalLogo,
-          website: '//teaminternational.com',
         },
         ColombiaDev: {
           name: 'Colombia Dev',
           logo: '//colombia-dev.org/public/assets/images/condor-logo.svg',
           website: '//colombia-dev.org/',
         },
-        Terminal: {
-          name: 'Terminal',
-          logo: terminal,
-          website: '//terminal.io/',
+        NodeSource: {
+          name: 'NodeSource',
+          logo: '//nodesource.com/assets/icons/nodesource-512x512.png',
+          website: '//nodesource.com/',
+        },
+        softserve: {
+          name: 'Softserve',
+          logo: softserveLogo,
+          website: '//https://www.softserveinc.com/en-us',
         },
       },
     }
