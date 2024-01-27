@@ -59,4 +59,12 @@ module.exports = {
       'https://avatars0.githubusercontent.com/u/9753149?s=400&u=8db2280d571197e34825cd4fc8052bee8f1200db&v=4',
     website: 'https://twitter.com/IVilla85',
   },
+  alexosman: {
+    name: 'Alexander Osman',
+    bio: 'Software developer, Passionate about web applications 👨🏽‍💻, active participant of the communities. Co-organizer at @MedellinJS.',
+    twitter: 'FredyAl85651665',
+    github: 'AlexOsman0911',
+    avatar: 'https://avatars.githubusercontent.com/u/98366329?v=4',
+    website: 'https://twitter.com/FredyAl85651665',
+  },
 }
