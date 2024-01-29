@@ -67,4 +67,12 @@ module.exports = {
     avatar: 'https://avatars.githubusercontent.com/u/98366329?v=4',
     website: 'https://twitter.com/FredyAl85651665',
   },
+  mariafrancodev: {
+    name: 'Maria Alejandra Franco',
+    bio: 'Software engineer with a passion for web application development 👩🏻‍💻, active participant in the communities. Co-organizer at @MedellinJS.',
+    twitter: 'mariafrancodev',
+    github: 'mariafrancodev',
+    avatar: 'https://avatars.githubusercontent.com/u/42823670?v=4',
+    website: 'https://twitter.com/mariafrancodev',
+    },
 }
