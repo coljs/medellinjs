@@ -75,4 +75,12 @@ module.exports = {
     avatar: 'https://avatars.githubusercontent.com/u/42823670?v=4',
     website: 'https://twitter.com/mariafrancodev',
     },
+    dianella: {
+      name: 'Dianella Restrepo Chaverra',
+      bio: 'Systems Engineer with a passion for technology 👩🏻‍💻, active participant in the communities. Co-organizer at @MedellinJS.',
+      twitter: 'chzdiane',
+      github: 'chzdiane',
+      avatar: 'https://avatars.githubusercontent.com/u/50089098?v=4',
+      website: 'https://twitter.com/chzdiane',
+      },
 }
