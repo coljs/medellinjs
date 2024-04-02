@@ -68,7 +68,7 @@ module.exports = {
   },
   camilogdev: {
     name: 'Christian Camilo Galeano',
-    bio: 'Software developer, mechanical ing. Tech and programming enthusiast with a great love for communities 🤝. Co-organizer at @MedellinJS',
+    bio: 'Software developer, Mech. Engineer, tech and programming enthusiast with a great love for communities 🤝. Co-organizer at @MedellinJS',
     twitter: 'camilodev_',
     github: 'camilogdev',
     avatar: 'https://avatars.githubusercontent.com/u/63627548?s=250',
