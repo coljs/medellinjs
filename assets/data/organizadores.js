@@ -66,4 +66,12 @@ module.exports = {
       'https://secure.gravatar.com/avatar/267898824a5115781fad35abba0130d0?s=250',
     website: 'https://khriztianmoreno.dev/',
   },
+  camilogdev: {
+    name: 'Christian Camilo Galeano',
+    bio: 'Software developer, mechanical ing. Tech and programming enthusiast with a great love for communities 🤝. Co-organizer at @MedellinJS',
+    twitter: 'camilodev_',
+    github: 'camilogdev',
+    avatar: 'https://avatars.githubusercontent.com/u/63627548?s=250',
+    website: 'https://twitter.com/camilodev_',
+  },
 }
